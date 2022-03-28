@@ -5,6 +5,7 @@
       "subcategory": "units_",
       "years": ["_2000", "_0812", "_1519"],
       "labels": ["Owner-occupied", "Renter-occupied"],
+      "is_survey": true,
       "denominator": {
         "subcategory": "units_",
         "variable": "occupied",
@@ -65,6 +66,7 @@
   {
     "base": {
       "title": "Median Value (2019 dollars)",
+      "is_survey": true,
       "denominator": {
         "measures": ["COUNT", "COUNT", "COUNT"],
         "variances": ["NONE", "MOE", "CV"],
@@ -117,6 +119,7 @@
   {
     "base": {
       "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+      "is_survey": true,
       "labels": [
         "Extremely low-income (0-30% AMI)",
         "Very low-income (31-50% AMI)",
