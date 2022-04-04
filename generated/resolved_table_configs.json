@@ -539,6 +539,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "anh": [
@@ -982,6 +1072,96 @@
             "arten",
             "oth",
             "pbadm"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
           ],
           "labels": [
             "Agriculture, forestry, fishing and hunting, or mining industries",
@@ -1457,6 +1637,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "hsp": [
@@ -1916,6 +2186,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "wnh": [
@@ -2359,6 +2719,96 @@
             "arten",
             "oth",
             "pbadm"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
           ],
           "labels": [
             "Agriculture, forestry, fishing and hunting, or mining industries",
@@ -2919,6 +3369,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "anh": [
@@ -3362,6 +3902,96 @@
             "arten",
             "oth",
             "pbadm"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
           ],
           "labels": [
             "Agriculture, forestry, fishing and hunting, or mining industries",
@@ -3837,6 +4467,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "hsp": [
@@ -4296,6 +5016,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "wnh": [
@@ -4739,6 +5549,96 @@
             "arten",
             "oth",
             "pbadm"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
           ],
           "labels": [
             "Agriculture, forestry, fishing and hunting, or mining industries",
@@ -5299,6 +6199,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "anh": [
@@ -5742,6 +6732,96 @@
             "arten",
             "oth",
             "pbadm"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
           ],
           "labels": [
             "Agriculture, forestry, fishing and hunting, or mining industries",
@@ -6217,6 +7297,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "hsp": [
@@ -6676,6 +7846,96 @@
             "Other service industry, except public administration",
             "Public administration industry"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
         }
       ],
       "wnh": [
@@ -7119,6 +8379,96 @@
             "arten",
             "oth",
             "pbadm"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "subcategory": "",
+            "variable": "cvem",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Civilian employed population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "industry_",
+          "variables": [
+            "agff_wages",
+            "cnstn_wages",
+            "mnfct_wages",
+            "whlsl_wages",
+            "rtl_wages",
+            "trwhu_wages",
+            "info_wages",
+            "fire_wages",
+            "pfmg_wages",
+            "edhlt_wages",
+            "arten_wages",
+            "oth_wages",
+            "pbadm_wages"
           ],
           "labels": [
             "Agriculture, forestry, fishing and hunting, or mining industries",

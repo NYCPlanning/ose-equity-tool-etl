@@ -1020,6 +1020,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv"
+              ],
+              [
+                "industry_agff_wages_median",
+                "industry_agff_wages_median_moe",
+                "industry_agff_wages_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_median",
+                "industry_cnstn_wages_median_moe",
+                "industry_cnstn_wages_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_median",
+                "industry_mnfct_wages_median_moe",
+                "industry_mnfct_wages_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_median",
+                "industry_whlsl_wages_median_moe",
+                "industry_whlsl_wages_median_cv"
+              ],
+              [
+                "industry_rtl_wages_median",
+                "industry_rtl_wages_median_moe",
+                "industry_rtl_wages_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_median",
+                "industry_trwhu_wages_median_moe",
+                "industry_trwhu_wages_median_cv"
+              ],
+              [
+                "industry_info_wages_median",
+                "industry_info_wages_median_moe",
+                "industry_info_wages_median_cv"
+              ],
+              [
+                "industry_fire_wages_median",
+                "industry_fire_wages_median_moe",
+                "industry_fire_wages_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_median",
+                "industry_pfmg_wages_median_moe",
+                "industry_pfmg_wages_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_median",
+                "industry_edhlt_wages_median_moe",
+                "industry_edhlt_wages_median_cv"
+              ],
+              [
+                "industry_arten_wages_median",
+                "industry_arten_wages_median_moe",
+                "industry_arten_wages_median_cv"
+              ],
+              [
+                "industry_oth_wages_median",
+                "industry_oth_wages_median_moe",
+                "industry_oth_wages_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_median",
+                "industry_pbadm_wages_median_moe",
+                "industry_pbadm_wages_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv"
+              ],
+              [
+                "industry_agff_wages_median",
+                "industry_agff_wages_median_moe",
+                "industry_agff_wages_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_median",
+                "industry_cnstn_wages_median_moe",
+                "industry_cnstn_wages_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_median",
+                "industry_mnfct_wages_median_moe",
+                "industry_mnfct_wages_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_median",
+                "industry_whlsl_wages_median_moe",
+                "industry_whlsl_wages_median_cv"
+              ],
+              [
+                "industry_rtl_wages_median",
+                "industry_rtl_wages_median_moe",
+                "industry_rtl_wages_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_median",
+                "industry_trwhu_wages_median_moe",
+                "industry_trwhu_wages_median_cv"
+              ],
+              [
+                "industry_info_wages_median",
+                "industry_info_wages_median_moe",
+                "industry_info_wages_median_cv"
+              ],
+              [
+                "industry_fire_wages_median",
+                "industry_fire_wages_median_moe",
+                "industry_fire_wages_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_median",
+                "industry_pfmg_wages_median_moe",
+                "industry_pfmg_wages_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_median",
+                "industry_edhlt_wages_median_moe",
+                "industry_edhlt_wages_median_cv"
+              ],
+              [
+                "industry_arten_wages_median",
+                "industry_arten_wages_median_moe",
+                "industry_arten_wages_median_cv"
+              ],
+              [
+                "industry_oth_wages_median",
+                "industry_oth_wages_median_moe",
+                "industry_oth_wages_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_median",
+                "industry_pbadm_wages_median_moe",
+                "industry_pbadm_wages_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -1901,6 +2119,224 @@
                 "industry_pbadm_anh_count_cv",
                 "industry_pbadm_anh_pct",
                 "industry_pbadm_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv"
+              ],
+              [
+                "industry_agff_wages_anh_median",
+                "industry_agff_wages_anh_median_moe",
+                "industry_agff_wages_anh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_anh_median",
+                "industry_cnstn_wages_anh_median_moe",
+                "industry_cnstn_wages_anh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_anh_median",
+                "industry_mnfct_wages_anh_median_moe",
+                "industry_mnfct_wages_anh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_anh_median",
+                "industry_whlsl_wages_anh_median_moe",
+                "industry_whlsl_wages_anh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_anh_median",
+                "industry_rtl_wages_anh_median_moe",
+                "industry_rtl_wages_anh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_anh_median",
+                "industry_trwhu_wages_anh_median_moe",
+                "industry_trwhu_wages_anh_median_cv"
+              ],
+              [
+                "industry_info_wages_anh_median",
+                "industry_info_wages_anh_median_moe",
+                "industry_info_wages_anh_median_cv"
+              ],
+              [
+                "industry_fire_wages_anh_median",
+                "industry_fire_wages_anh_median_moe",
+                "industry_fire_wages_anh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_anh_median",
+                "industry_pfmg_wages_anh_median_moe",
+                "industry_pfmg_wages_anh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_anh_median",
+                "industry_edhlt_wages_anh_median_moe",
+                "industry_edhlt_wages_anh_median_cv"
+              ],
+              [
+                "industry_arten_wages_anh_median",
+                "industry_arten_wages_anh_median_moe",
+                "industry_arten_wages_anh_median_cv"
+              ],
+              [
+                "industry_oth_wages_anh_median",
+                "industry_oth_wages_anh_median_moe",
+                "industry_oth_wages_anh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_anh_median",
+                "industry_pbadm_wages_anh_median_moe",
+                "industry_pbadm_wages_anh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv"
+              ],
+              [
+                "industry_agff_wages_anh_median",
+                "industry_agff_wages_anh_median_moe",
+                "industry_agff_wages_anh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_anh_median",
+                "industry_cnstn_wages_anh_median_moe",
+                "industry_cnstn_wages_anh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_anh_median",
+                "industry_mnfct_wages_anh_median_moe",
+                "industry_mnfct_wages_anh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_anh_median",
+                "industry_whlsl_wages_anh_median_moe",
+                "industry_whlsl_wages_anh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_anh_median",
+                "industry_rtl_wages_anh_median_moe",
+                "industry_rtl_wages_anh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_anh_median",
+                "industry_trwhu_wages_anh_median_moe",
+                "industry_trwhu_wages_anh_median_cv"
+              ],
+              [
+                "industry_info_wages_anh_median",
+                "industry_info_wages_anh_median_moe",
+                "industry_info_wages_anh_median_cv"
+              ],
+              [
+                "industry_fire_wages_anh_median",
+                "industry_fire_wages_anh_median_moe",
+                "industry_fire_wages_anh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_anh_median",
+                "industry_pfmg_wages_anh_median_moe",
+                "industry_pfmg_wages_anh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_anh_median",
+                "industry_edhlt_wages_anh_median_moe",
+                "industry_edhlt_wages_anh_median_cv"
+              ],
+              [
+                "industry_arten_wages_anh_median",
+                "industry_arten_wages_anh_median_moe",
+                "industry_arten_wages_anh_median_cv"
+              ],
+              [
+                "industry_oth_wages_anh_median",
+                "industry_oth_wages_anh_median_moe",
+                "industry_oth_wages_anh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_anh_median",
+                "industry_pbadm_wages_anh_median_moe",
+                "industry_pbadm_wages_anh_median_cv"
               ]
             ]
           ]
@@ -2788,6 +3224,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_bnh_median",
+                "industry_agff_wages_bnh_median_moe",
+                "industry_agff_wages_bnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_bnh_median",
+                "industry_cnstn_wages_bnh_median_moe",
+                "industry_cnstn_wages_bnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_bnh_median",
+                "industry_mnfct_wages_bnh_median_moe",
+                "industry_mnfct_wages_bnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_bnh_median",
+                "industry_whlsl_wages_bnh_median_moe",
+                "industry_whlsl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_bnh_median",
+                "industry_rtl_wages_bnh_median_moe",
+                "industry_rtl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_bnh_median",
+                "industry_trwhu_wages_bnh_median_moe",
+                "industry_trwhu_wages_bnh_median_cv"
+              ],
+              [
+                "industry_info_wages_bnh_median",
+                "industry_info_wages_bnh_median_moe",
+                "industry_info_wages_bnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_bnh_median",
+                "industry_fire_wages_bnh_median_moe",
+                "industry_fire_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_bnh_median",
+                "industry_pfmg_wages_bnh_median_moe",
+                "industry_pfmg_wages_bnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_bnh_median",
+                "industry_edhlt_wages_bnh_median_moe",
+                "industry_edhlt_wages_bnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_bnh_median",
+                "industry_arten_wages_bnh_median_moe",
+                "industry_arten_wages_bnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_bnh_median",
+                "industry_oth_wages_bnh_median_moe",
+                "industry_oth_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_bnh_median",
+                "industry_pbadm_wages_bnh_median_moe",
+                "industry_pbadm_wages_bnh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_bnh_median",
+                "industry_agff_wages_bnh_median_moe",
+                "industry_agff_wages_bnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_bnh_median",
+                "industry_cnstn_wages_bnh_median_moe",
+                "industry_cnstn_wages_bnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_bnh_median",
+                "industry_mnfct_wages_bnh_median_moe",
+                "industry_mnfct_wages_bnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_bnh_median",
+                "industry_whlsl_wages_bnh_median_moe",
+                "industry_whlsl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_bnh_median",
+                "industry_rtl_wages_bnh_median_moe",
+                "industry_rtl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_bnh_median",
+                "industry_trwhu_wages_bnh_median_moe",
+                "industry_trwhu_wages_bnh_median_cv"
+              ],
+              [
+                "industry_info_wages_bnh_median",
+                "industry_info_wages_bnh_median_moe",
+                "industry_info_wages_bnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_bnh_median",
+                "industry_fire_wages_bnh_median_moe",
+                "industry_fire_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_bnh_median",
+                "industry_pfmg_wages_bnh_median_moe",
+                "industry_pfmg_wages_bnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_bnh_median",
+                "industry_edhlt_wages_bnh_median_moe",
+                "industry_edhlt_wages_bnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_bnh_median",
+                "industry_arten_wages_bnh_median_moe",
+                "industry_arten_wages_bnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_bnh_median",
+                "industry_oth_wages_bnh_median_moe",
+                "industry_oth_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_bnh_median",
+                "industry_pbadm_wages_bnh_median_moe",
+                "industry_pbadm_wages_bnh_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -3672,6 +4326,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv"
+              ],
+              [
+                "industry_agff_wages_hsp_median",
+                "industry_agff_wages_hsp_median_moe",
+                "industry_agff_wages_hsp_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_hsp_median",
+                "industry_cnstn_wages_hsp_median_moe",
+                "industry_cnstn_wages_hsp_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_hsp_median",
+                "industry_mnfct_wages_hsp_median_moe",
+                "industry_mnfct_wages_hsp_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_hsp_median",
+                "industry_whlsl_wages_hsp_median_moe",
+                "industry_whlsl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_rtl_wages_hsp_median",
+                "industry_rtl_wages_hsp_median_moe",
+                "industry_rtl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_hsp_median",
+                "industry_trwhu_wages_hsp_median_moe",
+                "industry_trwhu_wages_hsp_median_cv"
+              ],
+              [
+                "industry_info_wages_hsp_median",
+                "industry_info_wages_hsp_median_moe",
+                "industry_info_wages_hsp_median_cv"
+              ],
+              [
+                "industry_fire_wages_hsp_median",
+                "industry_fire_wages_hsp_median_moe",
+                "industry_fire_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_hsp_median",
+                "industry_pfmg_wages_hsp_median_moe",
+                "industry_pfmg_wages_hsp_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_hsp_median",
+                "industry_edhlt_wages_hsp_median_moe",
+                "industry_edhlt_wages_hsp_median_cv"
+              ],
+              [
+                "industry_arten_wages_hsp_median",
+                "industry_arten_wages_hsp_median_moe",
+                "industry_arten_wages_hsp_median_cv"
+              ],
+              [
+                "industry_oth_wages_hsp_median",
+                "industry_oth_wages_hsp_median_moe",
+                "industry_oth_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_hsp_median",
+                "industry_pbadm_wages_hsp_median_moe",
+                "industry_pbadm_wages_hsp_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv"
+              ],
+              [
+                "industry_agff_wages_hsp_median",
+                "industry_agff_wages_hsp_median_moe",
+                "industry_agff_wages_hsp_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_hsp_median",
+                "industry_cnstn_wages_hsp_median_moe",
+                "industry_cnstn_wages_hsp_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_hsp_median",
+                "industry_mnfct_wages_hsp_median_moe",
+                "industry_mnfct_wages_hsp_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_hsp_median",
+                "industry_whlsl_wages_hsp_median_moe",
+                "industry_whlsl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_rtl_wages_hsp_median",
+                "industry_rtl_wages_hsp_median_moe",
+                "industry_rtl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_hsp_median",
+                "industry_trwhu_wages_hsp_median_moe",
+                "industry_trwhu_wages_hsp_median_cv"
+              ],
+              [
+                "industry_info_wages_hsp_median",
+                "industry_info_wages_hsp_median_moe",
+                "industry_info_wages_hsp_median_cv"
+              ],
+              [
+                "industry_fire_wages_hsp_median",
+                "industry_fire_wages_hsp_median_moe",
+                "industry_fire_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_hsp_median",
+                "industry_pfmg_wages_hsp_median_moe",
+                "industry_pfmg_wages_hsp_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_hsp_median",
+                "industry_edhlt_wages_hsp_median_moe",
+                "industry_edhlt_wages_hsp_median_cv"
+              ],
+              [
+                "industry_arten_wages_hsp_median",
+                "industry_arten_wages_hsp_median_moe",
+                "industry_arten_wages_hsp_median_cv"
+              ],
+              [
+                "industry_oth_wages_hsp_median",
+                "industry_oth_wages_hsp_median_moe",
+                "industry_oth_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_hsp_median",
+                "industry_pbadm_wages_hsp_median_moe",
+                "industry_pbadm_wages_hsp_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -4553,6 +5425,224 @@
                 "industry_pbadm_wnh_count_cv",
                 "industry_pbadm_wnh_pct",
                 "industry_pbadm_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_wnh_median",
+                "industry_agff_wages_wnh_median_moe",
+                "industry_agff_wages_wnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_wnh_median",
+                "industry_cnstn_wages_wnh_median_moe",
+                "industry_cnstn_wages_wnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_wnh_median",
+                "industry_mnfct_wages_wnh_median_moe",
+                "industry_mnfct_wages_wnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_wnh_median",
+                "industry_whlsl_wages_wnh_median_moe",
+                "industry_whlsl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_wnh_median",
+                "industry_rtl_wages_wnh_median_moe",
+                "industry_rtl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_wnh_median",
+                "industry_trwhu_wages_wnh_median_moe",
+                "industry_trwhu_wages_wnh_median_cv"
+              ],
+              [
+                "industry_info_wages_wnh_median",
+                "industry_info_wages_wnh_median_moe",
+                "industry_info_wages_wnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_wnh_median",
+                "industry_fire_wages_wnh_median_moe",
+                "industry_fire_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_wnh_median",
+                "industry_pfmg_wages_wnh_median_moe",
+                "industry_pfmg_wages_wnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_wnh_median",
+                "industry_edhlt_wages_wnh_median_moe",
+                "industry_edhlt_wages_wnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_wnh_median",
+                "industry_arten_wages_wnh_median_moe",
+                "industry_arten_wages_wnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_wnh_median",
+                "industry_oth_wages_wnh_median_moe",
+                "industry_oth_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_wnh_median",
+                "industry_pbadm_wages_wnh_median_moe",
+                "industry_pbadm_wages_wnh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_wnh_median",
+                "industry_agff_wages_wnh_median_moe",
+                "industry_agff_wages_wnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_wnh_median",
+                "industry_cnstn_wages_wnh_median_moe",
+                "industry_cnstn_wages_wnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_wnh_median",
+                "industry_mnfct_wages_wnh_median_moe",
+                "industry_mnfct_wages_wnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_wnh_median",
+                "industry_whlsl_wages_wnh_median_moe",
+                "industry_whlsl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_wnh_median",
+                "industry_rtl_wages_wnh_median_moe",
+                "industry_rtl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_wnh_median",
+                "industry_trwhu_wages_wnh_median_moe",
+                "industry_trwhu_wages_wnh_median_cv"
+              ],
+              [
+                "industry_info_wages_wnh_median",
+                "industry_info_wages_wnh_median_moe",
+                "industry_info_wages_wnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_wnh_median",
+                "industry_fire_wages_wnh_median_moe",
+                "industry_fire_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_wnh_median",
+                "industry_pfmg_wages_wnh_median_moe",
+                "industry_pfmg_wages_wnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_wnh_median",
+                "industry_edhlt_wages_wnh_median_moe",
+                "industry_edhlt_wages_wnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_wnh_median",
+                "industry_arten_wages_wnh_median_moe",
+                "industry_arten_wages_wnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_wnh_median",
+                "industry_oth_wages_wnh_median_moe",
+                "industry_oth_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_wnh_median",
+                "industry_pbadm_wages_wnh_median_moe",
+                "industry_pbadm_wages_wnh_median_cv"
               ]
             ]
           ]
@@ -5581,6 +6671,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv"
+              ],
+              [
+                "industry_agff_wages_median",
+                "industry_agff_wages_median_moe",
+                "industry_agff_wages_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_median",
+                "industry_cnstn_wages_median_moe",
+                "industry_cnstn_wages_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_median",
+                "industry_mnfct_wages_median_moe",
+                "industry_mnfct_wages_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_median",
+                "industry_whlsl_wages_median_moe",
+                "industry_whlsl_wages_median_cv"
+              ],
+              [
+                "industry_rtl_wages_median",
+                "industry_rtl_wages_median_moe",
+                "industry_rtl_wages_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_median",
+                "industry_trwhu_wages_median_moe",
+                "industry_trwhu_wages_median_cv"
+              ],
+              [
+                "industry_info_wages_median",
+                "industry_info_wages_median_moe",
+                "industry_info_wages_median_cv"
+              ],
+              [
+                "industry_fire_wages_median",
+                "industry_fire_wages_median_moe",
+                "industry_fire_wages_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_median",
+                "industry_pfmg_wages_median_moe",
+                "industry_pfmg_wages_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_median",
+                "industry_edhlt_wages_median_moe",
+                "industry_edhlt_wages_median_cv"
+              ],
+              [
+                "industry_arten_wages_median",
+                "industry_arten_wages_median_moe",
+                "industry_arten_wages_median_cv"
+              ],
+              [
+                "industry_oth_wages_median",
+                "industry_oth_wages_median_moe",
+                "industry_oth_wages_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_median",
+                "industry_pbadm_wages_median_moe",
+                "industry_pbadm_wages_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv"
+              ],
+              [
+                "industry_agff_wages_median",
+                "industry_agff_wages_median_moe",
+                "industry_agff_wages_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_median",
+                "industry_cnstn_wages_median_moe",
+                "industry_cnstn_wages_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_median",
+                "industry_mnfct_wages_median_moe",
+                "industry_mnfct_wages_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_median",
+                "industry_whlsl_wages_median_moe",
+                "industry_whlsl_wages_median_cv"
+              ],
+              [
+                "industry_rtl_wages_median",
+                "industry_rtl_wages_median_moe",
+                "industry_rtl_wages_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_median",
+                "industry_trwhu_wages_median_moe",
+                "industry_trwhu_wages_median_cv"
+              ],
+              [
+                "industry_info_wages_median",
+                "industry_info_wages_median_moe",
+                "industry_info_wages_median_cv"
+              ],
+              [
+                "industry_fire_wages_median",
+                "industry_fire_wages_median_moe",
+                "industry_fire_wages_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_median",
+                "industry_pfmg_wages_median_moe",
+                "industry_pfmg_wages_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_median",
+                "industry_edhlt_wages_median_moe",
+                "industry_edhlt_wages_median_cv"
+              ],
+              [
+                "industry_arten_wages_median",
+                "industry_arten_wages_median_moe",
+                "industry_arten_wages_median_cv"
+              ],
+              [
+                "industry_oth_wages_median",
+                "industry_oth_wages_median_moe",
+                "industry_oth_wages_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_median",
+                "industry_pbadm_wages_median_moe",
+                "industry_pbadm_wages_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -6462,6 +7770,224 @@
                 "industry_pbadm_anh_count_cv",
                 "industry_pbadm_anh_pct",
                 "industry_pbadm_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv"
+              ],
+              [
+                "industry_agff_wages_anh_median",
+                "industry_agff_wages_anh_median_moe",
+                "industry_agff_wages_anh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_anh_median",
+                "industry_cnstn_wages_anh_median_moe",
+                "industry_cnstn_wages_anh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_anh_median",
+                "industry_mnfct_wages_anh_median_moe",
+                "industry_mnfct_wages_anh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_anh_median",
+                "industry_whlsl_wages_anh_median_moe",
+                "industry_whlsl_wages_anh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_anh_median",
+                "industry_rtl_wages_anh_median_moe",
+                "industry_rtl_wages_anh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_anh_median",
+                "industry_trwhu_wages_anh_median_moe",
+                "industry_trwhu_wages_anh_median_cv"
+              ],
+              [
+                "industry_info_wages_anh_median",
+                "industry_info_wages_anh_median_moe",
+                "industry_info_wages_anh_median_cv"
+              ],
+              [
+                "industry_fire_wages_anh_median",
+                "industry_fire_wages_anh_median_moe",
+                "industry_fire_wages_anh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_anh_median",
+                "industry_pfmg_wages_anh_median_moe",
+                "industry_pfmg_wages_anh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_anh_median",
+                "industry_edhlt_wages_anh_median_moe",
+                "industry_edhlt_wages_anh_median_cv"
+              ],
+              [
+                "industry_arten_wages_anh_median",
+                "industry_arten_wages_anh_median_moe",
+                "industry_arten_wages_anh_median_cv"
+              ],
+              [
+                "industry_oth_wages_anh_median",
+                "industry_oth_wages_anh_median_moe",
+                "industry_oth_wages_anh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_anh_median",
+                "industry_pbadm_wages_anh_median_moe",
+                "industry_pbadm_wages_anh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv"
+              ],
+              [
+                "industry_agff_wages_anh_median",
+                "industry_agff_wages_anh_median_moe",
+                "industry_agff_wages_anh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_anh_median",
+                "industry_cnstn_wages_anh_median_moe",
+                "industry_cnstn_wages_anh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_anh_median",
+                "industry_mnfct_wages_anh_median_moe",
+                "industry_mnfct_wages_anh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_anh_median",
+                "industry_whlsl_wages_anh_median_moe",
+                "industry_whlsl_wages_anh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_anh_median",
+                "industry_rtl_wages_anh_median_moe",
+                "industry_rtl_wages_anh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_anh_median",
+                "industry_trwhu_wages_anh_median_moe",
+                "industry_trwhu_wages_anh_median_cv"
+              ],
+              [
+                "industry_info_wages_anh_median",
+                "industry_info_wages_anh_median_moe",
+                "industry_info_wages_anh_median_cv"
+              ],
+              [
+                "industry_fire_wages_anh_median",
+                "industry_fire_wages_anh_median_moe",
+                "industry_fire_wages_anh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_anh_median",
+                "industry_pfmg_wages_anh_median_moe",
+                "industry_pfmg_wages_anh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_anh_median",
+                "industry_edhlt_wages_anh_median_moe",
+                "industry_edhlt_wages_anh_median_cv"
+              ],
+              [
+                "industry_arten_wages_anh_median",
+                "industry_arten_wages_anh_median_moe",
+                "industry_arten_wages_anh_median_cv"
+              ],
+              [
+                "industry_oth_wages_anh_median",
+                "industry_oth_wages_anh_median_moe",
+                "industry_oth_wages_anh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_anh_median",
+                "industry_pbadm_wages_anh_median_moe",
+                "industry_pbadm_wages_anh_median_cv"
               ]
             ]
           ]
@@ -7349,6 +8875,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_bnh_median",
+                "industry_agff_wages_bnh_median_moe",
+                "industry_agff_wages_bnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_bnh_median",
+                "industry_cnstn_wages_bnh_median_moe",
+                "industry_cnstn_wages_bnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_bnh_median",
+                "industry_mnfct_wages_bnh_median_moe",
+                "industry_mnfct_wages_bnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_bnh_median",
+                "industry_whlsl_wages_bnh_median_moe",
+                "industry_whlsl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_bnh_median",
+                "industry_rtl_wages_bnh_median_moe",
+                "industry_rtl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_bnh_median",
+                "industry_trwhu_wages_bnh_median_moe",
+                "industry_trwhu_wages_bnh_median_cv"
+              ],
+              [
+                "industry_info_wages_bnh_median",
+                "industry_info_wages_bnh_median_moe",
+                "industry_info_wages_bnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_bnh_median",
+                "industry_fire_wages_bnh_median_moe",
+                "industry_fire_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_bnh_median",
+                "industry_pfmg_wages_bnh_median_moe",
+                "industry_pfmg_wages_bnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_bnh_median",
+                "industry_edhlt_wages_bnh_median_moe",
+                "industry_edhlt_wages_bnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_bnh_median",
+                "industry_arten_wages_bnh_median_moe",
+                "industry_arten_wages_bnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_bnh_median",
+                "industry_oth_wages_bnh_median_moe",
+                "industry_oth_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_bnh_median",
+                "industry_pbadm_wages_bnh_median_moe",
+                "industry_pbadm_wages_bnh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_bnh_median",
+                "industry_agff_wages_bnh_median_moe",
+                "industry_agff_wages_bnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_bnh_median",
+                "industry_cnstn_wages_bnh_median_moe",
+                "industry_cnstn_wages_bnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_bnh_median",
+                "industry_mnfct_wages_bnh_median_moe",
+                "industry_mnfct_wages_bnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_bnh_median",
+                "industry_whlsl_wages_bnh_median_moe",
+                "industry_whlsl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_bnh_median",
+                "industry_rtl_wages_bnh_median_moe",
+                "industry_rtl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_bnh_median",
+                "industry_trwhu_wages_bnh_median_moe",
+                "industry_trwhu_wages_bnh_median_cv"
+              ],
+              [
+                "industry_info_wages_bnh_median",
+                "industry_info_wages_bnh_median_moe",
+                "industry_info_wages_bnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_bnh_median",
+                "industry_fire_wages_bnh_median_moe",
+                "industry_fire_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_bnh_median",
+                "industry_pfmg_wages_bnh_median_moe",
+                "industry_pfmg_wages_bnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_bnh_median",
+                "industry_edhlt_wages_bnh_median_moe",
+                "industry_edhlt_wages_bnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_bnh_median",
+                "industry_arten_wages_bnh_median_moe",
+                "industry_arten_wages_bnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_bnh_median",
+                "industry_oth_wages_bnh_median_moe",
+                "industry_oth_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_bnh_median",
+                "industry_pbadm_wages_bnh_median_moe",
+                "industry_pbadm_wages_bnh_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -8233,6 +9977,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv"
+              ],
+              [
+                "industry_agff_wages_hsp_median",
+                "industry_agff_wages_hsp_median_moe",
+                "industry_agff_wages_hsp_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_hsp_median",
+                "industry_cnstn_wages_hsp_median_moe",
+                "industry_cnstn_wages_hsp_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_hsp_median",
+                "industry_mnfct_wages_hsp_median_moe",
+                "industry_mnfct_wages_hsp_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_hsp_median",
+                "industry_whlsl_wages_hsp_median_moe",
+                "industry_whlsl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_rtl_wages_hsp_median",
+                "industry_rtl_wages_hsp_median_moe",
+                "industry_rtl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_hsp_median",
+                "industry_trwhu_wages_hsp_median_moe",
+                "industry_trwhu_wages_hsp_median_cv"
+              ],
+              [
+                "industry_info_wages_hsp_median",
+                "industry_info_wages_hsp_median_moe",
+                "industry_info_wages_hsp_median_cv"
+              ],
+              [
+                "industry_fire_wages_hsp_median",
+                "industry_fire_wages_hsp_median_moe",
+                "industry_fire_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_hsp_median",
+                "industry_pfmg_wages_hsp_median_moe",
+                "industry_pfmg_wages_hsp_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_hsp_median",
+                "industry_edhlt_wages_hsp_median_moe",
+                "industry_edhlt_wages_hsp_median_cv"
+              ],
+              [
+                "industry_arten_wages_hsp_median",
+                "industry_arten_wages_hsp_median_moe",
+                "industry_arten_wages_hsp_median_cv"
+              ],
+              [
+                "industry_oth_wages_hsp_median",
+                "industry_oth_wages_hsp_median_moe",
+                "industry_oth_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_hsp_median",
+                "industry_pbadm_wages_hsp_median_moe",
+                "industry_pbadm_wages_hsp_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv"
+              ],
+              [
+                "industry_agff_wages_hsp_median",
+                "industry_agff_wages_hsp_median_moe",
+                "industry_agff_wages_hsp_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_hsp_median",
+                "industry_cnstn_wages_hsp_median_moe",
+                "industry_cnstn_wages_hsp_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_hsp_median",
+                "industry_mnfct_wages_hsp_median_moe",
+                "industry_mnfct_wages_hsp_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_hsp_median",
+                "industry_whlsl_wages_hsp_median_moe",
+                "industry_whlsl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_rtl_wages_hsp_median",
+                "industry_rtl_wages_hsp_median_moe",
+                "industry_rtl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_hsp_median",
+                "industry_trwhu_wages_hsp_median_moe",
+                "industry_trwhu_wages_hsp_median_cv"
+              ],
+              [
+                "industry_info_wages_hsp_median",
+                "industry_info_wages_hsp_median_moe",
+                "industry_info_wages_hsp_median_cv"
+              ],
+              [
+                "industry_fire_wages_hsp_median",
+                "industry_fire_wages_hsp_median_moe",
+                "industry_fire_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_hsp_median",
+                "industry_pfmg_wages_hsp_median_moe",
+                "industry_pfmg_wages_hsp_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_hsp_median",
+                "industry_edhlt_wages_hsp_median_moe",
+                "industry_edhlt_wages_hsp_median_cv"
+              ],
+              [
+                "industry_arten_wages_hsp_median",
+                "industry_arten_wages_hsp_median_moe",
+                "industry_arten_wages_hsp_median_cv"
+              ],
+              [
+                "industry_oth_wages_hsp_median",
+                "industry_oth_wages_hsp_median_moe",
+                "industry_oth_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_hsp_median",
+                "industry_pbadm_wages_hsp_median_moe",
+                "industry_pbadm_wages_hsp_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -9114,6 +11076,224 @@
                 "industry_pbadm_wnh_count_cv",
                 "industry_pbadm_wnh_pct",
                 "industry_pbadm_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_wnh_median",
+                "industry_agff_wages_wnh_median_moe",
+                "industry_agff_wages_wnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_wnh_median",
+                "industry_cnstn_wages_wnh_median_moe",
+                "industry_cnstn_wages_wnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_wnh_median",
+                "industry_mnfct_wages_wnh_median_moe",
+                "industry_mnfct_wages_wnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_wnh_median",
+                "industry_whlsl_wages_wnh_median_moe",
+                "industry_whlsl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_wnh_median",
+                "industry_rtl_wages_wnh_median_moe",
+                "industry_rtl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_wnh_median",
+                "industry_trwhu_wages_wnh_median_moe",
+                "industry_trwhu_wages_wnh_median_cv"
+              ],
+              [
+                "industry_info_wages_wnh_median",
+                "industry_info_wages_wnh_median_moe",
+                "industry_info_wages_wnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_wnh_median",
+                "industry_fire_wages_wnh_median_moe",
+                "industry_fire_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_wnh_median",
+                "industry_pfmg_wages_wnh_median_moe",
+                "industry_pfmg_wages_wnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_wnh_median",
+                "industry_edhlt_wages_wnh_median_moe",
+                "industry_edhlt_wages_wnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_wnh_median",
+                "industry_arten_wages_wnh_median_moe",
+                "industry_arten_wages_wnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_wnh_median",
+                "industry_oth_wages_wnh_median_moe",
+                "industry_oth_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_wnh_median",
+                "industry_pbadm_wages_wnh_median_moe",
+                "industry_pbadm_wages_wnh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_wnh_median",
+                "industry_agff_wages_wnh_median_moe",
+                "industry_agff_wages_wnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_wnh_median",
+                "industry_cnstn_wages_wnh_median_moe",
+                "industry_cnstn_wages_wnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_wnh_median",
+                "industry_mnfct_wages_wnh_median_moe",
+                "industry_mnfct_wages_wnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_wnh_median",
+                "industry_whlsl_wages_wnh_median_moe",
+                "industry_whlsl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_wnh_median",
+                "industry_rtl_wages_wnh_median_moe",
+                "industry_rtl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_wnh_median",
+                "industry_trwhu_wages_wnh_median_moe",
+                "industry_trwhu_wages_wnh_median_cv"
+              ],
+              [
+                "industry_info_wages_wnh_median",
+                "industry_info_wages_wnh_median_moe",
+                "industry_info_wages_wnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_wnh_median",
+                "industry_fire_wages_wnh_median_moe",
+                "industry_fire_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_wnh_median",
+                "industry_pfmg_wages_wnh_median_moe",
+                "industry_pfmg_wages_wnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_wnh_median",
+                "industry_edhlt_wages_wnh_median_moe",
+                "industry_edhlt_wages_wnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_wnh_median",
+                "industry_arten_wages_wnh_median_moe",
+                "industry_arten_wages_wnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_wnh_median",
+                "industry_oth_wages_wnh_median_moe",
+                "industry_oth_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_wnh_median",
+                "industry_pbadm_wages_wnh_median_moe",
+                "industry_pbadm_wages_wnh_median_cv"
               ]
             ]
           ]
@@ -10142,6 +12322,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv"
+              ],
+              [
+                "industry_agff_wages_median",
+                "industry_agff_wages_median_moe",
+                "industry_agff_wages_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_median",
+                "industry_cnstn_wages_median_moe",
+                "industry_cnstn_wages_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_median",
+                "industry_mnfct_wages_median_moe",
+                "industry_mnfct_wages_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_median",
+                "industry_whlsl_wages_median_moe",
+                "industry_whlsl_wages_median_cv"
+              ],
+              [
+                "industry_rtl_wages_median",
+                "industry_rtl_wages_median_moe",
+                "industry_rtl_wages_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_median",
+                "industry_trwhu_wages_median_moe",
+                "industry_trwhu_wages_median_cv"
+              ],
+              [
+                "industry_info_wages_median",
+                "industry_info_wages_median_moe",
+                "industry_info_wages_median_cv"
+              ],
+              [
+                "industry_fire_wages_median",
+                "industry_fire_wages_median_moe",
+                "industry_fire_wages_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_median",
+                "industry_pfmg_wages_median_moe",
+                "industry_pfmg_wages_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_median",
+                "industry_edhlt_wages_median_moe",
+                "industry_edhlt_wages_median_cv"
+              ],
+              [
+                "industry_arten_wages_median",
+                "industry_arten_wages_median_moe",
+                "industry_arten_wages_median_cv"
+              ],
+              [
+                "industry_oth_wages_median",
+                "industry_oth_wages_median_moe",
+                "industry_oth_wages_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_median",
+                "industry_pbadm_wages_median_moe",
+                "industry_pbadm_wages_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv"
+              ],
+              [
+                "industry_agff_wages_median",
+                "industry_agff_wages_median_moe",
+                "industry_agff_wages_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_median",
+                "industry_cnstn_wages_median_moe",
+                "industry_cnstn_wages_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_median",
+                "industry_mnfct_wages_median_moe",
+                "industry_mnfct_wages_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_median",
+                "industry_whlsl_wages_median_moe",
+                "industry_whlsl_wages_median_cv"
+              ],
+              [
+                "industry_rtl_wages_median",
+                "industry_rtl_wages_median_moe",
+                "industry_rtl_wages_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_median",
+                "industry_trwhu_wages_median_moe",
+                "industry_trwhu_wages_median_cv"
+              ],
+              [
+                "industry_info_wages_median",
+                "industry_info_wages_median_moe",
+                "industry_info_wages_median_cv"
+              ],
+              [
+                "industry_fire_wages_median",
+                "industry_fire_wages_median_moe",
+                "industry_fire_wages_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_median",
+                "industry_pfmg_wages_median_moe",
+                "industry_pfmg_wages_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_median",
+                "industry_edhlt_wages_median_moe",
+                "industry_edhlt_wages_median_cv"
+              ],
+              [
+                "industry_arten_wages_median",
+                "industry_arten_wages_median_moe",
+                "industry_arten_wages_median_cv"
+              ],
+              [
+                "industry_oth_wages_median",
+                "industry_oth_wages_median_moe",
+                "industry_oth_wages_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_median",
+                "industry_pbadm_wages_median_moe",
+                "industry_pbadm_wages_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -11023,6 +13421,224 @@
                 "industry_pbadm_anh_count_cv",
                 "industry_pbadm_anh_pct",
                 "industry_pbadm_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv"
+              ],
+              [
+                "industry_agff_wages_anh_median",
+                "industry_agff_wages_anh_median_moe",
+                "industry_agff_wages_anh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_anh_median",
+                "industry_cnstn_wages_anh_median_moe",
+                "industry_cnstn_wages_anh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_anh_median",
+                "industry_mnfct_wages_anh_median_moe",
+                "industry_mnfct_wages_anh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_anh_median",
+                "industry_whlsl_wages_anh_median_moe",
+                "industry_whlsl_wages_anh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_anh_median",
+                "industry_rtl_wages_anh_median_moe",
+                "industry_rtl_wages_anh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_anh_median",
+                "industry_trwhu_wages_anh_median_moe",
+                "industry_trwhu_wages_anh_median_cv"
+              ],
+              [
+                "industry_info_wages_anh_median",
+                "industry_info_wages_anh_median_moe",
+                "industry_info_wages_anh_median_cv"
+              ],
+              [
+                "industry_fire_wages_anh_median",
+                "industry_fire_wages_anh_median_moe",
+                "industry_fire_wages_anh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_anh_median",
+                "industry_pfmg_wages_anh_median_moe",
+                "industry_pfmg_wages_anh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_anh_median",
+                "industry_edhlt_wages_anh_median_moe",
+                "industry_edhlt_wages_anh_median_cv"
+              ],
+              [
+                "industry_arten_wages_anh_median",
+                "industry_arten_wages_anh_median_moe",
+                "industry_arten_wages_anh_median_cv"
+              ],
+              [
+                "industry_oth_wages_anh_median",
+                "industry_oth_wages_anh_median_moe",
+                "industry_oth_wages_anh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_anh_median",
+                "industry_pbadm_wages_anh_median_moe",
+                "industry_pbadm_wages_anh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv"
+              ],
+              [
+                "industry_agff_wages_anh_median",
+                "industry_agff_wages_anh_median_moe",
+                "industry_agff_wages_anh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_anh_median",
+                "industry_cnstn_wages_anh_median_moe",
+                "industry_cnstn_wages_anh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_anh_median",
+                "industry_mnfct_wages_anh_median_moe",
+                "industry_mnfct_wages_anh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_anh_median",
+                "industry_whlsl_wages_anh_median_moe",
+                "industry_whlsl_wages_anh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_anh_median",
+                "industry_rtl_wages_anh_median_moe",
+                "industry_rtl_wages_anh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_anh_median",
+                "industry_trwhu_wages_anh_median_moe",
+                "industry_trwhu_wages_anh_median_cv"
+              ],
+              [
+                "industry_info_wages_anh_median",
+                "industry_info_wages_anh_median_moe",
+                "industry_info_wages_anh_median_cv"
+              ],
+              [
+                "industry_fire_wages_anh_median",
+                "industry_fire_wages_anh_median_moe",
+                "industry_fire_wages_anh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_anh_median",
+                "industry_pfmg_wages_anh_median_moe",
+                "industry_pfmg_wages_anh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_anh_median",
+                "industry_edhlt_wages_anh_median_moe",
+                "industry_edhlt_wages_anh_median_cv"
+              ],
+              [
+                "industry_arten_wages_anh_median",
+                "industry_arten_wages_anh_median_moe",
+                "industry_arten_wages_anh_median_cv"
+              ],
+              [
+                "industry_oth_wages_anh_median",
+                "industry_oth_wages_anh_median_moe",
+                "industry_oth_wages_anh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_anh_median",
+                "industry_pbadm_wages_anh_median_moe",
+                "industry_pbadm_wages_anh_median_cv"
               ]
             ]
           ]
@@ -11910,6 +14526,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_bnh_median",
+                "industry_agff_wages_bnh_median_moe",
+                "industry_agff_wages_bnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_bnh_median",
+                "industry_cnstn_wages_bnh_median_moe",
+                "industry_cnstn_wages_bnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_bnh_median",
+                "industry_mnfct_wages_bnh_median_moe",
+                "industry_mnfct_wages_bnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_bnh_median",
+                "industry_whlsl_wages_bnh_median_moe",
+                "industry_whlsl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_bnh_median",
+                "industry_rtl_wages_bnh_median_moe",
+                "industry_rtl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_bnh_median",
+                "industry_trwhu_wages_bnh_median_moe",
+                "industry_trwhu_wages_bnh_median_cv"
+              ],
+              [
+                "industry_info_wages_bnh_median",
+                "industry_info_wages_bnh_median_moe",
+                "industry_info_wages_bnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_bnh_median",
+                "industry_fire_wages_bnh_median_moe",
+                "industry_fire_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_bnh_median",
+                "industry_pfmg_wages_bnh_median_moe",
+                "industry_pfmg_wages_bnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_bnh_median",
+                "industry_edhlt_wages_bnh_median_moe",
+                "industry_edhlt_wages_bnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_bnh_median",
+                "industry_arten_wages_bnh_median_moe",
+                "industry_arten_wages_bnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_bnh_median",
+                "industry_oth_wages_bnh_median_moe",
+                "industry_oth_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_bnh_median",
+                "industry_pbadm_wages_bnh_median_moe",
+                "industry_pbadm_wages_bnh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_bnh_median",
+                "industry_agff_wages_bnh_median_moe",
+                "industry_agff_wages_bnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_bnh_median",
+                "industry_cnstn_wages_bnh_median_moe",
+                "industry_cnstn_wages_bnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_bnh_median",
+                "industry_mnfct_wages_bnh_median_moe",
+                "industry_mnfct_wages_bnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_bnh_median",
+                "industry_whlsl_wages_bnh_median_moe",
+                "industry_whlsl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_bnh_median",
+                "industry_rtl_wages_bnh_median_moe",
+                "industry_rtl_wages_bnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_bnh_median",
+                "industry_trwhu_wages_bnh_median_moe",
+                "industry_trwhu_wages_bnh_median_cv"
+              ],
+              [
+                "industry_info_wages_bnh_median",
+                "industry_info_wages_bnh_median_moe",
+                "industry_info_wages_bnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_bnh_median",
+                "industry_fire_wages_bnh_median_moe",
+                "industry_fire_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_bnh_median",
+                "industry_pfmg_wages_bnh_median_moe",
+                "industry_pfmg_wages_bnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_bnh_median",
+                "industry_edhlt_wages_bnh_median_moe",
+                "industry_edhlt_wages_bnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_bnh_median",
+                "industry_arten_wages_bnh_median_moe",
+                "industry_arten_wages_bnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_bnh_median",
+                "industry_oth_wages_bnh_median_moe",
+                "industry_oth_wages_bnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_bnh_median",
+                "industry_pbadm_wages_bnh_median_moe",
+                "industry_pbadm_wages_bnh_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -12794,6 +15628,224 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv"
+              ],
+              [
+                "industry_agff_wages_hsp_median",
+                "industry_agff_wages_hsp_median_moe",
+                "industry_agff_wages_hsp_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_hsp_median",
+                "industry_cnstn_wages_hsp_median_moe",
+                "industry_cnstn_wages_hsp_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_hsp_median",
+                "industry_mnfct_wages_hsp_median_moe",
+                "industry_mnfct_wages_hsp_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_hsp_median",
+                "industry_whlsl_wages_hsp_median_moe",
+                "industry_whlsl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_rtl_wages_hsp_median",
+                "industry_rtl_wages_hsp_median_moe",
+                "industry_rtl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_hsp_median",
+                "industry_trwhu_wages_hsp_median_moe",
+                "industry_trwhu_wages_hsp_median_cv"
+              ],
+              [
+                "industry_info_wages_hsp_median",
+                "industry_info_wages_hsp_median_moe",
+                "industry_info_wages_hsp_median_cv"
+              ],
+              [
+                "industry_fire_wages_hsp_median",
+                "industry_fire_wages_hsp_median_moe",
+                "industry_fire_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_hsp_median",
+                "industry_pfmg_wages_hsp_median_moe",
+                "industry_pfmg_wages_hsp_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_hsp_median",
+                "industry_edhlt_wages_hsp_median_moe",
+                "industry_edhlt_wages_hsp_median_cv"
+              ],
+              [
+                "industry_arten_wages_hsp_median",
+                "industry_arten_wages_hsp_median_moe",
+                "industry_arten_wages_hsp_median_cv"
+              ],
+              [
+                "industry_oth_wages_hsp_median",
+                "industry_oth_wages_hsp_median_moe",
+                "industry_oth_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_hsp_median",
+                "industry_pbadm_wages_hsp_median_moe",
+                "industry_pbadm_wages_hsp_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv"
+              ],
+              [
+                "industry_agff_wages_hsp_median",
+                "industry_agff_wages_hsp_median_moe",
+                "industry_agff_wages_hsp_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_hsp_median",
+                "industry_cnstn_wages_hsp_median_moe",
+                "industry_cnstn_wages_hsp_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_hsp_median",
+                "industry_mnfct_wages_hsp_median_moe",
+                "industry_mnfct_wages_hsp_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_hsp_median",
+                "industry_whlsl_wages_hsp_median_moe",
+                "industry_whlsl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_rtl_wages_hsp_median",
+                "industry_rtl_wages_hsp_median_moe",
+                "industry_rtl_wages_hsp_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_hsp_median",
+                "industry_trwhu_wages_hsp_median_moe",
+                "industry_trwhu_wages_hsp_median_cv"
+              ],
+              [
+                "industry_info_wages_hsp_median",
+                "industry_info_wages_hsp_median_moe",
+                "industry_info_wages_hsp_median_cv"
+              ],
+              [
+                "industry_fire_wages_hsp_median",
+                "industry_fire_wages_hsp_median_moe",
+                "industry_fire_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_hsp_median",
+                "industry_pfmg_wages_hsp_median_moe",
+                "industry_pfmg_wages_hsp_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_hsp_median",
+                "industry_edhlt_wages_hsp_median_moe",
+                "industry_edhlt_wages_hsp_median_cv"
+              ],
+              [
+                "industry_arten_wages_hsp_median",
+                "industry_arten_wages_hsp_median_moe",
+                "industry_arten_wages_hsp_median_cv"
+              ],
+              [
+                "industry_oth_wages_hsp_median",
+                "industry_oth_wages_hsp_median_moe",
+                "industry_oth_wages_hsp_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_hsp_median",
+                "industry_pbadm_wages_hsp_median_moe",
+                "industry_pbadm_wages_hsp_median_cv"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -13675,6 +16727,224 @@
                 "industry_pbadm_wnh_count_cv",
                 "industry_pbadm_wnh_pct",
                 "industry_pbadm_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Median Wages By Industry (2019 Dollars)",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "MEDIAN",
+            "MEDIAN",
+            "MEDIAN"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_wnh_median",
+                "industry_agff_wages_wnh_median_moe",
+                "industry_agff_wages_wnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_wnh_median",
+                "industry_cnstn_wages_wnh_median_moe",
+                "industry_cnstn_wages_wnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_wnh_median",
+                "industry_mnfct_wages_wnh_median_moe",
+                "industry_mnfct_wages_wnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_wnh_median",
+                "industry_whlsl_wages_wnh_median_moe",
+                "industry_whlsl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_wnh_median",
+                "industry_rtl_wages_wnh_median_moe",
+                "industry_rtl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_wnh_median",
+                "industry_trwhu_wages_wnh_median_moe",
+                "industry_trwhu_wages_wnh_median_cv"
+              ],
+              [
+                "industry_info_wages_wnh_median",
+                "industry_info_wages_wnh_median_moe",
+                "industry_info_wages_wnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_wnh_median",
+                "industry_fire_wages_wnh_median_moe",
+                "industry_fire_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_wnh_median",
+                "industry_pfmg_wages_wnh_median_moe",
+                "industry_pfmg_wages_wnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_wnh_median",
+                "industry_edhlt_wages_wnh_median_moe",
+                "industry_edhlt_wages_wnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_wnh_median",
+                "industry_arten_wages_wnh_median_moe",
+                "industry_arten_wages_wnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_wnh_median",
+                "industry_oth_wages_wnh_median_moe",
+                "industry_oth_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_wnh_median",
+                "industry_pbadm_wages_wnh_median_moe",
+                "industry_pbadm_wages_wnh_median_cv"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv"
+              ],
+              [
+                "industry_agff_wages_wnh_median",
+                "industry_agff_wages_wnh_median_moe",
+                "industry_agff_wages_wnh_median_cv"
+              ],
+              [
+                "industry_cnstn_wages_wnh_median",
+                "industry_cnstn_wages_wnh_median_moe",
+                "industry_cnstn_wages_wnh_median_cv"
+              ],
+              [
+                "industry_mnfct_wages_wnh_median",
+                "industry_mnfct_wages_wnh_median_moe",
+                "industry_mnfct_wages_wnh_median_cv"
+              ],
+              [
+                "industry_whlsl_wages_wnh_median",
+                "industry_whlsl_wages_wnh_median_moe",
+                "industry_whlsl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_rtl_wages_wnh_median",
+                "industry_rtl_wages_wnh_median_moe",
+                "industry_rtl_wages_wnh_median_cv"
+              ],
+              [
+                "industry_trwhu_wages_wnh_median",
+                "industry_trwhu_wages_wnh_median_moe",
+                "industry_trwhu_wages_wnh_median_cv"
+              ],
+              [
+                "industry_info_wages_wnh_median",
+                "industry_info_wages_wnh_median_moe",
+                "industry_info_wages_wnh_median_cv"
+              ],
+              [
+                "industry_fire_wages_wnh_median",
+                "industry_fire_wages_wnh_median_moe",
+                "industry_fire_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pfmg_wages_wnh_median",
+                "industry_pfmg_wages_wnh_median_moe",
+                "industry_pfmg_wages_wnh_median_cv"
+              ],
+              [
+                "industry_edhlt_wages_wnh_median",
+                "industry_edhlt_wages_wnh_median_moe",
+                "industry_edhlt_wages_wnh_median_cv"
+              ],
+              [
+                "industry_arten_wages_wnh_median",
+                "industry_arten_wages_wnh_median_moe",
+                "industry_arten_wages_wnh_median_cv"
+              ],
+              [
+                "industry_oth_wages_wnh_median",
+                "industry_oth_wages_wnh_median_moe",
+                "industry_oth_wages_wnh_median_cv"
+              ],
+              [
+                "industry_pbadm_wages_wnh_median",
+                "industry_pbadm_wages_wnh_median_moe",
+                "industry_pbadm_wages_wnh_median_cv"
               ]
             ]
           ]
