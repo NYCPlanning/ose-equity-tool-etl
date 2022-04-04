@@ -377,5 +377,96 @@
     "subgroups": {
       "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } }
     }
+  },
+  {
+    "base": {
+      "title": "Industry",
+      "vintages": [
+        "ACS PUMS, 2008-2012",
+        "ACS PUMS, 2015-19"
+      ],
+      "headers": [
+        [
+          ["number", 3],
+          ["percent", 2]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1],
+          ["estimate", 1],
+          ["moe", 1]
+        ]
+      ],
+      "denominator": {
+        "subcategory": "",
+        "variable": "cvem",
+        "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+        "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
+        "labels": "Civilian employed population 16 to 64 years"
+      },
+      "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+      "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
+      "subcategory": "industry_",
+      "variables": ["agff","cnstn","mnfct","whlsl","rtl","trwhu","info","fire","pfmg","edhlt","arten","oth","pbadm"],
+      "labels": [
+         "Agriculture, forestry, fishing and hunting, or mining industries",
+         "Construction industry",
+         "Manufacturing industry",
+         "Wholesale trade industry",
+         "Retail trade industry",
+         "Transportation and warehousing, or utilities industries",
+         "Information",
+         "Finance and insurance, real estate, or rental and leasing industries",
+         "Professional, scientific, management, administrative, or waste management services industries",
+         "Educational services, health care, or social assistance industries",
+         "Arts, entertainment, recreation, accomodation, or food services industries",
+         "Other service industry, except public administration",
+         "Public administration industry"
+      ]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "economics_0812_puma",
+          "economics_1519_puma"
+        ]
+      },
+      "borough": {
+        "files": [
+          "economics_0812_borough",
+          "economics_1519_borough"
+        ]
+      },
+      "citywide": {
+        "files": [
+          "economics_0812_citywide",
+          "economics_1519_citywide"
+        ]
+      }
+    },
+    "subgroups": {
+      "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } },
+      "anh": {
+        "denominator": {
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
+        }
+      },
+      "bnh": {
+        "denominator": {
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years"
+        }
+      },
+      "hsp": {
+        "denominator": {
+          "label": "Hispanic civilian employed population 16 to 64 years"
+        }
+      },
+      "wnh": {
+        "denominator": {
+          "label": "White non-Hispanic civilian employed population 16 to 64 years"
+        }
+      }
+    }
   }
 ]

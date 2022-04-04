@@ -23,7 +23,7 @@
       "variances": ["NONE", "MOE", "CV"],
       "labels": "Total households"
     },
-    "measures": ["COUNT", "COUNT", "COUNT"],
+    "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
     "variances": ["NONE", "MOE", "CV"],
     "subcategory": "households_",
     "variables": ["income"],
@@ -72,4 +72,4 @@
       }
     }
   }
-}
+},

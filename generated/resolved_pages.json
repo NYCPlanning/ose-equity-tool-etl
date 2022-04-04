@@ -726,6 +726,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "industry_agff_count",
+                "industry_agff_count_moe",
+                "industry_agff_count_cv",
+                "industry_agff_pct",
+                "industry_agff_pct_moe"
+              ],
+              [
+                "industry_cnstn_count",
+                "industry_cnstn_count_moe",
+                "industry_cnstn_count_cv",
+                "industry_cnstn_pct",
+                "industry_cnstn_pct_moe"
+              ],
+              [
+                "industry_mnfct_count",
+                "industry_mnfct_count_moe",
+                "industry_mnfct_count_cv",
+                "industry_mnfct_pct",
+                "industry_mnfct_pct_moe"
+              ],
+              [
+                "industry_whlsl_count",
+                "industry_whlsl_count_moe",
+                "industry_whlsl_count_cv",
+                "industry_whlsl_pct",
+                "industry_whlsl_pct_moe"
+              ],
+              [
+                "industry_rtl_count",
+                "industry_rtl_count_moe",
+                "industry_rtl_count_cv",
+                "industry_rtl_pct",
+                "industry_rtl_pct_moe"
+              ],
+              [
+                "industry_trwhu_count",
+                "industry_trwhu_count_moe",
+                "industry_trwhu_count_cv",
+                "industry_trwhu_pct",
+                "industry_trwhu_pct_moe"
+              ],
+              [
+                "industry_info_count",
+                "industry_info_count_moe",
+                "industry_info_count_cv",
+                "industry_info_pct",
+                "industry_info_pct_moe"
+              ],
+              [
+                "industry_fire_count",
+                "industry_fire_count_moe",
+                "industry_fire_count_cv",
+                "industry_fire_pct",
+                "industry_fire_pct_moe"
+              ],
+              [
+                "industry_pfmg_count",
+                "industry_pfmg_count_moe",
+                "industry_pfmg_count_cv",
+                "industry_pfmg_pct",
+                "industry_pfmg_pct_moe"
+              ],
+              [
+                "industry_edhlt_count",
+                "industry_edhlt_count_moe",
+                "industry_edhlt_count_cv",
+                "industry_edhlt_pct",
+                "industry_edhlt_pct_moe"
+              ],
+              [
+                "industry_arten_count",
+                "industry_arten_count_moe",
+                "industry_arten_count_cv",
+                "industry_arten_pct",
+                "industry_arten_pct_moe"
+              ],
+              [
+                "industry_oth_count",
+                "industry_oth_count_moe",
+                "industry_oth_count_cv",
+                "industry_oth_pct",
+                "industry_oth_pct_moe"
+              ],
+              [
+                "industry_pbadm_count",
+                "industry_pbadm_count_moe",
+                "industry_pbadm_count_cv",
+                "industry_pbadm_pct",
+                "industry_pbadm_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "industry_agff_count",
+                "industry_agff_count_moe",
+                "industry_agff_count_cv",
+                "industry_agff_pct",
+                "industry_agff_pct_moe"
+              ],
+              [
+                "industry_cnstn_count",
+                "industry_cnstn_count_moe",
+                "industry_cnstn_count_cv",
+                "industry_cnstn_pct",
+                "industry_cnstn_pct_moe"
+              ],
+              [
+                "industry_mnfct_count",
+                "industry_mnfct_count_moe",
+                "industry_mnfct_count_cv",
+                "industry_mnfct_pct",
+                "industry_mnfct_pct_moe"
+              ],
+              [
+                "industry_whlsl_count",
+                "industry_whlsl_count_moe",
+                "industry_whlsl_count_cv",
+                "industry_whlsl_pct",
+                "industry_whlsl_pct_moe"
+              ],
+              [
+                "industry_rtl_count",
+                "industry_rtl_count_moe",
+                "industry_rtl_count_cv",
+                "industry_rtl_pct",
+                "industry_rtl_pct_moe"
+              ],
+              [
+                "industry_trwhu_count",
+                "industry_trwhu_count_moe",
+                "industry_trwhu_count_cv",
+                "industry_trwhu_pct",
+                "industry_trwhu_pct_moe"
+              ],
+              [
+                "industry_info_count",
+                "industry_info_count_moe",
+                "industry_info_count_cv",
+                "industry_info_pct",
+                "industry_info_pct_moe"
+              ],
+              [
+                "industry_fire_count",
+                "industry_fire_count_moe",
+                "industry_fire_count_cv",
+                "industry_fire_pct",
+                "industry_fire_pct_moe"
+              ],
+              [
+                "industry_pfmg_count",
+                "industry_pfmg_count_moe",
+                "industry_pfmg_count_cv",
+                "industry_pfmg_pct",
+                "industry_pfmg_pct_moe"
+              ],
+              [
+                "industry_edhlt_count",
+                "industry_edhlt_count_moe",
+                "industry_edhlt_count_cv",
+                "industry_edhlt_pct",
+                "industry_edhlt_pct_moe"
+              ],
+              [
+                "industry_arten_count",
+                "industry_arten_count_moe",
+                "industry_arten_count_cv",
+                "industry_arten_pct",
+                "industry_arten_pct_moe"
+              ],
+              [
+                "industry_oth_count",
+                "industry_oth_count_moe",
+                "industry_oth_count_cv",
+                "industry_oth_pct",
+                "industry_oth_pct_moe"
+              ],
+              [
+                "industry_pbadm_count",
+                "industry_pbadm_count_moe",
+                "industry_pbadm_count_cv",
+                "industry_pbadm_pct",
+                "industry_pbadm_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -1313,6 +1607,300 @@
                 "occupation_srvc_anh_count_cv",
                 "occupation_srvc_anh_pct",
                 "occupation_srvc_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "industry_agff_anh_count",
+                "industry_agff_anh_count_moe",
+                "industry_agff_anh_count_cv",
+                "industry_agff_anh_pct",
+                "industry_agff_anh_pct_moe"
+              ],
+              [
+                "industry_cnstn_anh_count",
+                "industry_cnstn_anh_count_moe",
+                "industry_cnstn_anh_count_cv",
+                "industry_cnstn_anh_pct",
+                "industry_cnstn_anh_pct_moe"
+              ],
+              [
+                "industry_mnfct_anh_count",
+                "industry_mnfct_anh_count_moe",
+                "industry_mnfct_anh_count_cv",
+                "industry_mnfct_anh_pct",
+                "industry_mnfct_anh_pct_moe"
+              ],
+              [
+                "industry_whlsl_anh_count",
+                "industry_whlsl_anh_count_moe",
+                "industry_whlsl_anh_count_cv",
+                "industry_whlsl_anh_pct",
+                "industry_whlsl_anh_pct_moe"
+              ],
+              [
+                "industry_rtl_anh_count",
+                "industry_rtl_anh_count_moe",
+                "industry_rtl_anh_count_cv",
+                "industry_rtl_anh_pct",
+                "industry_rtl_anh_pct_moe"
+              ],
+              [
+                "industry_trwhu_anh_count",
+                "industry_trwhu_anh_count_moe",
+                "industry_trwhu_anh_count_cv",
+                "industry_trwhu_anh_pct",
+                "industry_trwhu_anh_pct_moe"
+              ],
+              [
+                "industry_info_anh_count",
+                "industry_info_anh_count_moe",
+                "industry_info_anh_count_cv",
+                "industry_info_anh_pct",
+                "industry_info_anh_pct_moe"
+              ],
+              [
+                "industry_fire_anh_count",
+                "industry_fire_anh_count_moe",
+                "industry_fire_anh_count_cv",
+                "industry_fire_anh_pct",
+                "industry_fire_anh_pct_moe"
+              ],
+              [
+                "industry_pfmg_anh_count",
+                "industry_pfmg_anh_count_moe",
+                "industry_pfmg_anh_count_cv",
+                "industry_pfmg_anh_pct",
+                "industry_pfmg_anh_pct_moe"
+              ],
+              [
+                "industry_edhlt_anh_count",
+                "industry_edhlt_anh_count_moe",
+                "industry_edhlt_anh_count_cv",
+                "industry_edhlt_anh_pct",
+                "industry_edhlt_anh_pct_moe"
+              ],
+              [
+                "industry_arten_anh_count",
+                "industry_arten_anh_count_moe",
+                "industry_arten_anh_count_cv",
+                "industry_arten_anh_pct",
+                "industry_arten_anh_pct_moe"
+              ],
+              [
+                "industry_oth_anh_count",
+                "industry_oth_anh_count_moe",
+                "industry_oth_anh_count_cv",
+                "industry_oth_anh_pct",
+                "industry_oth_anh_pct_moe"
+              ],
+              [
+                "industry_pbadm_anh_count",
+                "industry_pbadm_anh_count_moe",
+                "industry_pbadm_anh_count_cv",
+                "industry_pbadm_anh_pct",
+                "industry_pbadm_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "industry_agff_anh_count",
+                "industry_agff_anh_count_moe",
+                "industry_agff_anh_count_cv",
+                "industry_agff_anh_pct",
+                "industry_agff_anh_pct_moe"
+              ],
+              [
+                "industry_cnstn_anh_count",
+                "industry_cnstn_anh_count_moe",
+                "industry_cnstn_anh_count_cv",
+                "industry_cnstn_anh_pct",
+                "industry_cnstn_anh_pct_moe"
+              ],
+              [
+                "industry_mnfct_anh_count",
+                "industry_mnfct_anh_count_moe",
+                "industry_mnfct_anh_count_cv",
+                "industry_mnfct_anh_pct",
+                "industry_mnfct_anh_pct_moe"
+              ],
+              [
+                "industry_whlsl_anh_count",
+                "industry_whlsl_anh_count_moe",
+                "industry_whlsl_anh_count_cv",
+                "industry_whlsl_anh_pct",
+                "industry_whlsl_anh_pct_moe"
+              ],
+              [
+                "industry_rtl_anh_count",
+                "industry_rtl_anh_count_moe",
+                "industry_rtl_anh_count_cv",
+                "industry_rtl_anh_pct",
+                "industry_rtl_anh_pct_moe"
+              ],
+              [
+                "industry_trwhu_anh_count",
+                "industry_trwhu_anh_count_moe",
+                "industry_trwhu_anh_count_cv",
+                "industry_trwhu_anh_pct",
+                "industry_trwhu_anh_pct_moe"
+              ],
+              [
+                "industry_info_anh_count",
+                "industry_info_anh_count_moe",
+                "industry_info_anh_count_cv",
+                "industry_info_anh_pct",
+                "industry_info_anh_pct_moe"
+              ],
+              [
+                "industry_fire_anh_count",
+                "industry_fire_anh_count_moe",
+                "industry_fire_anh_count_cv",
+                "industry_fire_anh_pct",
+                "industry_fire_anh_pct_moe"
+              ],
+              [
+                "industry_pfmg_anh_count",
+                "industry_pfmg_anh_count_moe",
+                "industry_pfmg_anh_count_cv",
+                "industry_pfmg_anh_pct",
+                "industry_pfmg_anh_pct_moe"
+              ],
+              [
+                "industry_edhlt_anh_count",
+                "industry_edhlt_anh_count_moe",
+                "industry_edhlt_anh_count_cv",
+                "industry_edhlt_anh_pct",
+                "industry_edhlt_anh_pct_moe"
+              ],
+              [
+                "industry_arten_anh_count",
+                "industry_arten_anh_count_moe",
+                "industry_arten_anh_count_cv",
+                "industry_arten_anh_pct",
+                "industry_arten_anh_pct_moe"
+              ],
+              [
+                "industry_oth_anh_count",
+                "industry_oth_anh_count_moe",
+                "industry_oth_anh_count_cv",
+                "industry_oth_anh_pct",
+                "industry_oth_anh_pct_moe"
+              ],
+              [
+                "industry_pbadm_anh_count",
+                "industry_pbadm_anh_count_moe",
+                "industry_pbadm_anh_count_cv",
+                "industry_pbadm_anh_pct",
+                "industry_pbadm_anh_pct_moe"
               ]
             ]
           ]
@@ -1906,6 +2494,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "industry_agff_bnh_count",
+                "industry_agff_bnh_count_moe",
+                "industry_agff_bnh_count_cv",
+                "industry_agff_bnh_pct",
+                "industry_agff_bnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_bnh_count",
+                "industry_cnstn_bnh_count_moe",
+                "industry_cnstn_bnh_count_cv",
+                "industry_cnstn_bnh_pct",
+                "industry_cnstn_bnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_bnh_count",
+                "industry_mnfct_bnh_count_moe",
+                "industry_mnfct_bnh_count_cv",
+                "industry_mnfct_bnh_pct",
+                "industry_mnfct_bnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_bnh_count",
+                "industry_whlsl_bnh_count_moe",
+                "industry_whlsl_bnh_count_cv",
+                "industry_whlsl_bnh_pct",
+                "industry_whlsl_bnh_pct_moe"
+              ],
+              [
+                "industry_rtl_bnh_count",
+                "industry_rtl_bnh_count_moe",
+                "industry_rtl_bnh_count_cv",
+                "industry_rtl_bnh_pct",
+                "industry_rtl_bnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_bnh_count",
+                "industry_trwhu_bnh_count_moe",
+                "industry_trwhu_bnh_count_cv",
+                "industry_trwhu_bnh_pct",
+                "industry_trwhu_bnh_pct_moe"
+              ],
+              [
+                "industry_info_bnh_count",
+                "industry_info_bnh_count_moe",
+                "industry_info_bnh_count_cv",
+                "industry_info_bnh_pct",
+                "industry_info_bnh_pct_moe"
+              ],
+              [
+                "industry_fire_bnh_count",
+                "industry_fire_bnh_count_moe",
+                "industry_fire_bnh_count_cv",
+                "industry_fire_bnh_pct",
+                "industry_fire_bnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_bnh_count",
+                "industry_pfmg_bnh_count_moe",
+                "industry_pfmg_bnh_count_cv",
+                "industry_pfmg_bnh_pct",
+                "industry_pfmg_bnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_bnh_count",
+                "industry_edhlt_bnh_count_moe",
+                "industry_edhlt_bnh_count_cv",
+                "industry_edhlt_bnh_pct",
+                "industry_edhlt_bnh_pct_moe"
+              ],
+              [
+                "industry_arten_bnh_count",
+                "industry_arten_bnh_count_moe",
+                "industry_arten_bnh_count_cv",
+                "industry_arten_bnh_pct",
+                "industry_arten_bnh_pct_moe"
+              ],
+              [
+                "industry_oth_bnh_count",
+                "industry_oth_bnh_count_moe",
+                "industry_oth_bnh_count_cv",
+                "industry_oth_bnh_pct",
+                "industry_oth_bnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_bnh_count",
+                "industry_pbadm_bnh_count_moe",
+                "industry_pbadm_bnh_count_cv",
+                "industry_pbadm_bnh_pct",
+                "industry_pbadm_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "industry_agff_bnh_count",
+                "industry_agff_bnh_count_moe",
+                "industry_agff_bnh_count_cv",
+                "industry_agff_bnh_pct",
+                "industry_agff_bnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_bnh_count",
+                "industry_cnstn_bnh_count_moe",
+                "industry_cnstn_bnh_count_cv",
+                "industry_cnstn_bnh_pct",
+                "industry_cnstn_bnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_bnh_count",
+                "industry_mnfct_bnh_count_moe",
+                "industry_mnfct_bnh_count_cv",
+                "industry_mnfct_bnh_pct",
+                "industry_mnfct_bnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_bnh_count",
+                "industry_whlsl_bnh_count_moe",
+                "industry_whlsl_bnh_count_cv",
+                "industry_whlsl_bnh_pct",
+                "industry_whlsl_bnh_pct_moe"
+              ],
+              [
+                "industry_rtl_bnh_count",
+                "industry_rtl_bnh_count_moe",
+                "industry_rtl_bnh_count_cv",
+                "industry_rtl_bnh_pct",
+                "industry_rtl_bnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_bnh_count",
+                "industry_trwhu_bnh_count_moe",
+                "industry_trwhu_bnh_count_cv",
+                "industry_trwhu_bnh_pct",
+                "industry_trwhu_bnh_pct_moe"
+              ],
+              [
+                "industry_info_bnh_count",
+                "industry_info_bnh_count_moe",
+                "industry_info_bnh_count_cv",
+                "industry_info_bnh_pct",
+                "industry_info_bnh_pct_moe"
+              ],
+              [
+                "industry_fire_bnh_count",
+                "industry_fire_bnh_count_moe",
+                "industry_fire_bnh_count_cv",
+                "industry_fire_bnh_pct",
+                "industry_fire_bnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_bnh_count",
+                "industry_pfmg_bnh_count_moe",
+                "industry_pfmg_bnh_count_cv",
+                "industry_pfmg_bnh_pct",
+                "industry_pfmg_bnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_bnh_count",
+                "industry_edhlt_bnh_count_moe",
+                "industry_edhlt_bnh_count_cv",
+                "industry_edhlt_bnh_pct",
+                "industry_edhlt_bnh_pct_moe"
+              ],
+              [
+                "industry_arten_bnh_count",
+                "industry_arten_bnh_count_moe",
+                "industry_arten_bnh_count_cv",
+                "industry_arten_bnh_pct",
+                "industry_arten_bnh_pct_moe"
+              ],
+              [
+                "industry_oth_bnh_count",
+                "industry_oth_bnh_count_moe",
+                "industry_oth_bnh_count_cv",
+                "industry_oth_bnh_pct",
+                "industry_oth_bnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_bnh_count",
+                "industry_pbadm_bnh_count_moe",
+                "industry_pbadm_bnh_count_cv",
+                "industry_pbadm_bnh_pct",
+                "industry_pbadm_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -2496,6 +3378,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "industry_agff_hsp_count",
+                "industry_agff_hsp_count_moe",
+                "industry_agff_hsp_count_cv",
+                "industry_agff_hsp_pct",
+                "industry_agff_hsp_pct_moe"
+              ],
+              [
+                "industry_cnstn_hsp_count",
+                "industry_cnstn_hsp_count_moe",
+                "industry_cnstn_hsp_count_cv",
+                "industry_cnstn_hsp_pct",
+                "industry_cnstn_hsp_pct_moe"
+              ],
+              [
+                "industry_mnfct_hsp_count",
+                "industry_mnfct_hsp_count_moe",
+                "industry_mnfct_hsp_count_cv",
+                "industry_mnfct_hsp_pct",
+                "industry_mnfct_hsp_pct_moe"
+              ],
+              [
+                "industry_whlsl_hsp_count",
+                "industry_whlsl_hsp_count_moe",
+                "industry_whlsl_hsp_count_cv",
+                "industry_whlsl_hsp_pct",
+                "industry_whlsl_hsp_pct_moe"
+              ],
+              [
+                "industry_rtl_hsp_count",
+                "industry_rtl_hsp_count_moe",
+                "industry_rtl_hsp_count_cv",
+                "industry_rtl_hsp_pct",
+                "industry_rtl_hsp_pct_moe"
+              ],
+              [
+                "industry_trwhu_hsp_count",
+                "industry_trwhu_hsp_count_moe",
+                "industry_trwhu_hsp_count_cv",
+                "industry_trwhu_hsp_pct",
+                "industry_trwhu_hsp_pct_moe"
+              ],
+              [
+                "industry_info_hsp_count",
+                "industry_info_hsp_count_moe",
+                "industry_info_hsp_count_cv",
+                "industry_info_hsp_pct",
+                "industry_info_hsp_pct_moe"
+              ],
+              [
+                "industry_fire_hsp_count",
+                "industry_fire_hsp_count_moe",
+                "industry_fire_hsp_count_cv",
+                "industry_fire_hsp_pct",
+                "industry_fire_hsp_pct_moe"
+              ],
+              [
+                "industry_pfmg_hsp_count",
+                "industry_pfmg_hsp_count_moe",
+                "industry_pfmg_hsp_count_cv",
+                "industry_pfmg_hsp_pct",
+                "industry_pfmg_hsp_pct_moe"
+              ],
+              [
+                "industry_edhlt_hsp_count",
+                "industry_edhlt_hsp_count_moe",
+                "industry_edhlt_hsp_count_cv",
+                "industry_edhlt_hsp_pct",
+                "industry_edhlt_hsp_pct_moe"
+              ],
+              [
+                "industry_arten_hsp_count",
+                "industry_arten_hsp_count_moe",
+                "industry_arten_hsp_count_cv",
+                "industry_arten_hsp_pct",
+                "industry_arten_hsp_pct_moe"
+              ],
+              [
+                "industry_oth_hsp_count",
+                "industry_oth_hsp_count_moe",
+                "industry_oth_hsp_count_cv",
+                "industry_oth_hsp_pct",
+                "industry_oth_hsp_pct_moe"
+              ],
+              [
+                "industry_pbadm_hsp_count",
+                "industry_pbadm_hsp_count_moe",
+                "industry_pbadm_hsp_count_cv",
+                "industry_pbadm_hsp_pct",
+                "industry_pbadm_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "industry_agff_hsp_count",
+                "industry_agff_hsp_count_moe",
+                "industry_agff_hsp_count_cv",
+                "industry_agff_hsp_pct",
+                "industry_agff_hsp_pct_moe"
+              ],
+              [
+                "industry_cnstn_hsp_count",
+                "industry_cnstn_hsp_count_moe",
+                "industry_cnstn_hsp_count_cv",
+                "industry_cnstn_hsp_pct",
+                "industry_cnstn_hsp_pct_moe"
+              ],
+              [
+                "industry_mnfct_hsp_count",
+                "industry_mnfct_hsp_count_moe",
+                "industry_mnfct_hsp_count_cv",
+                "industry_mnfct_hsp_pct",
+                "industry_mnfct_hsp_pct_moe"
+              ],
+              [
+                "industry_whlsl_hsp_count",
+                "industry_whlsl_hsp_count_moe",
+                "industry_whlsl_hsp_count_cv",
+                "industry_whlsl_hsp_pct",
+                "industry_whlsl_hsp_pct_moe"
+              ],
+              [
+                "industry_rtl_hsp_count",
+                "industry_rtl_hsp_count_moe",
+                "industry_rtl_hsp_count_cv",
+                "industry_rtl_hsp_pct",
+                "industry_rtl_hsp_pct_moe"
+              ],
+              [
+                "industry_trwhu_hsp_count",
+                "industry_trwhu_hsp_count_moe",
+                "industry_trwhu_hsp_count_cv",
+                "industry_trwhu_hsp_pct",
+                "industry_trwhu_hsp_pct_moe"
+              ],
+              [
+                "industry_info_hsp_count",
+                "industry_info_hsp_count_moe",
+                "industry_info_hsp_count_cv",
+                "industry_info_hsp_pct",
+                "industry_info_hsp_pct_moe"
+              ],
+              [
+                "industry_fire_hsp_count",
+                "industry_fire_hsp_count_moe",
+                "industry_fire_hsp_count_cv",
+                "industry_fire_hsp_pct",
+                "industry_fire_hsp_pct_moe"
+              ],
+              [
+                "industry_pfmg_hsp_count",
+                "industry_pfmg_hsp_count_moe",
+                "industry_pfmg_hsp_count_cv",
+                "industry_pfmg_hsp_pct",
+                "industry_pfmg_hsp_pct_moe"
+              ],
+              [
+                "industry_edhlt_hsp_count",
+                "industry_edhlt_hsp_count_moe",
+                "industry_edhlt_hsp_count_cv",
+                "industry_edhlt_hsp_pct",
+                "industry_edhlt_hsp_pct_moe"
+              ],
+              [
+                "industry_arten_hsp_count",
+                "industry_arten_hsp_count_moe",
+                "industry_arten_hsp_count_cv",
+                "industry_arten_hsp_pct",
+                "industry_arten_hsp_pct_moe"
+              ],
+              [
+                "industry_oth_hsp_count",
+                "industry_oth_hsp_count_moe",
+                "industry_oth_hsp_count_cv",
+                "industry_oth_hsp_pct",
+                "industry_oth_hsp_pct_moe"
+              ],
+              [
+                "industry_pbadm_hsp_count",
+                "industry_pbadm_hsp_count_moe",
+                "industry_pbadm_hsp_count_cv",
+                "industry_pbadm_hsp_pct",
+                "industry_pbadm_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -3083,6 +4259,300 @@
                 "occupation_srvc_wnh_count_cv",
                 "occupation_srvc_wnh_pct",
                 "occupation_srvc_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "industry_agff_wnh_count",
+                "industry_agff_wnh_count_moe",
+                "industry_agff_wnh_count_cv",
+                "industry_agff_wnh_pct",
+                "industry_agff_wnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_wnh_count",
+                "industry_cnstn_wnh_count_moe",
+                "industry_cnstn_wnh_count_cv",
+                "industry_cnstn_wnh_pct",
+                "industry_cnstn_wnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_wnh_count",
+                "industry_mnfct_wnh_count_moe",
+                "industry_mnfct_wnh_count_cv",
+                "industry_mnfct_wnh_pct",
+                "industry_mnfct_wnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_wnh_count",
+                "industry_whlsl_wnh_count_moe",
+                "industry_whlsl_wnh_count_cv",
+                "industry_whlsl_wnh_pct",
+                "industry_whlsl_wnh_pct_moe"
+              ],
+              [
+                "industry_rtl_wnh_count",
+                "industry_rtl_wnh_count_moe",
+                "industry_rtl_wnh_count_cv",
+                "industry_rtl_wnh_pct",
+                "industry_rtl_wnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_wnh_count",
+                "industry_trwhu_wnh_count_moe",
+                "industry_trwhu_wnh_count_cv",
+                "industry_trwhu_wnh_pct",
+                "industry_trwhu_wnh_pct_moe"
+              ],
+              [
+                "industry_info_wnh_count",
+                "industry_info_wnh_count_moe",
+                "industry_info_wnh_count_cv",
+                "industry_info_wnh_pct",
+                "industry_info_wnh_pct_moe"
+              ],
+              [
+                "industry_fire_wnh_count",
+                "industry_fire_wnh_count_moe",
+                "industry_fire_wnh_count_cv",
+                "industry_fire_wnh_pct",
+                "industry_fire_wnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_wnh_count",
+                "industry_pfmg_wnh_count_moe",
+                "industry_pfmg_wnh_count_cv",
+                "industry_pfmg_wnh_pct",
+                "industry_pfmg_wnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_wnh_count",
+                "industry_edhlt_wnh_count_moe",
+                "industry_edhlt_wnh_count_cv",
+                "industry_edhlt_wnh_pct",
+                "industry_edhlt_wnh_pct_moe"
+              ],
+              [
+                "industry_arten_wnh_count",
+                "industry_arten_wnh_count_moe",
+                "industry_arten_wnh_count_cv",
+                "industry_arten_wnh_pct",
+                "industry_arten_wnh_pct_moe"
+              ],
+              [
+                "industry_oth_wnh_count",
+                "industry_oth_wnh_count_moe",
+                "industry_oth_wnh_count_cv",
+                "industry_oth_wnh_pct",
+                "industry_oth_wnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_wnh_count",
+                "industry_pbadm_wnh_count_moe",
+                "industry_pbadm_wnh_count_cv",
+                "industry_pbadm_wnh_pct",
+                "industry_pbadm_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "industry_agff_wnh_count",
+                "industry_agff_wnh_count_moe",
+                "industry_agff_wnh_count_cv",
+                "industry_agff_wnh_pct",
+                "industry_agff_wnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_wnh_count",
+                "industry_cnstn_wnh_count_moe",
+                "industry_cnstn_wnh_count_cv",
+                "industry_cnstn_wnh_pct",
+                "industry_cnstn_wnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_wnh_count",
+                "industry_mnfct_wnh_count_moe",
+                "industry_mnfct_wnh_count_cv",
+                "industry_mnfct_wnh_pct",
+                "industry_mnfct_wnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_wnh_count",
+                "industry_whlsl_wnh_count_moe",
+                "industry_whlsl_wnh_count_cv",
+                "industry_whlsl_wnh_pct",
+                "industry_whlsl_wnh_pct_moe"
+              ],
+              [
+                "industry_rtl_wnh_count",
+                "industry_rtl_wnh_count_moe",
+                "industry_rtl_wnh_count_cv",
+                "industry_rtl_wnh_pct",
+                "industry_rtl_wnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_wnh_count",
+                "industry_trwhu_wnh_count_moe",
+                "industry_trwhu_wnh_count_cv",
+                "industry_trwhu_wnh_pct",
+                "industry_trwhu_wnh_pct_moe"
+              ],
+              [
+                "industry_info_wnh_count",
+                "industry_info_wnh_count_moe",
+                "industry_info_wnh_count_cv",
+                "industry_info_wnh_pct",
+                "industry_info_wnh_pct_moe"
+              ],
+              [
+                "industry_fire_wnh_count",
+                "industry_fire_wnh_count_moe",
+                "industry_fire_wnh_count_cv",
+                "industry_fire_wnh_pct",
+                "industry_fire_wnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_wnh_count",
+                "industry_pfmg_wnh_count_moe",
+                "industry_pfmg_wnh_count_cv",
+                "industry_pfmg_wnh_pct",
+                "industry_pfmg_wnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_wnh_count",
+                "industry_edhlt_wnh_count_moe",
+                "industry_edhlt_wnh_count_cv",
+                "industry_edhlt_wnh_pct",
+                "industry_edhlt_wnh_pct_moe"
+              ],
+              [
+                "industry_arten_wnh_count",
+                "industry_arten_wnh_count_moe",
+                "industry_arten_wnh_count_cv",
+                "industry_arten_wnh_pct",
+                "industry_arten_wnh_pct_moe"
+              ],
+              [
+                "industry_oth_wnh_count",
+                "industry_oth_wnh_count_moe",
+                "industry_oth_wnh_count_cv",
+                "industry_oth_wnh_pct",
+                "industry_oth_wnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_wnh_count",
+                "industry_pbadm_wnh_count_moe",
+                "industry_pbadm_wnh_count_cv",
+                "industry_pbadm_wnh_pct",
+                "industry_pbadm_wnh_pct_moe"
               ]
             ]
           ]
@@ -3817,6 +5287,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "industry_agff_count",
+                "industry_agff_count_moe",
+                "industry_agff_count_cv",
+                "industry_agff_pct",
+                "industry_agff_pct_moe"
+              ],
+              [
+                "industry_cnstn_count",
+                "industry_cnstn_count_moe",
+                "industry_cnstn_count_cv",
+                "industry_cnstn_pct",
+                "industry_cnstn_pct_moe"
+              ],
+              [
+                "industry_mnfct_count",
+                "industry_mnfct_count_moe",
+                "industry_mnfct_count_cv",
+                "industry_mnfct_pct",
+                "industry_mnfct_pct_moe"
+              ],
+              [
+                "industry_whlsl_count",
+                "industry_whlsl_count_moe",
+                "industry_whlsl_count_cv",
+                "industry_whlsl_pct",
+                "industry_whlsl_pct_moe"
+              ],
+              [
+                "industry_rtl_count",
+                "industry_rtl_count_moe",
+                "industry_rtl_count_cv",
+                "industry_rtl_pct",
+                "industry_rtl_pct_moe"
+              ],
+              [
+                "industry_trwhu_count",
+                "industry_trwhu_count_moe",
+                "industry_trwhu_count_cv",
+                "industry_trwhu_pct",
+                "industry_trwhu_pct_moe"
+              ],
+              [
+                "industry_info_count",
+                "industry_info_count_moe",
+                "industry_info_count_cv",
+                "industry_info_pct",
+                "industry_info_pct_moe"
+              ],
+              [
+                "industry_fire_count",
+                "industry_fire_count_moe",
+                "industry_fire_count_cv",
+                "industry_fire_pct",
+                "industry_fire_pct_moe"
+              ],
+              [
+                "industry_pfmg_count",
+                "industry_pfmg_count_moe",
+                "industry_pfmg_count_cv",
+                "industry_pfmg_pct",
+                "industry_pfmg_pct_moe"
+              ],
+              [
+                "industry_edhlt_count",
+                "industry_edhlt_count_moe",
+                "industry_edhlt_count_cv",
+                "industry_edhlt_pct",
+                "industry_edhlt_pct_moe"
+              ],
+              [
+                "industry_arten_count",
+                "industry_arten_count_moe",
+                "industry_arten_count_cv",
+                "industry_arten_pct",
+                "industry_arten_pct_moe"
+              ],
+              [
+                "industry_oth_count",
+                "industry_oth_count_moe",
+                "industry_oth_count_cv",
+                "industry_oth_pct",
+                "industry_oth_pct_moe"
+              ],
+              [
+                "industry_pbadm_count",
+                "industry_pbadm_count_moe",
+                "industry_pbadm_count_cv",
+                "industry_pbadm_pct",
+                "industry_pbadm_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "industry_agff_count",
+                "industry_agff_count_moe",
+                "industry_agff_count_cv",
+                "industry_agff_pct",
+                "industry_agff_pct_moe"
+              ],
+              [
+                "industry_cnstn_count",
+                "industry_cnstn_count_moe",
+                "industry_cnstn_count_cv",
+                "industry_cnstn_pct",
+                "industry_cnstn_pct_moe"
+              ],
+              [
+                "industry_mnfct_count",
+                "industry_mnfct_count_moe",
+                "industry_mnfct_count_cv",
+                "industry_mnfct_pct",
+                "industry_mnfct_pct_moe"
+              ],
+              [
+                "industry_whlsl_count",
+                "industry_whlsl_count_moe",
+                "industry_whlsl_count_cv",
+                "industry_whlsl_pct",
+                "industry_whlsl_pct_moe"
+              ],
+              [
+                "industry_rtl_count",
+                "industry_rtl_count_moe",
+                "industry_rtl_count_cv",
+                "industry_rtl_pct",
+                "industry_rtl_pct_moe"
+              ],
+              [
+                "industry_trwhu_count",
+                "industry_trwhu_count_moe",
+                "industry_trwhu_count_cv",
+                "industry_trwhu_pct",
+                "industry_trwhu_pct_moe"
+              ],
+              [
+                "industry_info_count",
+                "industry_info_count_moe",
+                "industry_info_count_cv",
+                "industry_info_pct",
+                "industry_info_pct_moe"
+              ],
+              [
+                "industry_fire_count",
+                "industry_fire_count_moe",
+                "industry_fire_count_cv",
+                "industry_fire_pct",
+                "industry_fire_pct_moe"
+              ],
+              [
+                "industry_pfmg_count",
+                "industry_pfmg_count_moe",
+                "industry_pfmg_count_cv",
+                "industry_pfmg_pct",
+                "industry_pfmg_pct_moe"
+              ],
+              [
+                "industry_edhlt_count",
+                "industry_edhlt_count_moe",
+                "industry_edhlt_count_cv",
+                "industry_edhlt_pct",
+                "industry_edhlt_pct_moe"
+              ],
+              [
+                "industry_arten_count",
+                "industry_arten_count_moe",
+                "industry_arten_count_cv",
+                "industry_arten_pct",
+                "industry_arten_pct_moe"
+              ],
+              [
+                "industry_oth_count",
+                "industry_oth_count_moe",
+                "industry_oth_count_cv",
+                "industry_oth_pct",
+                "industry_oth_pct_moe"
+              ],
+              [
+                "industry_pbadm_count",
+                "industry_pbadm_count_moe",
+                "industry_pbadm_count_cv",
+                "industry_pbadm_pct",
+                "industry_pbadm_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -4404,6 +6168,300 @@
                 "occupation_srvc_anh_count_cv",
                 "occupation_srvc_anh_pct",
                 "occupation_srvc_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "industry_agff_anh_count",
+                "industry_agff_anh_count_moe",
+                "industry_agff_anh_count_cv",
+                "industry_agff_anh_pct",
+                "industry_agff_anh_pct_moe"
+              ],
+              [
+                "industry_cnstn_anh_count",
+                "industry_cnstn_anh_count_moe",
+                "industry_cnstn_anh_count_cv",
+                "industry_cnstn_anh_pct",
+                "industry_cnstn_anh_pct_moe"
+              ],
+              [
+                "industry_mnfct_anh_count",
+                "industry_mnfct_anh_count_moe",
+                "industry_mnfct_anh_count_cv",
+                "industry_mnfct_anh_pct",
+                "industry_mnfct_anh_pct_moe"
+              ],
+              [
+                "industry_whlsl_anh_count",
+                "industry_whlsl_anh_count_moe",
+                "industry_whlsl_anh_count_cv",
+                "industry_whlsl_anh_pct",
+                "industry_whlsl_anh_pct_moe"
+              ],
+              [
+                "industry_rtl_anh_count",
+                "industry_rtl_anh_count_moe",
+                "industry_rtl_anh_count_cv",
+                "industry_rtl_anh_pct",
+                "industry_rtl_anh_pct_moe"
+              ],
+              [
+                "industry_trwhu_anh_count",
+                "industry_trwhu_anh_count_moe",
+                "industry_trwhu_anh_count_cv",
+                "industry_trwhu_anh_pct",
+                "industry_trwhu_anh_pct_moe"
+              ],
+              [
+                "industry_info_anh_count",
+                "industry_info_anh_count_moe",
+                "industry_info_anh_count_cv",
+                "industry_info_anh_pct",
+                "industry_info_anh_pct_moe"
+              ],
+              [
+                "industry_fire_anh_count",
+                "industry_fire_anh_count_moe",
+                "industry_fire_anh_count_cv",
+                "industry_fire_anh_pct",
+                "industry_fire_anh_pct_moe"
+              ],
+              [
+                "industry_pfmg_anh_count",
+                "industry_pfmg_anh_count_moe",
+                "industry_pfmg_anh_count_cv",
+                "industry_pfmg_anh_pct",
+                "industry_pfmg_anh_pct_moe"
+              ],
+              [
+                "industry_edhlt_anh_count",
+                "industry_edhlt_anh_count_moe",
+                "industry_edhlt_anh_count_cv",
+                "industry_edhlt_anh_pct",
+                "industry_edhlt_anh_pct_moe"
+              ],
+              [
+                "industry_arten_anh_count",
+                "industry_arten_anh_count_moe",
+                "industry_arten_anh_count_cv",
+                "industry_arten_anh_pct",
+                "industry_arten_anh_pct_moe"
+              ],
+              [
+                "industry_oth_anh_count",
+                "industry_oth_anh_count_moe",
+                "industry_oth_anh_count_cv",
+                "industry_oth_anh_pct",
+                "industry_oth_anh_pct_moe"
+              ],
+              [
+                "industry_pbadm_anh_count",
+                "industry_pbadm_anh_count_moe",
+                "industry_pbadm_anh_count_cv",
+                "industry_pbadm_anh_pct",
+                "industry_pbadm_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "industry_agff_anh_count",
+                "industry_agff_anh_count_moe",
+                "industry_agff_anh_count_cv",
+                "industry_agff_anh_pct",
+                "industry_agff_anh_pct_moe"
+              ],
+              [
+                "industry_cnstn_anh_count",
+                "industry_cnstn_anh_count_moe",
+                "industry_cnstn_anh_count_cv",
+                "industry_cnstn_anh_pct",
+                "industry_cnstn_anh_pct_moe"
+              ],
+              [
+                "industry_mnfct_anh_count",
+                "industry_mnfct_anh_count_moe",
+                "industry_mnfct_anh_count_cv",
+                "industry_mnfct_anh_pct",
+                "industry_mnfct_anh_pct_moe"
+              ],
+              [
+                "industry_whlsl_anh_count",
+                "industry_whlsl_anh_count_moe",
+                "industry_whlsl_anh_count_cv",
+                "industry_whlsl_anh_pct",
+                "industry_whlsl_anh_pct_moe"
+              ],
+              [
+                "industry_rtl_anh_count",
+                "industry_rtl_anh_count_moe",
+                "industry_rtl_anh_count_cv",
+                "industry_rtl_anh_pct",
+                "industry_rtl_anh_pct_moe"
+              ],
+              [
+                "industry_trwhu_anh_count",
+                "industry_trwhu_anh_count_moe",
+                "industry_trwhu_anh_count_cv",
+                "industry_trwhu_anh_pct",
+                "industry_trwhu_anh_pct_moe"
+              ],
+              [
+                "industry_info_anh_count",
+                "industry_info_anh_count_moe",
+                "industry_info_anh_count_cv",
+                "industry_info_anh_pct",
+                "industry_info_anh_pct_moe"
+              ],
+              [
+                "industry_fire_anh_count",
+                "industry_fire_anh_count_moe",
+                "industry_fire_anh_count_cv",
+                "industry_fire_anh_pct",
+                "industry_fire_anh_pct_moe"
+              ],
+              [
+                "industry_pfmg_anh_count",
+                "industry_pfmg_anh_count_moe",
+                "industry_pfmg_anh_count_cv",
+                "industry_pfmg_anh_pct",
+                "industry_pfmg_anh_pct_moe"
+              ],
+              [
+                "industry_edhlt_anh_count",
+                "industry_edhlt_anh_count_moe",
+                "industry_edhlt_anh_count_cv",
+                "industry_edhlt_anh_pct",
+                "industry_edhlt_anh_pct_moe"
+              ],
+              [
+                "industry_arten_anh_count",
+                "industry_arten_anh_count_moe",
+                "industry_arten_anh_count_cv",
+                "industry_arten_anh_pct",
+                "industry_arten_anh_pct_moe"
+              ],
+              [
+                "industry_oth_anh_count",
+                "industry_oth_anh_count_moe",
+                "industry_oth_anh_count_cv",
+                "industry_oth_anh_pct",
+                "industry_oth_anh_pct_moe"
+              ],
+              [
+                "industry_pbadm_anh_count",
+                "industry_pbadm_anh_count_moe",
+                "industry_pbadm_anh_count_cv",
+                "industry_pbadm_anh_pct",
+                "industry_pbadm_anh_pct_moe"
               ]
             ]
           ]
@@ -4997,6 +7055,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "industry_agff_bnh_count",
+                "industry_agff_bnh_count_moe",
+                "industry_agff_bnh_count_cv",
+                "industry_agff_bnh_pct",
+                "industry_agff_bnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_bnh_count",
+                "industry_cnstn_bnh_count_moe",
+                "industry_cnstn_bnh_count_cv",
+                "industry_cnstn_bnh_pct",
+                "industry_cnstn_bnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_bnh_count",
+                "industry_mnfct_bnh_count_moe",
+                "industry_mnfct_bnh_count_cv",
+                "industry_mnfct_bnh_pct",
+                "industry_mnfct_bnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_bnh_count",
+                "industry_whlsl_bnh_count_moe",
+                "industry_whlsl_bnh_count_cv",
+                "industry_whlsl_bnh_pct",
+                "industry_whlsl_bnh_pct_moe"
+              ],
+              [
+                "industry_rtl_bnh_count",
+                "industry_rtl_bnh_count_moe",
+                "industry_rtl_bnh_count_cv",
+                "industry_rtl_bnh_pct",
+                "industry_rtl_bnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_bnh_count",
+                "industry_trwhu_bnh_count_moe",
+                "industry_trwhu_bnh_count_cv",
+                "industry_trwhu_bnh_pct",
+                "industry_trwhu_bnh_pct_moe"
+              ],
+              [
+                "industry_info_bnh_count",
+                "industry_info_bnh_count_moe",
+                "industry_info_bnh_count_cv",
+                "industry_info_bnh_pct",
+                "industry_info_bnh_pct_moe"
+              ],
+              [
+                "industry_fire_bnh_count",
+                "industry_fire_bnh_count_moe",
+                "industry_fire_bnh_count_cv",
+                "industry_fire_bnh_pct",
+                "industry_fire_bnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_bnh_count",
+                "industry_pfmg_bnh_count_moe",
+                "industry_pfmg_bnh_count_cv",
+                "industry_pfmg_bnh_pct",
+                "industry_pfmg_bnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_bnh_count",
+                "industry_edhlt_bnh_count_moe",
+                "industry_edhlt_bnh_count_cv",
+                "industry_edhlt_bnh_pct",
+                "industry_edhlt_bnh_pct_moe"
+              ],
+              [
+                "industry_arten_bnh_count",
+                "industry_arten_bnh_count_moe",
+                "industry_arten_bnh_count_cv",
+                "industry_arten_bnh_pct",
+                "industry_arten_bnh_pct_moe"
+              ],
+              [
+                "industry_oth_bnh_count",
+                "industry_oth_bnh_count_moe",
+                "industry_oth_bnh_count_cv",
+                "industry_oth_bnh_pct",
+                "industry_oth_bnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_bnh_count",
+                "industry_pbadm_bnh_count_moe",
+                "industry_pbadm_bnh_count_cv",
+                "industry_pbadm_bnh_pct",
+                "industry_pbadm_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "industry_agff_bnh_count",
+                "industry_agff_bnh_count_moe",
+                "industry_agff_bnh_count_cv",
+                "industry_agff_bnh_pct",
+                "industry_agff_bnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_bnh_count",
+                "industry_cnstn_bnh_count_moe",
+                "industry_cnstn_bnh_count_cv",
+                "industry_cnstn_bnh_pct",
+                "industry_cnstn_bnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_bnh_count",
+                "industry_mnfct_bnh_count_moe",
+                "industry_mnfct_bnh_count_cv",
+                "industry_mnfct_bnh_pct",
+                "industry_mnfct_bnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_bnh_count",
+                "industry_whlsl_bnh_count_moe",
+                "industry_whlsl_bnh_count_cv",
+                "industry_whlsl_bnh_pct",
+                "industry_whlsl_bnh_pct_moe"
+              ],
+              [
+                "industry_rtl_bnh_count",
+                "industry_rtl_bnh_count_moe",
+                "industry_rtl_bnh_count_cv",
+                "industry_rtl_bnh_pct",
+                "industry_rtl_bnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_bnh_count",
+                "industry_trwhu_bnh_count_moe",
+                "industry_trwhu_bnh_count_cv",
+                "industry_trwhu_bnh_pct",
+                "industry_trwhu_bnh_pct_moe"
+              ],
+              [
+                "industry_info_bnh_count",
+                "industry_info_bnh_count_moe",
+                "industry_info_bnh_count_cv",
+                "industry_info_bnh_pct",
+                "industry_info_bnh_pct_moe"
+              ],
+              [
+                "industry_fire_bnh_count",
+                "industry_fire_bnh_count_moe",
+                "industry_fire_bnh_count_cv",
+                "industry_fire_bnh_pct",
+                "industry_fire_bnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_bnh_count",
+                "industry_pfmg_bnh_count_moe",
+                "industry_pfmg_bnh_count_cv",
+                "industry_pfmg_bnh_pct",
+                "industry_pfmg_bnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_bnh_count",
+                "industry_edhlt_bnh_count_moe",
+                "industry_edhlt_bnh_count_cv",
+                "industry_edhlt_bnh_pct",
+                "industry_edhlt_bnh_pct_moe"
+              ],
+              [
+                "industry_arten_bnh_count",
+                "industry_arten_bnh_count_moe",
+                "industry_arten_bnh_count_cv",
+                "industry_arten_bnh_pct",
+                "industry_arten_bnh_pct_moe"
+              ],
+              [
+                "industry_oth_bnh_count",
+                "industry_oth_bnh_count_moe",
+                "industry_oth_bnh_count_cv",
+                "industry_oth_bnh_pct",
+                "industry_oth_bnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_bnh_count",
+                "industry_pbadm_bnh_count_moe",
+                "industry_pbadm_bnh_count_cv",
+                "industry_pbadm_bnh_pct",
+                "industry_pbadm_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -5587,6 +7939,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "industry_agff_hsp_count",
+                "industry_agff_hsp_count_moe",
+                "industry_agff_hsp_count_cv",
+                "industry_agff_hsp_pct",
+                "industry_agff_hsp_pct_moe"
+              ],
+              [
+                "industry_cnstn_hsp_count",
+                "industry_cnstn_hsp_count_moe",
+                "industry_cnstn_hsp_count_cv",
+                "industry_cnstn_hsp_pct",
+                "industry_cnstn_hsp_pct_moe"
+              ],
+              [
+                "industry_mnfct_hsp_count",
+                "industry_mnfct_hsp_count_moe",
+                "industry_mnfct_hsp_count_cv",
+                "industry_mnfct_hsp_pct",
+                "industry_mnfct_hsp_pct_moe"
+              ],
+              [
+                "industry_whlsl_hsp_count",
+                "industry_whlsl_hsp_count_moe",
+                "industry_whlsl_hsp_count_cv",
+                "industry_whlsl_hsp_pct",
+                "industry_whlsl_hsp_pct_moe"
+              ],
+              [
+                "industry_rtl_hsp_count",
+                "industry_rtl_hsp_count_moe",
+                "industry_rtl_hsp_count_cv",
+                "industry_rtl_hsp_pct",
+                "industry_rtl_hsp_pct_moe"
+              ],
+              [
+                "industry_trwhu_hsp_count",
+                "industry_trwhu_hsp_count_moe",
+                "industry_trwhu_hsp_count_cv",
+                "industry_trwhu_hsp_pct",
+                "industry_trwhu_hsp_pct_moe"
+              ],
+              [
+                "industry_info_hsp_count",
+                "industry_info_hsp_count_moe",
+                "industry_info_hsp_count_cv",
+                "industry_info_hsp_pct",
+                "industry_info_hsp_pct_moe"
+              ],
+              [
+                "industry_fire_hsp_count",
+                "industry_fire_hsp_count_moe",
+                "industry_fire_hsp_count_cv",
+                "industry_fire_hsp_pct",
+                "industry_fire_hsp_pct_moe"
+              ],
+              [
+                "industry_pfmg_hsp_count",
+                "industry_pfmg_hsp_count_moe",
+                "industry_pfmg_hsp_count_cv",
+                "industry_pfmg_hsp_pct",
+                "industry_pfmg_hsp_pct_moe"
+              ],
+              [
+                "industry_edhlt_hsp_count",
+                "industry_edhlt_hsp_count_moe",
+                "industry_edhlt_hsp_count_cv",
+                "industry_edhlt_hsp_pct",
+                "industry_edhlt_hsp_pct_moe"
+              ],
+              [
+                "industry_arten_hsp_count",
+                "industry_arten_hsp_count_moe",
+                "industry_arten_hsp_count_cv",
+                "industry_arten_hsp_pct",
+                "industry_arten_hsp_pct_moe"
+              ],
+              [
+                "industry_oth_hsp_count",
+                "industry_oth_hsp_count_moe",
+                "industry_oth_hsp_count_cv",
+                "industry_oth_hsp_pct",
+                "industry_oth_hsp_pct_moe"
+              ],
+              [
+                "industry_pbadm_hsp_count",
+                "industry_pbadm_hsp_count_moe",
+                "industry_pbadm_hsp_count_cv",
+                "industry_pbadm_hsp_pct",
+                "industry_pbadm_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "industry_agff_hsp_count",
+                "industry_agff_hsp_count_moe",
+                "industry_agff_hsp_count_cv",
+                "industry_agff_hsp_pct",
+                "industry_agff_hsp_pct_moe"
+              ],
+              [
+                "industry_cnstn_hsp_count",
+                "industry_cnstn_hsp_count_moe",
+                "industry_cnstn_hsp_count_cv",
+                "industry_cnstn_hsp_pct",
+                "industry_cnstn_hsp_pct_moe"
+              ],
+              [
+                "industry_mnfct_hsp_count",
+                "industry_mnfct_hsp_count_moe",
+                "industry_mnfct_hsp_count_cv",
+                "industry_mnfct_hsp_pct",
+                "industry_mnfct_hsp_pct_moe"
+              ],
+              [
+                "industry_whlsl_hsp_count",
+                "industry_whlsl_hsp_count_moe",
+                "industry_whlsl_hsp_count_cv",
+                "industry_whlsl_hsp_pct",
+                "industry_whlsl_hsp_pct_moe"
+              ],
+              [
+                "industry_rtl_hsp_count",
+                "industry_rtl_hsp_count_moe",
+                "industry_rtl_hsp_count_cv",
+                "industry_rtl_hsp_pct",
+                "industry_rtl_hsp_pct_moe"
+              ],
+              [
+                "industry_trwhu_hsp_count",
+                "industry_trwhu_hsp_count_moe",
+                "industry_trwhu_hsp_count_cv",
+                "industry_trwhu_hsp_pct",
+                "industry_trwhu_hsp_pct_moe"
+              ],
+              [
+                "industry_info_hsp_count",
+                "industry_info_hsp_count_moe",
+                "industry_info_hsp_count_cv",
+                "industry_info_hsp_pct",
+                "industry_info_hsp_pct_moe"
+              ],
+              [
+                "industry_fire_hsp_count",
+                "industry_fire_hsp_count_moe",
+                "industry_fire_hsp_count_cv",
+                "industry_fire_hsp_pct",
+                "industry_fire_hsp_pct_moe"
+              ],
+              [
+                "industry_pfmg_hsp_count",
+                "industry_pfmg_hsp_count_moe",
+                "industry_pfmg_hsp_count_cv",
+                "industry_pfmg_hsp_pct",
+                "industry_pfmg_hsp_pct_moe"
+              ],
+              [
+                "industry_edhlt_hsp_count",
+                "industry_edhlt_hsp_count_moe",
+                "industry_edhlt_hsp_count_cv",
+                "industry_edhlt_hsp_pct",
+                "industry_edhlt_hsp_pct_moe"
+              ],
+              [
+                "industry_arten_hsp_count",
+                "industry_arten_hsp_count_moe",
+                "industry_arten_hsp_count_cv",
+                "industry_arten_hsp_pct",
+                "industry_arten_hsp_pct_moe"
+              ],
+              [
+                "industry_oth_hsp_count",
+                "industry_oth_hsp_count_moe",
+                "industry_oth_hsp_count_cv",
+                "industry_oth_hsp_pct",
+                "industry_oth_hsp_pct_moe"
+              ],
+              [
+                "industry_pbadm_hsp_count",
+                "industry_pbadm_hsp_count_moe",
+                "industry_pbadm_hsp_count_cv",
+                "industry_pbadm_hsp_pct",
+                "industry_pbadm_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -6174,6 +8820,300 @@
                 "occupation_srvc_wnh_count_cv",
                 "occupation_srvc_wnh_pct",
                 "occupation_srvc_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "industry_agff_wnh_count",
+                "industry_agff_wnh_count_moe",
+                "industry_agff_wnh_count_cv",
+                "industry_agff_wnh_pct",
+                "industry_agff_wnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_wnh_count",
+                "industry_cnstn_wnh_count_moe",
+                "industry_cnstn_wnh_count_cv",
+                "industry_cnstn_wnh_pct",
+                "industry_cnstn_wnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_wnh_count",
+                "industry_mnfct_wnh_count_moe",
+                "industry_mnfct_wnh_count_cv",
+                "industry_mnfct_wnh_pct",
+                "industry_mnfct_wnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_wnh_count",
+                "industry_whlsl_wnh_count_moe",
+                "industry_whlsl_wnh_count_cv",
+                "industry_whlsl_wnh_pct",
+                "industry_whlsl_wnh_pct_moe"
+              ],
+              [
+                "industry_rtl_wnh_count",
+                "industry_rtl_wnh_count_moe",
+                "industry_rtl_wnh_count_cv",
+                "industry_rtl_wnh_pct",
+                "industry_rtl_wnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_wnh_count",
+                "industry_trwhu_wnh_count_moe",
+                "industry_trwhu_wnh_count_cv",
+                "industry_trwhu_wnh_pct",
+                "industry_trwhu_wnh_pct_moe"
+              ],
+              [
+                "industry_info_wnh_count",
+                "industry_info_wnh_count_moe",
+                "industry_info_wnh_count_cv",
+                "industry_info_wnh_pct",
+                "industry_info_wnh_pct_moe"
+              ],
+              [
+                "industry_fire_wnh_count",
+                "industry_fire_wnh_count_moe",
+                "industry_fire_wnh_count_cv",
+                "industry_fire_wnh_pct",
+                "industry_fire_wnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_wnh_count",
+                "industry_pfmg_wnh_count_moe",
+                "industry_pfmg_wnh_count_cv",
+                "industry_pfmg_wnh_pct",
+                "industry_pfmg_wnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_wnh_count",
+                "industry_edhlt_wnh_count_moe",
+                "industry_edhlt_wnh_count_cv",
+                "industry_edhlt_wnh_pct",
+                "industry_edhlt_wnh_pct_moe"
+              ],
+              [
+                "industry_arten_wnh_count",
+                "industry_arten_wnh_count_moe",
+                "industry_arten_wnh_count_cv",
+                "industry_arten_wnh_pct",
+                "industry_arten_wnh_pct_moe"
+              ],
+              [
+                "industry_oth_wnh_count",
+                "industry_oth_wnh_count_moe",
+                "industry_oth_wnh_count_cv",
+                "industry_oth_wnh_pct",
+                "industry_oth_wnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_wnh_count",
+                "industry_pbadm_wnh_count_moe",
+                "industry_pbadm_wnh_count_cv",
+                "industry_pbadm_wnh_pct",
+                "industry_pbadm_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "industry_agff_wnh_count",
+                "industry_agff_wnh_count_moe",
+                "industry_agff_wnh_count_cv",
+                "industry_agff_wnh_pct",
+                "industry_agff_wnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_wnh_count",
+                "industry_cnstn_wnh_count_moe",
+                "industry_cnstn_wnh_count_cv",
+                "industry_cnstn_wnh_pct",
+                "industry_cnstn_wnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_wnh_count",
+                "industry_mnfct_wnh_count_moe",
+                "industry_mnfct_wnh_count_cv",
+                "industry_mnfct_wnh_pct",
+                "industry_mnfct_wnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_wnh_count",
+                "industry_whlsl_wnh_count_moe",
+                "industry_whlsl_wnh_count_cv",
+                "industry_whlsl_wnh_pct",
+                "industry_whlsl_wnh_pct_moe"
+              ],
+              [
+                "industry_rtl_wnh_count",
+                "industry_rtl_wnh_count_moe",
+                "industry_rtl_wnh_count_cv",
+                "industry_rtl_wnh_pct",
+                "industry_rtl_wnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_wnh_count",
+                "industry_trwhu_wnh_count_moe",
+                "industry_trwhu_wnh_count_cv",
+                "industry_trwhu_wnh_pct",
+                "industry_trwhu_wnh_pct_moe"
+              ],
+              [
+                "industry_info_wnh_count",
+                "industry_info_wnh_count_moe",
+                "industry_info_wnh_count_cv",
+                "industry_info_wnh_pct",
+                "industry_info_wnh_pct_moe"
+              ],
+              [
+                "industry_fire_wnh_count",
+                "industry_fire_wnh_count_moe",
+                "industry_fire_wnh_count_cv",
+                "industry_fire_wnh_pct",
+                "industry_fire_wnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_wnh_count",
+                "industry_pfmg_wnh_count_moe",
+                "industry_pfmg_wnh_count_cv",
+                "industry_pfmg_wnh_pct",
+                "industry_pfmg_wnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_wnh_count",
+                "industry_edhlt_wnh_count_moe",
+                "industry_edhlt_wnh_count_cv",
+                "industry_edhlt_wnh_pct",
+                "industry_edhlt_wnh_pct_moe"
+              ],
+              [
+                "industry_arten_wnh_count",
+                "industry_arten_wnh_count_moe",
+                "industry_arten_wnh_count_cv",
+                "industry_arten_wnh_pct",
+                "industry_arten_wnh_pct_moe"
+              ],
+              [
+                "industry_oth_wnh_count",
+                "industry_oth_wnh_count_moe",
+                "industry_oth_wnh_count_cv",
+                "industry_oth_wnh_pct",
+                "industry_oth_wnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_wnh_count",
+                "industry_pbadm_wnh_count_moe",
+                "industry_pbadm_wnh_count_cv",
+                "industry_pbadm_wnh_pct",
+                "industry_pbadm_wnh_pct_moe"
               ]
             ]
           ]
@@ -6908,6 +9848,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "industry_agff_count",
+                "industry_agff_count_moe",
+                "industry_agff_count_cv",
+                "industry_agff_pct",
+                "industry_agff_pct_moe"
+              ],
+              [
+                "industry_cnstn_count",
+                "industry_cnstn_count_moe",
+                "industry_cnstn_count_cv",
+                "industry_cnstn_pct",
+                "industry_cnstn_pct_moe"
+              ],
+              [
+                "industry_mnfct_count",
+                "industry_mnfct_count_moe",
+                "industry_mnfct_count_cv",
+                "industry_mnfct_pct",
+                "industry_mnfct_pct_moe"
+              ],
+              [
+                "industry_whlsl_count",
+                "industry_whlsl_count_moe",
+                "industry_whlsl_count_cv",
+                "industry_whlsl_pct",
+                "industry_whlsl_pct_moe"
+              ],
+              [
+                "industry_rtl_count",
+                "industry_rtl_count_moe",
+                "industry_rtl_count_cv",
+                "industry_rtl_pct",
+                "industry_rtl_pct_moe"
+              ],
+              [
+                "industry_trwhu_count",
+                "industry_trwhu_count_moe",
+                "industry_trwhu_count_cv",
+                "industry_trwhu_pct",
+                "industry_trwhu_pct_moe"
+              ],
+              [
+                "industry_info_count",
+                "industry_info_count_moe",
+                "industry_info_count_cv",
+                "industry_info_pct",
+                "industry_info_pct_moe"
+              ],
+              [
+                "industry_fire_count",
+                "industry_fire_count_moe",
+                "industry_fire_count_cv",
+                "industry_fire_pct",
+                "industry_fire_pct_moe"
+              ],
+              [
+                "industry_pfmg_count",
+                "industry_pfmg_count_moe",
+                "industry_pfmg_count_cv",
+                "industry_pfmg_pct",
+                "industry_pfmg_pct_moe"
+              ],
+              [
+                "industry_edhlt_count",
+                "industry_edhlt_count_moe",
+                "industry_edhlt_count_cv",
+                "industry_edhlt_pct",
+                "industry_edhlt_pct_moe"
+              ],
+              [
+                "industry_arten_count",
+                "industry_arten_count_moe",
+                "industry_arten_count_cv",
+                "industry_arten_pct",
+                "industry_arten_pct_moe"
+              ],
+              [
+                "industry_oth_count",
+                "industry_oth_count_moe",
+                "industry_oth_count_cv",
+                "industry_oth_pct",
+                "industry_oth_pct_moe"
+              ],
+              [
+                "industry_pbadm_count",
+                "industry_pbadm_count_moe",
+                "industry_pbadm_count_cv",
+                "industry_pbadm_pct",
+                "industry_pbadm_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "industry_agff_count",
+                "industry_agff_count_moe",
+                "industry_agff_count_cv",
+                "industry_agff_pct",
+                "industry_agff_pct_moe"
+              ],
+              [
+                "industry_cnstn_count",
+                "industry_cnstn_count_moe",
+                "industry_cnstn_count_cv",
+                "industry_cnstn_pct",
+                "industry_cnstn_pct_moe"
+              ],
+              [
+                "industry_mnfct_count",
+                "industry_mnfct_count_moe",
+                "industry_mnfct_count_cv",
+                "industry_mnfct_pct",
+                "industry_mnfct_pct_moe"
+              ],
+              [
+                "industry_whlsl_count",
+                "industry_whlsl_count_moe",
+                "industry_whlsl_count_cv",
+                "industry_whlsl_pct",
+                "industry_whlsl_pct_moe"
+              ],
+              [
+                "industry_rtl_count",
+                "industry_rtl_count_moe",
+                "industry_rtl_count_cv",
+                "industry_rtl_pct",
+                "industry_rtl_pct_moe"
+              ],
+              [
+                "industry_trwhu_count",
+                "industry_trwhu_count_moe",
+                "industry_trwhu_count_cv",
+                "industry_trwhu_pct",
+                "industry_trwhu_pct_moe"
+              ],
+              [
+                "industry_info_count",
+                "industry_info_count_moe",
+                "industry_info_count_cv",
+                "industry_info_pct",
+                "industry_info_pct_moe"
+              ],
+              [
+                "industry_fire_count",
+                "industry_fire_count_moe",
+                "industry_fire_count_cv",
+                "industry_fire_pct",
+                "industry_fire_pct_moe"
+              ],
+              [
+                "industry_pfmg_count",
+                "industry_pfmg_count_moe",
+                "industry_pfmg_count_cv",
+                "industry_pfmg_pct",
+                "industry_pfmg_pct_moe"
+              ],
+              [
+                "industry_edhlt_count",
+                "industry_edhlt_count_moe",
+                "industry_edhlt_count_cv",
+                "industry_edhlt_pct",
+                "industry_edhlt_pct_moe"
+              ],
+              [
+                "industry_arten_count",
+                "industry_arten_count_moe",
+                "industry_arten_count_cv",
+                "industry_arten_pct",
+                "industry_arten_pct_moe"
+              ],
+              [
+                "industry_oth_count",
+                "industry_oth_count_moe",
+                "industry_oth_count_cv",
+                "industry_oth_pct",
+                "industry_oth_pct_moe"
+              ],
+              [
+                "industry_pbadm_count",
+                "industry_pbadm_count_moe",
+                "industry_pbadm_count_cv",
+                "industry_pbadm_pct",
+                "industry_pbadm_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -7495,6 +10729,300 @@
                 "occupation_srvc_anh_count_cv",
                 "occupation_srvc_anh_pct",
                 "occupation_srvc_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "industry_agff_anh_count",
+                "industry_agff_anh_count_moe",
+                "industry_agff_anh_count_cv",
+                "industry_agff_anh_pct",
+                "industry_agff_anh_pct_moe"
+              ],
+              [
+                "industry_cnstn_anh_count",
+                "industry_cnstn_anh_count_moe",
+                "industry_cnstn_anh_count_cv",
+                "industry_cnstn_anh_pct",
+                "industry_cnstn_anh_pct_moe"
+              ],
+              [
+                "industry_mnfct_anh_count",
+                "industry_mnfct_anh_count_moe",
+                "industry_mnfct_anh_count_cv",
+                "industry_mnfct_anh_pct",
+                "industry_mnfct_anh_pct_moe"
+              ],
+              [
+                "industry_whlsl_anh_count",
+                "industry_whlsl_anh_count_moe",
+                "industry_whlsl_anh_count_cv",
+                "industry_whlsl_anh_pct",
+                "industry_whlsl_anh_pct_moe"
+              ],
+              [
+                "industry_rtl_anh_count",
+                "industry_rtl_anh_count_moe",
+                "industry_rtl_anh_count_cv",
+                "industry_rtl_anh_pct",
+                "industry_rtl_anh_pct_moe"
+              ],
+              [
+                "industry_trwhu_anh_count",
+                "industry_trwhu_anh_count_moe",
+                "industry_trwhu_anh_count_cv",
+                "industry_trwhu_anh_pct",
+                "industry_trwhu_anh_pct_moe"
+              ],
+              [
+                "industry_info_anh_count",
+                "industry_info_anh_count_moe",
+                "industry_info_anh_count_cv",
+                "industry_info_anh_pct",
+                "industry_info_anh_pct_moe"
+              ],
+              [
+                "industry_fire_anh_count",
+                "industry_fire_anh_count_moe",
+                "industry_fire_anh_count_cv",
+                "industry_fire_anh_pct",
+                "industry_fire_anh_pct_moe"
+              ],
+              [
+                "industry_pfmg_anh_count",
+                "industry_pfmg_anh_count_moe",
+                "industry_pfmg_anh_count_cv",
+                "industry_pfmg_anh_pct",
+                "industry_pfmg_anh_pct_moe"
+              ],
+              [
+                "industry_edhlt_anh_count",
+                "industry_edhlt_anh_count_moe",
+                "industry_edhlt_anh_count_cv",
+                "industry_edhlt_anh_pct",
+                "industry_edhlt_anh_pct_moe"
+              ],
+              [
+                "industry_arten_anh_count",
+                "industry_arten_anh_count_moe",
+                "industry_arten_anh_count_cv",
+                "industry_arten_anh_pct",
+                "industry_arten_anh_pct_moe"
+              ],
+              [
+                "industry_oth_anh_count",
+                "industry_oth_anh_count_moe",
+                "industry_oth_anh_count_cv",
+                "industry_oth_anh_pct",
+                "industry_oth_anh_pct_moe"
+              ],
+              [
+                "industry_pbadm_anh_count",
+                "industry_pbadm_anh_count_moe",
+                "industry_pbadm_anh_count_cv",
+                "industry_pbadm_anh_pct",
+                "industry_pbadm_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "industry_agff_anh_count",
+                "industry_agff_anh_count_moe",
+                "industry_agff_anh_count_cv",
+                "industry_agff_anh_pct",
+                "industry_agff_anh_pct_moe"
+              ],
+              [
+                "industry_cnstn_anh_count",
+                "industry_cnstn_anh_count_moe",
+                "industry_cnstn_anh_count_cv",
+                "industry_cnstn_anh_pct",
+                "industry_cnstn_anh_pct_moe"
+              ],
+              [
+                "industry_mnfct_anh_count",
+                "industry_mnfct_anh_count_moe",
+                "industry_mnfct_anh_count_cv",
+                "industry_mnfct_anh_pct",
+                "industry_mnfct_anh_pct_moe"
+              ],
+              [
+                "industry_whlsl_anh_count",
+                "industry_whlsl_anh_count_moe",
+                "industry_whlsl_anh_count_cv",
+                "industry_whlsl_anh_pct",
+                "industry_whlsl_anh_pct_moe"
+              ],
+              [
+                "industry_rtl_anh_count",
+                "industry_rtl_anh_count_moe",
+                "industry_rtl_anh_count_cv",
+                "industry_rtl_anh_pct",
+                "industry_rtl_anh_pct_moe"
+              ],
+              [
+                "industry_trwhu_anh_count",
+                "industry_trwhu_anh_count_moe",
+                "industry_trwhu_anh_count_cv",
+                "industry_trwhu_anh_pct",
+                "industry_trwhu_anh_pct_moe"
+              ],
+              [
+                "industry_info_anh_count",
+                "industry_info_anh_count_moe",
+                "industry_info_anh_count_cv",
+                "industry_info_anh_pct",
+                "industry_info_anh_pct_moe"
+              ],
+              [
+                "industry_fire_anh_count",
+                "industry_fire_anh_count_moe",
+                "industry_fire_anh_count_cv",
+                "industry_fire_anh_pct",
+                "industry_fire_anh_pct_moe"
+              ],
+              [
+                "industry_pfmg_anh_count",
+                "industry_pfmg_anh_count_moe",
+                "industry_pfmg_anh_count_cv",
+                "industry_pfmg_anh_pct",
+                "industry_pfmg_anh_pct_moe"
+              ],
+              [
+                "industry_edhlt_anh_count",
+                "industry_edhlt_anh_count_moe",
+                "industry_edhlt_anh_count_cv",
+                "industry_edhlt_anh_pct",
+                "industry_edhlt_anh_pct_moe"
+              ],
+              [
+                "industry_arten_anh_count",
+                "industry_arten_anh_count_moe",
+                "industry_arten_anh_count_cv",
+                "industry_arten_anh_pct",
+                "industry_arten_anh_pct_moe"
+              ],
+              [
+                "industry_oth_anh_count",
+                "industry_oth_anh_count_moe",
+                "industry_oth_anh_count_cv",
+                "industry_oth_anh_pct",
+                "industry_oth_anh_pct_moe"
+              ],
+              [
+                "industry_pbadm_anh_count",
+                "industry_pbadm_anh_count_moe",
+                "industry_pbadm_anh_count_cv",
+                "industry_pbadm_anh_pct",
+                "industry_pbadm_anh_pct_moe"
               ]
             ]
           ]
@@ -8088,6 +11616,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "industry_agff_bnh_count",
+                "industry_agff_bnh_count_moe",
+                "industry_agff_bnh_count_cv",
+                "industry_agff_bnh_pct",
+                "industry_agff_bnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_bnh_count",
+                "industry_cnstn_bnh_count_moe",
+                "industry_cnstn_bnh_count_cv",
+                "industry_cnstn_bnh_pct",
+                "industry_cnstn_bnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_bnh_count",
+                "industry_mnfct_bnh_count_moe",
+                "industry_mnfct_bnh_count_cv",
+                "industry_mnfct_bnh_pct",
+                "industry_mnfct_bnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_bnh_count",
+                "industry_whlsl_bnh_count_moe",
+                "industry_whlsl_bnh_count_cv",
+                "industry_whlsl_bnh_pct",
+                "industry_whlsl_bnh_pct_moe"
+              ],
+              [
+                "industry_rtl_bnh_count",
+                "industry_rtl_bnh_count_moe",
+                "industry_rtl_bnh_count_cv",
+                "industry_rtl_bnh_pct",
+                "industry_rtl_bnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_bnh_count",
+                "industry_trwhu_bnh_count_moe",
+                "industry_trwhu_bnh_count_cv",
+                "industry_trwhu_bnh_pct",
+                "industry_trwhu_bnh_pct_moe"
+              ],
+              [
+                "industry_info_bnh_count",
+                "industry_info_bnh_count_moe",
+                "industry_info_bnh_count_cv",
+                "industry_info_bnh_pct",
+                "industry_info_bnh_pct_moe"
+              ],
+              [
+                "industry_fire_bnh_count",
+                "industry_fire_bnh_count_moe",
+                "industry_fire_bnh_count_cv",
+                "industry_fire_bnh_pct",
+                "industry_fire_bnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_bnh_count",
+                "industry_pfmg_bnh_count_moe",
+                "industry_pfmg_bnh_count_cv",
+                "industry_pfmg_bnh_pct",
+                "industry_pfmg_bnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_bnh_count",
+                "industry_edhlt_bnh_count_moe",
+                "industry_edhlt_bnh_count_cv",
+                "industry_edhlt_bnh_pct",
+                "industry_edhlt_bnh_pct_moe"
+              ],
+              [
+                "industry_arten_bnh_count",
+                "industry_arten_bnh_count_moe",
+                "industry_arten_bnh_count_cv",
+                "industry_arten_bnh_pct",
+                "industry_arten_bnh_pct_moe"
+              ],
+              [
+                "industry_oth_bnh_count",
+                "industry_oth_bnh_count_moe",
+                "industry_oth_bnh_count_cv",
+                "industry_oth_bnh_pct",
+                "industry_oth_bnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_bnh_count",
+                "industry_pbadm_bnh_count_moe",
+                "industry_pbadm_bnh_count_cv",
+                "industry_pbadm_bnh_pct",
+                "industry_pbadm_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "industry_agff_bnh_count",
+                "industry_agff_bnh_count_moe",
+                "industry_agff_bnh_count_cv",
+                "industry_agff_bnh_pct",
+                "industry_agff_bnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_bnh_count",
+                "industry_cnstn_bnh_count_moe",
+                "industry_cnstn_bnh_count_cv",
+                "industry_cnstn_bnh_pct",
+                "industry_cnstn_bnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_bnh_count",
+                "industry_mnfct_bnh_count_moe",
+                "industry_mnfct_bnh_count_cv",
+                "industry_mnfct_bnh_pct",
+                "industry_mnfct_bnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_bnh_count",
+                "industry_whlsl_bnh_count_moe",
+                "industry_whlsl_bnh_count_cv",
+                "industry_whlsl_bnh_pct",
+                "industry_whlsl_bnh_pct_moe"
+              ],
+              [
+                "industry_rtl_bnh_count",
+                "industry_rtl_bnh_count_moe",
+                "industry_rtl_bnh_count_cv",
+                "industry_rtl_bnh_pct",
+                "industry_rtl_bnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_bnh_count",
+                "industry_trwhu_bnh_count_moe",
+                "industry_trwhu_bnh_count_cv",
+                "industry_trwhu_bnh_pct",
+                "industry_trwhu_bnh_pct_moe"
+              ],
+              [
+                "industry_info_bnh_count",
+                "industry_info_bnh_count_moe",
+                "industry_info_bnh_count_cv",
+                "industry_info_bnh_pct",
+                "industry_info_bnh_pct_moe"
+              ],
+              [
+                "industry_fire_bnh_count",
+                "industry_fire_bnh_count_moe",
+                "industry_fire_bnh_count_cv",
+                "industry_fire_bnh_pct",
+                "industry_fire_bnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_bnh_count",
+                "industry_pfmg_bnh_count_moe",
+                "industry_pfmg_bnh_count_cv",
+                "industry_pfmg_bnh_pct",
+                "industry_pfmg_bnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_bnh_count",
+                "industry_edhlt_bnh_count_moe",
+                "industry_edhlt_bnh_count_cv",
+                "industry_edhlt_bnh_pct",
+                "industry_edhlt_bnh_pct_moe"
+              ],
+              [
+                "industry_arten_bnh_count",
+                "industry_arten_bnh_count_moe",
+                "industry_arten_bnh_count_cv",
+                "industry_arten_bnh_pct",
+                "industry_arten_bnh_pct_moe"
+              ],
+              [
+                "industry_oth_bnh_count",
+                "industry_oth_bnh_count_moe",
+                "industry_oth_bnh_count_cv",
+                "industry_oth_bnh_pct",
+                "industry_oth_bnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_bnh_count",
+                "industry_pbadm_bnh_count_moe",
+                "industry_pbadm_bnh_count_cv",
+                "industry_pbadm_bnh_pct",
+                "industry_pbadm_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -8678,6 +12500,300 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "industry_agff_hsp_count",
+                "industry_agff_hsp_count_moe",
+                "industry_agff_hsp_count_cv",
+                "industry_agff_hsp_pct",
+                "industry_agff_hsp_pct_moe"
+              ],
+              [
+                "industry_cnstn_hsp_count",
+                "industry_cnstn_hsp_count_moe",
+                "industry_cnstn_hsp_count_cv",
+                "industry_cnstn_hsp_pct",
+                "industry_cnstn_hsp_pct_moe"
+              ],
+              [
+                "industry_mnfct_hsp_count",
+                "industry_mnfct_hsp_count_moe",
+                "industry_mnfct_hsp_count_cv",
+                "industry_mnfct_hsp_pct",
+                "industry_mnfct_hsp_pct_moe"
+              ],
+              [
+                "industry_whlsl_hsp_count",
+                "industry_whlsl_hsp_count_moe",
+                "industry_whlsl_hsp_count_cv",
+                "industry_whlsl_hsp_pct",
+                "industry_whlsl_hsp_pct_moe"
+              ],
+              [
+                "industry_rtl_hsp_count",
+                "industry_rtl_hsp_count_moe",
+                "industry_rtl_hsp_count_cv",
+                "industry_rtl_hsp_pct",
+                "industry_rtl_hsp_pct_moe"
+              ],
+              [
+                "industry_trwhu_hsp_count",
+                "industry_trwhu_hsp_count_moe",
+                "industry_trwhu_hsp_count_cv",
+                "industry_trwhu_hsp_pct",
+                "industry_trwhu_hsp_pct_moe"
+              ],
+              [
+                "industry_info_hsp_count",
+                "industry_info_hsp_count_moe",
+                "industry_info_hsp_count_cv",
+                "industry_info_hsp_pct",
+                "industry_info_hsp_pct_moe"
+              ],
+              [
+                "industry_fire_hsp_count",
+                "industry_fire_hsp_count_moe",
+                "industry_fire_hsp_count_cv",
+                "industry_fire_hsp_pct",
+                "industry_fire_hsp_pct_moe"
+              ],
+              [
+                "industry_pfmg_hsp_count",
+                "industry_pfmg_hsp_count_moe",
+                "industry_pfmg_hsp_count_cv",
+                "industry_pfmg_hsp_pct",
+                "industry_pfmg_hsp_pct_moe"
+              ],
+              [
+                "industry_edhlt_hsp_count",
+                "industry_edhlt_hsp_count_moe",
+                "industry_edhlt_hsp_count_cv",
+                "industry_edhlt_hsp_pct",
+                "industry_edhlt_hsp_pct_moe"
+              ],
+              [
+                "industry_arten_hsp_count",
+                "industry_arten_hsp_count_moe",
+                "industry_arten_hsp_count_cv",
+                "industry_arten_hsp_pct",
+                "industry_arten_hsp_pct_moe"
+              ],
+              [
+                "industry_oth_hsp_count",
+                "industry_oth_hsp_count_moe",
+                "industry_oth_hsp_count_cv",
+                "industry_oth_hsp_pct",
+                "industry_oth_hsp_pct_moe"
+              ],
+              [
+                "industry_pbadm_hsp_count",
+                "industry_pbadm_hsp_count_moe",
+                "industry_pbadm_hsp_count_cv",
+                "industry_pbadm_hsp_pct",
+                "industry_pbadm_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "industry_agff_hsp_count",
+                "industry_agff_hsp_count_moe",
+                "industry_agff_hsp_count_cv",
+                "industry_agff_hsp_pct",
+                "industry_agff_hsp_pct_moe"
+              ],
+              [
+                "industry_cnstn_hsp_count",
+                "industry_cnstn_hsp_count_moe",
+                "industry_cnstn_hsp_count_cv",
+                "industry_cnstn_hsp_pct",
+                "industry_cnstn_hsp_pct_moe"
+              ],
+              [
+                "industry_mnfct_hsp_count",
+                "industry_mnfct_hsp_count_moe",
+                "industry_mnfct_hsp_count_cv",
+                "industry_mnfct_hsp_pct",
+                "industry_mnfct_hsp_pct_moe"
+              ],
+              [
+                "industry_whlsl_hsp_count",
+                "industry_whlsl_hsp_count_moe",
+                "industry_whlsl_hsp_count_cv",
+                "industry_whlsl_hsp_pct",
+                "industry_whlsl_hsp_pct_moe"
+              ],
+              [
+                "industry_rtl_hsp_count",
+                "industry_rtl_hsp_count_moe",
+                "industry_rtl_hsp_count_cv",
+                "industry_rtl_hsp_pct",
+                "industry_rtl_hsp_pct_moe"
+              ],
+              [
+                "industry_trwhu_hsp_count",
+                "industry_trwhu_hsp_count_moe",
+                "industry_trwhu_hsp_count_cv",
+                "industry_trwhu_hsp_pct",
+                "industry_trwhu_hsp_pct_moe"
+              ],
+              [
+                "industry_info_hsp_count",
+                "industry_info_hsp_count_moe",
+                "industry_info_hsp_count_cv",
+                "industry_info_hsp_pct",
+                "industry_info_hsp_pct_moe"
+              ],
+              [
+                "industry_fire_hsp_count",
+                "industry_fire_hsp_count_moe",
+                "industry_fire_hsp_count_cv",
+                "industry_fire_hsp_pct",
+                "industry_fire_hsp_pct_moe"
+              ],
+              [
+                "industry_pfmg_hsp_count",
+                "industry_pfmg_hsp_count_moe",
+                "industry_pfmg_hsp_count_cv",
+                "industry_pfmg_hsp_pct",
+                "industry_pfmg_hsp_pct_moe"
+              ],
+              [
+                "industry_edhlt_hsp_count",
+                "industry_edhlt_hsp_count_moe",
+                "industry_edhlt_hsp_count_cv",
+                "industry_edhlt_hsp_pct",
+                "industry_edhlt_hsp_pct_moe"
+              ],
+              [
+                "industry_arten_hsp_count",
+                "industry_arten_hsp_count_moe",
+                "industry_arten_hsp_count_cv",
+                "industry_arten_hsp_pct",
+                "industry_arten_hsp_pct_moe"
+              ],
+              [
+                "industry_oth_hsp_count",
+                "industry_oth_hsp_count_moe",
+                "industry_oth_hsp_count_cv",
+                "industry_oth_hsp_pct",
+                "industry_oth_hsp_pct_moe"
+              ],
+              [
+                "industry_pbadm_hsp_count",
+                "industry_pbadm_hsp_count_moe",
+                "industry_pbadm_hsp_count_cv",
+                "industry_pbadm_hsp_pct",
+                "industry_pbadm_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -9265,6 +13381,300 @@
                 "occupation_srvc_wnh_count_cv",
                 "occupation_srvc_wnh_pct",
                 "occupation_srvc_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Industry",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Agriculture, forestry, fishing and hunting, or mining industries",
+            "Construction industry",
+            "Manufacturing industry",
+            "Wholesale trade industry",
+            "Retail trade industry",
+            "Transportation and warehousing, or utilities industries",
+            "Information",
+            "Finance and insurance, real estate, or rental and leasing industries",
+            "Professional, scientific, management, administrative, or waste management services industries",
+            "Educational services, health care, or social assistance industries",
+            "Arts, entertainment, recreation, accomodation, or food services industries",
+            "Other service industry, except public administration",
+            "Public administration industry"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "industry_agff_wnh_count",
+                "industry_agff_wnh_count_moe",
+                "industry_agff_wnh_count_cv",
+                "industry_agff_wnh_pct",
+                "industry_agff_wnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_wnh_count",
+                "industry_cnstn_wnh_count_moe",
+                "industry_cnstn_wnh_count_cv",
+                "industry_cnstn_wnh_pct",
+                "industry_cnstn_wnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_wnh_count",
+                "industry_mnfct_wnh_count_moe",
+                "industry_mnfct_wnh_count_cv",
+                "industry_mnfct_wnh_pct",
+                "industry_mnfct_wnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_wnh_count",
+                "industry_whlsl_wnh_count_moe",
+                "industry_whlsl_wnh_count_cv",
+                "industry_whlsl_wnh_pct",
+                "industry_whlsl_wnh_pct_moe"
+              ],
+              [
+                "industry_rtl_wnh_count",
+                "industry_rtl_wnh_count_moe",
+                "industry_rtl_wnh_count_cv",
+                "industry_rtl_wnh_pct",
+                "industry_rtl_wnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_wnh_count",
+                "industry_trwhu_wnh_count_moe",
+                "industry_trwhu_wnh_count_cv",
+                "industry_trwhu_wnh_pct",
+                "industry_trwhu_wnh_pct_moe"
+              ],
+              [
+                "industry_info_wnh_count",
+                "industry_info_wnh_count_moe",
+                "industry_info_wnh_count_cv",
+                "industry_info_wnh_pct",
+                "industry_info_wnh_pct_moe"
+              ],
+              [
+                "industry_fire_wnh_count",
+                "industry_fire_wnh_count_moe",
+                "industry_fire_wnh_count_cv",
+                "industry_fire_wnh_pct",
+                "industry_fire_wnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_wnh_count",
+                "industry_pfmg_wnh_count_moe",
+                "industry_pfmg_wnh_count_cv",
+                "industry_pfmg_wnh_pct",
+                "industry_pfmg_wnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_wnh_count",
+                "industry_edhlt_wnh_count_moe",
+                "industry_edhlt_wnh_count_cv",
+                "industry_edhlt_wnh_pct",
+                "industry_edhlt_wnh_pct_moe"
+              ],
+              [
+                "industry_arten_wnh_count",
+                "industry_arten_wnh_count_moe",
+                "industry_arten_wnh_count_cv",
+                "industry_arten_wnh_pct",
+                "industry_arten_wnh_pct_moe"
+              ],
+              [
+                "industry_oth_wnh_count",
+                "industry_oth_wnh_count_moe",
+                "industry_oth_wnh_count_cv",
+                "industry_oth_wnh_pct",
+                "industry_oth_wnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_wnh_count",
+                "industry_pbadm_wnh_count_moe",
+                "industry_pbadm_wnh_count_cv",
+                "industry_pbadm_wnh_pct",
+                "industry_pbadm_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "industry_agff_wnh_count",
+                "industry_agff_wnh_count_moe",
+                "industry_agff_wnh_count_cv",
+                "industry_agff_wnh_pct",
+                "industry_agff_wnh_pct_moe"
+              ],
+              [
+                "industry_cnstn_wnh_count",
+                "industry_cnstn_wnh_count_moe",
+                "industry_cnstn_wnh_count_cv",
+                "industry_cnstn_wnh_pct",
+                "industry_cnstn_wnh_pct_moe"
+              ],
+              [
+                "industry_mnfct_wnh_count",
+                "industry_mnfct_wnh_count_moe",
+                "industry_mnfct_wnh_count_cv",
+                "industry_mnfct_wnh_pct",
+                "industry_mnfct_wnh_pct_moe"
+              ],
+              [
+                "industry_whlsl_wnh_count",
+                "industry_whlsl_wnh_count_moe",
+                "industry_whlsl_wnh_count_cv",
+                "industry_whlsl_wnh_pct",
+                "industry_whlsl_wnh_pct_moe"
+              ],
+              [
+                "industry_rtl_wnh_count",
+                "industry_rtl_wnh_count_moe",
+                "industry_rtl_wnh_count_cv",
+                "industry_rtl_wnh_pct",
+                "industry_rtl_wnh_pct_moe"
+              ],
+              [
+                "industry_trwhu_wnh_count",
+                "industry_trwhu_wnh_count_moe",
+                "industry_trwhu_wnh_count_cv",
+                "industry_trwhu_wnh_pct",
+                "industry_trwhu_wnh_pct_moe"
+              ],
+              [
+                "industry_info_wnh_count",
+                "industry_info_wnh_count_moe",
+                "industry_info_wnh_count_cv",
+                "industry_info_wnh_pct",
+                "industry_info_wnh_pct_moe"
+              ],
+              [
+                "industry_fire_wnh_count",
+                "industry_fire_wnh_count_moe",
+                "industry_fire_wnh_count_cv",
+                "industry_fire_wnh_pct",
+                "industry_fire_wnh_pct_moe"
+              ],
+              [
+                "industry_pfmg_wnh_count",
+                "industry_pfmg_wnh_count_moe",
+                "industry_pfmg_wnh_count_cv",
+                "industry_pfmg_wnh_pct",
+                "industry_pfmg_wnh_pct_moe"
+              ],
+              [
+                "industry_edhlt_wnh_count",
+                "industry_edhlt_wnh_count_moe",
+                "industry_edhlt_wnh_count_cv",
+                "industry_edhlt_wnh_pct",
+                "industry_edhlt_wnh_pct_moe"
+              ],
+              [
+                "industry_arten_wnh_count",
+                "industry_arten_wnh_count_moe",
+                "industry_arten_wnh_count_cv",
+                "industry_arten_wnh_pct",
+                "industry_arten_wnh_pct_moe"
+              ],
+              [
+                "industry_oth_wnh_count",
+                "industry_oth_wnh_count_moe",
+                "industry_oth_wnh_count_cv",
+                "industry_oth_wnh_pct",
+                "industry_oth_wnh_pct_moe"
+              ],
+              [
+                "industry_pbadm_wnh_count",
+                "industry_pbadm_wnh_count_moe",
+                "industry_pbadm_wnh_count_cv",
+                "industry_pbadm_wnh_pct",
+                "industry_pbadm_wnh_pct_moe"
               ]
             ]
           ]
