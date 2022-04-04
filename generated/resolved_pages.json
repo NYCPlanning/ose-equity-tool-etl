@@ -422,6 +422,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_count",
+                "occupation_cstmnt_count_moe",
+                "occupation_cstmnt_count_cv",
+                "occupation_cstmnt_pct",
+                "occupation_cstmnt_pct_moe"
+              ],
+              [
+                "occupation_mbsa_count",
+                "occupation_mbsa_count_moe",
+                "occupation_mbsa_count_cv",
+                "occupation_mbsa_pct",
+                "occupation_mbsa_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_count",
+                "occupation_prdtrn_count_moe",
+                "occupation_prdtrn_count_cv",
+                "occupation_prdtrn_pct",
+                "occupation_prdtrn_pct_moe"
+              ],
+              [
+                "occupation_slsoff_count",
+                "occupation_slsoff_count_moe",
+                "occupation_slsoff_count_cv",
+                "occupation_slsoff_pct",
+                "occupation_slsoff_pct_moe"
+              ],
+              [
+                "occupation_srvc_count",
+                "occupation_srvc_count_moe",
+                "occupation_srvc_count_cv",
+                "occupation_srvc_pct",
+                "occupation_srvc_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_count",
+                "occupation_cstmnt_count_moe",
+                "occupation_cstmnt_count_cv",
+                "occupation_cstmnt_pct",
+                "occupation_cstmnt_pct_moe"
+              ],
+              [
+                "occupation_mbsa_count",
+                "occupation_mbsa_count_moe",
+                "occupation_mbsa_count_cv",
+                "occupation_mbsa_pct",
+                "occupation_mbsa_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_count",
+                "occupation_prdtrn_count_moe",
+                "occupation_prdtrn_count_cv",
+                "occupation_prdtrn_pct",
+                "occupation_prdtrn_pct_moe"
+              ],
+              [
+                "occupation_slsoff_count",
+                "occupation_slsoff_count_moe",
+                "occupation_slsoff_count_cv",
+                "occupation_slsoff_pct",
+                "occupation_slsoff_pct_moe"
+              ],
+              [
+                "occupation_srvc_count",
+                "occupation_srvc_count_moe",
+                "occupation_srvc_count_cv",
+                "occupation_srvc_pct",
+                "occupation_srvc_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -835,6 +1009,180 @@
                 "lf_anh_count_cv",
                 "lf_anh_pct",
                 "lf_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_anh_count",
+                "occupation_cstmnt_anh_count_moe",
+                "occupation_cstmnt_anh_count_cv",
+                "occupation_cstmnt_anh_pct",
+                "occupation_cstmnt_anh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_anh_count",
+                "occupation_mbsa_anh_count_moe",
+                "occupation_mbsa_anh_count_cv",
+                "occupation_mbsa_anh_pct",
+                "occupation_mbsa_anh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_anh_count",
+                "occupation_prdtrn_anh_count_moe",
+                "occupation_prdtrn_anh_count_cv",
+                "occupation_prdtrn_anh_pct",
+                "occupation_prdtrn_anh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_anh_count",
+                "occupation_slsoff_anh_count_moe",
+                "occupation_slsoff_anh_count_cv",
+                "occupation_slsoff_anh_pct",
+                "occupation_slsoff_anh_pct_moe"
+              ],
+              [
+                "occupation_srvc_anh_count",
+                "occupation_srvc_anh_count_moe",
+                "occupation_srvc_anh_count_cv",
+                "occupation_srvc_anh_pct",
+                "occupation_srvc_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_anh_count",
+                "occupation_cstmnt_anh_count_moe",
+                "occupation_cstmnt_anh_count_cv",
+                "occupation_cstmnt_anh_pct",
+                "occupation_cstmnt_anh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_anh_count",
+                "occupation_mbsa_anh_count_moe",
+                "occupation_mbsa_anh_count_cv",
+                "occupation_mbsa_anh_pct",
+                "occupation_mbsa_anh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_anh_count",
+                "occupation_prdtrn_anh_count_moe",
+                "occupation_prdtrn_anh_count_cv",
+                "occupation_prdtrn_anh_pct",
+                "occupation_prdtrn_anh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_anh_count",
+                "occupation_slsoff_anh_count_moe",
+                "occupation_slsoff_anh_count_cv",
+                "occupation_slsoff_anh_pct",
+                "occupation_slsoff_anh_pct_moe"
+              ],
+              [
+                "occupation_srvc_anh_count",
+                "occupation_srvc_anh_count_moe",
+                "occupation_srvc_anh_count_cv",
+                "occupation_srvc_anh_pct",
+                "occupation_srvc_anh_pct_moe"
               ]
             ]
           ]
@@ -1254,6 +1602,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_bnh_count",
+                "occupation_cstmnt_bnh_count_moe",
+                "occupation_cstmnt_bnh_count_cv",
+                "occupation_cstmnt_bnh_pct",
+                "occupation_cstmnt_bnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_bnh_count",
+                "occupation_mbsa_bnh_count_moe",
+                "occupation_mbsa_bnh_count_cv",
+                "occupation_mbsa_bnh_pct",
+                "occupation_mbsa_bnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_bnh_count",
+                "occupation_prdtrn_bnh_count_moe",
+                "occupation_prdtrn_bnh_count_cv",
+                "occupation_prdtrn_bnh_pct",
+                "occupation_prdtrn_bnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_bnh_count",
+                "occupation_slsoff_bnh_count_moe",
+                "occupation_slsoff_bnh_count_cv",
+                "occupation_slsoff_bnh_pct",
+                "occupation_slsoff_bnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_bnh_count",
+                "occupation_srvc_bnh_count_moe",
+                "occupation_srvc_bnh_count_cv",
+                "occupation_srvc_bnh_pct",
+                "occupation_srvc_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_bnh_count",
+                "occupation_cstmnt_bnh_count_moe",
+                "occupation_cstmnt_bnh_count_cv",
+                "occupation_cstmnt_bnh_pct",
+                "occupation_cstmnt_bnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_bnh_count",
+                "occupation_mbsa_bnh_count_moe",
+                "occupation_mbsa_bnh_count_cv",
+                "occupation_mbsa_bnh_pct",
+                "occupation_mbsa_bnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_bnh_count",
+                "occupation_prdtrn_bnh_count_moe",
+                "occupation_prdtrn_bnh_count_cv",
+                "occupation_prdtrn_bnh_pct",
+                "occupation_prdtrn_bnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_bnh_count",
+                "occupation_slsoff_bnh_count_moe",
+                "occupation_slsoff_bnh_count_cv",
+                "occupation_slsoff_bnh_pct",
+                "occupation_slsoff_bnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_bnh_count",
+                "occupation_srvc_bnh_count_moe",
+                "occupation_srvc_bnh_count_cv",
+                "occupation_srvc_bnh_pct",
+                "occupation_srvc_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -1670,6 +2192,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_hsp_count",
+                "occupation_cstmnt_hsp_count_moe",
+                "occupation_cstmnt_hsp_count_cv",
+                "occupation_cstmnt_hsp_pct",
+                "occupation_cstmnt_hsp_pct_moe"
+              ],
+              [
+                "occupation_mbsa_hsp_count",
+                "occupation_mbsa_hsp_count_moe",
+                "occupation_mbsa_hsp_count_cv",
+                "occupation_mbsa_hsp_pct",
+                "occupation_mbsa_hsp_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_hsp_count",
+                "occupation_prdtrn_hsp_count_moe",
+                "occupation_prdtrn_hsp_count_cv",
+                "occupation_prdtrn_hsp_pct",
+                "occupation_prdtrn_hsp_pct_moe"
+              ],
+              [
+                "occupation_slsoff_hsp_count",
+                "occupation_slsoff_hsp_count_moe",
+                "occupation_slsoff_hsp_count_cv",
+                "occupation_slsoff_hsp_pct",
+                "occupation_slsoff_hsp_pct_moe"
+              ],
+              [
+                "occupation_srvc_hsp_count",
+                "occupation_srvc_hsp_count_moe",
+                "occupation_srvc_hsp_count_cv",
+                "occupation_srvc_hsp_pct",
+                "occupation_srvc_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_hsp_count",
+                "occupation_cstmnt_hsp_count_moe",
+                "occupation_cstmnt_hsp_count_cv",
+                "occupation_cstmnt_hsp_pct",
+                "occupation_cstmnt_hsp_pct_moe"
+              ],
+              [
+                "occupation_mbsa_hsp_count",
+                "occupation_mbsa_hsp_count_moe",
+                "occupation_mbsa_hsp_count_cv",
+                "occupation_mbsa_hsp_pct",
+                "occupation_mbsa_hsp_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_hsp_count",
+                "occupation_prdtrn_hsp_count_moe",
+                "occupation_prdtrn_hsp_count_cv",
+                "occupation_prdtrn_hsp_pct",
+                "occupation_prdtrn_hsp_pct_moe"
+              ],
+              [
+                "occupation_slsoff_hsp_count",
+                "occupation_slsoff_hsp_count_moe",
+                "occupation_slsoff_hsp_count_cv",
+                "occupation_slsoff_hsp_pct",
+                "occupation_slsoff_hsp_pct_moe"
+              ],
+              [
+                "occupation_srvc_hsp_count",
+                "occupation_srvc_hsp_count_moe",
+                "occupation_srvc_hsp_count_cv",
+                "occupation_srvc_hsp_pct",
+                "occupation_srvc_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -2083,6 +2779,180 @@
                 "lf_wnh_count_cv",
                 "lf_wnh_pct",
                 "lf_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_wnh_count",
+                "occupation_cstmnt_wnh_count_moe",
+                "occupation_cstmnt_wnh_count_cv",
+                "occupation_cstmnt_wnh_pct",
+                "occupation_cstmnt_wnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_wnh_count",
+                "occupation_mbsa_wnh_count_moe",
+                "occupation_mbsa_wnh_count_cv",
+                "occupation_mbsa_wnh_pct",
+                "occupation_mbsa_wnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_wnh_count",
+                "occupation_prdtrn_wnh_count_moe",
+                "occupation_prdtrn_wnh_count_cv",
+                "occupation_prdtrn_wnh_pct",
+                "occupation_prdtrn_wnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_wnh_count",
+                "occupation_slsoff_wnh_count_moe",
+                "occupation_slsoff_wnh_count_cv",
+                "occupation_slsoff_wnh_pct",
+                "occupation_slsoff_wnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_wnh_count",
+                "occupation_srvc_wnh_count_moe",
+                "occupation_srvc_wnh_count_cv",
+                "occupation_srvc_wnh_pct",
+                "occupation_srvc_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_wnh_count",
+                "occupation_cstmnt_wnh_count_moe",
+                "occupation_cstmnt_wnh_count_cv",
+                "occupation_cstmnt_wnh_pct",
+                "occupation_cstmnt_wnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_wnh_count",
+                "occupation_mbsa_wnh_count_moe",
+                "occupation_mbsa_wnh_count_cv",
+                "occupation_mbsa_wnh_pct",
+                "occupation_mbsa_wnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_wnh_count",
+                "occupation_prdtrn_wnh_count_moe",
+                "occupation_prdtrn_wnh_count_cv",
+                "occupation_prdtrn_wnh_pct",
+                "occupation_prdtrn_wnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_wnh_count",
+                "occupation_slsoff_wnh_count_moe",
+                "occupation_slsoff_wnh_count_cv",
+                "occupation_slsoff_wnh_pct",
+                "occupation_slsoff_wnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_wnh_count",
+                "occupation_srvc_wnh_count_moe",
+                "occupation_srvc_wnh_count_cv",
+                "occupation_srvc_wnh_pct",
+                "occupation_srvc_wnh_pct_moe"
               ]
             ]
           ]
@@ -2513,6 +3383,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_count",
+                "occupation_cstmnt_count_moe",
+                "occupation_cstmnt_count_cv",
+                "occupation_cstmnt_pct",
+                "occupation_cstmnt_pct_moe"
+              ],
+              [
+                "occupation_mbsa_count",
+                "occupation_mbsa_count_moe",
+                "occupation_mbsa_count_cv",
+                "occupation_mbsa_pct",
+                "occupation_mbsa_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_count",
+                "occupation_prdtrn_count_moe",
+                "occupation_prdtrn_count_cv",
+                "occupation_prdtrn_pct",
+                "occupation_prdtrn_pct_moe"
+              ],
+              [
+                "occupation_slsoff_count",
+                "occupation_slsoff_count_moe",
+                "occupation_slsoff_count_cv",
+                "occupation_slsoff_pct",
+                "occupation_slsoff_pct_moe"
+              ],
+              [
+                "occupation_srvc_count",
+                "occupation_srvc_count_moe",
+                "occupation_srvc_count_cv",
+                "occupation_srvc_pct",
+                "occupation_srvc_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_count",
+                "occupation_cstmnt_count_moe",
+                "occupation_cstmnt_count_cv",
+                "occupation_cstmnt_pct",
+                "occupation_cstmnt_pct_moe"
+              ],
+              [
+                "occupation_mbsa_count",
+                "occupation_mbsa_count_moe",
+                "occupation_mbsa_count_cv",
+                "occupation_mbsa_pct",
+                "occupation_mbsa_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_count",
+                "occupation_prdtrn_count_moe",
+                "occupation_prdtrn_count_cv",
+                "occupation_prdtrn_pct",
+                "occupation_prdtrn_pct_moe"
+              ],
+              [
+                "occupation_slsoff_count",
+                "occupation_slsoff_count_moe",
+                "occupation_slsoff_count_cv",
+                "occupation_slsoff_pct",
+                "occupation_slsoff_pct_moe"
+              ],
+              [
+                "occupation_srvc_count",
+                "occupation_srvc_count_moe",
+                "occupation_srvc_count_cv",
+                "occupation_srvc_pct",
+                "occupation_srvc_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -2926,6 +3970,180 @@
                 "lf_anh_count_cv",
                 "lf_anh_pct",
                 "lf_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_anh_count",
+                "occupation_cstmnt_anh_count_moe",
+                "occupation_cstmnt_anh_count_cv",
+                "occupation_cstmnt_anh_pct",
+                "occupation_cstmnt_anh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_anh_count",
+                "occupation_mbsa_anh_count_moe",
+                "occupation_mbsa_anh_count_cv",
+                "occupation_mbsa_anh_pct",
+                "occupation_mbsa_anh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_anh_count",
+                "occupation_prdtrn_anh_count_moe",
+                "occupation_prdtrn_anh_count_cv",
+                "occupation_prdtrn_anh_pct",
+                "occupation_prdtrn_anh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_anh_count",
+                "occupation_slsoff_anh_count_moe",
+                "occupation_slsoff_anh_count_cv",
+                "occupation_slsoff_anh_pct",
+                "occupation_slsoff_anh_pct_moe"
+              ],
+              [
+                "occupation_srvc_anh_count",
+                "occupation_srvc_anh_count_moe",
+                "occupation_srvc_anh_count_cv",
+                "occupation_srvc_anh_pct",
+                "occupation_srvc_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_anh_count",
+                "occupation_cstmnt_anh_count_moe",
+                "occupation_cstmnt_anh_count_cv",
+                "occupation_cstmnt_anh_pct",
+                "occupation_cstmnt_anh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_anh_count",
+                "occupation_mbsa_anh_count_moe",
+                "occupation_mbsa_anh_count_cv",
+                "occupation_mbsa_anh_pct",
+                "occupation_mbsa_anh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_anh_count",
+                "occupation_prdtrn_anh_count_moe",
+                "occupation_prdtrn_anh_count_cv",
+                "occupation_prdtrn_anh_pct",
+                "occupation_prdtrn_anh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_anh_count",
+                "occupation_slsoff_anh_count_moe",
+                "occupation_slsoff_anh_count_cv",
+                "occupation_slsoff_anh_pct",
+                "occupation_slsoff_anh_pct_moe"
+              ],
+              [
+                "occupation_srvc_anh_count",
+                "occupation_srvc_anh_count_moe",
+                "occupation_srvc_anh_count_cv",
+                "occupation_srvc_anh_pct",
+                "occupation_srvc_anh_pct_moe"
               ]
             ]
           ]
@@ -3345,6 +4563,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_bnh_count",
+                "occupation_cstmnt_bnh_count_moe",
+                "occupation_cstmnt_bnh_count_cv",
+                "occupation_cstmnt_bnh_pct",
+                "occupation_cstmnt_bnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_bnh_count",
+                "occupation_mbsa_bnh_count_moe",
+                "occupation_mbsa_bnh_count_cv",
+                "occupation_mbsa_bnh_pct",
+                "occupation_mbsa_bnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_bnh_count",
+                "occupation_prdtrn_bnh_count_moe",
+                "occupation_prdtrn_bnh_count_cv",
+                "occupation_prdtrn_bnh_pct",
+                "occupation_prdtrn_bnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_bnh_count",
+                "occupation_slsoff_bnh_count_moe",
+                "occupation_slsoff_bnh_count_cv",
+                "occupation_slsoff_bnh_pct",
+                "occupation_slsoff_bnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_bnh_count",
+                "occupation_srvc_bnh_count_moe",
+                "occupation_srvc_bnh_count_cv",
+                "occupation_srvc_bnh_pct",
+                "occupation_srvc_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_bnh_count",
+                "occupation_cstmnt_bnh_count_moe",
+                "occupation_cstmnt_bnh_count_cv",
+                "occupation_cstmnt_bnh_pct",
+                "occupation_cstmnt_bnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_bnh_count",
+                "occupation_mbsa_bnh_count_moe",
+                "occupation_mbsa_bnh_count_cv",
+                "occupation_mbsa_bnh_pct",
+                "occupation_mbsa_bnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_bnh_count",
+                "occupation_prdtrn_bnh_count_moe",
+                "occupation_prdtrn_bnh_count_cv",
+                "occupation_prdtrn_bnh_pct",
+                "occupation_prdtrn_bnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_bnh_count",
+                "occupation_slsoff_bnh_count_moe",
+                "occupation_slsoff_bnh_count_cv",
+                "occupation_slsoff_bnh_pct",
+                "occupation_slsoff_bnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_bnh_count",
+                "occupation_srvc_bnh_count_moe",
+                "occupation_srvc_bnh_count_cv",
+                "occupation_srvc_bnh_pct",
+                "occupation_srvc_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -3761,6 +5153,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_hsp_count",
+                "occupation_cstmnt_hsp_count_moe",
+                "occupation_cstmnt_hsp_count_cv",
+                "occupation_cstmnt_hsp_pct",
+                "occupation_cstmnt_hsp_pct_moe"
+              ],
+              [
+                "occupation_mbsa_hsp_count",
+                "occupation_mbsa_hsp_count_moe",
+                "occupation_mbsa_hsp_count_cv",
+                "occupation_mbsa_hsp_pct",
+                "occupation_mbsa_hsp_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_hsp_count",
+                "occupation_prdtrn_hsp_count_moe",
+                "occupation_prdtrn_hsp_count_cv",
+                "occupation_prdtrn_hsp_pct",
+                "occupation_prdtrn_hsp_pct_moe"
+              ],
+              [
+                "occupation_slsoff_hsp_count",
+                "occupation_slsoff_hsp_count_moe",
+                "occupation_slsoff_hsp_count_cv",
+                "occupation_slsoff_hsp_pct",
+                "occupation_slsoff_hsp_pct_moe"
+              ],
+              [
+                "occupation_srvc_hsp_count",
+                "occupation_srvc_hsp_count_moe",
+                "occupation_srvc_hsp_count_cv",
+                "occupation_srvc_hsp_pct",
+                "occupation_srvc_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_hsp_count",
+                "occupation_cstmnt_hsp_count_moe",
+                "occupation_cstmnt_hsp_count_cv",
+                "occupation_cstmnt_hsp_pct",
+                "occupation_cstmnt_hsp_pct_moe"
+              ],
+              [
+                "occupation_mbsa_hsp_count",
+                "occupation_mbsa_hsp_count_moe",
+                "occupation_mbsa_hsp_count_cv",
+                "occupation_mbsa_hsp_pct",
+                "occupation_mbsa_hsp_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_hsp_count",
+                "occupation_prdtrn_hsp_count_moe",
+                "occupation_prdtrn_hsp_count_cv",
+                "occupation_prdtrn_hsp_pct",
+                "occupation_prdtrn_hsp_pct_moe"
+              ],
+              [
+                "occupation_slsoff_hsp_count",
+                "occupation_slsoff_hsp_count_moe",
+                "occupation_slsoff_hsp_count_cv",
+                "occupation_slsoff_hsp_pct",
+                "occupation_slsoff_hsp_pct_moe"
+              ],
+              [
+                "occupation_srvc_hsp_count",
+                "occupation_srvc_hsp_count_moe",
+                "occupation_srvc_hsp_count_cv",
+                "occupation_srvc_hsp_pct",
+                "occupation_srvc_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -4174,6 +5740,180 @@
                 "lf_wnh_count_cv",
                 "lf_wnh_pct",
                 "lf_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_wnh_count",
+                "occupation_cstmnt_wnh_count_moe",
+                "occupation_cstmnt_wnh_count_cv",
+                "occupation_cstmnt_wnh_pct",
+                "occupation_cstmnt_wnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_wnh_count",
+                "occupation_mbsa_wnh_count_moe",
+                "occupation_mbsa_wnh_count_cv",
+                "occupation_mbsa_wnh_pct",
+                "occupation_mbsa_wnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_wnh_count",
+                "occupation_prdtrn_wnh_count_moe",
+                "occupation_prdtrn_wnh_count_cv",
+                "occupation_prdtrn_wnh_pct",
+                "occupation_prdtrn_wnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_wnh_count",
+                "occupation_slsoff_wnh_count_moe",
+                "occupation_slsoff_wnh_count_cv",
+                "occupation_slsoff_wnh_pct",
+                "occupation_slsoff_wnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_wnh_count",
+                "occupation_srvc_wnh_count_moe",
+                "occupation_srvc_wnh_count_cv",
+                "occupation_srvc_wnh_pct",
+                "occupation_srvc_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_wnh_count",
+                "occupation_cstmnt_wnh_count_moe",
+                "occupation_cstmnt_wnh_count_cv",
+                "occupation_cstmnt_wnh_pct",
+                "occupation_cstmnt_wnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_wnh_count",
+                "occupation_mbsa_wnh_count_moe",
+                "occupation_mbsa_wnh_count_cv",
+                "occupation_mbsa_wnh_pct",
+                "occupation_mbsa_wnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_wnh_count",
+                "occupation_prdtrn_wnh_count_moe",
+                "occupation_prdtrn_wnh_count_cv",
+                "occupation_prdtrn_wnh_pct",
+                "occupation_prdtrn_wnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_wnh_count",
+                "occupation_slsoff_wnh_count_moe",
+                "occupation_slsoff_wnh_count_cv",
+                "occupation_slsoff_wnh_pct",
+                "occupation_slsoff_wnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_wnh_count",
+                "occupation_srvc_wnh_count_moe",
+                "occupation_srvc_wnh_count_cv",
+                "occupation_srvc_wnh_pct",
+                "occupation_srvc_wnh_pct_moe"
               ]
             ]
           ]
@@ -4604,6 +6344,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_count",
+                "occupation_cstmnt_count_moe",
+                "occupation_cstmnt_count_cv",
+                "occupation_cstmnt_pct",
+                "occupation_cstmnt_pct_moe"
+              ],
+              [
+                "occupation_mbsa_count",
+                "occupation_mbsa_count_moe",
+                "occupation_mbsa_count_cv",
+                "occupation_mbsa_pct",
+                "occupation_mbsa_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_count",
+                "occupation_prdtrn_count_moe",
+                "occupation_prdtrn_count_cv",
+                "occupation_prdtrn_pct",
+                "occupation_prdtrn_pct_moe"
+              ],
+              [
+                "occupation_slsoff_count",
+                "occupation_slsoff_count_moe",
+                "occupation_slsoff_count_cv",
+                "occupation_slsoff_pct",
+                "occupation_slsoff_pct_moe"
+              ],
+              [
+                "occupation_srvc_count",
+                "occupation_srvc_count_moe",
+                "occupation_srvc_count_cv",
+                "occupation_srvc_pct",
+                "occupation_srvc_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_count",
+                "cvem_count_moe",
+                "cvem_count_cv",
+                "cvem_pct",
+                "cvem_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_count",
+                "occupation_cstmnt_count_moe",
+                "occupation_cstmnt_count_cv",
+                "occupation_cstmnt_pct",
+                "occupation_cstmnt_pct_moe"
+              ],
+              [
+                "occupation_mbsa_count",
+                "occupation_mbsa_count_moe",
+                "occupation_mbsa_count_cv",
+                "occupation_mbsa_pct",
+                "occupation_mbsa_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_count",
+                "occupation_prdtrn_count_moe",
+                "occupation_prdtrn_count_cv",
+                "occupation_prdtrn_pct",
+                "occupation_prdtrn_pct_moe"
+              ],
+              [
+                "occupation_slsoff_count",
+                "occupation_slsoff_count_moe",
+                "occupation_slsoff_count_cv",
+                "occupation_slsoff_pct",
+                "occupation_slsoff_pct_moe"
+              ],
+              [
+                "occupation_srvc_count",
+                "occupation_srvc_count_moe",
+                "occupation_srvc_count_cv",
+                "occupation_srvc_pct",
+                "occupation_srvc_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -5017,6 +6931,180 @@
                 "lf_anh_count_cv",
                 "lf_anh_pct",
                 "lf_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_anh_count",
+                "occupation_cstmnt_anh_count_moe",
+                "occupation_cstmnt_anh_count_cv",
+                "occupation_cstmnt_anh_pct",
+                "occupation_cstmnt_anh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_anh_count",
+                "occupation_mbsa_anh_count_moe",
+                "occupation_mbsa_anh_count_cv",
+                "occupation_mbsa_anh_pct",
+                "occupation_mbsa_anh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_anh_count",
+                "occupation_prdtrn_anh_count_moe",
+                "occupation_prdtrn_anh_count_cv",
+                "occupation_prdtrn_anh_pct",
+                "occupation_prdtrn_anh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_anh_count",
+                "occupation_slsoff_anh_count_moe",
+                "occupation_slsoff_anh_count_cv",
+                "occupation_slsoff_anh_pct",
+                "occupation_slsoff_anh_pct_moe"
+              ],
+              [
+                "occupation_srvc_anh_count",
+                "occupation_srvc_anh_count_moe",
+                "occupation_srvc_anh_count_cv",
+                "occupation_srvc_anh_pct",
+                "occupation_srvc_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_anh_count",
+                "cvem_anh_count_moe",
+                "cvem_anh_count_cv",
+                "cvem_anh_pct",
+                "cvem_anh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_anh_count",
+                "occupation_cstmnt_anh_count_moe",
+                "occupation_cstmnt_anh_count_cv",
+                "occupation_cstmnt_anh_pct",
+                "occupation_cstmnt_anh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_anh_count",
+                "occupation_mbsa_anh_count_moe",
+                "occupation_mbsa_anh_count_cv",
+                "occupation_mbsa_anh_pct",
+                "occupation_mbsa_anh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_anh_count",
+                "occupation_prdtrn_anh_count_moe",
+                "occupation_prdtrn_anh_count_cv",
+                "occupation_prdtrn_anh_pct",
+                "occupation_prdtrn_anh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_anh_count",
+                "occupation_slsoff_anh_count_moe",
+                "occupation_slsoff_anh_count_cv",
+                "occupation_slsoff_anh_pct",
+                "occupation_slsoff_anh_pct_moe"
+              ],
+              [
+                "occupation_srvc_anh_count",
+                "occupation_srvc_anh_count_moe",
+                "occupation_srvc_anh_count_cv",
+                "occupation_srvc_anh_pct",
+                "occupation_srvc_anh_pct_moe"
               ]
             ]
           ]
@@ -5436,6 +7524,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_bnh_count",
+                "occupation_cstmnt_bnh_count_moe",
+                "occupation_cstmnt_bnh_count_cv",
+                "occupation_cstmnt_bnh_pct",
+                "occupation_cstmnt_bnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_bnh_count",
+                "occupation_mbsa_bnh_count_moe",
+                "occupation_mbsa_bnh_count_cv",
+                "occupation_mbsa_bnh_pct",
+                "occupation_mbsa_bnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_bnh_count",
+                "occupation_prdtrn_bnh_count_moe",
+                "occupation_prdtrn_bnh_count_cv",
+                "occupation_prdtrn_bnh_pct",
+                "occupation_prdtrn_bnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_bnh_count",
+                "occupation_slsoff_bnh_count_moe",
+                "occupation_slsoff_bnh_count_cv",
+                "occupation_slsoff_bnh_pct",
+                "occupation_slsoff_bnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_bnh_count",
+                "occupation_srvc_bnh_count_moe",
+                "occupation_srvc_bnh_count_cv",
+                "occupation_srvc_bnh_pct",
+                "occupation_srvc_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_bnh_count",
+                "cvem_bnh_count_moe",
+                "cvem_bnh_count_cv",
+                "cvem_bnh_pct",
+                "cvem_bnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_bnh_count",
+                "occupation_cstmnt_bnh_count_moe",
+                "occupation_cstmnt_bnh_count_cv",
+                "occupation_cstmnt_bnh_pct",
+                "occupation_cstmnt_bnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_bnh_count",
+                "occupation_mbsa_bnh_count_moe",
+                "occupation_mbsa_bnh_count_cv",
+                "occupation_mbsa_bnh_pct",
+                "occupation_mbsa_bnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_bnh_count",
+                "occupation_prdtrn_bnh_count_moe",
+                "occupation_prdtrn_bnh_count_cv",
+                "occupation_prdtrn_bnh_pct",
+                "occupation_prdtrn_bnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_bnh_count",
+                "occupation_slsoff_bnh_count_moe",
+                "occupation_slsoff_bnh_count_cv",
+                "occupation_slsoff_bnh_pct",
+                "occupation_slsoff_bnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_bnh_count",
+                "occupation_srvc_bnh_count_moe",
+                "occupation_srvc_bnh_count_cv",
+                "occupation_srvc_bnh_pct",
+                "occupation_srvc_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -5852,6 +8114,180 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_hsp_count",
+                "occupation_cstmnt_hsp_count_moe",
+                "occupation_cstmnt_hsp_count_cv",
+                "occupation_cstmnt_hsp_pct",
+                "occupation_cstmnt_hsp_pct_moe"
+              ],
+              [
+                "occupation_mbsa_hsp_count",
+                "occupation_mbsa_hsp_count_moe",
+                "occupation_mbsa_hsp_count_cv",
+                "occupation_mbsa_hsp_pct",
+                "occupation_mbsa_hsp_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_hsp_count",
+                "occupation_prdtrn_hsp_count_moe",
+                "occupation_prdtrn_hsp_count_cv",
+                "occupation_prdtrn_hsp_pct",
+                "occupation_prdtrn_hsp_pct_moe"
+              ],
+              [
+                "occupation_slsoff_hsp_count",
+                "occupation_slsoff_hsp_count_moe",
+                "occupation_slsoff_hsp_count_cv",
+                "occupation_slsoff_hsp_pct",
+                "occupation_slsoff_hsp_pct_moe"
+              ],
+              [
+                "occupation_srvc_hsp_count",
+                "occupation_srvc_hsp_count_moe",
+                "occupation_srvc_hsp_count_cv",
+                "occupation_srvc_hsp_pct",
+                "occupation_srvc_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_hsp_count",
+                "cvem_hsp_count_moe",
+                "cvem_hsp_count_cv",
+                "cvem_hsp_pct",
+                "cvem_hsp_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_hsp_count",
+                "occupation_cstmnt_hsp_count_moe",
+                "occupation_cstmnt_hsp_count_cv",
+                "occupation_cstmnt_hsp_pct",
+                "occupation_cstmnt_hsp_pct_moe"
+              ],
+              [
+                "occupation_mbsa_hsp_count",
+                "occupation_mbsa_hsp_count_moe",
+                "occupation_mbsa_hsp_count_cv",
+                "occupation_mbsa_hsp_pct",
+                "occupation_mbsa_hsp_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_hsp_count",
+                "occupation_prdtrn_hsp_count_moe",
+                "occupation_prdtrn_hsp_count_cv",
+                "occupation_prdtrn_hsp_pct",
+                "occupation_prdtrn_hsp_pct_moe"
+              ],
+              [
+                "occupation_slsoff_hsp_count",
+                "occupation_slsoff_hsp_count_moe",
+                "occupation_slsoff_hsp_count_cv",
+                "occupation_slsoff_hsp_pct",
+                "occupation_slsoff_hsp_pct_moe"
+              ],
+              [
+                "occupation_srvc_hsp_count",
+                "occupation_srvc_hsp_count_moe",
+                "occupation_srvc_hsp_count_cv",
+                "occupation_srvc_hsp_pct",
+                "occupation_srvc_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -6265,6 +8701,180 @@
                 "lf_wnh_count_cv",
                 "lf_wnh_pct",
                 "lf_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Occupation",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Natural resources, construction, or maintenance jobs",
+            "Management, business, science, or arts jobs",
+            "Production, transportation, or material moving jobs",
+            "Sales or office jobs",
+            "Service jobs"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic civilian employed population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_wnh_count",
+                "occupation_cstmnt_wnh_count_moe",
+                "occupation_cstmnt_wnh_count_cv",
+                "occupation_cstmnt_wnh_pct",
+                "occupation_cstmnt_wnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_wnh_count",
+                "occupation_mbsa_wnh_count_moe",
+                "occupation_mbsa_wnh_count_cv",
+                "occupation_mbsa_wnh_pct",
+                "occupation_mbsa_wnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_wnh_count",
+                "occupation_prdtrn_wnh_count_moe",
+                "occupation_prdtrn_wnh_count_cv",
+                "occupation_prdtrn_wnh_pct",
+                "occupation_prdtrn_wnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_wnh_count",
+                "occupation_slsoff_wnh_count_moe",
+                "occupation_slsoff_wnh_count_cv",
+                "occupation_slsoff_wnh_pct",
+                "occupation_slsoff_wnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_wnh_count",
+                "occupation_srvc_wnh_count_moe",
+                "occupation_srvc_wnh_count_cv",
+                "occupation_srvc_wnh_pct",
+                "occupation_srvc_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "cvem_wnh_count",
+                "cvem_wnh_count_moe",
+                "cvem_wnh_count_cv",
+                "cvem_wnh_pct",
+                "cvem_wnh_pct_moe"
+              ],
+              [
+                "occupation_cstmnt_wnh_count",
+                "occupation_cstmnt_wnh_count_moe",
+                "occupation_cstmnt_wnh_count_cv",
+                "occupation_cstmnt_wnh_pct",
+                "occupation_cstmnt_wnh_pct_moe"
+              ],
+              [
+                "occupation_mbsa_wnh_count",
+                "occupation_mbsa_wnh_count_moe",
+                "occupation_mbsa_wnh_count_cv",
+                "occupation_mbsa_wnh_pct",
+                "occupation_mbsa_wnh_pct_moe"
+              ],
+              [
+                "occupation_prdtrn_wnh_count",
+                "occupation_prdtrn_wnh_count_moe",
+                "occupation_prdtrn_wnh_count_cv",
+                "occupation_prdtrn_wnh_pct",
+                "occupation_prdtrn_wnh_pct_moe"
+              ],
+              [
+                "occupation_slsoff_wnh_count",
+                "occupation_slsoff_wnh_count_moe",
+                "occupation_slsoff_wnh_count_cv",
+                "occupation_slsoff_wnh_pct",
+                "occupation_slsoff_wnh_pct_moe"
+              ],
+              [
+                "occupation_srvc_wnh_count",
+                "occupation_srvc_wnh_count_moe",
+                "occupation_srvc_wnh_count_cv",
+                "occupation_srvc_wnh_pct",
+                "occupation_srvc_wnh_pct_moe"
               ]
             ]
           ]
