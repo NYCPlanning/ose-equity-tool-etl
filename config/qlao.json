@@ -1,0 +1,758 @@
+[
+  {
+    "base": {
+      "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+      "headers": [[["number", 1]]],
+      "labels": ["Deaths before 65 years"],
+      "subcategory": "health_",
+      "variables": ["prematuremortality"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "quality_of_life_puma",
+          "quality_of_life_puma",
+          "quality_of_life_puma"
+        ],
+        "vintages": [
+          "NYC VITAL STATISTICS, 2000-2004",
+          "NYC VITAL STATISTICS, 2010-2014",
+          "NYC VITAL STATISTICS, 2015-2019"
+        ],
+        "years": ["_0004", "_1014", "_1519"]
+      },
+      "borough": {
+        "files": [
+          "quality_of_life_borough",
+          "quality_of_life_borough",
+          "quality_of_life_borough"
+        ],
+        "vintages": [
+          "NYC VITAL STATISTICS, 2000",
+          "NYC VITAL STATISTICS, 2010",
+          "NYC VITAL STATISTICS, 2019"
+        ],
+        "years": ["_2000", "_2010", "_2019"]
+      },
+      "citywide": {
+        "files": [
+          "quality_of_life_citywide",
+          "quality_of_life_citywide",
+          "quality_of_life_citywide"
+        ],
+        "vintages": [
+          "NYC VITAL STATISTICS, 2000",
+          "NYC VITAL STATISTICS, 2010",
+          "NYC VITAL STATISTICS, 2019"
+        ],
+        "years": ["_2000", "_2010", "_2019"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {},
+      "bnh": {},
+      "wnh": {},
+      "hsp": {}
+    }
+  },
+  {
+    "base": {
+      "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
+      "headers": [[["number", 1]]],
+      "labels": ["Deaths before 1 year"],
+      "subcategory": "health_",
+      "variables": ["infantmortality"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "quality_of_life_puma",
+          "quality_of_life_puma",
+          "quality_of_life_puma"
+        ],
+        "vintages": [
+          "NYC VITAL STATISTICS, 2000-2004",
+          "NYC VITAL STATISTICS, 2010-2014",
+          "NYC VITAL STATISTICS, 2015-2019"
+        ],
+        "years": ["_0004", "_1014", "_1519"]
+      },
+      "borough": {
+        "files": [
+          "quality_of_life_borough",
+          "quality_of_life_borough",
+          "quality_of_life_borough"
+        ],
+        "vintages": [
+          "NYC VITAL STATISTICS, 2000",
+          "NYC VITAL STATISTICS, 2010",
+          "NYC VITAL STATISTICS, 2019"
+        ],
+        "years": ["_2000", "_2010", "_2019"]
+      },
+      "citywide": {
+        "files": [
+          "quality_of_life_citywide",
+          "quality_of_life_citywide",
+          "quality_of_life_citywide"
+        ],
+        "vintages": [
+          "NYC VITAL STATISTICS, 2000",
+          "NYC VITAL STATISTICS, 2010",
+          "NYC VITAL STATISTICS, 2019"
+        ],
+        "years": ["_2000", "_2010", "_2019"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {},
+      "bnh": {},
+      "wnh": {},
+      "hsp": {}
+    }
+  },
+  {
+    "base": {
+      "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents)",
+      "headers": [[["number", 1]]],
+      "labels": ["Drug-related overdose deaths"],
+      "subcategory": "health_",
+      "variables": ["overdosemortality"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "quality_of_life_puma",
+          "quality_of_life_puma",
+          "quality_of_life_puma"
+        ],
+        "vintages": [
+          "NYC EPIQUERY, 2000-2004",
+          "NYC EPIQUERY, 2010-2014",
+          "NYC EPIQUERY, 2015-2019"
+        ],
+        "years": ["_0004", "_1014", "_1519"]
+      },
+      "borough": {
+        "files": [
+          "quality_of_life_borough",
+          "quality_of_life_borough",
+          "quality_of_life_borough"
+        ],
+        "vintages": [
+          "NYC EPIQUERY, 2000",
+          "NYC EPIQUERY, 2010",
+          "NYC EPIQUERY, 2019"
+        ],
+        "years": ["_2000", "_2010", "_2019"]
+      },
+      "citywide": {
+        "files": [
+          "quality_of_life_citywide",
+          "quality_of_life_citywide",
+          "quality_of_life_citywide"
+        ],
+        "vintages": [
+          "NYC EPIQUERY, 2000",
+          "NYC EPIQUERY, 2010",
+          "NYC EPIQUERY, 2019"
+        ],
+        "years": ["_2000", "_2010", "_2019"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {},
+      "bnh": {},
+      "wnh": {},
+      "hsp": {}
+    }
+  },
+  {
+    "base": {
+      "title": "Health Outcomes - COVID-19 Deaths (Rate Per 100,000 Residents)",
+      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2022"],
+      "headers": [[["number", 1]]],
+      "subcategory": "health_",
+      "variables": ["covid19deaths"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": { "labels": ["COVID-19 deaths between 2020 and February 2022"] },
+      "anh": {
+        "labels": [
+          "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
+        ]
+      },
+      "bnh": {
+        "labels": [
+          "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
+        ]
+      },
+      "wnh": {
+        "labels": [
+          "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
+        ]
+      },
+      "hsp": {
+        "labels": ["Hispanic COVID-19 deaths between 2020 and February 2022"]
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Health Outcomes - Heat Vulnerability Index",
+      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"],
+      "headers": [[["score 1-5", 1]]],
+      "labels": ["Heat Vulnerability Index (1=Low)"],
+      "subcategory": "health_",
+      "variables": ["heat"],
+      "measures": ["INDEX"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": [""],
+        "placeholder": ["Data are not available by Borough and Citywide"]
+      },
+      "citywide": {
+        "files": [""],
+        "placeholder": ["Data are not available by Borough and Citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Access to Jobs",
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2019"],
+      "headers": [[["number", 1]], [["estimate", 1]]],
+      "labels": ["Total jobs within 30 minutes"],
+      "subcategory": "access_",
+      "variables": ["employment"],
+      "measures": ["COUNT"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Access to Transit",
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2020"],
+      "headers": [[["number", 1]], [["estimate", 1]]],
+      "labels": [
+        "Residents living within 1/4 mile of Select Bus Station or subway station",
+        "Residents living within 1/4 mile of ADA accessible subway stations"
+      ],
+      "subcategory": "access_",
+      "variables": ["ada", "subwaysbs"],
+      "measures": ["PERCENT"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Commute",
+      "subcategory": "access_",
+      "years": ["_0812", "_1519"],
+      "labels": ["Drove or carpooled to work"],
+      "is_survey": true,
+      "denominator": {
+        "subcategory": "access_",
+        "variable": "workers16pl",
+        "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+        "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
+      },
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
+      "headers": [
+        [
+          ["number", 3],
+          ["percent", 2]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1],
+          ["estimate", 1],
+          ["moe", 1]
+        ]
+      ],
+      "variables": ["carcommute"],
+      "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+      "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma", "quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough", "quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide", "quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {
+        "denominator": { "label": "Total workers 16 years and over" }
+      },
+      "anh": {
+        "denominator": {
+          "label": "Asian non-Hispanic workers 16 years and over"
+        }
+      },
+      "bnh": {
+        "denominator": {
+          "label": "Black non-Hispanic workers 16 years and over"
+        }
+      },
+      "wnh": {
+        "denominator": {
+          "label": "White non-Hispanic workers 16 years and over"
+        }
+      },
+      "hsp": {
+        "denominator": { "label": "Hispanic workers 16 years and over" }
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Education Access - Access To Broadband Internet At Home",
+      "subcategory": "access_",
+      "labels": ["With a computer", "With a broadband internet subscription"],
+      "is_survey": true,
+      "denominator": {
+        "subcategory": "access_",
+        "variable": "households",
+        "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+        "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
+      },
+      "vintages": ["ACS PUMS, 2015-2019"],
+      "headers": [
+        [
+          ["number", 3],
+          ["percent", 2]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1],
+          ["estimate", 1],
+          ["moe", 1]
+        ]
+      ],
+      "variables": ["computer", "broadband"],
+      "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+      "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {
+        "denominator": { "label": "Total households" }
+      },
+      "anh": {
+        "denominator": {
+          "label": "Total households with an Asian non-Hispanic householder"
+        }
+      },
+      "bnh": {
+        "denominator": {
+          "label": "Total households with a Black non-Hispanic householder"
+        }
+      },
+      "wnh": {
+        "denominator": {
+          "label": "Total households with a White non-Hispanic householder"
+        }
+      },
+      "hsp": {
+        "denominator": {
+          "label": "Total households with a Hispanic householder"
+        }
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Educational Outcomes - Subject Test Proficiency (Tested Student Population, 3rd-8th Grade)",
+      "subcategory": "edu_",
+      "labels": ["English Language Arts proficient", "Math proficient"],
+      "vintages": ["NYC DEPARTMENT OF EDUCATION, 2018"],
+      "headers": [[["percent", 1]]],
+      "variables": ["ela", "math"],
+      "measures": ["PERCENT"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {},
+      "bnh": {},
+      "wnh": {},
+      "hsp": {}
+    }
+  },
+  {
+    "base": {
+      "title": "Educational Outcomes - High School Graduation Rate",
+      "subcategory": "edu_",
+      "labels": [
+        "Students graduating high school by 2018 (local or Regents diploma)"
+      ],
+      "vintages": ["NYC DEPARTMENT OF EDUCATION, 2018"],
+      "headers": [[["percent", 1]]],
+      "variables": ["graduation"],
+      "measures": ["PERCENT"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {},
+      "bnh": {},
+      "wnh": {},
+      "hsp": {}
+    }
+  },
+  {
+    "base": {
+      "title": "Open Space - Park Access",
+      "subcategory": "access_",
+      "labels": ["Residents within walking distance of a park"],
+      "vintages": ["NYC DEPARTMENT OF PARKS AND RECREATION, 2019"],
+      "headers": [
+        [
+          ["number", 1],
+          ["percent", 1]
+        ],
+        [
+          ["estimate", 1],
+          ["estimate", 1]
+        ]
+      ],
+      "variables": ["openspace"],
+      "measures": ["COUNT", "PERCENT"],
+      "variances": ["NONE", "NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Public Safety - Traffic Injuries (Rate Per 100 Street Miles)",
+      "denominator": {
+        "label": "Total injuries",
+        "subcategory": "safety_",
+        "variable": "trafficinjuries",
+        "measures": ["RATE"],
+        "variances": ["NONE"]
+      },
+      "subcategory": "safety_",
+      "labels": [
+        "Pedestrian injuries",
+        "Cyclist injuries",
+        "Motorist injuries"
+      ],
+      "vintages": [
+        "NYC VISION ZERO VIEW, 2010-2014",
+        "NYC VISION ZERO VIEW, 2016-2020"
+      ],
+      "years": ["_1014", "_1620"],
+      "headers": [[["number", 1]]],
+      "variables": [
+        "trafficinjuries_ped",
+        "trafficinjuries_cycle",
+        "trafficinjuries_motorist"
+      ],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma","quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough","quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide","quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Public Safety - Traffic Fatalities (Rate Per 100 Street Miles)",
+      "subcategory": "safety_",
+      "labels": ["Total fatalities"],
+      "vintages": [
+        "NYC VISION ZERO VIEW, 2010-2014",
+        "NYC VISION ZERO VIEW, 2016-2020"
+      ],
+      "years": ["_1014", "_1620"],
+      "headers": [[["number", 1]]],
+      "variables": ["trafficfatalities"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma","quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough","quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide","quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Public Safety - Pedestrian Injury Hospitalizations (Rate Per 100,000 Residents)",
+      "subcategory": "safety_",
+      "labels": ["Total pedestrian hospitalizations"],
+      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
+      "headers": [[["number", 1]]],
+      "variables": ["pedhospital"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Public Safety - Non-Fatal Assault Hospitalizations (Rate Per 100,000 Residents)",
+      "subcategory": "safety_",
+      "labels": ["Total non-fatal assault hospitalizations"],
+      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
+      "headers": [[["number", 1]]],
+      "variables": ["assaulthospital"],
+      "measures": ["RATE"],
+      "variances": ["NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["quality_of_life_puma"]
+      },
+      "borough": {
+        "files": ["quality_of_life_borough"]
+      },
+      "citywide": {
+        "files": ["quality_of_life_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {},
+      "anh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "bnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "wnh": {
+        "placeholder": "Data are not available by race and ethnicity"
+      },
+      "hsp": {
+        "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  }
+]
