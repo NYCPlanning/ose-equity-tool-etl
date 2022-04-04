@@ -1,12 +1,19 @@
 {
   "district": {
     "hsaq": {
+      "tot": [],
+      "anh": [],
+      "bnh": [],
+      "wnh": [],
+      "hsp": []
+    },
+    "econ": {
       "tot": [
         {
           "denominator": {
-            "label": "Occupied housing units",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -23,25 +30,15 @@
             ]
           },
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -77,10 +74,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -94,156 +87,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "files": [
-            "housing_security_puma"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "anh": [
         {
           "denominator": {
-            "label": "Occupied housing units with an Asian non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Asian non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -260,25 +125,15 @@
             ]
           },
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -314,10 +169,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -331,157 +182,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with an Asian non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_puma"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "bnh": [
         {
           "denominator": {
-            "label": "Occupied housing units with a Black non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Black non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -498,25 +220,15 @@
             ]
           },
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -552,10 +264,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -569,157 +277,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a Black non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_puma"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "wnh": [
         {
           "denominator": {
-            "label": "Occupied housing units with a White non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "White non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -736,25 +315,15 @@
             ]
           },
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -790,10 +359,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -807,157 +372,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a White non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_puma"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "hsp": [
         {
           "denominator": {
-            "label": "Occupied housing units with a Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -974,25 +410,15 @@
             ]
           },
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -1028,10 +454,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -1045,148 +467,19 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_puma"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ]
@@ -1194,12 +487,19 @@
   },
   "borough": {
     "hsaq": {
+      "tot": [],
+      "anh": [],
+      "bnh": [],
+      "wnh": [],
+      "hsp": []
+    },
+    "econ": {
       "tot": [
         {
           "denominator": {
-            "label": "Occupied housing units",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1216,25 +516,15 @@
             ]
           },
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -1270,10 +560,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -1287,156 +573,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "files": [
-            "housing_security_borough"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "anh": [
         {
           "denominator": {
-            "label": "Occupied housing units with an Asian non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Asian non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1453,25 +611,15 @@
             ]
           },
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -1507,10 +655,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -1524,157 +668,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with an Asian non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_borough"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "bnh": [
         {
           "denominator": {
-            "label": "Occupied housing units with a Black non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Black non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1691,25 +706,15 @@
             ]
           },
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -1745,10 +750,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -1762,157 +763,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a Black non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_borough"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "wnh": [
         {
           "denominator": {
-            "label": "Occupied housing units with a White non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "White non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1929,25 +801,15 @@
             ]
           },
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -1983,10 +845,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -2000,157 +858,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a White non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_borough"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "hsp": [
         {
           "denominator": {
-            "label": "Occupied housing units with a Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2167,25 +896,15 @@
             ]
           },
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -2221,10 +940,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -2238,148 +953,19 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_borough"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ]
@@ -2387,12 +973,19 @@
   },
   "citywide": {
     "hsaq": {
+      "tot": [],
+      "anh": [],
+      "bnh": [],
+      "wnh": [],
+      "hsp": []
+    },
+    "econ": {
       "tot": [
         {
           "denominator": {
-            "label": "Occupied housing units",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2409,25 +1002,15 @@
             ]
           },
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -2463,10 +1046,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -2480,156 +1059,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "files": [
-            "housing_security_citywide"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "anh": [
         {
           "denominator": {
-            "label": "Occupied housing units with an Asian non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Asian non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2646,25 +1097,15 @@
             ]
           },
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -2700,10 +1141,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -2717,157 +1154,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with an Asian non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_citywide"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "bnh": [
         {
           "denominator": {
-            "label": "Occupied housing units with a Black non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Black non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2884,25 +1192,15 @@
             ]
           },
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -2938,10 +1236,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -2955,157 +1249,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a Black non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_citywide"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "wnh": [
         {
           "denominator": {
-            "label": "Occupied housing units with a White non-Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "White non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3122,25 +1287,15 @@
             ]
           },
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -3176,10 +1331,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -3193,157 +1344,28 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a White non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_citywide"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ],
       "hsp": [
         {
           "denominator": {
-            "label": "Occupied housing units with a Hispanic householder",
-            "subcategory": "units_",
-            "variable": "occupied",
+            "label": "Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3360,25 +1382,15 @@
             ]
           },
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
-          "title": "Housing Tenure",
-          "subcategory": "units_",
-          "years": [
-            "_2000",
-            "_0812",
-            "_1519"
-          ],
-          "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
-          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "headers": [
             [
@@ -3414,10 +1426,6 @@
               ]
             ]
           ],
-          "variables": [
-            "occupied_owner",
-            "occupied_renter"
-          ],
           "measures": [
             "COUNT",
             "COUNT",
@@ -3431,148 +1439,19 @@
             "CV",
             "NONE",
             "MOE"
-          ]
-        },
-        {
-          "denominator": {
-            "label": "Owner-occupied units with a Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "variable": "units_occupied_owner"
-          },
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
-          "years": [
-            "_0812",
-            "_1519"
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
           ],
           "labels": [
-            "Median value (dollars)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "variables": [
-            "homevalue_median"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ]
-        },
-        {
-          "placeholder": "Data are not available by race and ethnicity",
-          "files": [
-            "housing_security_citywide"
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "subcategory": "units_",
-          "variables": [
-            "affordable_eli",
-            "affordable_vli",
-            "affordable_li",
-            "affordable_mi",
-            "affordable_midi",
-            "affordable_hi"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ]
         }
       ]

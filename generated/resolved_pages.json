@@ -1,6 +1,13 @@
 {
   "district": {
     "hsaq": {
+      "tot": [],
+      "anh": [],
+      "bnh": [],
+      "wnh": [],
+      "hsp": []
+    },
+    "econ": {
       "tot": [
         {
           "headers": [
@@ -37,20 +44,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -66,8 +75,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -86,267 +96,113 @@
           "cells": [
             [
               [
-                "units_occupied_2000_count",
-                "units_occupied_2000_count_moe",
-                "units_occupied_2000_count_cv",
-                "units_occupied_2000_pct",
-                "units_occupied_2000_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_count",
-                "units_occupied_owner_2000_count_moe",
-                "units_occupied_owner_2000_count_cv",
-                "units_occupied_owner_2000_pct",
-                "units_occupied_owner_2000_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_count",
-                "units_occupied_renter_2000_count_moe",
-                "units_occupied_renter_2000_count_cv",
-                "units_occupied_renter_2000_pct",
-                "units_occupied_renter_2000_pct_moe"
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
+              ],
+              [
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
+              ],
+              [
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_count",
-                "units_occupied_0812_count_moe",
-                "units_occupied_0812_count_cv",
-                "units_occupied_0812_pct",
-                "units_occupied_0812_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_count",
-                "units_occupied_owner_0812_count_moe",
-                "units_occupied_owner_0812_count_cv",
-                "units_occupied_owner_0812_pct",
-                "units_occupied_owner_0812_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_count",
-                "units_occupied_renter_0812_count_moe",
-                "units_occupied_renter_0812_count_cv",
-                "units_occupied_renter_0812_pct",
-                "units_occupied_renter_0812_pct_moe"
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
+              ],
+              [
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
+              ],
+              [
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_count",
-                "units_occupied_1519_count_moe",
-                "units_occupied_1519_count_cv",
-                "units_occupied_1519_pct",
-                "units_occupied_1519_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_count",
-                "units_occupied_owner_1519_count_moe",
-                "units_occupied_owner_1519_count_cv",
-                "units_occupied_owner_1519_pct",
-                "units_occupied_owner_1519_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_count",
-                "units_occupied_renter_1519_count_moe",
-                "units_occupied_renter_1519_count_cv",
-                "units_occupied_renter_1519_pct",
-                "units_occupied_renter_1519_pct_moe"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
               ],
               [
-                "moe",
-                1
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
               ],
               [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_count",
-                "units_occupied_owner_0812_count_moe",
-                "units_occupied_owner_0812_count_cv"
-              ],
-              [
-                "homevalue_median_0812_median",
-                "homevalue_median_0812_median_moe",
-                "homevalue_median_0812_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_count",
-                "units_occupied_owner_1519_count_moe",
-                "units_occupied_owner_1519_count_cv"
-              ],
-              [
-                "homevalue_median_1519_median",
-                "homevalue_median_1519_median_moe",
-                "homevalue_median_1519_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "cells": [
-            [
-              [
-                "units_affordable_eli_count",
-                "units_affordable_eli_count_moe",
-                "units_affordable_eli_count_cv",
-                "units_affordable_eli_pct",
-                "units_affordable_eli_pct_moe"
-              ],
-              [
-                "units_affordable_vli_count",
-                "units_affordable_vli_count_moe",
-                "units_affordable_vli_count_cv",
-                "units_affordable_vli_pct",
-                "units_affordable_vli_pct_moe"
-              ],
-              [
-                "units_affordable_li_count",
-                "units_affordable_li_count_moe",
-                "units_affordable_li_count_cv",
-                "units_affordable_li_pct",
-                "units_affordable_li_pct_moe"
-              ],
-              [
-                "units_affordable_mi_count",
-                "units_affordable_mi_count_moe",
-                "units_affordable_mi_count_cv",
-                "units_affordable_mi_pct",
-                "units_affordable_mi_pct_moe"
-              ],
-              [
-                "units_affordable_midi_count",
-                "units_affordable_midi_count_moe",
-                "units_affordable_midi_count_cv",
-                "units_affordable_midi_pct",
-                "units_affordable_midi_pct_moe"
-              ],
-              [
-                "units_affordable_hi_count",
-                "units_affordable_hi_count_moe",
-                "units_affordable_hi_count_cv",
-                "units_affordable_hi_pct",
-                "units_affordable_hi_pct_moe"
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ]
           ]
@@ -388,20 +244,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -417,8 +275,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with an Asian non-Hispanic householder",
+            "label": "Asian non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -437,225 +296,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_anh_count",
-                "units_occupied_2000_anh_count_moe",
-                "units_occupied_2000_anh_count_cv",
-                "units_occupied_2000_anh_pct",
-                "units_occupied_2000_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_anh_count",
-                "units_occupied_owner_2000_anh_count_moe",
-                "units_occupied_owner_2000_anh_count_cv",
-                "units_occupied_owner_2000_anh_pct",
-                "units_occupied_owner_2000_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_anh_count",
-                "units_occupied_renter_2000_anh_count_moe",
-                "units_occupied_renter_2000_anh_count_cv",
-                "units_occupied_renter_2000_anh_pct",
-                "units_occupied_renter_2000_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_anh_count",
-                "units_occupied_0812_anh_count_moe",
-                "units_occupied_0812_anh_count_cv",
-                "units_occupied_0812_anh_pct",
-                "units_occupied_0812_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_anh_count",
-                "units_occupied_owner_0812_anh_count_moe",
-                "units_occupied_owner_0812_anh_count_cv",
-                "units_occupied_owner_0812_anh_pct",
-                "units_occupied_owner_0812_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_anh_count",
-                "units_occupied_renter_0812_anh_count_moe",
-                "units_occupied_renter_0812_anh_count_cv",
-                "units_occupied_renter_0812_anh_pct",
-                "units_occupied_renter_0812_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_anh_count",
-                "units_occupied_1519_anh_count_moe",
-                "units_occupied_1519_anh_count_cv",
-                "units_occupied_1519_anh_pct",
-                "units_occupied_1519_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_anh_count",
-                "units_occupied_owner_1519_anh_count_moe",
-                "units_occupied_owner_1519_anh_count_cv",
-                "units_occupied_owner_1519_anh_pct",
-                "units_occupied_owner_1519_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_anh_count",
-                "units_occupied_renter_1519_anh_count_moe",
-                "units_occupied_renter_1519_anh_count_cv",
-                "units_occupied_renter_1519_anh_pct",
-                "units_occupied_renter_1519_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with an Asian non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_anh_count",
-                "units_occupied_owner_0812_anh_count_moe",
-                "units_occupied_owner_0812_anh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_anh_median",
-                "homevalue_median_0812_anh_median_moe",
-                "homevalue_median_0812_anh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_anh_count",
-                "units_occupied_owner_1519_anh_count_moe",
-                "units_occupied_owner_1519_anh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_anh_median",
-                "homevalue_median_1519_anh_median_moe",
-                "homevalue_median_1519_anh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "bnh": [
@@ -694,20 +444,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -723,8 +475,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a Black non-Hispanic householder",
+            "label": "Black non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -743,225 +496,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_bnh_count",
-                "units_occupied_2000_bnh_count_moe",
-                "units_occupied_2000_bnh_count_cv",
-                "units_occupied_2000_bnh_pct",
-                "units_occupied_2000_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_bnh_count",
-                "units_occupied_owner_2000_bnh_count_moe",
-                "units_occupied_owner_2000_bnh_count_cv",
-                "units_occupied_owner_2000_bnh_pct",
-                "units_occupied_owner_2000_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_bnh_count",
-                "units_occupied_renter_2000_bnh_count_moe",
-                "units_occupied_renter_2000_bnh_count_cv",
-                "units_occupied_renter_2000_bnh_pct",
-                "units_occupied_renter_2000_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_bnh_count",
-                "units_occupied_0812_bnh_count_moe",
-                "units_occupied_0812_bnh_count_cv",
-                "units_occupied_0812_bnh_pct",
-                "units_occupied_0812_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_bnh_count",
-                "units_occupied_owner_0812_bnh_count_moe",
-                "units_occupied_owner_0812_bnh_count_cv",
-                "units_occupied_owner_0812_bnh_pct",
-                "units_occupied_owner_0812_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_bnh_count",
-                "units_occupied_renter_0812_bnh_count_moe",
-                "units_occupied_renter_0812_bnh_count_cv",
-                "units_occupied_renter_0812_bnh_pct",
-                "units_occupied_renter_0812_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_bnh_count",
-                "units_occupied_1519_bnh_count_moe",
-                "units_occupied_1519_bnh_count_cv",
-                "units_occupied_1519_bnh_pct",
-                "units_occupied_1519_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_bnh_count",
-                "units_occupied_owner_1519_bnh_count_moe",
-                "units_occupied_owner_1519_bnh_count_cv",
-                "units_occupied_owner_1519_bnh_pct",
-                "units_occupied_owner_1519_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_bnh_count",
-                "units_occupied_renter_1519_bnh_count_moe",
-                "units_occupied_renter_1519_bnh_count_cv",
-                "units_occupied_renter_1519_bnh_pct",
-                "units_occupied_renter_1519_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a Black non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_bnh_count",
-                "units_occupied_owner_0812_bnh_count_moe",
-                "units_occupied_owner_0812_bnh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_bnh_median",
-                "homevalue_median_0812_bnh_median_moe",
-                "homevalue_median_0812_bnh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_bnh_count",
-                "units_occupied_owner_1519_bnh_count_moe",
-                "units_occupied_owner_1519_bnh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_bnh_median",
-                "homevalue_median_1519_bnh_median_moe",
-                "homevalue_median_1519_bnh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "wnh": [
@@ -1000,20 +644,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -1029,8 +675,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a White non-Hispanic householder",
+            "label": "White non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1049,225 +696,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_wnh_count",
-                "units_occupied_2000_wnh_count_moe",
-                "units_occupied_2000_wnh_count_cv",
-                "units_occupied_2000_wnh_pct",
-                "units_occupied_2000_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_wnh_count",
-                "units_occupied_owner_2000_wnh_count_moe",
-                "units_occupied_owner_2000_wnh_count_cv",
-                "units_occupied_owner_2000_wnh_pct",
-                "units_occupied_owner_2000_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_wnh_count",
-                "units_occupied_renter_2000_wnh_count_moe",
-                "units_occupied_renter_2000_wnh_count_cv",
-                "units_occupied_renter_2000_wnh_pct",
-                "units_occupied_renter_2000_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_wnh_count",
-                "units_occupied_0812_wnh_count_moe",
-                "units_occupied_0812_wnh_count_cv",
-                "units_occupied_0812_wnh_pct",
-                "units_occupied_0812_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_wnh_count",
-                "units_occupied_owner_0812_wnh_count_moe",
-                "units_occupied_owner_0812_wnh_count_cv",
-                "units_occupied_owner_0812_wnh_pct",
-                "units_occupied_owner_0812_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_wnh_count",
-                "units_occupied_renter_0812_wnh_count_moe",
-                "units_occupied_renter_0812_wnh_count_cv",
-                "units_occupied_renter_0812_wnh_pct",
-                "units_occupied_renter_0812_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_wnh_count",
-                "units_occupied_1519_wnh_count_moe",
-                "units_occupied_1519_wnh_count_cv",
-                "units_occupied_1519_wnh_pct",
-                "units_occupied_1519_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_wnh_count",
-                "units_occupied_owner_1519_wnh_count_moe",
-                "units_occupied_owner_1519_wnh_count_cv",
-                "units_occupied_owner_1519_wnh_pct",
-                "units_occupied_owner_1519_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_wnh_count",
-                "units_occupied_renter_1519_wnh_count_moe",
-                "units_occupied_renter_1519_wnh_count_cv",
-                "units_occupied_renter_1519_wnh_pct",
-                "units_occupied_renter_1519_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a White non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_wnh_count",
-                "units_occupied_owner_0812_wnh_count_moe",
-                "units_occupied_owner_0812_wnh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_wnh_median",
-                "homevalue_median_0812_wnh_median_moe",
-                "homevalue_median_0812_wnh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_wnh_count",
-                "units_occupied_owner_1519_wnh_count_moe",
-                "units_occupied_owner_1519_wnh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_wnh_median",
-                "homevalue_median_1519_wnh_median_moe",
-                "homevalue_median_1519_wnh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "hsp": [
@@ -1306,20 +844,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_puma",
-            "housing_security_puma",
-            "housing_security_puma"
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -1335,8 +875,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a Hispanic householder",
+            "label": "Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1355,231 +896,129 @@
           "cells": [
             [
               [
-                "units_occupied_2000_hsp_count",
-                "units_occupied_2000_hsp_count_moe",
-                "units_occupied_2000_hsp_count_cv",
-                "units_occupied_2000_hsp_pct",
-                "units_occupied_2000_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_hsp_count",
-                "units_occupied_owner_2000_hsp_count_moe",
-                "units_occupied_owner_2000_hsp_count_cv",
-                "units_occupied_owner_2000_hsp_pct",
-                "units_occupied_owner_2000_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_hsp_count",
-                "units_occupied_renter_2000_hsp_count_moe",
-                "units_occupied_renter_2000_hsp_count_cv",
-                "units_occupied_renter_2000_hsp_pct",
-                "units_occupied_renter_2000_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_hsp_count",
-                "units_occupied_0812_hsp_count_moe",
-                "units_occupied_0812_hsp_count_cv",
-                "units_occupied_0812_hsp_pct",
-                "units_occupied_0812_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_hsp_count",
-                "units_occupied_owner_0812_hsp_count_moe",
-                "units_occupied_owner_0812_hsp_count_cv",
-                "units_occupied_owner_0812_hsp_pct",
-                "units_occupied_owner_0812_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_hsp_count",
-                "units_occupied_renter_0812_hsp_count_moe",
-                "units_occupied_renter_0812_hsp_count_cv",
-                "units_occupied_renter_0812_hsp_pct",
-                "units_occupied_renter_0812_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_hsp_count",
-                "units_occupied_1519_hsp_count_moe",
-                "units_occupied_1519_hsp_count_cv",
-                "units_occupied_1519_hsp_pct",
-                "units_occupied_1519_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_hsp_count",
-                "units_occupied_owner_1519_hsp_count_moe",
-                "units_occupied_owner_1519_hsp_count_cv",
-                "units_occupied_owner_1519_hsp_pct",
-                "units_occupied_owner_1519_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_hsp_count",
-                "units_occupied_renter_1519_hsp_count_moe",
-                "units_occupied_renter_1519_hsp_count_cv",
-                "units_occupied_renter_1519_hsp_pct",
-                "units_occupied_renter_1519_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma",
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_hsp_count",
-                "units_occupied_owner_0812_hsp_count_moe",
-                "units_occupied_owner_0812_hsp_count_cv"
-              ],
-              [
-                "homevalue_median_0812_hsp_median",
-                "homevalue_median_0812_hsp_median_moe",
-                "homevalue_median_0812_hsp_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_hsp_count",
-                "units_occupied_owner_1519_hsp_count_moe",
-                "units_occupied_owner_1519_hsp_count_cv"
-              ],
-              [
-                "homevalue_median_1519_hsp_median",
-                "homevalue_median_1519_hsp_median_moe",
-                "homevalue_median_1519_hsp_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_puma"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ]
     }
   },
   "borough": {
     "hsaq": {
+      "tot": [],
+      "anh": [],
+      "bnh": [],
+      "wnh": [],
+      "hsp": []
+    },
+    "econ": {
       "tot": [
         {
           "headers": [
@@ -1616,20 +1055,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -1645,8 +1086,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1665,267 +1107,113 @@
           "cells": [
             [
               [
-                "units_occupied_2000_count",
-                "units_occupied_2000_count_moe",
-                "units_occupied_2000_count_cv",
-                "units_occupied_2000_pct",
-                "units_occupied_2000_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_count",
-                "units_occupied_owner_2000_count_moe",
-                "units_occupied_owner_2000_count_cv",
-                "units_occupied_owner_2000_pct",
-                "units_occupied_owner_2000_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_count",
-                "units_occupied_renter_2000_count_moe",
-                "units_occupied_renter_2000_count_cv",
-                "units_occupied_renter_2000_pct",
-                "units_occupied_renter_2000_pct_moe"
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
+              ],
+              [
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
+              ],
+              [
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_count",
-                "units_occupied_0812_count_moe",
-                "units_occupied_0812_count_cv",
-                "units_occupied_0812_pct",
-                "units_occupied_0812_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_count",
-                "units_occupied_owner_0812_count_moe",
-                "units_occupied_owner_0812_count_cv",
-                "units_occupied_owner_0812_pct",
-                "units_occupied_owner_0812_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_count",
-                "units_occupied_renter_0812_count_moe",
-                "units_occupied_renter_0812_count_cv",
-                "units_occupied_renter_0812_pct",
-                "units_occupied_renter_0812_pct_moe"
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
+              ],
+              [
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
+              ],
+              [
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_count",
-                "units_occupied_1519_count_moe",
-                "units_occupied_1519_count_cv",
-                "units_occupied_1519_pct",
-                "units_occupied_1519_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_count",
-                "units_occupied_owner_1519_count_moe",
-                "units_occupied_owner_1519_count_cv",
-                "units_occupied_owner_1519_pct",
-                "units_occupied_owner_1519_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_count",
-                "units_occupied_renter_1519_count_moe",
-                "units_occupied_renter_1519_count_cv",
-                "units_occupied_renter_1519_pct",
-                "units_occupied_renter_1519_pct_moe"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
               ],
               [
-                "moe",
-                1
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
               ],
               [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_count",
-                "units_occupied_owner_0812_count_moe",
-                "units_occupied_owner_0812_count_cv"
-              ],
-              [
-                "homevalue_median_0812_median",
-                "homevalue_median_0812_median_moe",
-                "homevalue_median_0812_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_count",
-                "units_occupied_owner_1519_count_moe",
-                "units_occupied_owner_1519_count_cv"
-              ],
-              [
-                "homevalue_median_1519_median",
-                "homevalue_median_1519_median_moe",
-                "homevalue_median_1519_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "cells": [
-            [
-              [
-                "units_affordable_eli_count",
-                "units_affordable_eli_count_moe",
-                "units_affordable_eli_count_cv",
-                "units_affordable_eli_pct",
-                "units_affordable_eli_pct_moe"
-              ],
-              [
-                "units_affordable_vli_count",
-                "units_affordable_vli_count_moe",
-                "units_affordable_vli_count_cv",
-                "units_affordable_vli_pct",
-                "units_affordable_vli_pct_moe"
-              ],
-              [
-                "units_affordable_li_count",
-                "units_affordable_li_count_moe",
-                "units_affordable_li_count_cv",
-                "units_affordable_li_pct",
-                "units_affordable_li_pct_moe"
-              ],
-              [
-                "units_affordable_mi_count",
-                "units_affordable_mi_count_moe",
-                "units_affordable_mi_count_cv",
-                "units_affordable_mi_pct",
-                "units_affordable_mi_pct_moe"
-              ],
-              [
-                "units_affordable_midi_count",
-                "units_affordable_midi_count_moe",
-                "units_affordable_midi_count_cv",
-                "units_affordable_midi_pct",
-                "units_affordable_midi_pct_moe"
-              ],
-              [
-                "units_affordable_hi_count",
-                "units_affordable_hi_count_moe",
-                "units_affordable_hi_count_cv",
-                "units_affordable_hi_pct",
-                "units_affordable_hi_pct_moe"
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ]
           ]
@@ -1967,20 +1255,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -1996,8 +1286,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with an Asian non-Hispanic householder",
+            "label": "Asian non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2016,225 +1307,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_anh_count",
-                "units_occupied_2000_anh_count_moe",
-                "units_occupied_2000_anh_count_cv",
-                "units_occupied_2000_anh_pct",
-                "units_occupied_2000_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_anh_count",
-                "units_occupied_owner_2000_anh_count_moe",
-                "units_occupied_owner_2000_anh_count_cv",
-                "units_occupied_owner_2000_anh_pct",
-                "units_occupied_owner_2000_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_anh_count",
-                "units_occupied_renter_2000_anh_count_moe",
-                "units_occupied_renter_2000_anh_count_cv",
-                "units_occupied_renter_2000_anh_pct",
-                "units_occupied_renter_2000_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_anh_count",
-                "units_occupied_0812_anh_count_moe",
-                "units_occupied_0812_anh_count_cv",
-                "units_occupied_0812_anh_pct",
-                "units_occupied_0812_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_anh_count",
-                "units_occupied_owner_0812_anh_count_moe",
-                "units_occupied_owner_0812_anh_count_cv",
-                "units_occupied_owner_0812_anh_pct",
-                "units_occupied_owner_0812_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_anh_count",
-                "units_occupied_renter_0812_anh_count_moe",
-                "units_occupied_renter_0812_anh_count_cv",
-                "units_occupied_renter_0812_anh_pct",
-                "units_occupied_renter_0812_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_anh_count",
-                "units_occupied_1519_anh_count_moe",
-                "units_occupied_1519_anh_count_cv",
-                "units_occupied_1519_anh_pct",
-                "units_occupied_1519_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_anh_count",
-                "units_occupied_owner_1519_anh_count_moe",
-                "units_occupied_owner_1519_anh_count_cv",
-                "units_occupied_owner_1519_anh_pct",
-                "units_occupied_owner_1519_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_anh_count",
-                "units_occupied_renter_1519_anh_count_moe",
-                "units_occupied_renter_1519_anh_count_cv",
-                "units_occupied_renter_1519_anh_pct",
-                "units_occupied_renter_1519_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with an Asian non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_anh_count",
-                "units_occupied_owner_0812_anh_count_moe",
-                "units_occupied_owner_0812_anh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_anh_median",
-                "homevalue_median_0812_anh_median_moe",
-                "homevalue_median_0812_anh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_anh_count",
-                "units_occupied_owner_1519_anh_count_moe",
-                "units_occupied_owner_1519_anh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_anh_median",
-                "homevalue_median_1519_anh_median_moe",
-                "homevalue_median_1519_anh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "bnh": [
@@ -2273,20 +1455,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -2302,8 +1486,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a Black non-Hispanic householder",
+            "label": "Black non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2322,225 +1507,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_bnh_count",
-                "units_occupied_2000_bnh_count_moe",
-                "units_occupied_2000_bnh_count_cv",
-                "units_occupied_2000_bnh_pct",
-                "units_occupied_2000_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_bnh_count",
-                "units_occupied_owner_2000_bnh_count_moe",
-                "units_occupied_owner_2000_bnh_count_cv",
-                "units_occupied_owner_2000_bnh_pct",
-                "units_occupied_owner_2000_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_bnh_count",
-                "units_occupied_renter_2000_bnh_count_moe",
-                "units_occupied_renter_2000_bnh_count_cv",
-                "units_occupied_renter_2000_bnh_pct",
-                "units_occupied_renter_2000_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_bnh_count",
-                "units_occupied_0812_bnh_count_moe",
-                "units_occupied_0812_bnh_count_cv",
-                "units_occupied_0812_bnh_pct",
-                "units_occupied_0812_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_bnh_count",
-                "units_occupied_owner_0812_bnh_count_moe",
-                "units_occupied_owner_0812_bnh_count_cv",
-                "units_occupied_owner_0812_bnh_pct",
-                "units_occupied_owner_0812_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_bnh_count",
-                "units_occupied_renter_0812_bnh_count_moe",
-                "units_occupied_renter_0812_bnh_count_cv",
-                "units_occupied_renter_0812_bnh_pct",
-                "units_occupied_renter_0812_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_bnh_count",
-                "units_occupied_1519_bnh_count_moe",
-                "units_occupied_1519_bnh_count_cv",
-                "units_occupied_1519_bnh_pct",
-                "units_occupied_1519_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_bnh_count",
-                "units_occupied_owner_1519_bnh_count_moe",
-                "units_occupied_owner_1519_bnh_count_cv",
-                "units_occupied_owner_1519_bnh_pct",
-                "units_occupied_owner_1519_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_bnh_count",
-                "units_occupied_renter_1519_bnh_count_moe",
-                "units_occupied_renter_1519_bnh_count_cv",
-                "units_occupied_renter_1519_bnh_pct",
-                "units_occupied_renter_1519_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a Black non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_bnh_count",
-                "units_occupied_owner_0812_bnh_count_moe",
-                "units_occupied_owner_0812_bnh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_bnh_median",
-                "homevalue_median_0812_bnh_median_moe",
-                "homevalue_median_0812_bnh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_bnh_count",
-                "units_occupied_owner_1519_bnh_count_moe",
-                "units_occupied_owner_1519_bnh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_bnh_median",
-                "homevalue_median_1519_bnh_median_moe",
-                "homevalue_median_1519_bnh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "wnh": [
@@ -2579,20 +1655,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -2608,8 +1686,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a White non-Hispanic householder",
+            "label": "White non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2628,225 +1707,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_wnh_count",
-                "units_occupied_2000_wnh_count_moe",
-                "units_occupied_2000_wnh_count_cv",
-                "units_occupied_2000_wnh_pct",
-                "units_occupied_2000_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_wnh_count",
-                "units_occupied_owner_2000_wnh_count_moe",
-                "units_occupied_owner_2000_wnh_count_cv",
-                "units_occupied_owner_2000_wnh_pct",
-                "units_occupied_owner_2000_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_wnh_count",
-                "units_occupied_renter_2000_wnh_count_moe",
-                "units_occupied_renter_2000_wnh_count_cv",
-                "units_occupied_renter_2000_wnh_pct",
-                "units_occupied_renter_2000_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_wnh_count",
-                "units_occupied_0812_wnh_count_moe",
-                "units_occupied_0812_wnh_count_cv",
-                "units_occupied_0812_wnh_pct",
-                "units_occupied_0812_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_wnh_count",
-                "units_occupied_owner_0812_wnh_count_moe",
-                "units_occupied_owner_0812_wnh_count_cv",
-                "units_occupied_owner_0812_wnh_pct",
-                "units_occupied_owner_0812_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_wnh_count",
-                "units_occupied_renter_0812_wnh_count_moe",
-                "units_occupied_renter_0812_wnh_count_cv",
-                "units_occupied_renter_0812_wnh_pct",
-                "units_occupied_renter_0812_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_wnh_count",
-                "units_occupied_1519_wnh_count_moe",
-                "units_occupied_1519_wnh_count_cv",
-                "units_occupied_1519_wnh_pct",
-                "units_occupied_1519_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_wnh_count",
-                "units_occupied_owner_1519_wnh_count_moe",
-                "units_occupied_owner_1519_wnh_count_cv",
-                "units_occupied_owner_1519_wnh_pct",
-                "units_occupied_owner_1519_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_wnh_count",
-                "units_occupied_renter_1519_wnh_count_moe",
-                "units_occupied_renter_1519_wnh_count_cv",
-                "units_occupied_renter_1519_wnh_pct",
-                "units_occupied_renter_1519_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a White non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_wnh_count",
-                "units_occupied_owner_0812_wnh_count_moe",
-                "units_occupied_owner_0812_wnh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_wnh_median",
-                "homevalue_median_0812_wnh_median_moe",
-                "homevalue_median_0812_wnh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_wnh_count",
-                "units_occupied_owner_1519_wnh_count_moe",
-                "units_occupied_owner_1519_wnh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_wnh_median",
-                "homevalue_median_1519_wnh_median_moe",
-                "homevalue_median_1519_wnh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "hsp": [
@@ -2885,20 +1855,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_borough",
-            "housing_security_borough",
-            "housing_security_borough"
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -2914,8 +1886,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a Hispanic householder",
+            "label": "Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2934,231 +1907,129 @@
           "cells": [
             [
               [
-                "units_occupied_2000_hsp_count",
-                "units_occupied_2000_hsp_count_moe",
-                "units_occupied_2000_hsp_count_cv",
-                "units_occupied_2000_hsp_pct",
-                "units_occupied_2000_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_hsp_count",
-                "units_occupied_owner_2000_hsp_count_moe",
-                "units_occupied_owner_2000_hsp_count_cv",
-                "units_occupied_owner_2000_hsp_pct",
-                "units_occupied_owner_2000_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_hsp_count",
-                "units_occupied_renter_2000_hsp_count_moe",
-                "units_occupied_renter_2000_hsp_count_cv",
-                "units_occupied_renter_2000_hsp_pct",
-                "units_occupied_renter_2000_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_hsp_count",
-                "units_occupied_0812_hsp_count_moe",
-                "units_occupied_0812_hsp_count_cv",
-                "units_occupied_0812_hsp_pct",
-                "units_occupied_0812_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_hsp_count",
-                "units_occupied_owner_0812_hsp_count_moe",
-                "units_occupied_owner_0812_hsp_count_cv",
-                "units_occupied_owner_0812_hsp_pct",
-                "units_occupied_owner_0812_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_hsp_count",
-                "units_occupied_renter_0812_hsp_count_moe",
-                "units_occupied_renter_0812_hsp_count_cv",
-                "units_occupied_renter_0812_hsp_pct",
-                "units_occupied_renter_0812_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_hsp_count",
-                "units_occupied_1519_hsp_count_moe",
-                "units_occupied_1519_hsp_count_cv",
-                "units_occupied_1519_hsp_pct",
-                "units_occupied_1519_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_hsp_count",
-                "units_occupied_owner_1519_hsp_count_moe",
-                "units_occupied_owner_1519_hsp_count_cv",
-                "units_occupied_owner_1519_hsp_pct",
-                "units_occupied_owner_1519_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_hsp_count",
-                "units_occupied_renter_1519_hsp_count_moe",
-                "units_occupied_renter_1519_hsp_count_cv",
-                "units_occupied_renter_1519_hsp_pct",
-                "units_occupied_renter_1519_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough",
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_hsp_count",
-                "units_occupied_owner_0812_hsp_count_moe",
-                "units_occupied_owner_0812_hsp_count_cv"
-              ],
-              [
-                "homevalue_median_0812_hsp_median",
-                "homevalue_median_0812_hsp_median_moe",
-                "homevalue_median_0812_hsp_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_hsp_count",
-                "units_occupied_owner_1519_hsp_count_moe",
-                "units_occupied_owner_1519_hsp_count_cv"
-              ],
-              [
-                "homevalue_median_1519_hsp_median",
-                "homevalue_median_1519_hsp_median_moe",
-                "homevalue_median_1519_hsp_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_borough"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ]
     }
   },
   "citywide": {
     "hsaq": {
+      "tot": [],
+      "anh": [],
+      "bnh": [],
+      "wnh": [],
+      "hsp": []
+    },
+    "econ": {
       "tot": [
         {
           "headers": [
@@ -3195,20 +2066,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -3224,8 +2097,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3244,267 +2118,113 @@
           "cells": [
             [
               [
-                "units_occupied_2000_count",
-                "units_occupied_2000_count_moe",
-                "units_occupied_2000_count_cv",
-                "units_occupied_2000_pct",
-                "units_occupied_2000_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_count",
-                "units_occupied_owner_2000_count_moe",
-                "units_occupied_owner_2000_count_cv",
-                "units_occupied_owner_2000_pct",
-                "units_occupied_owner_2000_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_count",
-                "units_occupied_renter_2000_count_moe",
-                "units_occupied_renter_2000_count_cv",
-                "units_occupied_renter_2000_pct",
-                "units_occupied_renter_2000_pct_moe"
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
+              ],
+              [
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
+              ],
+              [
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_count",
-                "units_occupied_0812_count_moe",
-                "units_occupied_0812_count_cv",
-                "units_occupied_0812_pct",
-                "units_occupied_0812_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_count",
-                "units_occupied_owner_0812_count_moe",
-                "units_occupied_owner_0812_count_cv",
-                "units_occupied_owner_0812_pct",
-                "units_occupied_owner_0812_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_count",
-                "units_occupied_renter_0812_count_moe",
-                "units_occupied_renter_0812_count_cv",
-                "units_occupied_renter_0812_pct",
-                "units_occupied_renter_0812_pct_moe"
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
+              ],
+              [
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
+              ],
+              [
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_count",
-                "units_occupied_1519_count_moe",
-                "units_occupied_1519_count_cv",
-                "units_occupied_1519_pct",
-                "units_occupied_1519_pct_moe"
+                "age_p25pl_count",
+                "age_p25pl_count_moe",
+                "age_p25pl_count_cv",
+                "age_p25pl_pct",
+                "age_p25pl_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_count",
-                "units_occupied_owner_1519_count_moe",
-                "units_occupied_owner_1519_count_cv",
-                "units_occupied_owner_1519_pct",
-                "units_occupied_owner_1519_pct_moe"
+                "edu_lths_count",
+                "edu_lths_count_moe",
+                "edu_lths_count_cv",
+                "edu_lths_pct",
+                "edu_lths_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_count",
-                "units_occupied_renter_1519_count_moe",
-                "units_occupied_renter_1519_count_cv",
-                "units_occupied_renter_1519_pct",
-                "units_occupied_renter_1519_pct_moe"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
+                "edu_hs_count",
+                "edu_hs_count_moe",
+                "edu_hs_count_cv",
+                "edu_hs_pct",
+                "edu_hs_pct_moe"
               ],
               [
-                "moe",
-                1
+                "edu_smcol_count",
+                "edu_smcol_count_moe",
+                "edu_smcol_count_cv",
+                "edu_smcol_pct",
+                "edu_smcol_pct_moe"
               ],
               [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_count",
-                "units_occupied_owner_0812_count_moe",
-                "units_occupied_owner_0812_count_cv"
-              ],
-              [
-                "homevalue_median_0812_median",
-                "homevalue_median_0812_median_moe",
-                "homevalue_median_0812_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_count",
-                "units_occupied_owner_1519_count_moe",
-                "units_occupied_owner_1519_count_cv"
-              ],
-              [
-                "homevalue_median_1519_median",
-                "homevalue_median_1519_median_moe",
-                "homevalue_median_1519_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "cells": [
-            [
-              [
-                "units_affordable_eli_count",
-                "units_affordable_eli_count_moe",
-                "units_affordable_eli_count_cv",
-                "units_affordable_eli_pct",
-                "units_affordable_eli_pct_moe"
-              ],
-              [
-                "units_affordable_vli_count",
-                "units_affordable_vli_count_moe",
-                "units_affordable_vli_count_cv",
-                "units_affordable_vli_pct",
-                "units_affordable_vli_pct_moe"
-              ],
-              [
-                "units_affordable_li_count",
-                "units_affordable_li_count_moe",
-                "units_affordable_li_count_cv",
-                "units_affordable_li_pct",
-                "units_affordable_li_pct_moe"
-              ],
-              [
-                "units_affordable_mi_count",
-                "units_affordable_mi_count_moe",
-                "units_affordable_mi_count_cv",
-                "units_affordable_mi_pct",
-                "units_affordable_mi_pct_moe"
-              ],
-              [
-                "units_affordable_midi_count",
-                "units_affordable_midi_count_moe",
-                "units_affordable_midi_count_cv",
-                "units_affordable_midi_pct",
-                "units_affordable_midi_pct_moe"
-              ],
-              [
-                "units_affordable_hi_count",
-                "units_affordable_hi_count_moe",
-                "units_affordable_hi_count_cv",
-                "units_affordable_hi_pct",
-                "units_affordable_hi_pct_moe"
+                "edu_bchpl_count",
+                "edu_bchpl_count_moe",
+                "edu_bchpl_count_cv",
+                "edu_bchpl_pct",
+                "edu_bchpl_pct_moe"
               ]
             ]
           ]
@@ -3546,20 +2266,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -3575,8 +2297,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with an Asian non-Hispanic householder",
+            "label": "Asian non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3595,225 +2318,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_anh_count",
-                "units_occupied_2000_anh_count_moe",
-                "units_occupied_2000_anh_count_cv",
-                "units_occupied_2000_anh_pct",
-                "units_occupied_2000_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_anh_count",
-                "units_occupied_owner_2000_anh_count_moe",
-                "units_occupied_owner_2000_anh_count_cv",
-                "units_occupied_owner_2000_anh_pct",
-                "units_occupied_owner_2000_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_anh_count",
-                "units_occupied_renter_2000_anh_count_moe",
-                "units_occupied_renter_2000_anh_count_cv",
-                "units_occupied_renter_2000_anh_pct",
-                "units_occupied_renter_2000_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_anh_count",
-                "units_occupied_0812_anh_count_moe",
-                "units_occupied_0812_anh_count_cv",
-                "units_occupied_0812_anh_pct",
-                "units_occupied_0812_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_anh_count",
-                "units_occupied_owner_0812_anh_count_moe",
-                "units_occupied_owner_0812_anh_count_cv",
-                "units_occupied_owner_0812_anh_pct",
-                "units_occupied_owner_0812_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_anh_count",
-                "units_occupied_renter_0812_anh_count_moe",
-                "units_occupied_renter_0812_anh_count_cv",
-                "units_occupied_renter_0812_anh_pct",
-                "units_occupied_renter_0812_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_anh_count",
-                "units_occupied_1519_anh_count_moe",
-                "units_occupied_1519_anh_count_cv",
-                "units_occupied_1519_anh_pct",
-                "units_occupied_1519_anh_pct_moe"
+                "age_p25pl_anh_count",
+                "age_p25pl_anh_count_moe",
+                "age_p25pl_anh_count_cv",
+                "age_p25pl_anh_pct",
+                "age_p25pl_anh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_anh_count",
-                "units_occupied_owner_1519_anh_count_moe",
-                "units_occupied_owner_1519_anh_count_cv",
-                "units_occupied_owner_1519_anh_pct",
-                "units_occupied_owner_1519_anh_pct_moe"
+                "edu_lths_anh_count",
+                "edu_lths_anh_count_moe",
+                "edu_lths_anh_count_cv",
+                "edu_lths_anh_pct",
+                "edu_lths_anh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_anh_count",
-                "units_occupied_renter_1519_anh_count_moe",
-                "units_occupied_renter_1519_anh_count_cv",
-                "units_occupied_renter_1519_anh_pct",
-                "units_occupied_renter_1519_anh_pct_moe"
+                "edu_hs_anh_count",
+                "edu_hs_anh_count_moe",
+                "edu_hs_anh_count_cv",
+                "edu_hs_anh_pct",
+                "edu_hs_anh_pct_moe"
+              ],
+              [
+                "edu_smcol_anh_count",
+                "edu_smcol_anh_count_moe",
+                "edu_smcol_anh_count_cv",
+                "edu_smcol_anh_pct",
+                "edu_smcol_anh_pct_moe"
+              ],
+              [
+                "edu_bchpl_anh_count",
+                "edu_bchpl_anh_count_moe",
+                "edu_bchpl_anh_count_cv",
+                "edu_bchpl_anh_pct",
+                "edu_bchpl_anh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with an Asian non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_anh_count",
-                "units_occupied_owner_0812_anh_count_moe",
-                "units_occupied_owner_0812_anh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_anh_median",
-                "homevalue_median_0812_anh_median_moe",
-                "homevalue_median_0812_anh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_anh_count",
-                "units_occupied_owner_1519_anh_count_moe",
-                "units_occupied_owner_1519_anh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_anh_median",
-                "homevalue_median_1519_anh_median_moe",
-                "homevalue_median_1519_anh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "bnh": [
@@ -3852,20 +2466,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -3881,8 +2497,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a Black non-Hispanic householder",
+            "label": "Black non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3901,225 +2518,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_bnh_count",
-                "units_occupied_2000_bnh_count_moe",
-                "units_occupied_2000_bnh_count_cv",
-                "units_occupied_2000_bnh_pct",
-                "units_occupied_2000_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_bnh_count",
-                "units_occupied_owner_2000_bnh_count_moe",
-                "units_occupied_owner_2000_bnh_count_cv",
-                "units_occupied_owner_2000_bnh_pct",
-                "units_occupied_owner_2000_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_bnh_count",
-                "units_occupied_renter_2000_bnh_count_moe",
-                "units_occupied_renter_2000_bnh_count_cv",
-                "units_occupied_renter_2000_bnh_pct",
-                "units_occupied_renter_2000_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_bnh_count",
-                "units_occupied_0812_bnh_count_moe",
-                "units_occupied_0812_bnh_count_cv",
-                "units_occupied_0812_bnh_pct",
-                "units_occupied_0812_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_bnh_count",
-                "units_occupied_owner_0812_bnh_count_moe",
-                "units_occupied_owner_0812_bnh_count_cv",
-                "units_occupied_owner_0812_bnh_pct",
-                "units_occupied_owner_0812_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_bnh_count",
-                "units_occupied_renter_0812_bnh_count_moe",
-                "units_occupied_renter_0812_bnh_count_cv",
-                "units_occupied_renter_0812_bnh_pct",
-                "units_occupied_renter_0812_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_bnh_count",
-                "units_occupied_1519_bnh_count_moe",
-                "units_occupied_1519_bnh_count_cv",
-                "units_occupied_1519_bnh_pct",
-                "units_occupied_1519_bnh_pct_moe"
+                "age_p25pl_bnh_count",
+                "age_p25pl_bnh_count_moe",
+                "age_p25pl_bnh_count_cv",
+                "age_p25pl_bnh_pct",
+                "age_p25pl_bnh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_bnh_count",
-                "units_occupied_owner_1519_bnh_count_moe",
-                "units_occupied_owner_1519_bnh_count_cv",
-                "units_occupied_owner_1519_bnh_pct",
-                "units_occupied_owner_1519_bnh_pct_moe"
+                "edu_lths_bnh_count",
+                "edu_lths_bnh_count_moe",
+                "edu_lths_bnh_count_cv",
+                "edu_lths_bnh_pct",
+                "edu_lths_bnh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_bnh_count",
-                "units_occupied_renter_1519_bnh_count_moe",
-                "units_occupied_renter_1519_bnh_count_cv",
-                "units_occupied_renter_1519_bnh_pct",
-                "units_occupied_renter_1519_bnh_pct_moe"
+                "edu_hs_bnh_count",
+                "edu_hs_bnh_count_moe",
+                "edu_hs_bnh_count_cv",
+                "edu_hs_bnh_pct",
+                "edu_hs_bnh_pct_moe"
+              ],
+              [
+                "edu_smcol_bnh_count",
+                "edu_smcol_bnh_count_moe",
+                "edu_smcol_bnh_count_cv",
+                "edu_smcol_bnh_pct",
+                "edu_smcol_bnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_bnh_count",
+                "edu_bchpl_bnh_count_moe",
+                "edu_bchpl_bnh_count_cv",
+                "edu_bchpl_bnh_pct",
+                "edu_bchpl_bnh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a Black non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_bnh_count",
-                "units_occupied_owner_0812_bnh_count_moe",
-                "units_occupied_owner_0812_bnh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_bnh_median",
-                "homevalue_median_0812_bnh_median_moe",
-                "homevalue_median_0812_bnh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_bnh_count",
-                "units_occupied_owner_1519_bnh_count_moe",
-                "units_occupied_owner_1519_bnh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_bnh_median",
-                "homevalue_median_1519_bnh_median_moe",
-                "homevalue_median_1519_bnh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "wnh": [
@@ -4158,20 +2666,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -4187,8 +2697,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a White non-Hispanic householder",
+            "label": "White non-Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -4207,225 +2718,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_wnh_count",
-                "units_occupied_2000_wnh_count_moe",
-                "units_occupied_2000_wnh_count_cv",
-                "units_occupied_2000_wnh_pct",
-                "units_occupied_2000_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_wnh_count",
-                "units_occupied_owner_2000_wnh_count_moe",
-                "units_occupied_owner_2000_wnh_count_cv",
-                "units_occupied_owner_2000_wnh_pct",
-                "units_occupied_owner_2000_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_wnh_count",
-                "units_occupied_renter_2000_wnh_count_moe",
-                "units_occupied_renter_2000_wnh_count_cv",
-                "units_occupied_renter_2000_wnh_pct",
-                "units_occupied_renter_2000_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_wnh_count",
-                "units_occupied_0812_wnh_count_moe",
-                "units_occupied_0812_wnh_count_cv",
-                "units_occupied_0812_wnh_pct",
-                "units_occupied_0812_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_wnh_count",
-                "units_occupied_owner_0812_wnh_count_moe",
-                "units_occupied_owner_0812_wnh_count_cv",
-                "units_occupied_owner_0812_wnh_pct",
-                "units_occupied_owner_0812_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_wnh_count",
-                "units_occupied_renter_0812_wnh_count_moe",
-                "units_occupied_renter_0812_wnh_count_cv",
-                "units_occupied_renter_0812_wnh_pct",
-                "units_occupied_renter_0812_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_wnh_count",
-                "units_occupied_1519_wnh_count_moe",
-                "units_occupied_1519_wnh_count_cv",
-                "units_occupied_1519_wnh_pct",
-                "units_occupied_1519_wnh_pct_moe"
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_wnh_count",
-                "units_occupied_owner_1519_wnh_count_moe",
-                "units_occupied_owner_1519_wnh_count_cv",
-                "units_occupied_owner_1519_wnh_pct",
-                "units_occupied_owner_1519_wnh_pct_moe"
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_wnh_count",
-                "units_occupied_renter_1519_wnh_count_moe",
-                "units_occupied_renter_1519_wnh_count_cv",
-                "units_occupied_renter_1519_wnh_pct",
-                "units_occupied_renter_1519_wnh_pct_moe"
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a White non-Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_wnh_count",
-                "units_occupied_owner_0812_wnh_count_moe",
-                "units_occupied_owner_0812_wnh_count_cv"
-              ],
-              [
-                "homevalue_median_0812_wnh_median",
-                "homevalue_median_0812_wnh_median_moe",
-                "homevalue_median_0812_wnh_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_wnh_count",
-                "units_occupied_owner_1519_wnh_count_moe",
-                "units_occupied_owner_1519_wnh_count_cv"
-              ],
-              [
-                "homevalue_median_1519_wnh_median",
-                "homevalue_median_1519_wnh_median_moe",
-                "homevalue_median_1519_wnh_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ],
       "hsp": [
@@ -4464,20 +2866,22 @@
               ]
             ]
           ],
-          "title": "Housing Tenure",
+          "title": "Educational Attainment (Highest Grade Completed)",
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-19"
           ],
           "files": [
-            "housing_security_citywide",
-            "housing_security_citywide",
-            "housing_security_citywide"
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
           ],
           "labels": [
-            "Owner-occupied",
-            "Renter-occupied"
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
           ],
           "measures": [
             "COUNT",
@@ -4493,8 +2897,9 @@
             "NONE",
             "MOE"
           ],
+          "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units with a Hispanic householder",
+            "label": "Hispanic population 25 years and over",
             "measures": [
               "COUNT",
               "COUNT",
@@ -4513,225 +2918,116 @@
           "cells": [
             [
               [
-                "units_occupied_2000_hsp_count",
-                "units_occupied_2000_hsp_count_moe",
-                "units_occupied_2000_hsp_count_cv",
-                "units_occupied_2000_hsp_pct",
-                "units_occupied_2000_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_2000_hsp_count",
-                "units_occupied_owner_2000_hsp_count_moe",
-                "units_occupied_owner_2000_hsp_count_cv",
-                "units_occupied_owner_2000_hsp_pct",
-                "units_occupied_owner_2000_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_2000_hsp_count",
-                "units_occupied_renter_2000_hsp_count_moe",
-                "units_occupied_renter_2000_hsp_count_cv",
-                "units_occupied_renter_2000_hsp_pct",
-                "units_occupied_renter_2000_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_0812_hsp_count",
-                "units_occupied_0812_hsp_count_moe",
-                "units_occupied_0812_hsp_count_cv",
-                "units_occupied_0812_hsp_pct",
-                "units_occupied_0812_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_0812_hsp_count",
-                "units_occupied_owner_0812_hsp_count_moe",
-                "units_occupied_owner_0812_hsp_count_cv",
-                "units_occupied_owner_0812_hsp_pct",
-                "units_occupied_owner_0812_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_0812_hsp_count",
-                "units_occupied_renter_0812_hsp_count_moe",
-                "units_occupied_renter_0812_hsp_count_cv",
-                "units_occupied_renter_0812_hsp_pct",
-                "units_occupied_renter_0812_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ],
             [
               [
-                "units_occupied_1519_hsp_count",
-                "units_occupied_1519_hsp_count_moe",
-                "units_occupied_1519_hsp_count_cv",
-                "units_occupied_1519_hsp_pct",
-                "units_occupied_1519_hsp_pct_moe"
+                "age_p25pl_hsp_count",
+                "age_p25pl_hsp_count_moe",
+                "age_p25pl_hsp_count_cv",
+                "age_p25pl_hsp_pct",
+                "age_p25pl_hsp_pct_moe"
               ],
               [
-                "units_occupied_owner_1519_hsp_count",
-                "units_occupied_owner_1519_hsp_count_moe",
-                "units_occupied_owner_1519_hsp_count_cv",
-                "units_occupied_owner_1519_hsp_pct",
-                "units_occupied_owner_1519_hsp_pct_moe"
+                "edu_lths_hsp_count",
+                "edu_lths_hsp_count_moe",
+                "edu_lths_hsp_count_cv",
+                "edu_lths_hsp_pct",
+                "edu_lths_hsp_pct_moe"
               ],
               [
-                "units_occupied_renter_1519_hsp_count",
-                "units_occupied_renter_1519_hsp_count_moe",
-                "units_occupied_renter_1519_hsp_count_cv",
-                "units_occupied_renter_1519_hsp_pct",
-                "units_occupied_renter_1519_hsp_pct_moe"
+                "edu_hs_hsp_count",
+                "edu_hs_hsp_count_moe",
+                "edu_hs_hsp_count_cv",
+                "edu_hs_hsp_pct",
+                "edu_hs_hsp_pct_moe"
+              ],
+              [
+                "edu_smcol_hsp_count",
+                "edu_smcol_hsp_count_moe",
+                "edu_smcol_hsp_count_cv",
+                "edu_smcol_hsp_pct",
+                "edu_smcol_hsp_pct_moe"
+              ],
+              [
+                "edu_bchpl_hsp_count",
+                "edu_bchpl_hsp_count_moe",
+                "edu_bchpl_hsp_count_cv",
+                "edu_bchpl_hsp_pct",
+                "edu_bchpl_hsp_pct_moe"
               ]
             ]
           ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ]
-            ]
-          ],
-          "title": "Median Value (2019 dollars)",
-          "vintages": [
-            "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide",
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Median value (dollars)"
-          ],
-          "measures": [
-            "MEDIAN",
-            "MEDIAN",
-            "MEDIAN"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV"
-          ],
-          "denominator": {
-            "label": "Owner-occupied units with a Hispanic householder",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ]
-          },
-          "cells": [
-            [
-              [
-                "units_occupied_owner_0812_hsp_count",
-                "units_occupied_owner_0812_hsp_count_moe",
-                "units_occupied_owner_0812_hsp_count_cv"
-              ],
-              [
-                "homevalue_median_0812_hsp_median",
-                "homevalue_median_0812_hsp_median_moe",
-                "homevalue_median_0812_hsp_median_cv"
-              ]
-            ],
-            [
-              [
-                "units_occupied_owner_1519_hsp_count",
-                "units_occupied_owner_1519_hsp_count_moe",
-                "units_occupied_owner_1519_hsp_count_cv"
-              ],
-              [
-                "homevalue_median_1519_hsp_median",
-                "homevalue_median_1519_hsp_median_moe",
-                "homevalue_median_1519_hsp_median_cv"
-              ]
-            ]
-          ]
-        },
-        {
-          "headers": [
-            [
-              [
-                "number",
-                3
-              ],
-              [
-                "percent",
-                2
-              ]
-            ],
-            [
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ],
-              [
-                "cv",
-                1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
-              ]
-            ]
-          ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-          "vintages": [
-            "ACS PUMS, 2015-2019"
-          ],
-          "files": [
-            "housing_security_citywide"
-          ],
-          "labels": [
-            "Extremely low-income (0-30% AMI)",
-            "Very low-income (31-50% AMI)",
-            "Low-income (51-80% AMI)",
-            "Moderate-income (81-120% AMI)",
-            "Middle-income (121-165% AMI)",
-            "High-income (166% or higher AMI)"
-          ],
-          "measures": [
-            "COUNT",
-            "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
-          ],
-          "variances": [
-            "NONE",
-            "MOE",
-            "CV",
-            "NONE",
-            "MOE"
-          ],
-          "placeholder": "Data are not available by race and ethnicity"
         }
       ]
     }

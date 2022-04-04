@@ -1,0 +1,82 @@
+[
+  {
+    "base": {
+      "title": "Educational Attainment (Highest Grade Completed)",
+      "vintages": [
+        "CENSUS PUMS, 2000",
+        "ACS PUMS, 2008-2012",
+        "ACS PUMS, 2015-19"
+      ],
+      "headers": [
+        [
+          ["number", 3],
+          ["percent", 2]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1],
+          ["estimate", 1],
+          ["moe", 1]
+        ]
+      ],
+      "denominator": {
+        "subcategory": "age_",
+        "variable": "p25pl",
+        "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+        "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
+      },
+      "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+      "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
+      "subcategory": "edu_",
+      "variables": ["lths", "hs", "smcol", "bchpl"],
+      "labels": ["Less than high school degree", "High school degree or equivalent", "Some college or Associate's degree", "Bachelor's degree or higher"]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "economics_2000_puma",
+          "economics_0812_puma",
+          "economics_1519_puma"
+        ]
+      },
+      "borough": {
+        "files": [
+          "economics_2000_borough",
+          "economics_0812_borough",
+          "economics_1519_borough"
+        ]
+      },
+      "citywide": {
+        "files": [
+          "economics_2000_citywide",
+          "economics_0812_citywide",
+          "economics_1519_citywide"
+        ]
+      }
+    },
+    "subgroups": {
+      "tot": { "denominator": { "label": "Population 25 years and over" } },
+      "anh": {
+        "denominator": {
+          "label": "Asian non-Hispanic population 25 years and over"
+        }
+      },
+      "bnh": {
+        "denominator": {
+          "label": "Black non-Hispanic population 25 years and over"
+        }
+      },
+      "wnh": {
+        "denominator": {
+          "label": "White non-Hispanic population 25 years and over"
+        }
+      },
+      "hsp": {
+        "denominator": {
+          "label": "Hispanic population 25 years and over"
+        }
+      }
+    }
+  }
+]
