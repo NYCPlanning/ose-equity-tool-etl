@@ -317,5 +317,65 @@
         }
       }
     }
+  },
+  {
+    "base": {
+      "title": "Median Wages By Occupation (2019 Dollars)",
+      "vintages": [
+        "ACS PUMS, 2008-2012",
+        "ACS PUMS, 2015-19"
+      ],
+      "headers": [
+        [
+          ["number", 3]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1]
+        ]
+      ],
+      "denominator": {
+        "subcategory": "",
+        "variable": "cvem",
+      "measures": ["COUNT","COUNT","COUNT"],
+        "variances": ["NONE", "MOE", "CV"],
+        "labels": "Civilian employed population 16 to 64 years"
+      },
+      "measures": ["MEDIAN","MEDIAN","MEDIAN"],
+      "variances": ["NONE", "MOE", "CV"],
+      "subcategory": "occupation_",
+      "variables": ["cstmnt_wages","mbsa_wages","prdtrn_wages","slsoff_wages","srvc_wages"],
+      "labels": [
+        "Natural resources, construction, or maintenance jobs",
+        "Management, business, science, or arts jobs",
+        "Production, transportation, or material moving jobs",
+        "Sales or office jobs",
+        "Service jobs"
+      ]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "economics_0812_puma",
+          "economics_1519_puma"
+        ]
+      },
+      "borough": {
+        "files": [
+          "economics_0812_borough",
+          "economics_1519_borough"
+        ]
+      },
+      "citywide": {
+        "files": [
+          "economics_0812_citywide",
+          "economics_1519_citywide"
+        ]
+      }
+    },
+    "subgroups": {
+      "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } }
+    }
   }
 ]
