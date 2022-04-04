@@ -67,14 +67,91 @@
           "label": "Black non-Hispanic population 25 years and over"
         }
       },
+      "hsp": {
+        "denominator": {
+          "label": "Hispanic population 25 years and over"
+        }
+      },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic population 25 years and over"
         }
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Households By Area Median Income (AMI) Band",
+      "vintages": [
+        "ACS PUMS, 2015-19"
+      ],
+      "headers": [
+        [
+          ["number", 3]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1]
+        ]
+      ],
+      "denominator": {
+        "subcategory": "",
+        "variable": "households",
+        "measures": ["COUNT", "COUNT", "COUNT"],
+        "variances": ["NONE", "MOE", "CV"],
+        "labels": "Total households"
+      },
+      "measures": ["COUNT", "COUNT", "COUNT"],
+      "variances": ["NONE", "MOE", "CV"],
+      "subcategory": "households_",
+      "variables": [ "eli", "vli", "li", "mi", "midi", "hi"],
+      "labels": [
+        "Households where the income is less than 30% of the area median income",
+        "Households where the income is between 31% and 50% of the area median income",
+        "Households where the income is between 51% and 80% of the area median income",
+        "Households where the income is between 81% and 120% of the area median income",
+        "Households where the income is between 121% and 165% of the area median income",
+        "Households where the income is over 165% of the area median income"
+      ]
+    },
+    "geographies": {
+      "district": {
+        "files": [
+          "economics_1519_puma"
+        ]
+      },
+      "borough": {
+        "files": [
+          "economics_1519_borough"
+        ]
+      },
+      "citywide": {
+        "files": [
+          "economics_1519_citywide"
+        ]
+      }
+    },
+    "subgroups": {
+      "tot": { "denominator": { "label": "Total households" } },
+      "anh": {
+        "denominator": {
+          "label": "Total households with an Asian non-Hispanic householder"
+        }
+      },
+      "bnh": {
+        "denominator": {
+          "label": "Total households with a Black non-Hispanic householder"
+        }
       },
       "hsp": {
         "denominator": {
-          "label": "Hispanic population 25 years and over"
+          "label": "Total households with a Hispanic householder"
+        }
+      },
+      "wnh": {
+        "denominator": {
+          "label": "Total households with a White non-Hispanic householder"
         }
       }
     }

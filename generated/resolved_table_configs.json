@@ -101,6 +101,80 @@
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Total households",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_puma"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ]
         }
       ],
       "anh": [
@@ -195,6 +269,80 @@
             "High school degree or equivalent",
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with an Asian non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_puma"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ],
@@ -291,38 +439,29 @@
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
           ]
-        }
-      ],
-      "wnh": [
+        },
         {
           "denominator": {
-            "label": "White non-Hispanic population 25 years and over",
-            "subcategory": "age_",
-            "variable": "p25pl",
+            "label": "Total households with a Black non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT",
-              "PERCENT",
-              "PERCENT"
+              "COUNT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV",
-              "NONE",
-              "MOE"
-            ]
+              "CV"
+            ],
+            "labels": "Total households"
           },
           "files": [
-            "economics_2000_puma",
-            "economics_0812_puma",
             "economics_1519_puma"
           ],
-          "title": "Educational Attainment (Highest Grade Completed)",
+          "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "CENSUS PUMS, 2000",
-            "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
           ],
           "headers": [
@@ -330,10 +469,6 @@
               [
                 "number",
                 3
-              ],
-              [
-                "percent",
-                2
               ]
             ],
             [
@@ -348,43 +483,35 @@
               [
                 "cv",
                 1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
+            "COUNT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "CV"
           ],
-          "subcategory": "edu_",
+          "subcategory": "households_",
           "variables": [
-            "lths",
-            "hs",
-            "smcol",
-            "bchpl"
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
           ],
           "labels": [
-            "Less than high school degree",
-            "High school degree or equivalent",
-            "Some college or Associate's degree",
-            "Bachelor's degree or higher"
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ],
@@ -480,6 +607,249 @@
             "High school degree or equivalent",
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with a Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_puma"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ]
+        }
+      ],
+      "wnh": [
+        {
+          "denominator": {
+            "label": "White non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "files": [
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
+          "vintages": [
+            "CENSUS PUMS, 2000",
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
+          ],
+          "labels": [
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with a White non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_puma"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ]
@@ -587,6 +957,80 @@
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Total households",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_borough"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ]
         }
       ],
       "anh": [
@@ -681,6 +1125,80 @@
             "High school degree or equivalent",
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with an Asian non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_borough"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ],
@@ -777,38 +1295,29 @@
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
           ]
-        }
-      ],
-      "wnh": [
+        },
         {
           "denominator": {
-            "label": "White non-Hispanic population 25 years and over",
-            "subcategory": "age_",
-            "variable": "p25pl",
+            "label": "Total households with a Black non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT",
-              "PERCENT",
-              "PERCENT"
+              "COUNT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV",
-              "NONE",
-              "MOE"
-            ]
+              "CV"
+            ],
+            "labels": "Total households"
           },
           "files": [
-            "economics_2000_borough",
-            "economics_0812_borough",
             "economics_1519_borough"
           ],
-          "title": "Educational Attainment (Highest Grade Completed)",
+          "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "CENSUS PUMS, 2000",
-            "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
           ],
           "headers": [
@@ -816,10 +1325,6 @@
               [
                 "number",
                 3
-              ],
-              [
-                "percent",
-                2
               ]
             ],
             [
@@ -834,43 +1339,35 @@
               [
                 "cv",
                 1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
+            "COUNT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "CV"
           ],
-          "subcategory": "edu_",
+          "subcategory": "households_",
           "variables": [
-            "lths",
-            "hs",
-            "smcol",
-            "bchpl"
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
           ],
           "labels": [
-            "Less than high school degree",
-            "High school degree or equivalent",
-            "Some college or Associate's degree",
-            "Bachelor's degree or higher"
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ],
@@ -966,6 +1463,249 @@
             "High school degree or equivalent",
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with a Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_borough"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ]
+        }
+      ],
+      "wnh": [
+        {
+          "denominator": {
+            "label": "White non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "files": [
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
+          "vintages": [
+            "CENSUS PUMS, 2000",
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
+          ],
+          "labels": [
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with a White non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_borough"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ]
@@ -1073,6 +1813,80 @@
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Total households",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ]
         }
       ],
       "anh": [
@@ -1167,6 +1981,80 @@
             "High school degree or equivalent",
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with an Asian non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ],
@@ -1263,38 +2151,29 @@
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
           ]
-        }
-      ],
-      "wnh": [
+        },
         {
           "denominator": {
-            "label": "White non-Hispanic population 25 years and over",
-            "subcategory": "age_",
-            "variable": "p25pl",
+            "label": "Total households with a Black non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT",
-              "PERCENT",
-              "PERCENT"
+              "COUNT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV",
-              "NONE",
-              "MOE"
-            ]
+              "CV"
+            ],
+            "labels": "Total households"
           },
           "files": [
-            "economics_2000_citywide",
-            "economics_0812_citywide",
             "economics_1519_citywide"
           ],
-          "title": "Educational Attainment (Highest Grade Completed)",
+          "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "CENSUS PUMS, 2000",
-            "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
           ],
           "headers": [
@@ -1302,10 +2181,6 @@
               [
                 "number",
                 3
-              ],
-              [
-                "percent",
-                2
               ]
             ],
             [
@@ -1320,43 +2195,35 @@
               [
                 "cv",
                 1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
+            "COUNT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "CV"
           ],
-          "subcategory": "edu_",
+          "subcategory": "households_",
           "variables": [
-            "lths",
-            "hs",
-            "smcol",
-            "bchpl"
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
           ],
           "labels": [
-            "Less than high school degree",
-            "High school degree or equivalent",
-            "Some college or Associate's degree",
-            "Bachelor's degree or higher"
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ],
@@ -1452,6 +2319,249 @@
             "High school degree or equivalent",
             "Some college or Associate's degree",
             "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with a Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ]
+        }
+      ],
+      "wnh": [
+        {
+          "denominator": {
+            "label": "White non-Hispanic population 25 years and over",
+            "subcategory": "age_",
+            "variable": "p25pl",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "files": [
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
+          "vintages": [
+            "CENSUS PUMS, 2000",
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "edu_",
+          "variables": [
+            "lths",
+            "hs",
+            "smcol",
+            "bchpl"
+          ],
+          "labels": [
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Total households with a White non-Hispanic householder",
+            "subcategory": "",
+            "variable": "households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ],
+            "labels": "Total households"
+          },
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "subcategory": "households_",
+          "variables": [
+            "eli",
+            "vli",
+            "li",
+            "mi",
+            "midi",
+            "hi"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ]
         }
       ]

@@ -206,6 +206,108 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_count",
+                "households_count_moe",
+                "households_count_cv"
+              ],
+              [
+                "households_eli_count",
+                "households_eli_count_moe",
+                "households_eli_count_cv"
+              ],
+              [
+                "households_vli_count",
+                "households_vli_count_moe",
+                "households_vli_count_cv"
+              ],
+              [
+                "households_li_count",
+                "households_li_count_moe",
+                "households_li_count_cv"
+              ],
+              [
+                "households_mi_count",
+                "households_mi_count_moe",
+                "households_mi_count_cv"
+              ],
+              [
+                "households_midi_count",
+                "households_midi_count_moe",
+                "households_midi_count_cv"
+              ],
+              [
+                "households_hi_count",
+                "households_hi_count_moe",
+                "households_hi_count_cv"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -403,6 +505,108 @@
                 "edu_bchpl_anh_count_cv",
                 "edu_bchpl_anh_pct",
                 "edu_bchpl_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with an Asian non-Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_anh_count",
+                "households_anh_count_moe",
+                "households_anh_count_cv"
+              ],
+              [
+                "households_eli_anh_count",
+                "households_eli_anh_count_moe",
+                "households_eli_anh_count_cv"
+              ],
+              [
+                "households_vli_anh_count",
+                "households_vli_anh_count_moe",
+                "households_vli_anh_count_cv"
+              ],
+              [
+                "households_li_anh_count",
+                "households_li_anh_count_moe",
+                "households_li_anh_count_cv"
+              ],
+              [
+                "households_mi_anh_count",
+                "households_mi_anh_count_moe",
+                "households_mi_anh_count_cv"
+              ],
+              [
+                "households_midi_anh_count",
+                "households_midi_anh_count_moe",
+                "households_midi_anh_count_cv"
+              ],
+              [
+                "households_hi_anh_count",
+                "households_hi_anh_count_moe",
+                "households_hi_anh_count_cv"
               ]
             ]
           ]
@@ -606,19 +810,13 @@
               ]
             ]
           ]
-        }
-      ],
-      "wnh": [
+        },
         {
           "headers": [
             [
               [
                 "number",
                 3
-              ],
-              [
-                "percent",
-                2
               ]
             ],
             [
@@ -633,176 +831,84 @@
               [
                 "cv",
                 1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
               ]
             ]
           ],
-          "title": "Educational Attainment (Highest Grade Completed)",
+          "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "CENSUS PUMS, 2000",
-            "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
           ],
           "files": [
-            "economics_2000_puma",
-            "economics_0812_puma",
             "economics_1519_puma"
           ],
           "labels": [
-            "Less than high school degree",
-            "High school degree or equivalent",
-            "Some college or Associate's degree",
-            "Bachelor's degree or higher"
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
+            "COUNT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "CV"
           ],
           "is_survey": false,
           "denominator": {
-            "label": "White non-Hispanic population 25 years and over",
+            "label": "Total households with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT",
-              "PERCENT",
-              "PERCENT"
+              "COUNT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV",
-              "NONE",
-              "MOE"
+              "CV"
             ]
           },
           "cells": [
             [
               [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
+                "households_bnh_count",
+                "households_bnh_count_moe",
+                "households_bnh_count_cv"
               ],
               [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
+                "households_eli_bnh_count",
+                "households_eli_bnh_count_moe",
+                "households_eli_bnh_count_cv"
               ],
               [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
+                "households_vli_bnh_count",
+                "households_vli_bnh_count_moe",
+                "households_vli_bnh_count_cv"
               ],
               [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
+                "households_li_bnh_count",
+                "households_li_bnh_count_moe",
+                "households_li_bnh_count_cv"
               ],
               [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
-              ]
-            ],
-            [
-              [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
+                "households_mi_bnh_count",
+                "households_mi_bnh_count_moe",
+                "households_mi_bnh_count_cv"
               ],
               [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
+                "households_midi_bnh_count",
+                "households_midi_bnh_count_moe",
+                "households_midi_bnh_count_cv"
               ],
               [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
-              ],
-              [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
-              ],
-              [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
-              ]
-            ],
-            [
-              [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
-              ],
-              [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
-              ],
-              [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
-              ],
-              [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
-              ],
-              [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
+                "households_hi_bnh_count",
+                "households_hi_bnh_count_moe",
+                "households_hi_bnh_count_cv"
               ]
             ]
           ]
@@ -1003,6 +1109,410 @@
                 "edu_bchpl_hsp_count_cv",
                 "edu_bchpl_hsp_pct",
                 "edu_bchpl_hsp_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with a Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_hsp_count",
+                "households_hsp_count_moe",
+                "households_hsp_count_cv"
+              ],
+              [
+                "households_eli_hsp_count",
+                "households_eli_hsp_count_moe",
+                "households_eli_hsp_count_cv"
+              ],
+              [
+                "households_vli_hsp_count",
+                "households_vli_hsp_count_moe",
+                "households_vli_hsp_count_cv"
+              ],
+              [
+                "households_li_hsp_count",
+                "households_li_hsp_count_moe",
+                "households_li_hsp_count_cv"
+              ],
+              [
+                "households_mi_hsp_count",
+                "households_mi_hsp_count_moe",
+                "households_mi_hsp_count_cv"
+              ],
+              [
+                "households_midi_hsp_count",
+                "households_midi_hsp_count_moe",
+                "households_midi_hsp_count_cv"
+              ],
+              [
+                "households_hi_hsp_count",
+                "households_hi_hsp_count_moe",
+                "households_hi_hsp_count_cv"
+              ]
+            ]
+          ]
+        }
+      ],
+      "wnh": [
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
+          "vintages": [
+            "CENSUS PUMS, 2000",
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_2000_puma",
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic population 25 years and over",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with a White non-Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_wnh_count",
+                "households_wnh_count_moe",
+                "households_wnh_count_cv"
+              ],
+              [
+                "households_eli_wnh_count",
+                "households_eli_wnh_count_moe",
+                "households_eli_wnh_count_cv"
+              ],
+              [
+                "households_vli_wnh_count",
+                "households_vli_wnh_count_moe",
+                "households_vli_wnh_count_cv"
+              ],
+              [
+                "households_li_wnh_count",
+                "households_li_wnh_count_moe",
+                "households_li_wnh_count_cv"
+              ],
+              [
+                "households_mi_wnh_count",
+                "households_mi_wnh_count_moe",
+                "households_mi_wnh_count_cv"
+              ],
+              [
+                "households_midi_wnh_count",
+                "households_midi_wnh_count_moe",
+                "households_midi_wnh_count_cv"
+              ],
+              [
+                "households_hi_wnh_count",
+                "households_hi_wnh_count_moe",
+                "households_hi_wnh_count_cv"
               ]
             ]
           ]
@@ -1217,6 +1727,108 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_count",
+                "households_count_moe",
+                "households_count_cv"
+              ],
+              [
+                "households_eli_count",
+                "households_eli_count_moe",
+                "households_eli_count_cv"
+              ],
+              [
+                "households_vli_count",
+                "households_vli_count_moe",
+                "households_vli_count_cv"
+              ],
+              [
+                "households_li_count",
+                "households_li_count_moe",
+                "households_li_count_cv"
+              ],
+              [
+                "households_mi_count",
+                "households_mi_count_moe",
+                "households_mi_count_cv"
+              ],
+              [
+                "households_midi_count",
+                "households_midi_count_moe",
+                "households_midi_count_cv"
+              ],
+              [
+                "households_hi_count",
+                "households_hi_count_moe",
+                "households_hi_count_cv"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -1414,6 +2026,108 @@
                 "edu_bchpl_anh_count_cv",
                 "edu_bchpl_anh_pct",
                 "edu_bchpl_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with an Asian non-Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_anh_count",
+                "households_anh_count_moe",
+                "households_anh_count_cv"
+              ],
+              [
+                "households_eli_anh_count",
+                "households_eli_anh_count_moe",
+                "households_eli_anh_count_cv"
+              ],
+              [
+                "households_vli_anh_count",
+                "households_vli_anh_count_moe",
+                "households_vli_anh_count_cv"
+              ],
+              [
+                "households_li_anh_count",
+                "households_li_anh_count_moe",
+                "households_li_anh_count_cv"
+              ],
+              [
+                "households_mi_anh_count",
+                "households_mi_anh_count_moe",
+                "households_mi_anh_count_cv"
+              ],
+              [
+                "households_midi_anh_count",
+                "households_midi_anh_count_moe",
+                "households_midi_anh_count_cv"
+              ],
+              [
+                "households_hi_anh_count",
+                "households_hi_anh_count_moe",
+                "households_hi_anh_count_cv"
               ]
             ]
           ]
@@ -1617,19 +2331,13 @@
               ]
             ]
           ]
-        }
-      ],
-      "wnh": [
+        },
         {
           "headers": [
             [
               [
                 "number",
                 3
-              ],
-              [
-                "percent",
-                2
               ]
             ],
             [
@@ -1644,176 +2352,84 @@
               [
                 "cv",
                 1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
               ]
             ]
           ],
-          "title": "Educational Attainment (Highest Grade Completed)",
+          "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "CENSUS PUMS, 2000",
-            "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
           ],
           "files": [
-            "economics_2000_borough",
-            "economics_0812_borough",
             "economics_1519_borough"
           ],
           "labels": [
-            "Less than high school degree",
-            "High school degree or equivalent",
-            "Some college or Associate's degree",
-            "Bachelor's degree or higher"
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
+            "COUNT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "CV"
           ],
           "is_survey": false,
           "denominator": {
-            "label": "White non-Hispanic population 25 years and over",
+            "label": "Total households with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT",
-              "PERCENT",
-              "PERCENT"
+              "COUNT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV",
-              "NONE",
-              "MOE"
+              "CV"
             ]
           },
           "cells": [
             [
               [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
+                "households_bnh_count",
+                "households_bnh_count_moe",
+                "households_bnh_count_cv"
               ],
               [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
+                "households_eli_bnh_count",
+                "households_eli_bnh_count_moe",
+                "households_eli_bnh_count_cv"
               ],
               [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
+                "households_vli_bnh_count",
+                "households_vli_bnh_count_moe",
+                "households_vli_bnh_count_cv"
               ],
               [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
+                "households_li_bnh_count",
+                "households_li_bnh_count_moe",
+                "households_li_bnh_count_cv"
               ],
               [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
-              ]
-            ],
-            [
-              [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
+                "households_mi_bnh_count",
+                "households_mi_bnh_count_moe",
+                "households_mi_bnh_count_cv"
               ],
               [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
+                "households_midi_bnh_count",
+                "households_midi_bnh_count_moe",
+                "households_midi_bnh_count_cv"
               ],
               [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
-              ],
-              [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
-              ],
-              [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
-              ]
-            ],
-            [
-              [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
-              ],
-              [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
-              ],
-              [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
-              ],
-              [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
-              ],
-              [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
+                "households_hi_bnh_count",
+                "households_hi_bnh_count_moe",
+                "households_hi_bnh_count_cv"
               ]
             ]
           ]
@@ -2014,6 +2630,410 @@
                 "edu_bchpl_hsp_count_cv",
                 "edu_bchpl_hsp_pct",
                 "edu_bchpl_hsp_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with a Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_hsp_count",
+                "households_hsp_count_moe",
+                "households_hsp_count_cv"
+              ],
+              [
+                "households_eli_hsp_count",
+                "households_eli_hsp_count_moe",
+                "households_eli_hsp_count_cv"
+              ],
+              [
+                "households_vli_hsp_count",
+                "households_vli_hsp_count_moe",
+                "households_vli_hsp_count_cv"
+              ],
+              [
+                "households_li_hsp_count",
+                "households_li_hsp_count_moe",
+                "households_li_hsp_count_cv"
+              ],
+              [
+                "households_mi_hsp_count",
+                "households_mi_hsp_count_moe",
+                "households_mi_hsp_count_cv"
+              ],
+              [
+                "households_midi_hsp_count",
+                "households_midi_hsp_count_moe",
+                "households_midi_hsp_count_cv"
+              ],
+              [
+                "households_hi_hsp_count",
+                "households_hi_hsp_count_moe",
+                "households_hi_hsp_count_cv"
+              ]
+            ]
+          ]
+        }
+      ],
+      "wnh": [
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
+          "vintages": [
+            "CENSUS PUMS, 2000",
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_2000_borough",
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic population 25 years and over",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with a White non-Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_wnh_count",
+                "households_wnh_count_moe",
+                "households_wnh_count_cv"
+              ],
+              [
+                "households_eli_wnh_count",
+                "households_eli_wnh_count_moe",
+                "households_eli_wnh_count_cv"
+              ],
+              [
+                "households_vli_wnh_count",
+                "households_vli_wnh_count_moe",
+                "households_vli_wnh_count_cv"
+              ],
+              [
+                "households_li_wnh_count",
+                "households_li_wnh_count_moe",
+                "households_li_wnh_count_cv"
+              ],
+              [
+                "households_mi_wnh_count",
+                "households_mi_wnh_count_moe",
+                "households_mi_wnh_count_cv"
+              ],
+              [
+                "households_midi_wnh_count",
+                "households_midi_wnh_count_moe",
+                "households_midi_wnh_count_cv"
+              ],
+              [
+                "households_hi_wnh_count",
+                "households_hi_wnh_count_moe",
+                "households_hi_wnh_count_cv"
               ]
             ]
           ]
@@ -2228,6 +3248,108 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_count",
+                "households_count_moe",
+                "households_count_cv"
+              ],
+              [
+                "households_eli_count",
+                "households_eli_count_moe",
+                "households_eli_count_cv"
+              ],
+              [
+                "households_vli_count",
+                "households_vli_count_moe",
+                "households_vli_count_cv"
+              ],
+              [
+                "households_li_count",
+                "households_li_count_moe",
+                "households_li_count_cv"
+              ],
+              [
+                "households_mi_count",
+                "households_mi_count_moe",
+                "households_mi_count_cv"
+              ],
+              [
+                "households_midi_count",
+                "households_midi_count_moe",
+                "households_midi_count_cv"
+              ],
+              [
+                "households_hi_count",
+                "households_hi_count_moe",
+                "households_hi_count_cv"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -2425,6 +3547,108 @@
                 "edu_bchpl_anh_count_cv",
                 "edu_bchpl_anh_pct",
                 "edu_bchpl_anh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with an Asian non-Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_anh_count",
+                "households_anh_count_moe",
+                "households_anh_count_cv"
+              ],
+              [
+                "households_eli_anh_count",
+                "households_eli_anh_count_moe",
+                "households_eli_anh_count_cv"
+              ],
+              [
+                "households_vli_anh_count",
+                "households_vli_anh_count_moe",
+                "households_vli_anh_count_cv"
+              ],
+              [
+                "households_li_anh_count",
+                "households_li_anh_count_moe",
+                "households_li_anh_count_cv"
+              ],
+              [
+                "households_mi_anh_count",
+                "households_mi_anh_count_moe",
+                "households_mi_anh_count_cv"
+              ],
+              [
+                "households_midi_anh_count",
+                "households_midi_anh_count_moe",
+                "households_midi_anh_count_cv"
+              ],
+              [
+                "households_hi_anh_count",
+                "households_hi_anh_count_moe",
+                "households_hi_anh_count_cv"
               ]
             ]
           ]
@@ -2628,19 +3852,13 @@
               ]
             ]
           ]
-        }
-      ],
-      "wnh": [
+        },
         {
           "headers": [
             [
               [
                 "number",
                 3
-              ],
-              [
-                "percent",
-                2
               ]
             ],
             [
@@ -2655,176 +3873,84 @@
               [
                 "cv",
                 1
-              ],
-              [
-                "estimate",
-                1
-              ],
-              [
-                "moe",
-                1
               ]
             ]
           ],
-          "title": "Educational Attainment (Highest Grade Completed)",
+          "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "CENSUS PUMS, 2000",
-            "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
           ],
           "files": [
-            "economics_2000_citywide",
-            "economics_0812_citywide",
             "economics_1519_citywide"
           ],
           "labels": [
-            "Less than high school degree",
-            "High school degree or equivalent",
-            "Some college or Associate's degree",
-            "Bachelor's degree or higher"
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT",
-            "PERCENT",
-            "PERCENT"
+            "COUNT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV",
-            "NONE",
-            "MOE"
+            "CV"
           ],
           "is_survey": false,
           "denominator": {
-            "label": "White non-Hispanic population 25 years and over",
+            "label": "Total households with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT",
-              "PERCENT",
-              "PERCENT"
+              "COUNT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV",
-              "NONE",
-              "MOE"
+              "CV"
             ]
           },
           "cells": [
             [
               [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
+                "households_bnh_count",
+                "households_bnh_count_moe",
+                "households_bnh_count_cv"
               ],
               [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
+                "households_eli_bnh_count",
+                "households_eli_bnh_count_moe",
+                "households_eli_bnh_count_cv"
               ],
               [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
+                "households_vli_bnh_count",
+                "households_vli_bnh_count_moe",
+                "households_vli_bnh_count_cv"
               ],
               [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
+                "households_li_bnh_count",
+                "households_li_bnh_count_moe",
+                "households_li_bnh_count_cv"
               ],
               [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
-              ]
-            ],
-            [
-              [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
+                "households_mi_bnh_count",
+                "households_mi_bnh_count_moe",
+                "households_mi_bnh_count_cv"
               ],
               [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
+                "households_midi_bnh_count",
+                "households_midi_bnh_count_moe",
+                "households_midi_bnh_count_cv"
               ],
               [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
-              ],
-              [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
-              ],
-              [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
-              ]
-            ],
-            [
-              [
-                "age_p25pl_wnh_count",
-                "age_p25pl_wnh_count_moe",
-                "age_p25pl_wnh_count_cv",
-                "age_p25pl_wnh_pct",
-                "age_p25pl_wnh_pct_moe"
-              ],
-              [
-                "edu_lths_wnh_count",
-                "edu_lths_wnh_count_moe",
-                "edu_lths_wnh_count_cv",
-                "edu_lths_wnh_pct",
-                "edu_lths_wnh_pct_moe"
-              ],
-              [
-                "edu_hs_wnh_count",
-                "edu_hs_wnh_count_moe",
-                "edu_hs_wnh_count_cv",
-                "edu_hs_wnh_pct",
-                "edu_hs_wnh_pct_moe"
-              ],
-              [
-                "edu_smcol_wnh_count",
-                "edu_smcol_wnh_count_moe",
-                "edu_smcol_wnh_count_cv",
-                "edu_smcol_wnh_pct",
-                "edu_smcol_wnh_pct_moe"
-              ],
-              [
-                "edu_bchpl_wnh_count",
-                "edu_bchpl_wnh_count_moe",
-                "edu_bchpl_wnh_count_cv",
-                "edu_bchpl_wnh_pct",
-                "edu_bchpl_wnh_pct_moe"
+                "households_hi_bnh_count",
+                "households_hi_bnh_count_moe",
+                "households_hi_bnh_count_cv"
               ]
             ]
           ]
@@ -3025,6 +4151,410 @@
                 "edu_bchpl_hsp_count_cv",
                 "edu_bchpl_hsp_pct",
                 "edu_bchpl_hsp_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with a Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_hsp_count",
+                "households_hsp_count_moe",
+                "households_hsp_count_cv"
+              ],
+              [
+                "households_eli_hsp_count",
+                "households_eli_hsp_count_moe",
+                "households_eli_hsp_count_cv"
+              ],
+              [
+                "households_vli_hsp_count",
+                "households_vli_hsp_count_moe",
+                "households_vli_hsp_count_cv"
+              ],
+              [
+                "households_li_hsp_count",
+                "households_li_hsp_count_moe",
+                "households_li_hsp_count_cv"
+              ],
+              [
+                "households_mi_hsp_count",
+                "households_mi_hsp_count_moe",
+                "households_mi_hsp_count_cv"
+              ],
+              [
+                "households_midi_hsp_count",
+                "households_midi_hsp_count_moe",
+                "households_midi_hsp_count_cv"
+              ],
+              [
+                "households_hi_hsp_count",
+                "households_hi_hsp_count_moe",
+                "households_hi_hsp_count_cv"
+              ]
+            ]
+          ]
+        }
+      ],
+      "wnh": [
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Educational Attainment (Highest Grade Completed)",
+          "vintages": [
+            "CENSUS PUMS, 2000",
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_2000_citywide",
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Less than high school degree",
+            "High school degree or equivalent",
+            "Some college or Associate's degree",
+            "Bachelor's degree or higher"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic population 25 years and over",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p25pl_wnh_count",
+                "age_p25pl_wnh_count_moe",
+                "age_p25pl_wnh_count_cv",
+                "age_p25pl_wnh_pct",
+                "age_p25pl_wnh_pct_moe"
+              ],
+              [
+                "edu_lths_wnh_count",
+                "edu_lths_wnh_count_moe",
+                "edu_lths_wnh_count_cv",
+                "edu_lths_wnh_pct",
+                "edu_lths_wnh_pct_moe"
+              ],
+              [
+                "edu_hs_wnh_count",
+                "edu_hs_wnh_count_moe",
+                "edu_hs_wnh_count_cv",
+                "edu_hs_wnh_pct",
+                "edu_hs_wnh_pct_moe"
+              ],
+              [
+                "edu_smcol_wnh_count",
+                "edu_smcol_wnh_count_moe",
+                "edu_smcol_wnh_count_cv",
+                "edu_smcol_wnh_pct",
+                "edu_smcol_wnh_pct_moe"
+              ],
+              [
+                "edu_bchpl_wnh_count",
+                "edu_bchpl_wnh_count_moe",
+                "edu_bchpl_wnh_count_cv",
+                "edu_bchpl_wnh_pct",
+                "edu_bchpl_wnh_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ]
+            ]
+          ],
+          "title": "Households By Area Median Income (AMI) Band",
+          "vintages": [
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "Households where the income is less than 30% of the area median income",
+            "Households where the income is between 31% and 50% of the area median income",
+            "Households where the income is between 51% and 80% of the area median income",
+            "Households where the income is between 81% and 120% of the area median income",
+            "Households where the income is between 121% and 165% of the area median income",
+            "Households where the income is over 165% of the area median income"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total households with a White non-Hispanic householder",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "households_wnh_count",
+                "households_wnh_count_moe",
+                "households_wnh_count_cv"
+              ],
+              [
+                "households_eli_wnh_count",
+                "households_eli_wnh_count_moe",
+                "households_eli_wnh_count_cv"
+              ],
+              [
+                "households_vli_wnh_count",
+                "households_vli_wnh_count_moe",
+                "households_vli_wnh_count_cv"
+              ],
+              [
+                "households_li_wnh_count",
+                "households_li_wnh_count_moe",
+                "households_li_wnh_count_cv"
+              ],
+              [
+                "households_mi_wnh_count",
+                "households_mi_wnh_count_moe",
+                "households_mi_wnh_count_cv"
+              ],
+              [
+                "households_midi_wnh_count",
+                "households_midi_wnh_count_moe",
+                "households_midi_wnh_count_cv"
+              ],
+              [
+                "households_hi_wnh_count",
+                "households_hi_wnh_count_moe",
+                "households_hi_wnh_count_cv"
               ]
             ]
           ]
