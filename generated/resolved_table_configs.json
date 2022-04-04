@@ -175,6 +175,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Total population 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "anh": [
@@ -343,6 +429,92 @@
             "Households where the income is between 81% and 120% of the area median income",
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Asian non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
           ]
         }
       ],
@@ -513,6 +685,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Black non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "hsp": [
@@ -682,6 +940,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "wnh": [
@@ -850,6 +1194,92 @@
             "Households where the income is between 81% and 120% of the area median income",
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "White non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
           ]
         }
       ]
@@ -1031,6 +1461,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Total population 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "anh": [
@@ -1199,6 +1715,92 @@
             "Households where the income is between 81% and 120% of the area median income",
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Asian non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
           ]
         }
       ],
@@ -1369,6 +1971,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Black non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "hsp": [
@@ -1538,6 +2226,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "wnh": [
@@ -1706,6 +2480,92 @@
             "Households where the income is between 81% and 120% of the area median income",
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "White non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
           ]
         }
       ]
@@ -1887,6 +2747,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Total population 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "anh": [
@@ -2055,6 +3001,92 @@
             "Households where the income is between 81% and 120% of the area median income",
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "Asian non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
           ]
         }
       ],
@@ -2225,6 +3257,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Black non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "hsp": [
@@ -2394,6 +3512,92 @@
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
           ]
+        },
+        {
+          "denominator": {
+            "label": "Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
+          ]
         }
       ],
       "wnh": [
@@ -2562,6 +3766,92 @@
             "Households where the income is between 81% and 120% of the area median income",
             "Households where the income is between 121% and 165% of the area median income",
             "Households where the income is over 165% of the area median income"
+          ]
+        },
+        {
+          "denominator": {
+            "label": "White non-Hispanic 16 to 64 years",
+            "subcategory": "",
+            "variable": "age_p16t64",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ],
+            "labels": "Total population 16 to 64 years"
+          },
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "subcategory": "",
+          "variables": [
+            "lf"
+          ],
+          "labels": [
+            "In labor force"
           ]
         }
       ]

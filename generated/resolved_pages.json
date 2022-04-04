@@ -308,6 +308,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_count",
+                "age_p16t64_count_moe",
+                "age_p16t64_count_cv",
+                "age_p16t64_pct",
+                "age_p16t64_pct_moe"
+              ],
+              [
+                "lf_count",
+                "lf_count_moe",
+                "lf_count_cv",
+                "lf_pct",
+                "lf_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_count",
+                "age_p16t64_count_moe",
+                "age_p16t64_count_cv",
+                "age_p16t64_pct",
+                "age_p16t64_pct_moe"
+              ],
+              [
+                "lf_count",
+                "lf_count_moe",
+                "lf_count_cv",
+                "lf_pct",
+                "lf_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -607,6 +721,120 @@
                 "households_hi_anh_count",
                 "households_hi_anh_count_moe",
                 "households_hi_anh_count_cv"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_anh_count",
+                "age_p16t64_anh_count_moe",
+                "age_p16t64_anh_count_cv",
+                "age_p16t64_anh_pct",
+                "age_p16t64_anh_pct_moe"
+              ],
+              [
+                "lf_anh_count",
+                "lf_anh_count_moe",
+                "lf_anh_count_cv",
+                "lf_anh_pct",
+                "lf_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_anh_count",
+                "age_p16t64_anh_count_moe",
+                "age_p16t64_anh_count_cv",
+                "age_p16t64_anh_pct",
+                "age_p16t64_anh_pct_moe"
+              ],
+              [
+                "lf_anh_count",
+                "lf_anh_count_moe",
+                "lf_anh_count_cv",
+                "lf_anh_pct",
+                "lf_anh_pct_moe"
               ]
             ]
           ]
@@ -912,6 +1140,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_bnh_count",
+                "age_p16t64_bnh_count_moe",
+                "age_p16t64_bnh_count_cv",
+                "age_p16t64_bnh_pct",
+                "age_p16t64_bnh_pct_moe"
+              ],
+              [
+                "lf_bnh_count",
+                "lf_bnh_count_moe",
+                "lf_bnh_count_cv",
+                "lf_bnh_pct",
+                "lf_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_bnh_count",
+                "age_p16t64_bnh_count_moe",
+                "age_p16t64_bnh_count_cv",
+                "age_p16t64_bnh_pct",
+                "age_p16t64_bnh_pct_moe"
+              ],
+              [
+                "lf_bnh_count",
+                "lf_bnh_count_moe",
+                "lf_bnh_count_cv",
+                "lf_bnh_pct",
+                "lf_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -1214,6 +1556,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_hsp_count",
+                "age_p16t64_hsp_count_moe",
+                "age_p16t64_hsp_count_cv",
+                "age_p16t64_hsp_pct",
+                "age_p16t64_hsp_pct_moe"
+              ],
+              [
+                "lf_hsp_count",
+                "lf_hsp_count_moe",
+                "lf_hsp_count_cv",
+                "lf_hsp_pct",
+                "lf_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_hsp_count",
+                "age_p16t64_hsp_count_moe",
+                "age_p16t64_hsp_count_cv",
+                "age_p16t64_hsp_pct",
+                "age_p16t64_hsp_pct_moe"
+              ],
+              [
+                "lf_hsp_count",
+                "lf_hsp_count_moe",
+                "lf_hsp_count_cv",
+                "lf_hsp_pct",
+                "lf_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -1513,6 +1969,120 @@
                 "households_hi_wnh_count",
                 "households_hi_wnh_count_moe",
                 "households_hi_wnh_count_cv"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_puma",
+            "economics_1519_puma"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_wnh_count",
+                "age_p16t64_wnh_count_moe",
+                "age_p16t64_wnh_count_cv",
+                "age_p16t64_wnh_pct",
+                "age_p16t64_wnh_pct_moe"
+              ],
+              [
+                "lf_wnh_count",
+                "lf_wnh_count_moe",
+                "lf_wnh_count_cv",
+                "lf_wnh_pct",
+                "lf_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_wnh_count",
+                "age_p16t64_wnh_count_moe",
+                "age_p16t64_wnh_count_cv",
+                "age_p16t64_wnh_pct",
+                "age_p16t64_wnh_pct_moe"
+              ],
+              [
+                "lf_wnh_count",
+                "lf_wnh_count_moe",
+                "lf_wnh_count_cv",
+                "lf_wnh_pct",
+                "lf_wnh_pct_moe"
               ]
             ]
           ]
@@ -1829,6 +2399,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_count",
+                "age_p16t64_count_moe",
+                "age_p16t64_count_cv",
+                "age_p16t64_pct",
+                "age_p16t64_pct_moe"
+              ],
+              [
+                "lf_count",
+                "lf_count_moe",
+                "lf_count_cv",
+                "lf_pct",
+                "lf_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_count",
+                "age_p16t64_count_moe",
+                "age_p16t64_count_cv",
+                "age_p16t64_pct",
+                "age_p16t64_pct_moe"
+              ],
+              [
+                "lf_count",
+                "lf_count_moe",
+                "lf_count_cv",
+                "lf_pct",
+                "lf_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -2128,6 +2812,120 @@
                 "households_hi_anh_count",
                 "households_hi_anh_count_moe",
                 "households_hi_anh_count_cv"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_anh_count",
+                "age_p16t64_anh_count_moe",
+                "age_p16t64_anh_count_cv",
+                "age_p16t64_anh_pct",
+                "age_p16t64_anh_pct_moe"
+              ],
+              [
+                "lf_anh_count",
+                "lf_anh_count_moe",
+                "lf_anh_count_cv",
+                "lf_anh_pct",
+                "lf_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_anh_count",
+                "age_p16t64_anh_count_moe",
+                "age_p16t64_anh_count_cv",
+                "age_p16t64_anh_pct",
+                "age_p16t64_anh_pct_moe"
+              ],
+              [
+                "lf_anh_count",
+                "lf_anh_count_moe",
+                "lf_anh_count_cv",
+                "lf_anh_pct",
+                "lf_anh_pct_moe"
               ]
             ]
           ]
@@ -2433,6 +3231,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_bnh_count",
+                "age_p16t64_bnh_count_moe",
+                "age_p16t64_bnh_count_cv",
+                "age_p16t64_bnh_pct",
+                "age_p16t64_bnh_pct_moe"
+              ],
+              [
+                "lf_bnh_count",
+                "lf_bnh_count_moe",
+                "lf_bnh_count_cv",
+                "lf_bnh_pct",
+                "lf_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_bnh_count",
+                "age_p16t64_bnh_count_moe",
+                "age_p16t64_bnh_count_cv",
+                "age_p16t64_bnh_pct",
+                "age_p16t64_bnh_pct_moe"
+              ],
+              [
+                "lf_bnh_count",
+                "lf_bnh_count_moe",
+                "lf_bnh_count_cv",
+                "lf_bnh_pct",
+                "lf_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -2735,6 +3647,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_hsp_count",
+                "age_p16t64_hsp_count_moe",
+                "age_p16t64_hsp_count_cv",
+                "age_p16t64_hsp_pct",
+                "age_p16t64_hsp_pct_moe"
+              ],
+              [
+                "lf_hsp_count",
+                "lf_hsp_count_moe",
+                "lf_hsp_count_cv",
+                "lf_hsp_pct",
+                "lf_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_hsp_count",
+                "age_p16t64_hsp_count_moe",
+                "age_p16t64_hsp_count_cv",
+                "age_p16t64_hsp_pct",
+                "age_p16t64_hsp_pct_moe"
+              ],
+              [
+                "lf_hsp_count",
+                "lf_hsp_count_moe",
+                "lf_hsp_count_cv",
+                "lf_hsp_pct",
+                "lf_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -3034,6 +4060,120 @@
                 "households_hi_wnh_count",
                 "households_hi_wnh_count_moe",
                 "households_hi_wnh_count_cv"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_borough",
+            "economics_1519_borough"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_wnh_count",
+                "age_p16t64_wnh_count_moe",
+                "age_p16t64_wnh_count_cv",
+                "age_p16t64_wnh_pct",
+                "age_p16t64_wnh_pct_moe"
+              ],
+              [
+                "lf_wnh_count",
+                "lf_wnh_count_moe",
+                "lf_wnh_count_cv",
+                "lf_wnh_pct",
+                "lf_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_wnh_count",
+                "age_p16t64_wnh_count_moe",
+                "age_p16t64_wnh_count_cv",
+                "age_p16t64_wnh_pct",
+                "age_p16t64_wnh_pct_moe"
+              ],
+              [
+                "lf_wnh_count",
+                "lf_wnh_count_moe",
+                "lf_wnh_count_cv",
+                "lf_wnh_pct",
+                "lf_wnh_pct_moe"
               ]
             ]
           ]
@@ -3350,6 +4490,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Total population 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_count",
+                "age_p16t64_count_moe",
+                "age_p16t64_count_cv",
+                "age_p16t64_pct",
+                "age_p16t64_pct_moe"
+              ],
+              [
+                "lf_count",
+                "lf_count_moe",
+                "lf_count_cv",
+                "lf_pct",
+                "lf_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_count",
+                "age_p16t64_count_moe",
+                "age_p16t64_count_cv",
+                "age_p16t64_pct",
+                "age_p16t64_pct_moe"
+              ],
+              [
+                "lf_count",
+                "lf_count_moe",
+                "lf_count_cv",
+                "lf_pct",
+                "lf_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "anh": [
@@ -3649,6 +4903,120 @@
                 "households_hi_anh_count",
                 "households_hi_anh_count_moe",
                 "households_hi_anh_count_cv"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Asian non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_anh_count",
+                "age_p16t64_anh_count_moe",
+                "age_p16t64_anh_count_cv",
+                "age_p16t64_anh_pct",
+                "age_p16t64_anh_pct_moe"
+              ],
+              [
+                "lf_anh_count",
+                "lf_anh_count_moe",
+                "lf_anh_count_cv",
+                "lf_anh_pct",
+                "lf_anh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_anh_count",
+                "age_p16t64_anh_count_moe",
+                "age_p16t64_anh_count_cv",
+                "age_p16t64_anh_pct",
+                "age_p16t64_anh_pct_moe"
+              ],
+              [
+                "lf_anh_count",
+                "lf_anh_count_moe",
+                "lf_anh_count_cv",
+                "lf_anh_pct",
+                "lf_anh_pct_moe"
               ]
             ]
           ]
@@ -3954,6 +5322,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Black non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_bnh_count",
+                "age_p16t64_bnh_count_moe",
+                "age_p16t64_bnh_count_cv",
+                "age_p16t64_bnh_pct",
+                "age_p16t64_bnh_pct_moe"
+              ],
+              [
+                "lf_bnh_count",
+                "lf_bnh_count_moe",
+                "lf_bnh_count_cv",
+                "lf_bnh_pct",
+                "lf_bnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_bnh_count",
+                "age_p16t64_bnh_count_moe",
+                "age_p16t64_bnh_count_cv",
+                "age_p16t64_bnh_pct",
+                "age_p16t64_bnh_pct_moe"
+              ],
+              [
+                "lf_bnh_count",
+                "lf_bnh_count_moe",
+                "lf_bnh_count_cv",
+                "lf_bnh_pct",
+                "lf_bnh_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -4256,6 +5738,120 @@
               ]
             ]
           ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_hsp_count",
+                "age_p16t64_hsp_count_moe",
+                "age_p16t64_hsp_count_cv",
+                "age_p16t64_hsp_pct",
+                "age_p16t64_hsp_pct_moe"
+              ],
+              [
+                "lf_hsp_count",
+                "lf_hsp_count_moe",
+                "lf_hsp_count_cv",
+                "lf_hsp_pct",
+                "lf_hsp_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_hsp_count",
+                "age_p16t64_hsp_count_moe",
+                "age_p16t64_hsp_count_cv",
+                "age_p16t64_hsp_pct",
+                "age_p16t64_hsp_pct_moe"
+              ],
+              [
+                "lf_hsp_count",
+                "lf_hsp_count_moe",
+                "lf_hsp_count_cv",
+                "lf_hsp_pct",
+                "lf_hsp_pct_moe"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -4555,6 +6151,120 @@
                 "households_hi_wnh_count",
                 "households_hi_wnh_count_moe",
                 "households_hi_wnh_count_cv"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "title": "Labor Force",
+          "vintages": [
+            "ACS PUMS, 2008-2012",
+            "ACS PUMS, 2015-19"
+          ],
+          "files": [
+            "economics_0812_citywide",
+            "economics_1519_citywide"
+          ],
+          "labels": [
+            "In labor force"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "White non-Hispanic 16 to 64 years",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "age_p16t64_wnh_count",
+                "age_p16t64_wnh_count_moe",
+                "age_p16t64_wnh_count_cv",
+                "age_p16t64_wnh_pct",
+                "age_p16t64_wnh_pct_moe"
+              ],
+              [
+                "lf_wnh_count",
+                "lf_wnh_count_moe",
+                "lf_wnh_count_cv",
+                "lf_wnh_pct",
+                "lf_wnh_pct_moe"
+              ]
+            ],
+            [
+              [
+                "age_p16t64_wnh_count",
+                "age_p16t64_wnh_count_moe",
+                "age_p16t64_wnh_count_cv",
+                "age_p16t64_wnh_pct",
+                "age_p16t64_wnh_pct_moe"
+              ],
+              [
+                "lf_wnh_count",
+                "lf_wnh_count_moe",
+                "lf_wnh_count_cv",
+                "lf_wnh_pct",
+                "lf_wnh_pct_moe"
               ]
             ]
           ]
