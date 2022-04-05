@@ -7619,7 +7619,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Population 25 years and over",
             "measures": [
@@ -7796,7 +7796,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households",
             "measures": [
@@ -7885,7 +7885,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households",
             "measures": [
@@ -8000,7 +8000,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total population 16 to 64 years",
             "measures": [
@@ -8118,7 +8118,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -8276,7 +8276,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -8430,7 +8430,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -8708,7 +8708,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -8937,7 +8937,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic population 25 years and over",
             "measures": [
@@ -9114,7 +9114,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with an Asian non-Hispanic householder",
             "measures": [
@@ -9203,7 +9203,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with an Asian non-Hispanic householder",
             "measures": [
@@ -9318,7 +9318,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic 16 to 64 years",
             "measures": [
@@ -9436,7 +9436,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -9594,7 +9594,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -9748,7 +9748,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -10026,7 +10026,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -10255,7 +10255,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic population 25 years and over",
             "measures": [
@@ -10432,7 +10432,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Black non-Hispanic householder",
             "measures": [
@@ -10521,7 +10521,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Black non-Hispanic householder",
             "measures": [
@@ -10636,7 +10636,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic 16 to 64 years",
             "measures": [
@@ -10754,7 +10754,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -10912,7 +10912,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -11066,7 +11066,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -11344,7 +11344,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -11573,7 +11573,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic population 25 years and over",
             "measures": [
@@ -11750,7 +11750,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Hispanic householder",
             "measures": [
@@ -11839,7 +11839,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Hispanic householder",
             "measures": [
@@ -11954,7 +11954,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic 16 to 64 years",
             "measures": [
@@ -12072,7 +12072,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -12230,7 +12230,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -12384,7 +12384,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -12662,7 +12662,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -12891,7 +12891,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic population 25 years and over",
             "measures": [
@@ -13068,7 +13068,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a White non-Hispanic householder",
             "measures": [
@@ -13157,7 +13157,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a White non-Hispanic householder",
             "measures": [
@@ -13272,7 +13272,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic 16 to 64 years",
             "measures": [
@@ -13390,7 +13390,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -13548,7 +13548,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -13702,7 +13702,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -13980,7 +13980,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -26277,7 +26277,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Population 25 years and over",
             "measures": [
@@ -26454,7 +26454,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households",
             "measures": [
@@ -26543,7 +26543,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households",
             "measures": [
@@ -26658,7 +26658,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total population 16 to 64 years",
             "measures": [
@@ -26776,7 +26776,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -26934,7 +26934,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -27088,7 +27088,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -27366,7 +27366,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -27595,7 +27595,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic population 25 years and over",
             "measures": [
@@ -27772,7 +27772,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with an Asian non-Hispanic householder",
             "measures": [
@@ -27861,7 +27861,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with an Asian non-Hispanic householder",
             "measures": [
@@ -27976,7 +27976,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic 16 to 64 years",
             "measures": [
@@ -28094,7 +28094,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -28252,7 +28252,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -28406,7 +28406,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -28684,7 +28684,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -28913,7 +28913,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic population 25 years and over",
             "measures": [
@@ -29090,7 +29090,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Black non-Hispanic householder",
             "measures": [
@@ -29179,7 +29179,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Black non-Hispanic householder",
             "measures": [
@@ -29294,7 +29294,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic 16 to 64 years",
             "measures": [
@@ -29412,7 +29412,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -29570,7 +29570,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -29724,7 +29724,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -30002,7 +30002,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -30231,7 +30231,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic population 25 years and over",
             "measures": [
@@ -30408,7 +30408,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Hispanic householder",
             "measures": [
@@ -30497,7 +30497,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Hispanic householder",
             "measures": [
@@ -30612,7 +30612,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic 16 to 64 years",
             "measures": [
@@ -30730,7 +30730,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -30888,7 +30888,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -31042,7 +31042,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -31320,7 +31320,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -31549,7 +31549,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic population 25 years and over",
             "measures": [
@@ -31726,7 +31726,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a White non-Hispanic householder",
             "measures": [
@@ -31815,7 +31815,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a White non-Hispanic householder",
             "measures": [
@@ -31930,7 +31930,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic 16 to 64 years",
             "measures": [
@@ -32048,7 +32048,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -32206,7 +32206,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -32360,7 +32360,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -32638,7 +32638,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -44939,7 +44939,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Population 25 years and over",
             "measures": [
@@ -45116,7 +45116,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households",
             "measures": [
@@ -45205,7 +45205,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households",
             "measures": [
@@ -45320,7 +45320,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total population 16 to 64 years",
             "measures": [
@@ -45438,7 +45438,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -45596,7 +45596,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -45750,7 +45750,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -46028,7 +46028,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Civilian employed population 16 to 64 years",
             "measures": [
@@ -46257,7 +46257,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic population 25 years and over",
             "measures": [
@@ -46434,7 +46434,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with an Asian non-Hispanic householder",
             "measures": [
@@ -46523,7 +46523,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with an Asian non-Hispanic householder",
             "measures": [
@@ -46638,7 +46638,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic 16 to 64 years",
             "measures": [
@@ -46756,7 +46756,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -46914,7 +46914,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -47068,7 +47068,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -47346,7 +47346,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -47575,7 +47575,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic population 25 years and over",
             "measures": [
@@ -47752,7 +47752,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Black non-Hispanic householder",
             "measures": [
@@ -47841,7 +47841,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Black non-Hispanic householder",
             "measures": [
@@ -47956,7 +47956,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic 16 to 64 years",
             "measures": [
@@ -48074,7 +48074,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -48232,7 +48232,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -48386,7 +48386,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -48664,7 +48664,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Black non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -48893,7 +48893,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic population 25 years and over",
             "measures": [
@@ -49070,7 +49070,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Hispanic householder",
             "measures": [
@@ -49159,7 +49159,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a Hispanic householder",
             "measures": [
@@ -49274,7 +49274,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic 16 to 64 years",
             "measures": [
@@ -49392,7 +49392,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -49550,7 +49550,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -49704,7 +49704,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -49982,7 +49982,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -50211,7 +50211,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic population 25 years and over",
             "measures": [
@@ -50388,7 +50388,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a White non-Hispanic householder",
             "measures": [
@@ -50477,7 +50477,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "Total households with a White non-Hispanic householder",
             "measures": [
@@ -50592,7 +50592,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic 16 to 64 years",
             "measures": [
@@ -50710,7 +50710,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -50868,7 +50868,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -51022,7 +51022,7 @@
             "NONE",
             "MOE"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [
@@ -51300,7 +51300,7 @@
             "MOE",
             "CV"
           ],
-          "is_survey": false,
+          "is_survey": true,
           "denominator": {
             "label": "White non-Hispanic civilian employed population 16 to 64 years",
             "measures": [

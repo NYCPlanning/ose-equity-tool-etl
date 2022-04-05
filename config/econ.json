@@ -2,6 +2,7 @@
   {
     "base": {
       "title": "Educational Attainment (Highest Grade Completed)",
+      "is_survey": true,
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
@@ -82,6 +83,7 @@
   {
     "base": {
       "title": "Median Household Income (2019 Dollars)",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-19"
@@ -156,6 +158,7 @@
   {
     "base": {
       "title": "Households By Area Median Income (AMI) Band",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2015-19"
       ],
@@ -233,6 +236,7 @@
   {
     "base": {
       "title": "Labor Force",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-19"
@@ -312,6 +316,7 @@
   {
     "base": {
       "title": "Occupation",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-19"
@@ -395,6 +400,7 @@
   {
     "base": {
       "title": "Median Wages By Occupation (2019 Dollars)",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-19"
@@ -475,6 +481,7 @@
   {
     "base": {
       "title": "Industry",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-19"
@@ -566,6 +573,7 @@
   {
     "base": {
       "title": "Median Wages By Industry (2019 Dollars)",
+      "is_survey": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-19"
