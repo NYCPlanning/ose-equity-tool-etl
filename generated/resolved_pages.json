@@ -1786,7 +1786,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Asian non-Hispanic householder",
+            "label": "Occupied housing units with an Asian non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2222,7 +2222,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2325,7 +2325,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2695,7 +2695,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Black non-Hispanic householder",
+            "label": "Occupied housing units with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3131,7 +3131,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent with an White non-Hispanic householder",
+            "label": "Occupied units paying rent with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3234,7 +3234,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3604,7 +3604,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with White non-Hispanic householder",
+            "label": "Occupied housing units with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -4513,7 +4513,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Hispanic householder",
+            "label": "Occupied housing units with a Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -7772,6 +7772,124 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "cells": [
+            [
+              [
+                "health_selfreportedhealth_pct",
+                "health_selfreportedhealth_lower_pct_moe",
+                "health_selfreportedhealth_upper_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "cells": [
+            [
+              [
+                "health_diabetes_pct",
+                "health_diabetes_lower_pct_moe",
+                "health_diabetes_upper_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -8590,6 +8708,108 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -9324,6 +9544,108 @@
         }
       ],
       "bnh": [
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
         {
           "headers": [
             [
@@ -10066,6 +10388,108 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -10800,6 +11224,108 @@
         }
       ],
       "hsp": [
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
         {
           "headers": [
             [
@@ -13326,7 +13852,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Asian non-Hispanic householder",
+            "label": "Occupied housing units with an Asian non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -13762,7 +14288,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -13865,7 +14391,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14235,7 +14761,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Black non-Hispanic householder",
+            "label": "Occupied housing units with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14671,7 +15197,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent with an White non-Hispanic householder",
+            "label": "Occupied units paying rent with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14774,7 +15300,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -15144,7 +15670,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with White non-Hispanic householder",
+            "label": "Occupied housing units with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -16053,7 +16579,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Hispanic householder",
+            "label": "Occupied housing units with a Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -19312,6 +19838,124 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "cells": [
+            [
+              [
+                "health_selfreportedhealth_pct",
+                "health_selfreportedhealth_lower_pct_moe",
+                "health_selfreportedhealth_upper_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "cells": [
+            [
+              [
+                "health_diabetes_pct",
+                "health_diabetes_lower_pct_moe",
+                "health_diabetes_upper_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -20126,6 +20770,108 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -20862,6 +21608,108 @@
         }
       ],
       "bnh": [
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
         {
           "headers": [
             [
@@ -21606,6 +22454,108 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -22342,6 +23292,108 @@
         }
       ],
       "hsp": [
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
         {
           "headers": [
             [
@@ -24870,7 +25922,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Asian non-Hispanic householder",
+            "label": "Occupied housing units with an Asian non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -25306,7 +26358,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -25409,7 +26461,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -25779,7 +26831,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Black non-Hispanic householder",
+            "label": "Occupied housing units with a Black non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -26215,7 +27267,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent with an White non-Hispanic householder",
+            "label": "Occupied units paying rent with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -26318,7 +27370,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -26688,7 +27740,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with White non-Hispanic householder",
+            "label": "Occupied housing units with a White non-Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -27597,7 +28649,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied housing units with Hispanic householder",
+            "label": "Occupied housing units with a Hispanic householder",
             "measures": [
               "COUNT",
               "COUNT",
@@ -30856,6 +31908,124 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "cells": [
+            [
+              [
+                "health_selfreportedhealth_pct",
+                "health_selfreportedhealth_lower_pct_moe",
+                "health_selfreportedhealth_upper_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "cells": [
+            [
+              [
+                "health_diabetes_pct",
+                "health_diabetes_lower_pct_moe",
+                "health_diabetes_upper_pct_moe"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -31670,6 +32840,108 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -32406,6 +33678,108 @@
         }
       ],
       "bnh": [
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
         {
           "headers": [
             [
@@ -33150,6 +34524,108 @@
           "headers": [
             [
               [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
                 "number",
                 1
               ]
@@ -33886,6 +35362,108 @@
         }
       ],
       "hsp": [
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "is_survey": true,
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ],
+          "placeholder": "Data are not available by race and ethnicity"
+        },
         {
           "headers": [
             [

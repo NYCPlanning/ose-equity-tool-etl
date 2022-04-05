@@ -159,10 +159,10 @@
         "denominator": {"label":  "Occupied units paying rent with an Asian non-Hispanic householder"}
       },
       "bnh": {
-        "denominator": {"label": "Occupied units paying rent with an Black non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent with a Black non-Hispanic householder"}
       },
       "wnh": {
-        "denominator": {"label": "Occupied units paying rent with an White non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent with a White non-Hispanic householder"}
       },
       "hsp": {
         "denominator": {"label":  "Occupied units paying rent with a Hispanic householder"}
@@ -219,10 +219,10 @@
         "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Asian non-Hispanic householder"}
       },
       "bnh": {
-        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder"}
       },
       "wnh": {
-        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder"}
       },
       "hsp": {
         "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Hispanic householder"}
@@ -464,16 +464,16 @@
         "denominator": {"label": "Occupied housing units"}
       },
       "anh": {
-        "denominator": {"label":  "Occupied housing units with Asian non-Hispanic householder"}
+        "denominator": {"label":  "Occupied housing units with an Asian non-Hispanic householder"}
       },
       "bnh": {
-        "denominator": {"label": "Occupied housing units with Black non-Hispanic householder"}
+        "denominator": {"label": "Occupied housing units with a Black non-Hispanic householder"}
       },
       "wnh": {
-        "denominator": {"label": "Occupied housing units with White non-Hispanic householder"}
+        "denominator": {"label": "Occupied housing units with a White non-Hispanic householder"}
       },
       "hsp": {
-        "denominator": {"label":  "Occupied housing units with Hispanic householder"}
+        "denominator": {"label":  "Occupied housing units with a Hispanic householder"}
       }
     }
   },
