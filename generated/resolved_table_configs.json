@@ -5866,6 +5866,153 @@
       "tot": [
         {
           "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_puma",
+            "quality_of_life_puma",
+            "quality_of_life_puma"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000-2004",
+            "NYC VITAL STATISTICS, 2010-2014",
+            "NYC VITAL STATISTICS, 2015-2019"
+          ],
+          "years": [
+            "_0004",
+            "_1014",
+            "_1519"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
+          "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
             "quality_of_life_puma"
@@ -6548,6 +6695,155 @@
         }
       ],
       "anh": [
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_puma",
+            "quality_of_life_puma",
+            "quality_of_life_puma"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000-2004",
+            "NYC VITAL STATISTICS, 2010-2014",
+            "NYC VITAL STATISTICS, 2015-2019"
+          ],
+          "years": [
+            "_0004",
+            "_1014",
+            "_1519"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
         {
           "files": [
             "quality_of_life_puma",
@@ -7241,6 +7537,155 @@
       ],
       "bnh": [
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_puma",
+            "quality_of_life_puma",
+            "quality_of_life_puma"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000-2004",
+            "NYC VITAL STATISTICS, 2010-2014",
+            "NYC VITAL STATISTICS, 2015-2019"
+          ],
+          "years": [
+            "_0004",
+            "_1014",
+            "_1519"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -7933,6 +8378,155 @@
       ],
       "wnh": [
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_puma",
+            "quality_of_life_puma",
+            "quality_of_life_puma"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000-2004",
+            "NYC VITAL STATISTICS, 2010-2014",
+            "NYC VITAL STATISTICS, 2015-2019"
+          ],
+          "years": [
+            "_0004",
+            "_1014",
+            "_1519"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -8624,6 +9218,155 @@
         }
       ],
       "hsp": [
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_puma"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_puma",
+            "quality_of_life_puma",
+            "quality_of_life_puma"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000-2004",
+            "NYC VITAL STATISTICS, 2010-2014",
+            "NYC VITAL STATISTICS, 2015-2019"
+          ],
+          "years": [
+            "_0004",
+            "_1014",
+            "_1519"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
         {
           "files": [
             "quality_of_life_puma",
@@ -15184,6 +15927,153 @@
       "tot": [
         {
           "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_borough",
+            "quality_of_life_borough",
+            "quality_of_life_borough"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
+          "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
             "quality_of_life_borough"
@@ -15869,6 +16759,155 @@
         }
       ],
       "anh": [
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_borough",
+            "quality_of_life_borough",
+            "quality_of_life_borough"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
         {
           "files": [
             "quality_of_life_borough",
@@ -16564,6 +17603,155 @@
       ],
       "bnh": [
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_borough",
+            "quality_of_life_borough",
+            "quality_of_life_borough"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -17258,6 +18446,155 @@
       ],
       "wnh": [
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_borough",
+            "quality_of_life_borough",
+            "quality_of_life_borough"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -17951,6 +19288,155 @@
         }
       ],
       "hsp": [
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_borough"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_borough",
+            "quality_of_life_borough",
+            "quality_of_life_borough"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
         {
           "files": [
             "quality_of_life_borough",
@@ -24513,6 +25999,153 @@
       "tot": [
         {
           "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_citywide",
+            "quality_of_life_citywide",
+            "quality_of_life_citywide"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
+          "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
             "quality_of_life_citywide"
@@ -25198,6 +26831,155 @@
         }
       ],
       "anh": [
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_citywide",
+            "quality_of_life_citywide",
+            "quality_of_life_citywide"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
         {
           "files": [
             "quality_of_life_citywide",
@@ -25893,6 +27675,155 @@
       ],
       "bnh": [
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_citywide",
+            "quality_of_life_citywide",
+            "quality_of_life_citywide"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -26587,6 +28518,155 @@
       ],
       "wnh": [
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_citywide",
+            "quality_of_life_citywide",
+            "quality_of_life_citywide"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
+        {
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -27280,6 +29360,155 @@
         }
       ],
       "hsp": [
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Good, Very Good, or Excellent health"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "selfreportedhealth"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "quality_of_life_citywide"
+          ],
+          "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+          "is_survey": true,
+          "headers": [
+            [
+              [
+                "percent",
+                3
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe (-)",
+                1
+              ],
+              [
+                "moe (+)",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC COMMUNITY HEALTH SURVEY, 2015-2016"
+          ],
+          "labels": [
+            "Diagnosed with diabetes"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "diabetes"
+          ],
+          "measures": [
+            "PERCENT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "MOE"
+          ],
+          "suffixes": [
+            "",
+            "_lower",
+            "_upper"
+          ]
+        },
+        {
+          "files": [
+            "quality_of_life_citywide",
+            "quality_of_life_citywide",
+            "quality_of_life_citywide"
+          ],
+          "vintages": [
+            "NYC VITAL STATISTICS, 2000",
+            "NYC VITAL STATISTICS, 2010",
+            "NYC VITAL STATISTICS, 2019"
+          ],
+          "years": [
+            "_2000",
+            "_2010",
+            "_2019"
+          ],
+          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Deaths before 65 years"
+          ],
+          "subcategory": "health_",
+          "variables": [
+            "prematuremortality"
+          ],
+          "measures": [
+            "RATE"
+          ],
+          "variances": [
+            "NONE"
+          ]
+        },
         {
           "files": [
             "quality_of_life_citywide",
