@@ -152,65 +152,6 @@
   },
   {
     "base": {
-      "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-      "headers": [[["number", 1]]],
-      "labels": ["Deaths before 65 years"],
-      "subcategory": "health_",
-      "variables": ["prematuremortality"],
-      "measures": ["RATE"],
-      "variances": ["NONE"]
-    },
-    "geographies": {
-      "district": {
-        "files": [
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "quality_of_life_puma"
-        ],
-        "vintages": [
-          "NYC VITAL STATISTICS, 2000-2004",
-          "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2015-2019"
-        ],
-        "years": ["_0004", "_1014", "_1519"]
-      },
-      "borough": {
-        "files": [
-          "quality_of_life_borough",
-          "quality_of_life_borough",
-          "quality_of_life_borough"
-        ],
-        "vintages": [
-          "NYC VITAL STATISTICS, 2000",
-          "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019"
-        ],
-        "years": ["_2000", "_2010", "_2019"]
-      },
-      "citywide": {
-        "files": [
-          "quality_of_life_citywide",
-          "quality_of_life_citywide",
-          "quality_of_life_citywide"
-        ],
-        "vintages": [
-          "NYC VITAL STATISTICS, 2000",
-          "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019"
-        ],
-        "years": ["_2000", "_2010", "_2019"]
-      }
-    },
-    "subgroups": {
-      "tot": {},
-      "anh": {},
-      "bnh": {},
-      "wnh": {},
-      "hsp": {}
-    }
-  },
-  {
-    "base": {
       "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
       "headers": [[["number", 1]]],
       "labels": ["Deaths before 1 year"],

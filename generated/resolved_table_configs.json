@@ -1376,7 +1376,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Asian non-Hispanic householder",
+            "label": "Occupied housing units with an Asian non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -1741,7 +1741,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent with a Black non-Hispanic householder",
             "variable": "units_payingrent",
             "measures": [
               "COUNT",
@@ -1809,7 +1809,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder",
             "subcategory": "households_",
             "variable": "grapi",
             "measures": [
@@ -2166,7 +2166,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Black non-Hispanic householder",
+            "label": "Occupied housing units with a Black non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -2531,7 +2531,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent with an White non-Hispanic householder",
+            "label": "Occupied units paying rent with a White non-Hispanic householder",
             "variable": "units_payingrent",
             "measures": [
               "COUNT",
@@ -2599,7 +2599,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder",
             "subcategory": "households_",
             "variable": "grapi",
             "measures": [
@@ -2956,7 +2956,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with White non-Hispanic householder",
+            "label": "Occupied housing units with a White non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -3746,7 +3746,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Hispanic householder",
+            "label": "Occupied housing units with a Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -6027,45 +6027,6 @@
             "_1014",
             "_1519"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_puma",
-            "quality_of_life_puma",
-            "quality_of_life_puma"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2015-2019"
-          ],
-          "years": [
-            "_0004",
-            "_1014",
-            "_1519"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -6803,45 +6764,6 @@
             "",
             "_lower",
             "_upper"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_puma",
-            "quality_of_life_puma",
-            "quality_of_life_puma"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2015-2019"
-          ],
-          "years": [
-            "_0004",
-            "_1014",
-            "_1519"
-          ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
           ]
         },
         {
@@ -7701,45 +7623,6 @@
             "_1014",
             "_1519"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_puma",
-            "quality_of_life_puma",
-            "quality_of_life_puma"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2015-2019"
-          ],
-          "years": [
-            "_0004",
-            "_1014",
-            "_1519"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -8542,45 +8425,6 @@
             "_1014",
             "_1519"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_puma",
-            "quality_of_life_puma",
-            "quality_of_life_puma"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2015-2019"
-          ],
-          "years": [
-            "_0004",
-            "_1014",
-            "_1519"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -9326,45 +9170,6 @@
             "",
             "_lower",
             "_upper"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_puma",
-            "quality_of_life_puma",
-            "quality_of_life_puma"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2015-2019"
-          ],
-          "years": [
-            "_0004",
-            "_1014",
-            "_1519"
-          ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
           ]
         },
         {
@@ -11437,7 +11242,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Asian non-Hispanic householder",
+            "label": "Occupied housing units with an Asian non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -11802,7 +11607,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent with a Black non-Hispanic householder",
             "variable": "units_payingrent",
             "measures": [
               "COUNT",
@@ -11870,7 +11675,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder",
             "subcategory": "households_",
             "variable": "grapi",
             "measures": [
@@ -12227,7 +12032,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Black non-Hispanic householder",
+            "label": "Occupied housing units with a Black non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -12592,7 +12397,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent with an White non-Hispanic householder",
+            "label": "Occupied units paying rent with a White non-Hispanic householder",
             "variable": "units_payingrent",
             "measures": [
               "COUNT",
@@ -12660,7 +12465,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder",
             "subcategory": "households_",
             "variable": "grapi",
             "measures": [
@@ -13017,7 +12822,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with White non-Hispanic householder",
+            "label": "Occupied housing units with a White non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -13807,7 +13612,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Hispanic householder",
+            "label": "Occupied housing units with a Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -16088,45 +15893,6 @@
             "_2010",
             "_2019"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_borough",
-            "quality_of_life_borough",
-            "quality_of_life_borough"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -16867,45 +16633,6 @@
             "",
             "_lower",
             "_upper"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_borough",
-            "quality_of_life_borough",
-            "quality_of_life_borough"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
           ]
         },
         {
@@ -17767,45 +17494,6 @@
             "_2010",
             "_2019"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_borough",
-            "quality_of_life_borough",
-            "quality_of_life_borough"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -18610,45 +18298,6 @@
             "_2010",
             "_2019"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_borough",
-            "quality_of_life_borough",
-            "quality_of_life_borough"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -19396,45 +19045,6 @@
             "",
             "_lower",
             "_upper"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_borough",
-            "quality_of_life_borough",
-            "quality_of_life_borough"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
           ]
         },
         {
@@ -21509,7 +21119,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Asian non-Hispanic householder",
+            "label": "Occupied housing units with an Asian non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -21874,7 +21484,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent with a Black non-Hispanic householder",
             "variable": "units_payingrent",
             "measures": [
               "COUNT",
@@ -21942,7 +21552,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Black non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder",
             "subcategory": "households_",
             "variable": "grapi",
             "measures": [
@@ -22299,7 +21909,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Black non-Hispanic householder",
+            "label": "Occupied housing units with a Black non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -22664,7 +22274,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent with an White non-Hispanic householder",
+            "label": "Occupied units paying rent with a White non-Hispanic householder",
             "variable": "units_payingrent",
             "measures": [
               "COUNT",
@@ -22732,7 +22342,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an White non-Hispanic householder",
+            "label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder",
             "subcategory": "households_",
             "variable": "grapi",
             "measures": [
@@ -23089,7 +22699,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with White non-Hispanic householder",
+            "label": "Occupied housing units with a White non-Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -23879,7 +23489,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units with Hispanic householder",
+            "label": "Occupied housing units with a Hispanic householder",
             "subcategory": "units_",
             "variable": "occupied",
             "measures": [
@@ -26160,45 +25770,6 @@
             "_2010",
             "_2019"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_citywide",
-            "quality_of_life_citywide",
-            "quality_of_life_citywide"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -26939,45 +26510,6 @@
             "",
             "_lower",
             "_upper"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_citywide",
-            "quality_of_life_citywide",
-            "quality_of_life_citywide"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
           ]
         },
         {
@@ -27839,45 +27371,6 @@
             "_2010",
             "_2019"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_citywide",
-            "quality_of_life_citywide",
-            "quality_of_life_citywide"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -28682,45 +28175,6 @@
             "_2010",
             "_2019"
           ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_citywide",
-            "quality_of_life_citywide",
-            "quality_of_life_citywide"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
           "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
           "headers": [
             [
@@ -29468,45 +28922,6 @@
             "",
             "_lower",
             "_upper"
-          ]
-        },
-        {
-          "files": [
-            "quality_of_life_citywide",
-            "quality_of_life_citywide",
-            "quality_of_life_citywide"
-          ],
-          "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2019"
-          ],
-          "years": [
-            "_2000",
-            "_2010",
-            "_2019"
-          ],
-          "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-          "headers": [
-            [
-              [
-                "number",
-                1
-              ]
-            ]
-          ],
-          "labels": [
-            "Deaths before 65 years"
-          ],
-          "subcategory": "health_",
-          "variables": [
-            "prematuremortality"
-          ],
-          "measures": [
-            "RATE"
-          ],
-          "variances": [
-            "NONE"
           ]
         },
         {
