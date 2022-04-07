@@ -608,5 +608,54 @@
         "placeholder": "Data are not available by race and ethnicity"
       }
     }
+  },
+  {
+    "base": {
+      "title": "Population In NYC Housing Authority Housing",
+      "vintages": ["NYC HOUSING AUTHORITY, 2022"],
+      "denominator": {
+        "label": "Occupied housing units",
+        "variable": "pop",
+        "measures": ["COUNT","PERCENT"],
+        "variances": ["NONE","NONE"]
+      },
+      "headers": [
+        [
+          ["number", 1],["percent", 1]
+        ]
+      ],
+      "labels": ["NYC Housing Authority tenants"],
+      "variables": ["nycha_tenants"],
+      "measures": ["COUNT","PERCENT"],
+      "variances": ["NONE","NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["housing_security_puma"]
+      },
+      "borough": {
+        "files": ["housing_security_borough"]
+      },
+      "citywide": {
+        "files": ["housing_security_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {
+        "denominator": {"label": "Total population"}
+      },
+      "anh": {
+        "denominator": {"label":  "Asian non-Hispanic population"}
+      },
+      "bnh": {
+        "denominator": {"label": "Black non-Hispanic population"}
+      },
+      "wnh": {
+        "denominator": {"label": "White non-Hispanic population"}
+      },
+      "hsp": {
+        "denominator": {"label":  "Hispanic population"}
+      }
+    }
   }
 ]
