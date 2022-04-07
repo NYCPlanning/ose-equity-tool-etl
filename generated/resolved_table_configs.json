@@ -331,9 +331,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -775,7 +775,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -1116,9 +1116,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1565,7 +1565,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -1906,9 +1906,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2355,7 +2355,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -2696,9 +2696,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3145,7 +3145,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -3486,9 +3486,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3935,7 +3935,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -13684,9 +13684,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14128,7 +14128,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -14469,9 +14469,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14918,7 +14918,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -15259,9 +15259,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -15708,7 +15708,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -16049,9 +16049,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -16498,7 +16498,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -16839,9 +16839,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -17288,7 +17288,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -27048,9 +27048,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -27492,7 +27492,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -27833,9 +27833,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -28282,7 +28282,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -28623,9 +28623,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -29072,7 +29072,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -29413,9 +29413,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -29862,7 +29862,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"
@@ -30203,9 +30203,9 @@
           ],
           "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "occupied_renter_1519",
+            "variable": "payingrent_1519",
             "measures": [
               "COUNT",
               "COUNT",
@@ -30652,7 +30652,7 @@
           ],
           "variables": [
             "nycha",
-            "rad"
+            "hpd"
           ],
           "measures": [
             "COUNT"

@@ -233,9 +233,9 @@
     "base": {
       "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
       "denominator": {
-        "label": "Occupied rental units",
+        "label": "Occupied units paying rent",
         "subcategory": "units_",
-        "variable": "occupied_renter_1519",
+        "variable": "payingrent_1519",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
@@ -578,7 +578,7 @@
         ]
       ],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
-      "variables": ["nycha","rad"],
+      "variables": ["nycha","hpd"],
       "measures": ["COUNT"],
       "variances": ["NONE"]
     },
