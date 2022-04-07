@@ -523,7 +523,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -542,11 +542,11 @@
           "cells": [
             [
               [
-                "units_occupied_renter_1519_count",
-                "units_occupied_renter_1519_count_moe",
-                "units_occupied_renter_1519_count_cv",
-                "units_occupied_renter_1519_pct",
-                "units_occupied_renter_1519_pct_moe"
+                "units_payingrent_1519_count",
+                "units_payingrent_1519_count_moe",
+                "units_payingrent_1519_count_cv",
+                "units_payingrent_1519_pct",
+                "units_payingrent_1519_pct_moe"
               ],
               [
                 "units_affordable_eli_count",
@@ -1019,7 +1019,63 @@
                 "units_nycha_count"
               ],
               [
-                "units_rad_count"
+                "units_hpd_count"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_puma"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_count",
+                "pop_pct"
+              ],
+              [
+                "nycha_tenants_count",
+                "nycha_tenants_pct"
               ]
             ]
           ]
@@ -1547,7 +1603,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1932,6 +1988,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_puma"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_anh_count",
+                "pop_anh_pct"
+              ],
+              [
+                "nycha_tenants_anh_count",
+                "nycha_tenants_anh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "bnh": [
@@ -2456,7 +2568,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2841,6 +2953,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_puma"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_bnh_count",
+                "pop_bnh_pct"
+              ],
+              [
+                "nycha_tenants_bnh_count",
+                "nycha_tenants_bnh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -3365,7 +3533,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3750,6 +3918,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_puma"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_wnh_count",
+                "pop_wnh_pct"
+              ],
+              [
+                "nycha_tenants_wnh_count",
+                "nycha_tenants_wnh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -4274,7 +4498,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -4659,6 +4883,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_puma"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_hsp_count",
+                "pop_hsp_pct"
+              ],
+              [
+                "nycha_tenants_hsp_count",
+                "nycha_tenants_hsp_pct"
+              ]
+            ]
+          ]
         }
       ]
     },
@@ -19181,7 +19461,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -19200,11 +19480,11 @@
           "cells": [
             [
               [
-                "units_occupied_renter_1519_count",
-                "units_occupied_renter_1519_count_moe",
-                "units_occupied_renter_1519_count_cv",
-                "units_occupied_renter_1519_pct",
-                "units_occupied_renter_1519_pct_moe"
+                "units_payingrent_1519_count",
+                "units_payingrent_1519_count_moe",
+                "units_payingrent_1519_count_cv",
+                "units_payingrent_1519_pct",
+                "units_payingrent_1519_pct_moe"
               ],
               [
                 "units_affordable_eli_count",
@@ -19677,7 +19957,63 @@
                 "units_nycha_count"
               ],
               [
-                "units_rad_count"
+                "units_hpd_count"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_count",
+                "pop_pct"
+              ],
+              [
+                "nycha_tenants_count",
+                "nycha_tenants_pct"
               ]
             ]
           ]
@@ -20205,7 +20541,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -20590,6 +20926,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_anh_count",
+                "pop_anh_pct"
+              ],
+              [
+                "nycha_tenants_anh_count",
+                "nycha_tenants_anh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "bnh": [
@@ -21114,7 +21506,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -21499,6 +21891,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_bnh_count",
+                "pop_bnh_pct"
+              ],
+              [
+                "nycha_tenants_bnh_count",
+                "nycha_tenants_bnh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -22023,7 +22471,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -22408,6 +22856,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_wnh_count",
+                "pop_wnh_pct"
+              ],
+              [
+                "nycha_tenants_wnh_count",
+                "nycha_tenants_wnh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -22932,7 +23436,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -23317,6 +23821,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_hsp_count",
+                "pop_hsp_pct"
+              ],
+              [
+                "nycha_tenants_hsp_count",
+                "nycha_tenants_hsp_pct"
+              ]
+            ]
+          ]
         }
       ]
     },
@@ -33340,9 +33900,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -34256,9 +34814,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -35098,9 +35654,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -35940,9 +36494,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -36782,9 +37334,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -37843,7 +38393,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -37862,11 +38412,11 @@
           "cells": [
             [
               [
-                "units_occupied_renter_1519_count",
-                "units_occupied_renter_1519_count_moe",
-                "units_occupied_renter_1519_count_cv",
-                "units_occupied_renter_1519_pct",
-                "units_occupied_renter_1519_pct_moe"
+                "units_payingrent_1519_count",
+                "units_payingrent_1519_count_moe",
+                "units_payingrent_1519_count_cv",
+                "units_payingrent_1519_pct",
+                "units_payingrent_1519_pct_moe"
               ],
               [
                 "units_affordable_eli_count",
@@ -38339,7 +38889,63 @@
                 "units_nycha_count"
               ],
               [
-                "units_rad_count"
+                "units_hpd_count"
+              ]
+            ]
+          ]
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_count",
+                "pop_pct"
+              ],
+              [
+                "nycha_tenants_count",
+                "nycha_tenants_pct"
               ]
             ]
           ]
@@ -38867,7 +39473,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -39252,6 +39858,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_anh_count",
+                "pop_anh_pct"
+              ],
+              [
+                "nycha_tenants_anh_count",
+                "nycha_tenants_anh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "bnh": [
@@ -39776,7 +40438,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -40161,6 +40823,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_bnh_count",
+                "pop_bnh_pct"
+              ],
+              [
+                "nycha_tenants_bnh_count",
+                "nycha_tenants_bnh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "wnh": [
@@ -40685,7 +41403,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -41070,6 +41788,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_wnh_count",
+                "pop_wnh_pct"
+              ],
+              [
+                "nycha_tenants_wnh_count",
+                "nycha_tenants_wnh_pct"
+              ]
+            ]
+          ]
         }
       ],
       "hsp": [
@@ -41594,7 +42368,7 @@
           ],
           "is_survey": true,
           "denominator": {
-            "label": "Occupied rental units",
+            "label": "Occupied units paying rent",
             "measures": [
               "COUNT",
               "COUNT",
@@ -41979,6 +42753,62 @@
           ],
           "is_survey": false,
           "placeholder": "Data are not available by race and ethnicity"
+        },
+        {
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ],
+              [
+                "percent",
+                1
+              ]
+            ]
+          ],
+          "title": "Population In NYC Housing Authority Housing",
+          "vintages": [
+            "NYC HOUSING AUTHORITY, 2022"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "labels": [
+            "NYC Housing Authority tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ],
+          "is_survey": false,
+          "denominator": {
+            "label": "Occupied housing units",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ]
+          },
+          "cells": [
+            [
+              [
+                "pop_hsp_count",
+                "pop_hsp_pct"
+              ],
+              [
+                "nycha_tenants_hsp_count",
+                "nycha_tenants_hsp_pct"
+              ]
+            ]
+          ]
         }
       ]
     },
@@ -52002,9 +52832,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -52918,9 +53746,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -53760,9 +54586,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -54602,9 +55426,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [
@@ -55444,9 +56266,7 @@
             "NONE"
           ],
           "is_survey": false,
-          "placeholder": [
-            "Data are not available by Borough and Citywide"
-          ]
+          "placeholder": "Data are not available by Borough and Citywide"
         },
         {
           "headers": [

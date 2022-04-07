@@ -328,11 +328,11 @@
       },
       "borough": {
         "files": [""],
-        "placeholder": ["Data are not available by Borough and Citywide"]
+        "placeholder": "Data are not available by Borough and Citywide"
       },
       "citywide": {
         "files": [""],
-        "placeholder": ["Data are not available by Borough and Citywide"]
+        "placeholder": "Data are not available by Borough and Citywide"
       }
     },
     "subgroups": {

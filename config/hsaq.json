@@ -233,9 +233,9 @@
     "base": {
       "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
       "denominator": {
-        "label": "Occupied rental units",
+        "label": "Occupied units paying rent",
         "subcategory": "units_",
-        "variable": "occupied_renter_1519",
+        "variable": "payingrent_1519",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
@@ -578,7 +578,7 @@
         ]
       ],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
-      "variables": ["nycha","rad"],
+      "variables": ["nycha","hpd"],
       "measures": ["COUNT"],
       "variances": ["NONE"]
     },
@@ -606,6 +606,55 @@
       },
       "hsp": {
         "placeholder": "Data are not available by race and ethnicity"
+      }
+    }
+  },
+  {
+    "base": {
+      "title": "Population In NYC Housing Authority Housing",
+      "vintages": ["NYC HOUSING AUTHORITY, 2022"],
+      "denominator": {
+        "label": "Occupied housing units",
+        "variable": "pop",
+        "measures": ["COUNT","PERCENT"],
+        "variances": ["NONE","NONE"]
+      },
+      "headers": [
+        [
+          ["number", 1],["percent", 1]
+        ]
+      ],
+      "labels": ["NYC Housing Authority tenants"],
+      "variables": ["nycha_tenants"],
+      "measures": ["COUNT","PERCENT"],
+      "variances": ["NONE","NONE"]
+    },
+    "geographies": {
+      "district": {
+        "files": ["housing_security_puma"]
+      },
+      "borough": {
+        "files": ["housing_security_borough"]
+      },
+      "citywide": {
+        "files": ["housing_security_citywide"]
+      }
+    },
+    "subgroups": {
+      "tot": {
+        "denominator": {"label": "Total population"}
+      },
+      "anh": {
+        "denominator": {"label":  "Asian non-Hispanic population"}
+      },
+      "bnh": {
+        "denominator": {"label": "Black non-Hispanic population"}
+      },
+      "wnh": {
+        "denominator": {"label": "White non-Hispanic population"}
+      },
+      "hsp": {
+        "denominator": {"label":  "Hispanic population"}
       }
     }
   }
