@@ -5719,6 +5719,7 @@
             "economics_1519_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -5808,6 +5809,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -5873,6 +5875,7 @@
             "economics_1519_puma"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -5952,6 +5955,7 @@
             "economics_1519_puma"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6038,6 +6042,7 @@
             "economics_1519_puma"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6128,6 +6133,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6206,6 +6212,7 @@
             "economics_1519_puma"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6312,6 +6319,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6408,6 +6416,7 @@
             "economics_1519_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -6497,6 +6506,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6562,6 +6572,7 @@
             "economics_1519_puma"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -6641,6 +6652,7 @@
             "economics_1519_puma"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6727,6 +6739,7 @@
             "economics_1519_puma"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6817,6 +6830,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -6895,6 +6909,7 @@
             "economics_1519_puma"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7001,6 +7016,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7097,6 +7113,7 @@
             "economics_1519_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -7186,6 +7203,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7251,6 +7269,7 @@
             "economics_1519_puma"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -7330,6 +7349,7 @@
             "economics_1519_puma"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7416,6 +7436,7 @@
             "economics_1519_puma"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7506,6 +7527,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7584,6 +7606,7 @@
             "economics_1519_puma"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7690,6 +7713,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7786,6 +7810,7 @@
             "economics_1519_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -7875,6 +7900,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -7940,6 +7966,7 @@
             "economics_1519_puma"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -8019,6 +8046,7 @@
             "economics_1519_puma"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8105,6 +8133,7 @@
             "economics_1519_puma"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8195,6 +8224,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8273,6 +8303,7 @@
             "economics_1519_puma"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8379,6 +8410,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8475,6 +8507,7 @@
             "economics_1519_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -8564,6 +8597,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8629,6 +8663,7 @@
             "economics_1519_puma"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -8708,6 +8743,7 @@
             "economics_1519_puma"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8794,6 +8830,7 @@
             "economics_1519_puma"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8884,6 +8921,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -8962,6 +9000,7 @@
             "economics_1519_puma"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -9068,6 +9107,7 @@
             "economics_1519_puma"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19032,6 +19072,7 @@
             "economics_1519_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -19121,6 +19162,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19186,6 +19228,7 @@
             "economics_1519_borough"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -19265,6 +19308,7 @@
             "economics_1519_borough"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19351,6 +19395,7 @@
             "economics_1519_borough"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19441,6 +19486,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19519,6 +19565,7 @@
             "economics_1519_borough"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19625,6 +19672,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19721,6 +19769,7 @@
             "economics_1519_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -19810,6 +19859,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -19875,6 +19925,7 @@
             "economics_1519_borough"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -19954,6 +20005,7 @@
             "economics_1519_borough"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20040,6 +20092,7 @@
             "economics_1519_borough"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20130,6 +20183,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20208,6 +20262,7 @@
             "economics_1519_borough"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20314,6 +20369,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20410,6 +20466,7 @@
             "economics_1519_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -20499,6 +20556,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20564,6 +20622,7 @@
             "economics_1519_borough"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -20643,6 +20702,7 @@
             "economics_1519_borough"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20729,6 +20789,7 @@
             "economics_1519_borough"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20819,6 +20880,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -20897,6 +20959,7 @@
             "economics_1519_borough"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21003,6 +21066,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21099,6 +21163,7 @@
             "economics_1519_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -21188,6 +21253,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21253,6 +21319,7 @@
             "economics_1519_borough"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -21332,6 +21399,7 @@
             "economics_1519_borough"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21418,6 +21486,7 @@
             "economics_1519_borough"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21508,6 +21577,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21586,6 +21656,7 @@
             "economics_1519_borough"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21692,6 +21763,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21788,6 +21860,7 @@
             "economics_1519_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -21877,6 +21950,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -21942,6 +22016,7 @@
             "economics_1519_borough"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -22021,6 +22096,7 @@
             "economics_1519_borough"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -22107,6 +22183,7 @@
             "economics_1519_borough"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -22197,6 +22274,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -22275,6 +22353,7 @@
             "economics_1519_borough"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -22381,6 +22460,7 @@
             "economics_1519_borough"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -32356,6 +32436,7 @@
             "economics_1519_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -32445,6 +32526,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -32510,6 +32592,7 @@
             "economics_1519_citywide"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -32589,6 +32672,7 @@
             "economics_1519_citywide"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -32675,6 +32759,7 @@
             "economics_1519_citywide"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -32765,6 +32850,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -32843,6 +32929,7 @@
             "economics_1519_citywide"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -32949,6 +33036,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33045,6 +33133,7 @@
             "economics_1519_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -33134,6 +33223,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33199,6 +33289,7 @@
             "economics_1519_citywide"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -33278,6 +33369,7 @@
             "economics_1519_citywide"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33364,6 +33456,7 @@
             "economics_1519_citywide"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33454,6 +33547,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33532,6 +33626,7 @@
             "economics_1519_citywide"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33638,6 +33733,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33734,6 +33830,7 @@
             "economics_1519_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -33823,6 +33920,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -33888,6 +33986,7 @@
             "economics_1519_citywide"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -33967,6 +34066,7 @@
             "economics_1519_citywide"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34053,6 +34153,7 @@
             "economics_1519_citywide"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34143,6 +34244,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34221,6 +34323,7 @@
             "economics_1519_citywide"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34327,6 +34430,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34423,6 +34527,7 @@
             "economics_1519_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -34512,6 +34617,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34577,6 +34683,7 @@
             "economics_1519_citywide"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -34656,6 +34763,7 @@
             "economics_1519_citywide"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34742,6 +34850,7 @@
             "economics_1519_citywide"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34832,6 +34941,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -34910,6 +35020,7 @@
             "economics_1519_citywide"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35016,6 +35127,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35112,6 +35224,7 @@
             "economics_1519_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
+          "is_survey": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
@@ -35201,6 +35314,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Household Income (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35266,6 +35380,7 @@
             "economics_1519_citywide"
           ],
           "title": "Households By Area Median Income (AMI) Band",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2015-19"
           ],
@@ -35345,6 +35460,7 @@
             "economics_1519_citywide"
           ],
           "title": "Labor Force",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35431,6 +35547,7 @@
             "economics_1519_citywide"
           ],
           "title": "Occupation",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35521,6 +35638,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Occupation (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35599,6 +35717,7 @@
             "economics_1519_citywide"
           ],
           "title": "Industry",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
@@ -35705,6 +35824,7 @@
             "economics_1519_citywide"
           ],
           "title": "Median Wages By Industry (2019 Dollars)",
+          "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
             "ACS PUMS, 2015-19"
