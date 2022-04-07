@@ -164,23 +164,26 @@
       ],
       "headers": [
         [
-          ["number", 3]
+          ["number", 3],
+          ["percent", 2]
         ],
         [
           ["estimate", 1],
           ["moe", 1],
-          ["cv", 1]
+          ["cv", 1],
+          ["estimate", 1],
+          ["moe", 1]
         ]
       ],
       "denominator": {
         "subcategory": "",
         "variable": "households",
-        "measures": ["COUNT", "COUNT", "COUNT"],
-        "variances": ["NONE", "MOE", "CV"],
+        "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+        "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
         "labels": "Total households"
       },
-      "measures": ["COUNT", "COUNT", "COUNT"],
-      "variances": ["NONE", "MOE", "CV"],
+      "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
+      "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
       "subcategory": "households_",
       "variables": [ "eli", "vli", "li", "mi", "midi", "hi"],
       "labels": [
