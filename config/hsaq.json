@@ -614,7 +614,6 @@
       "title": "Population In NYC Housing Authority Housing",
       "vintages": ["NYC HOUSING AUTHORITY, 2022"],
       "denominator": {
-        "label": "Occupied housing units",
         "variable": "pop",
         "measures": ["COUNT","PERCENT"],
         "variances": ["NONE","NONE"]

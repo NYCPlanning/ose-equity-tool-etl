@@ -1057,7 +1057,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Total population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -2022,7 +2022,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Asian non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -2987,7 +2987,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Black non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -3952,7 +3952,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "White non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -4917,7 +4917,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -19995,7 +19995,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Total population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -20960,7 +20960,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Asian non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -21925,7 +21925,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Black non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -22890,7 +22890,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "White non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -23855,7 +23855,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -38927,7 +38927,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Total population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -39892,7 +39892,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Asian non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -40857,7 +40857,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Black non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -41822,7 +41822,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "White non-Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -42787,7 +42787,7 @@
           ],
           "is_survey": false,
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Hispanic population",
             "measures": [
               "COUNT",
               "PERCENT"

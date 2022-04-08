@@ -786,7 +786,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Total population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -1623,7 +1623,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Asian non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -2460,7 +2460,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Black non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -3297,7 +3297,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "White non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -4134,7 +4134,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -14374,7 +14374,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Total population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -15211,7 +15211,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Asian non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -16048,7 +16048,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Black non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -16885,7 +16885,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "White non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -17722,7 +17722,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -27963,7 +27963,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Total population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -28800,7 +28800,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Asian non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -29637,7 +29637,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Black non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -30474,7 +30474,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "White non-Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
@@ -31311,7 +31311,7 @@
         },
         {
           "denominator": {
-            "label": "Occupied housing units",
+            "label": "Hispanic population",
             "variable": "pop",
             "measures": [
               "COUNT",
