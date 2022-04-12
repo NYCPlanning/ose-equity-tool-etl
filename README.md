@@ -1,4 +1,4 @@
-# Equity Tool ETL
+# Equity Tool ETL (Extract Transform Load)
 
 ## "Quick"start
 
