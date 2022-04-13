@@ -7,7 +7,7 @@
 3. Install [Jupyter-lab or Jupyter Classic](https://jupyter.org/install)
 4.
 ```
-  .../ose-equity-tool-etl/ $ pip install requirements.txt
+  .../ose-equity-tool-etl/ $ pip install -r requirements.txt
 ```
 5. Create and/or configure the `config/` file for the desired category.
 6. Open `notebooks/etl.ipynb` and edit the `config` object to load the desired config file(s): 
