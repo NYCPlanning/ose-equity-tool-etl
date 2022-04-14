@@ -5249,12 +5249,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -5271,6 +5275,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -5285,18 +5293,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -5946,12 +5966,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -5968,6 +5992,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -5982,18 +6010,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -6643,12 +6683,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -6665,6 +6709,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -6679,18 +6727,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -7340,12 +7400,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -7362,6 +7426,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -7376,18 +7444,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -8037,12 +8117,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -8059,6 +8143,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -8073,18 +8161,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -9309,7 +9409,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -10106,7 +10206,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -10908,7 +11008,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -11710,7 +11810,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -12512,7 +12612,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -17989,12 +18089,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -18011,6 +18115,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -18025,18 +18133,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -18686,12 +18806,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -18708,6 +18832,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -18722,18 +18850,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -19383,12 +19523,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -19405,6 +19549,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -19419,18 +19567,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -20080,12 +20240,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -20102,6 +20266,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -20116,18 +20284,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -20777,12 +20957,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -20799,6 +20983,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -20813,18 +21001,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -22050,7 +22250,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -22847,7 +23047,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -23649,7 +23849,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -24451,7 +24651,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -25253,7 +25453,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -30730,12 +30930,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -30752,6 +30956,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -30766,18 +30974,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -31427,12 +31647,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -31449,6 +31673,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -31463,18 +31691,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -32124,12 +32364,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -32146,6 +32390,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -32160,18 +32408,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -32821,12 +33081,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -32843,6 +33107,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -32857,18 +33125,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -33518,12 +33798,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ],
             "labels": "Total households"
           },
@@ -33540,6 +33824,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -33554,18 +33842,30 @@
               [
                 "cv",
                 1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
               ]
             ]
           ],
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "subcategory": "households_",
           "variables": [
@@ -34791,7 +35091,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -35588,7 +35888,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -36390,7 +36690,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -37192,7 +37492,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -37994,7 +38294,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
