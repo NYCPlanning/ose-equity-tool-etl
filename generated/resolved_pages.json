@@ -7048,7 +7048,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_puma",
@@ -7233,7 +7233,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -7330,7 +7330,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_puma"
@@ -7467,7 +7467,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -7581,7 +7581,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -7743,7 +7743,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -7885,7 +7885,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -8167,7 +8167,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -8400,7 +8400,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_puma",
@@ -8585,7 +8585,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -8682,7 +8682,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_puma"
@@ -8819,7 +8819,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -8933,7 +8933,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -9095,7 +9095,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -9237,7 +9237,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -9519,7 +9519,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -9752,7 +9752,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_puma",
@@ -9937,7 +9937,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -10034,7 +10034,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_puma"
@@ -10171,7 +10171,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -10285,7 +10285,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -10447,7 +10447,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -10589,7 +10589,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -10871,7 +10871,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -11104,7 +11104,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_puma",
@@ -11289,7 +11289,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -11386,7 +11386,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_puma"
@@ -11523,7 +11523,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -11637,7 +11637,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -11799,7 +11799,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -11941,7 +11941,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -12223,7 +12223,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -12456,7 +12456,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_puma",
@@ -12641,7 +12641,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -12738,7 +12738,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_puma"
@@ -12875,7 +12875,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -12989,7 +12989,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -13151,7 +13151,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -13293,7 +13293,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -13575,7 +13575,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_puma",
@@ -25332,7 +25332,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_borough",
@@ -25517,7 +25517,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -25614,7 +25614,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_borough"
@@ -25751,7 +25751,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -25865,7 +25865,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -26027,7 +26027,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -26169,7 +26169,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -26451,7 +26451,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -26684,7 +26684,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_borough",
@@ -26869,7 +26869,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -26966,7 +26966,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_borough"
@@ -27103,7 +27103,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -27217,7 +27217,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -27379,7 +27379,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -27521,7 +27521,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -27803,7 +27803,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -28036,7 +28036,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_borough",
@@ -28221,7 +28221,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -28318,7 +28318,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_borough"
@@ -28455,7 +28455,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -28569,7 +28569,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -28731,7 +28731,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -28873,7 +28873,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -29155,7 +29155,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -29388,7 +29388,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_borough",
@@ -29573,7 +29573,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -29670,7 +29670,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_borough"
@@ -29807,7 +29807,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -29921,7 +29921,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -30083,7 +30083,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -30225,7 +30225,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -30507,7 +30507,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -30740,7 +30740,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_borough",
@@ -30925,7 +30925,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -31022,7 +31022,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_borough"
@@ -31159,7 +31159,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -31273,7 +31273,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -31435,7 +31435,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -31577,7 +31577,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -31859,7 +31859,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_borough",
@@ -43610,7 +43610,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_citywide",
@@ -43795,7 +43795,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -43892,7 +43892,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_citywide"
@@ -44029,7 +44029,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -44143,7 +44143,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -44305,7 +44305,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -44447,7 +44447,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -44729,7 +44729,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -44962,7 +44962,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_citywide",
@@ -45147,7 +45147,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -45244,7 +45244,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_citywide"
@@ -45381,7 +45381,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -45495,7 +45495,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -45657,7 +45657,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -45799,7 +45799,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -46081,7 +46081,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -46314,7 +46314,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_citywide",
@@ -46499,7 +46499,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -46596,7 +46596,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_citywide"
@@ -46733,7 +46733,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -46847,7 +46847,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -47009,7 +47009,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -47151,7 +47151,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -47433,7 +47433,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -47666,7 +47666,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_citywide",
@@ -47851,7 +47851,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -47948,7 +47948,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_citywide"
@@ -48085,7 +48085,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -48199,7 +48199,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -48361,7 +48361,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -48503,7 +48503,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -48785,7 +48785,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -49018,7 +49018,7 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_2000_citywide",
@@ -49203,7 +49203,7 @@
           "title": "Median Household Income (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -49300,7 +49300,7 @@
           ],
           "title": "Households By Area Median Income (AMI) Band",
           "vintages": [
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_1519_citywide"
@@ -49437,7 +49437,7 @@
           "title": "Labor Force",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -49551,7 +49551,7 @@
           "title": "Occupation",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -49713,7 +49713,7 @@
           "title": "Median Wages By Occupation (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -49855,7 +49855,7 @@
           "title": "Industry",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
@@ -50137,7 +50137,7 @@
           "title": "Median Wages By Industry (2019 Dollars)",
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-19"
+            "ACS PUMS, 2015-2019"
           ],
           "files": [
             "economics_0812_citywide",
