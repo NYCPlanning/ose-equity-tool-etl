@@ -5,7 +5,7 @@
 1. Install [Python 3](https://www.python.org/)
 2. Install [pip](https://pip.pypa.io/en/stable/installation/)
 3. Install [Jupyter-lab or Jupyter Classic](https://jupyter.org/install)
-4.
+4. Run Jupyter-Lab with `jupyter-lab` and Jupyter Classic with `jupyter notebook` from the command line.
 ```
   .../ose-equity-tool-etl/ $ pip install -r requirements.txt
 ```
