@@ -7299,6 +7299,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -7312,6 +7316,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -7334,12 +7346,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -7347,12 +7363,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -7360,37 +7380,51 @@
               [
                 "households_count",
                 "households_count_moe",
-                "households_count_cv"
+                "households_count_cv",
+                "households_pct",
+                "households_pct_moe"
               ],
               [
                 "households_eli_count",
                 "households_eli_count_moe",
-                "households_eli_count_cv"
+                "households_eli_count_cv",
+                "households_eli_pct",
+                "households_eli_pct_moe"
               ],
               [
                 "households_vli_count",
                 "households_vli_count_moe",
-                "households_vli_count_cv"
+                "households_vli_count_cv",
+                "households_vli_pct",
+                "households_vli_pct_moe"
               ],
               [
                 "households_li_count",
                 "households_li_count_moe",
-                "households_li_count_cv"
+                "households_li_count_cv",
+                "households_li_pct",
+                "households_li_pct_moe"
               ],
               [
                 "households_mi_count",
                 "households_mi_count_moe",
-                "households_mi_count_cv"
+                "households_mi_count_cv",
+                "households_mi_pct",
+                "households_mi_pct_moe"
               ],
               [
                 "households_midi_count",
                 "households_midi_count_moe",
-                "households_midi_count_cv"
+                "households_midi_count_cv",
+                "households_midi_pct",
+                "households_midi_pct_moe"
               ],
               [
                 "households_hi_count",
                 "households_hi_count_moe",
-                "households_hi_count_cv"
+                "households_hi_count_cv",
+                "households_hi_pct",
+                "households_hi_pct_moe"
               ]
             ]
           ]
@@ -8617,6 +8651,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -8630,6 +8668,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -8652,12 +8698,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -8665,12 +8715,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -8678,37 +8732,51 @@
               [
                 "households_anh_count",
                 "households_anh_count_moe",
-                "households_anh_count_cv"
+                "households_anh_count_cv",
+                "households_anh_pct",
+                "households_anh_pct_moe"
               ],
               [
                 "households_eli_anh_count",
                 "households_eli_anh_count_moe",
-                "households_eli_anh_count_cv"
+                "households_eli_anh_count_cv",
+                "households_eli_anh_pct",
+                "households_eli_anh_pct_moe"
               ],
               [
                 "households_vli_anh_count",
                 "households_vli_anh_count_moe",
-                "households_vli_anh_count_cv"
+                "households_vli_anh_count_cv",
+                "households_vli_anh_pct",
+                "households_vli_anh_pct_moe"
               ],
               [
                 "households_li_anh_count",
                 "households_li_anh_count_moe",
-                "households_li_anh_count_cv"
+                "households_li_anh_count_cv",
+                "households_li_anh_pct",
+                "households_li_anh_pct_moe"
               ],
               [
                 "households_mi_anh_count",
                 "households_mi_anh_count_moe",
-                "households_mi_anh_count_cv"
+                "households_mi_anh_count_cv",
+                "households_mi_anh_pct",
+                "households_mi_anh_pct_moe"
               ],
               [
                 "households_midi_anh_count",
                 "households_midi_anh_count_moe",
-                "households_midi_anh_count_cv"
+                "households_midi_anh_count_cv",
+                "households_midi_anh_pct",
+                "households_midi_anh_pct_moe"
               ],
               [
                 "households_hi_anh_count",
                 "households_hi_anh_count_moe",
-                "households_hi_anh_count_cv"
+                "households_hi_anh_count_cv",
+                "households_hi_anh_pct",
+                "households_hi_anh_pct_moe"
               ]
             ]
           ]
@@ -9935,6 +10003,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -9948,6 +10020,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -9970,12 +10050,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -9983,12 +10067,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -9996,37 +10084,51 @@
               [
                 "households_bnh_count",
                 "households_bnh_count_moe",
-                "households_bnh_count_cv"
+                "households_bnh_count_cv",
+                "households_bnh_pct",
+                "households_bnh_pct_moe"
               ],
               [
                 "households_eli_bnh_count",
                 "households_eli_bnh_count_moe",
-                "households_eli_bnh_count_cv"
+                "households_eli_bnh_count_cv",
+                "households_eli_bnh_pct",
+                "households_eli_bnh_pct_moe"
               ],
               [
                 "households_vli_bnh_count",
                 "households_vli_bnh_count_moe",
-                "households_vli_bnh_count_cv"
+                "households_vli_bnh_count_cv",
+                "households_vli_bnh_pct",
+                "households_vli_bnh_pct_moe"
               ],
               [
                 "households_li_bnh_count",
                 "households_li_bnh_count_moe",
-                "households_li_bnh_count_cv"
+                "households_li_bnh_count_cv",
+                "households_li_bnh_pct",
+                "households_li_bnh_pct_moe"
               ],
               [
                 "households_mi_bnh_count",
                 "households_mi_bnh_count_moe",
-                "households_mi_bnh_count_cv"
+                "households_mi_bnh_count_cv",
+                "households_mi_bnh_pct",
+                "households_mi_bnh_pct_moe"
               ],
               [
                 "households_midi_bnh_count",
                 "households_midi_bnh_count_moe",
-                "households_midi_bnh_count_cv"
+                "households_midi_bnh_count_cv",
+                "households_midi_bnh_pct",
+                "households_midi_bnh_pct_moe"
               ],
               [
                 "households_hi_bnh_count",
                 "households_hi_bnh_count_moe",
-                "households_hi_bnh_count_cv"
+                "households_hi_bnh_count_cv",
+                "households_hi_bnh_pct",
+                "households_hi_bnh_pct_moe"
               ]
             ]
           ]
@@ -11253,6 +11355,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -11266,6 +11372,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -11288,12 +11402,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -11301,12 +11419,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -11314,37 +11436,51 @@
               [
                 "households_hsp_count",
                 "households_hsp_count_moe",
-                "households_hsp_count_cv"
+                "households_hsp_count_cv",
+                "households_hsp_pct",
+                "households_hsp_pct_moe"
               ],
               [
                 "households_eli_hsp_count",
                 "households_eli_hsp_count_moe",
-                "households_eli_hsp_count_cv"
+                "households_eli_hsp_count_cv",
+                "households_eli_hsp_pct",
+                "households_eli_hsp_pct_moe"
               ],
               [
                 "households_vli_hsp_count",
                 "households_vli_hsp_count_moe",
-                "households_vli_hsp_count_cv"
+                "households_vli_hsp_count_cv",
+                "households_vli_hsp_pct",
+                "households_vli_hsp_pct_moe"
               ],
               [
                 "households_li_hsp_count",
                 "households_li_hsp_count_moe",
-                "households_li_hsp_count_cv"
+                "households_li_hsp_count_cv",
+                "households_li_hsp_pct",
+                "households_li_hsp_pct_moe"
               ],
               [
                 "households_mi_hsp_count",
                 "households_mi_hsp_count_moe",
-                "households_mi_hsp_count_cv"
+                "households_mi_hsp_count_cv",
+                "households_mi_hsp_pct",
+                "households_mi_hsp_pct_moe"
               ],
               [
                 "households_midi_hsp_count",
                 "households_midi_hsp_count_moe",
-                "households_midi_hsp_count_cv"
+                "households_midi_hsp_count_cv",
+                "households_midi_hsp_pct",
+                "households_midi_hsp_pct_moe"
               ],
               [
                 "households_hi_hsp_count",
                 "households_hi_hsp_count_moe",
-                "households_hi_hsp_count_cv"
+                "households_hi_hsp_count_cv",
+                "households_hi_hsp_pct",
+                "households_hi_hsp_pct_moe"
               ]
             ]
           ]
@@ -12571,6 +12707,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -12584,6 +12724,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -12606,12 +12754,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -12619,12 +12771,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -12632,37 +12788,51 @@
               [
                 "households_wnh_count",
                 "households_wnh_count_moe",
-                "households_wnh_count_cv"
+                "households_wnh_count_cv",
+                "households_wnh_pct",
+                "households_wnh_pct_moe"
               ],
               [
                 "households_eli_wnh_count",
                 "households_eli_wnh_count_moe",
-                "households_eli_wnh_count_cv"
+                "households_eli_wnh_count_cv",
+                "households_eli_wnh_pct",
+                "households_eli_wnh_pct_moe"
               ],
               [
                 "households_vli_wnh_count",
                 "households_vli_wnh_count_moe",
-                "households_vli_wnh_count_cv"
+                "households_vli_wnh_count_cv",
+                "households_vli_wnh_pct",
+                "households_vli_wnh_pct_moe"
               ],
               [
                 "households_li_wnh_count",
                 "households_li_wnh_count_moe",
-                "households_li_wnh_count_cv"
+                "households_li_wnh_count_cv",
+                "households_li_wnh_pct",
+                "households_li_wnh_pct_moe"
               ],
               [
                 "households_mi_wnh_count",
                 "households_mi_wnh_count_moe",
-                "households_mi_wnh_count_cv"
+                "households_mi_wnh_count_cv",
+                "households_mi_wnh_pct",
+                "households_mi_wnh_pct_moe"
               ],
               [
                 "households_midi_wnh_count",
                 "households_midi_wnh_count_moe",
-                "households_midi_wnh_count_cv"
+                "households_midi_wnh_count_cv",
+                "households_midi_wnh_pct",
+                "households_midi_wnh_pct_moe"
               ],
               [
                 "households_hi_wnh_count",
                 "households_hi_wnh_count_moe",
-                "households_hi_wnh_count_cv"
+                "households_hi_wnh_count_cv",
+                "households_hi_wnh_pct",
+                "households_hi_wnh_pct_moe"
               ]
             ]
           ]
@@ -14495,7 +14665,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -15394,7 +15564,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -16234,7 +16404,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -17074,7 +17244,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -17914,7 +18084,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -25413,6 +25583,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -25426,6 +25600,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -25448,12 +25630,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -25461,12 +25647,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -25474,37 +25664,51 @@
               [
                 "households_count",
                 "households_count_moe",
-                "households_count_cv"
+                "households_count_cv",
+                "households_pct",
+                "households_pct_moe"
               ],
               [
                 "households_eli_count",
                 "households_eli_count_moe",
-                "households_eli_count_cv"
+                "households_eli_count_cv",
+                "households_eli_pct",
+                "households_eli_pct_moe"
               ],
               [
                 "households_vli_count",
                 "households_vli_count_moe",
-                "households_vli_count_cv"
+                "households_vli_count_cv",
+                "households_vli_pct",
+                "households_vli_pct_moe"
               ],
               [
                 "households_li_count",
                 "households_li_count_moe",
-                "households_li_count_cv"
+                "households_li_count_cv",
+                "households_li_pct",
+                "households_li_pct_moe"
               ],
               [
                 "households_mi_count",
                 "households_mi_count_moe",
-                "households_mi_count_cv"
+                "households_mi_count_cv",
+                "households_mi_pct",
+                "households_mi_pct_moe"
               ],
               [
                 "households_midi_count",
                 "households_midi_count_moe",
-                "households_midi_count_cv"
+                "households_midi_count_cv",
+                "households_midi_pct",
+                "households_midi_pct_moe"
               ],
               [
                 "households_hi_count",
                 "households_hi_count_moe",
-                "households_hi_count_cv"
+                "households_hi_count_cv",
+                "households_hi_pct",
+                "households_hi_pct_moe"
               ]
             ]
           ]
@@ -26731,6 +26935,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -26744,6 +26952,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -26766,12 +26982,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -26779,12 +26999,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -26792,37 +27016,51 @@
               [
                 "households_anh_count",
                 "households_anh_count_moe",
-                "households_anh_count_cv"
+                "households_anh_count_cv",
+                "households_anh_pct",
+                "households_anh_pct_moe"
               ],
               [
                 "households_eli_anh_count",
                 "households_eli_anh_count_moe",
-                "households_eli_anh_count_cv"
+                "households_eli_anh_count_cv",
+                "households_eli_anh_pct",
+                "households_eli_anh_pct_moe"
               ],
               [
                 "households_vli_anh_count",
                 "households_vli_anh_count_moe",
-                "households_vli_anh_count_cv"
+                "households_vli_anh_count_cv",
+                "households_vli_anh_pct",
+                "households_vli_anh_pct_moe"
               ],
               [
                 "households_li_anh_count",
                 "households_li_anh_count_moe",
-                "households_li_anh_count_cv"
+                "households_li_anh_count_cv",
+                "households_li_anh_pct",
+                "households_li_anh_pct_moe"
               ],
               [
                 "households_mi_anh_count",
                 "households_mi_anh_count_moe",
-                "households_mi_anh_count_cv"
+                "households_mi_anh_count_cv",
+                "households_mi_anh_pct",
+                "households_mi_anh_pct_moe"
               ],
               [
                 "households_midi_anh_count",
                 "households_midi_anh_count_moe",
-                "households_midi_anh_count_cv"
+                "households_midi_anh_count_cv",
+                "households_midi_anh_pct",
+                "households_midi_anh_pct_moe"
               ],
               [
                 "households_hi_anh_count",
                 "households_hi_anh_count_moe",
-                "households_hi_anh_count_cv"
+                "households_hi_anh_count_cv",
+                "households_hi_anh_pct",
+                "households_hi_anh_pct_moe"
               ]
             ]
           ]
@@ -28049,6 +28287,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -28062,6 +28304,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -28084,12 +28334,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -28097,12 +28351,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -28110,37 +28368,51 @@
               [
                 "households_bnh_count",
                 "households_bnh_count_moe",
-                "households_bnh_count_cv"
+                "households_bnh_count_cv",
+                "households_bnh_pct",
+                "households_bnh_pct_moe"
               ],
               [
                 "households_eli_bnh_count",
                 "households_eli_bnh_count_moe",
-                "households_eli_bnh_count_cv"
+                "households_eli_bnh_count_cv",
+                "households_eli_bnh_pct",
+                "households_eli_bnh_pct_moe"
               ],
               [
                 "households_vli_bnh_count",
                 "households_vli_bnh_count_moe",
-                "households_vli_bnh_count_cv"
+                "households_vli_bnh_count_cv",
+                "households_vli_bnh_pct",
+                "households_vli_bnh_pct_moe"
               ],
               [
                 "households_li_bnh_count",
                 "households_li_bnh_count_moe",
-                "households_li_bnh_count_cv"
+                "households_li_bnh_count_cv",
+                "households_li_bnh_pct",
+                "households_li_bnh_pct_moe"
               ],
               [
                 "households_mi_bnh_count",
                 "households_mi_bnh_count_moe",
-                "households_mi_bnh_count_cv"
+                "households_mi_bnh_count_cv",
+                "households_mi_bnh_pct",
+                "households_mi_bnh_pct_moe"
               ],
               [
                 "households_midi_bnh_count",
                 "households_midi_bnh_count_moe",
-                "households_midi_bnh_count_cv"
+                "households_midi_bnh_count_cv",
+                "households_midi_bnh_pct",
+                "households_midi_bnh_pct_moe"
               ],
               [
                 "households_hi_bnh_count",
                 "households_hi_bnh_count_moe",
-                "households_hi_bnh_count_cv"
+                "households_hi_bnh_count_cv",
+                "households_hi_bnh_pct",
+                "households_hi_bnh_pct_moe"
               ]
             ]
           ]
@@ -29367,6 +29639,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -29380,6 +29656,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -29402,12 +29686,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -29415,12 +29703,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -29428,37 +29720,51 @@
               [
                 "households_hsp_count",
                 "households_hsp_count_moe",
-                "households_hsp_count_cv"
+                "households_hsp_count_cv",
+                "households_hsp_pct",
+                "households_hsp_pct_moe"
               ],
               [
                 "households_eli_hsp_count",
                 "households_eli_hsp_count_moe",
-                "households_eli_hsp_count_cv"
+                "households_eli_hsp_count_cv",
+                "households_eli_hsp_pct",
+                "households_eli_hsp_pct_moe"
               ],
               [
                 "households_vli_hsp_count",
                 "households_vli_hsp_count_moe",
-                "households_vli_hsp_count_cv"
+                "households_vli_hsp_count_cv",
+                "households_vli_hsp_pct",
+                "households_vli_hsp_pct_moe"
               ],
               [
                 "households_li_hsp_count",
                 "households_li_hsp_count_moe",
-                "households_li_hsp_count_cv"
+                "households_li_hsp_count_cv",
+                "households_li_hsp_pct",
+                "households_li_hsp_pct_moe"
               ],
               [
                 "households_mi_hsp_count",
                 "households_mi_hsp_count_moe",
-                "households_mi_hsp_count_cv"
+                "households_mi_hsp_count_cv",
+                "households_mi_hsp_pct",
+                "households_mi_hsp_pct_moe"
               ],
               [
                 "households_midi_hsp_count",
                 "households_midi_hsp_count_moe",
-                "households_midi_hsp_count_cv"
+                "households_midi_hsp_count_cv",
+                "households_midi_hsp_pct",
+                "households_midi_hsp_pct_moe"
               ],
               [
                 "households_hi_hsp_count",
                 "households_hi_hsp_count_moe",
-                "households_hi_hsp_count_cv"
+                "households_hi_hsp_count_cv",
+                "households_hi_hsp_pct",
+                "households_hi_hsp_pct_moe"
               ]
             ]
           ]
@@ -30685,6 +30991,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -30698,6 +31008,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -30720,12 +31038,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -30733,12 +31055,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -30746,37 +31072,51 @@
               [
                 "households_wnh_count",
                 "households_wnh_count_moe",
-                "households_wnh_count_cv"
+                "households_wnh_count_cv",
+                "households_wnh_pct",
+                "households_wnh_pct_moe"
               ],
               [
                 "households_eli_wnh_count",
                 "households_eli_wnh_count_moe",
-                "households_eli_wnh_count_cv"
+                "households_eli_wnh_count_cv",
+                "households_eli_wnh_pct",
+                "households_eli_wnh_pct_moe"
               ],
               [
                 "households_vli_wnh_count",
                 "households_vli_wnh_count_moe",
-                "households_vli_wnh_count_cv"
+                "households_vli_wnh_count_cv",
+                "households_vli_wnh_pct",
+                "households_vli_wnh_pct_moe"
               ],
               [
                 "households_li_wnh_count",
                 "households_li_wnh_count_moe",
-                "households_li_wnh_count_cv"
+                "households_li_wnh_count_cv",
+                "households_li_wnh_pct",
+                "households_li_wnh_pct_moe"
               ],
               [
                 "households_mi_wnh_count",
                 "households_mi_wnh_count_moe",
-                "households_mi_wnh_count_cv"
+                "households_mi_wnh_count_cv",
+                "households_mi_wnh_pct",
+                "households_mi_wnh_pct_moe"
               ],
               [
                 "households_midi_wnh_count",
                 "households_midi_wnh_count_moe",
-                "households_midi_wnh_count_cv"
+                "households_midi_wnh_count_cv",
+                "households_midi_wnh_pct",
+                "households_midi_wnh_pct_moe"
               ],
               [
                 "households_hi_wnh_count",
                 "households_hi_wnh_count_moe",
-                "households_hi_wnh_count_cv"
+                "households_hi_wnh_count_cv",
+                "households_hi_wnh_pct",
+                "households_hi_wnh_pct_moe"
               ]
             ]
           ]
@@ -32603,7 +32943,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -33502,7 +33842,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -34342,7 +34682,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -35182,7 +35522,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -36022,7 +36362,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -43521,6 +43861,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -43534,6 +43878,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -43556,12 +43908,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -43569,12 +43925,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -43582,37 +43942,51 @@
               [
                 "households_count",
                 "households_count_moe",
-                "households_count_cv"
+                "households_count_cv",
+                "households_pct",
+                "households_pct_moe"
               ],
               [
                 "households_eli_count",
                 "households_eli_count_moe",
-                "households_eli_count_cv"
+                "households_eli_count_cv",
+                "households_eli_pct",
+                "households_eli_pct_moe"
               ],
               [
                 "households_vli_count",
                 "households_vli_count_moe",
-                "households_vli_count_cv"
+                "households_vli_count_cv",
+                "households_vli_pct",
+                "households_vli_pct_moe"
               ],
               [
                 "households_li_count",
                 "households_li_count_moe",
-                "households_li_count_cv"
+                "households_li_count_cv",
+                "households_li_pct",
+                "households_li_pct_moe"
               ],
               [
                 "households_mi_count",
                 "households_mi_count_moe",
-                "households_mi_count_cv"
+                "households_mi_count_cv",
+                "households_mi_pct",
+                "households_mi_pct_moe"
               ],
               [
                 "households_midi_count",
                 "households_midi_count_moe",
-                "households_midi_count_cv"
+                "households_midi_count_cv",
+                "households_midi_pct",
+                "households_midi_pct_moe"
               ],
               [
                 "households_hi_count",
                 "households_hi_count_moe",
-                "households_hi_count_cv"
+                "households_hi_count_cv",
+                "households_hi_pct",
+                "households_hi_pct_moe"
               ]
             ]
           ]
@@ -44839,6 +45213,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -44852,6 +45230,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -44874,12 +45260,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -44887,12 +45277,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -44900,37 +45294,51 @@
               [
                 "households_anh_count",
                 "households_anh_count_moe",
-                "households_anh_count_cv"
+                "households_anh_count_cv",
+                "households_anh_pct",
+                "households_anh_pct_moe"
               ],
               [
                 "households_eli_anh_count",
                 "households_eli_anh_count_moe",
-                "households_eli_anh_count_cv"
+                "households_eli_anh_count_cv",
+                "households_eli_anh_pct",
+                "households_eli_anh_pct_moe"
               ],
               [
                 "households_vli_anh_count",
                 "households_vli_anh_count_moe",
-                "households_vli_anh_count_cv"
+                "households_vli_anh_count_cv",
+                "households_vli_anh_pct",
+                "households_vli_anh_pct_moe"
               ],
               [
                 "households_li_anh_count",
                 "households_li_anh_count_moe",
-                "households_li_anh_count_cv"
+                "households_li_anh_count_cv",
+                "households_li_anh_pct",
+                "households_li_anh_pct_moe"
               ],
               [
                 "households_mi_anh_count",
                 "households_mi_anh_count_moe",
-                "households_mi_anh_count_cv"
+                "households_mi_anh_count_cv",
+                "households_mi_anh_pct",
+                "households_mi_anh_pct_moe"
               ],
               [
                 "households_midi_anh_count",
                 "households_midi_anh_count_moe",
-                "households_midi_anh_count_cv"
+                "households_midi_anh_count_cv",
+                "households_midi_anh_pct",
+                "households_midi_anh_pct_moe"
               ],
               [
                 "households_hi_anh_count",
                 "households_hi_anh_count_moe",
-                "households_hi_anh_count_cv"
+                "households_hi_anh_count_cv",
+                "households_hi_anh_pct",
+                "households_hi_anh_pct_moe"
               ]
             ]
           ]
@@ -46157,6 +46565,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -46170,6 +46582,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -46192,12 +46612,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -46205,12 +46629,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -46218,37 +46646,51 @@
               [
                 "households_bnh_count",
                 "households_bnh_count_moe",
-                "households_bnh_count_cv"
+                "households_bnh_count_cv",
+                "households_bnh_pct",
+                "households_bnh_pct_moe"
               ],
               [
                 "households_eli_bnh_count",
                 "households_eli_bnh_count_moe",
-                "households_eli_bnh_count_cv"
+                "households_eli_bnh_count_cv",
+                "households_eli_bnh_pct",
+                "households_eli_bnh_pct_moe"
               ],
               [
                 "households_vli_bnh_count",
                 "households_vli_bnh_count_moe",
-                "households_vli_bnh_count_cv"
+                "households_vli_bnh_count_cv",
+                "households_vli_bnh_pct",
+                "households_vli_bnh_pct_moe"
               ],
               [
                 "households_li_bnh_count",
                 "households_li_bnh_count_moe",
-                "households_li_bnh_count_cv"
+                "households_li_bnh_count_cv",
+                "households_li_bnh_pct",
+                "households_li_bnh_pct_moe"
               ],
               [
                 "households_mi_bnh_count",
                 "households_mi_bnh_count_moe",
-                "households_mi_bnh_count_cv"
+                "households_mi_bnh_count_cv",
+                "households_mi_bnh_pct",
+                "households_mi_bnh_pct_moe"
               ],
               [
                 "households_midi_bnh_count",
                 "households_midi_bnh_count_moe",
-                "households_midi_bnh_count_cv"
+                "households_midi_bnh_count_cv",
+                "households_midi_bnh_pct",
+                "households_midi_bnh_pct_moe"
               ],
               [
                 "households_hi_bnh_count",
                 "households_hi_bnh_count_moe",
-                "households_hi_bnh_count_cv"
+                "households_hi_bnh_count_cv",
+                "households_hi_bnh_pct",
+                "households_hi_bnh_pct_moe"
               ]
             ]
           ]
@@ -47475,6 +47917,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -47488,6 +47934,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -47510,12 +47964,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -47523,12 +47981,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -47536,37 +47998,51 @@
               [
                 "households_hsp_count",
                 "households_hsp_count_moe",
-                "households_hsp_count_cv"
+                "households_hsp_count_cv",
+                "households_hsp_pct",
+                "households_hsp_pct_moe"
               ],
               [
                 "households_eli_hsp_count",
                 "households_eli_hsp_count_moe",
-                "households_eli_hsp_count_cv"
+                "households_eli_hsp_count_cv",
+                "households_eli_hsp_pct",
+                "households_eli_hsp_pct_moe"
               ],
               [
                 "households_vli_hsp_count",
                 "households_vli_hsp_count_moe",
-                "households_vli_hsp_count_cv"
+                "households_vli_hsp_count_cv",
+                "households_vli_hsp_pct",
+                "households_vli_hsp_pct_moe"
               ],
               [
                 "households_li_hsp_count",
                 "households_li_hsp_count_moe",
-                "households_li_hsp_count_cv"
+                "households_li_hsp_count_cv",
+                "households_li_hsp_pct",
+                "households_li_hsp_pct_moe"
               ],
               [
                 "households_mi_hsp_count",
                 "households_mi_hsp_count_moe",
-                "households_mi_hsp_count_cv"
+                "households_mi_hsp_count_cv",
+                "households_mi_hsp_pct",
+                "households_mi_hsp_pct_moe"
               ],
               [
                 "households_midi_hsp_count",
                 "households_midi_hsp_count_moe",
-                "households_midi_hsp_count_cv"
+                "households_midi_hsp_count_cv",
+                "households_midi_hsp_pct",
+                "households_midi_hsp_pct_moe"
               ],
               [
                 "households_hi_hsp_count",
                 "households_hi_hsp_count_moe",
-                "households_hi_hsp_count_cv"
+                "households_hi_hsp_count_cv",
+                "households_hi_hsp_pct",
+                "households_hi_hsp_pct_moe"
               ]
             ]
           ]
@@ -48793,6 +49269,10 @@
               [
                 "number",
                 3
+              ],
+              [
+                "percent",
+                2
               ]
             ],
             [
@@ -48806,6 +49286,14 @@
               ],
               [
                 "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
                 1
               ]
             ]
@@ -48828,12 +49316,16 @@
           "measures": [
             "COUNT",
             "COUNT",
-            "COUNT"
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
           ],
           "variances": [
             "NONE",
             "MOE",
-            "CV"
+            "CV",
+            "NONE",
+            "MOE"
           ],
           "is_survey": true,
           "denominator": {
@@ -48841,12 +49333,16 @@
             "measures": [
               "COUNT",
               "COUNT",
-              "COUNT"
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
             ],
             "variances": [
               "NONE",
               "MOE",
-              "CV"
+              "CV",
+              "NONE",
+              "MOE"
             ]
           },
           "cells": [
@@ -48854,37 +49350,51 @@
               [
                 "households_wnh_count",
                 "households_wnh_count_moe",
-                "households_wnh_count_cv"
+                "households_wnh_count_cv",
+                "households_wnh_pct",
+                "households_wnh_pct_moe"
               ],
               [
                 "households_eli_wnh_count",
                 "households_eli_wnh_count_moe",
-                "households_eli_wnh_count_cv"
+                "households_eli_wnh_count_cv",
+                "households_eli_wnh_pct",
+                "households_eli_wnh_pct_moe"
               ],
               [
                 "households_vli_wnh_count",
                 "households_vli_wnh_count_moe",
-                "households_vli_wnh_count_cv"
+                "households_vli_wnh_count_cv",
+                "households_vli_wnh_pct",
+                "households_vli_wnh_pct_moe"
               ],
               [
                 "households_li_wnh_count",
                 "households_li_wnh_count_moe",
-                "households_li_wnh_count_cv"
+                "households_li_wnh_count_cv",
+                "households_li_wnh_pct",
+                "households_li_wnh_pct_moe"
               ],
               [
                 "households_mi_wnh_count",
                 "households_mi_wnh_count_moe",
-                "households_mi_wnh_count_cv"
+                "households_mi_wnh_count_cv",
+                "households_mi_wnh_pct",
+                "households_mi_wnh_pct_moe"
               ],
               [
                 "households_midi_wnh_count",
                 "households_midi_wnh_count_moe",
-                "households_midi_wnh_count_cv"
+                "households_midi_wnh_count_cv",
+                "households_midi_wnh_pct",
+                "households_midi_wnh_pct_moe"
               ],
               [
                 "households_hi_wnh_count",
                 "households_hi_wnh_count_moe",
-                "households_hi_wnh_count_cv"
+                "households_hi_wnh_count_cv",
+                "households_hi_wnh_pct",
+                "households_hi_wnh_pct_moe"
               ]
             ]
           ]
@@ -50711,7 +51221,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -51610,7 +52120,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -52450,7 +52960,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -53290,7 +53800,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
@@ -54130,7 +54640,7 @@
               ]
             ]
           ],
-          "title": "Educational Outcomes - High School Graduation Rate",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
           "vintages": [
             "NYC DEPARTMENT OF EDUCATION, 2018"
           ],
