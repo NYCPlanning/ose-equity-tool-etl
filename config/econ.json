@@ -109,7 +109,9 @@
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "household_",
       "variables": ["income"],
-      "labels": ["Median household income (dollars)"]
+      "labels": ["Median household income (dollars)"],
+      "upper_limits": [[null, 223000],[null, 200000]],
+      "lower_limits": [[null, 11000],[null, 9999]]
     },
     "geographies": {
       "district": {

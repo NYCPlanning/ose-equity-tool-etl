@@ -163,6 +163,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -231,6 +241,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -826,6 +846,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -894,6 +924,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -1493,6 +1533,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -1561,6 +1611,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -2160,6 +2220,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -2228,6 +2298,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -2827,6 +2907,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -2895,6 +2985,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -3512,6 +3612,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -3859,6 +3982,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -4206,6 +4352,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -4553,6 +4722,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -4900,6 +5092,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -5239,6 +5454,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -5956,6 +6191,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -6673,6 +6928,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -7390,6 +7665,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -8107,6 +8402,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -13003,6 +13318,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -13071,6 +13396,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -13666,6 +14001,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -13734,6 +14079,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -14333,6 +14688,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -14401,6 +14766,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -15000,6 +15375,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -15068,6 +15453,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -15667,6 +16062,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -15735,6 +16140,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -16352,6 +16767,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -16699,6 +17137,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -17046,6 +17507,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -17393,6 +17877,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -17740,6 +18247,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -18079,6 +18609,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -18796,6 +19346,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -19513,6 +20083,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -20230,6 +20820,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -20947,6 +21557,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -25844,6 +26474,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -25912,6 +26552,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -26507,6 +27157,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -26575,6 +27235,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -27174,6 +27844,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -27242,6 +27922,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -27841,6 +28531,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -27909,6 +28609,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -28508,6 +29218,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              1115000
+            ],
+            [
+              null,
+              2000000
+            ]
           ]
         },
         {
@@ -28576,6 +29296,16 @@
             "NONE",
             "MOE",
             "CV"
+          ],
+          "upper_limits": [
+            [
+              null,
+              2200
+            ],
+            [
+              null,
+              3500
+            ]
           ]
         },
         {
@@ -29193,6 +29923,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -29540,6 +30293,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -29887,6 +30663,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -30234,6 +31033,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -30581,6 +31403,29 @@
             "16 to 64 years",
             "65 years and over",
             "Median age (years)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              85
+            ]
           ]
         },
         {
@@ -30920,6 +31765,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -31637,6 +32502,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -32354,6 +33239,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -33071,6 +33976,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
@@ -33788,6 +34713,26 @@
           ],
           "labels": [
             "Median household income (dollars)"
+          ],
+          "upper_limits": [
+            [
+              null,
+              223000
+            ],
+            [
+              null,
+              200000
+            ]
+          ],
+          "lower_limits": [
+            [
+              null,
+              11000
+            ],
+            [
+              null,
+              9999
+            ]
           ]
         },
         {
