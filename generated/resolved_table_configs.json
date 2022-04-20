@@ -8788,7 +8788,7 @@
           ],
           "denominator": {
             "label": "Total square miles within the PUMA",
-            "variable": "total_sqmiles",
+            "variable": "total",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -21628,7 +21628,7 @@
           ],
           "denominator": {
             "label": "Total square miles within the borough",
-            "variable": "total_sqmiles",
+            "variable": "total",
             "measures": [
               "COUNT",
               "PERCENT"
@@ -34469,7 +34469,7 @@
           ],
           "denominator": {
             "label": "Total square miles citywide",
-            "variable": "total_sqmiles",
+            "variable": "total",
             "measures": [
               "COUNT",
               "PERCENT"
