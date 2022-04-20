@@ -90,7 +90,7 @@
       "title": "Area Within A Historic District",
       "vintages": ["HISTORIC DISTRICTS - OPEN DATA"],
       "denominator": {
-        "variable": "total_sqmiles",
+        "variable": "total",
         "measures": ["COUNT", "PERCENT"],
         "variances": ["NONE", "NONE"]
       },
