@@ -118,7 +118,8 @@
         ["MEDIAN", "MEDIAN", "MEDIAN", "PERCENT", "PERCENT"]
       ],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
-      "labels": ["Under 16 years", "16 to 64 years", "65 years and over", "Median age (years)"]
+      "labels": ["Under 16 years", "16 to 64 years", "65 years and over", "Median age (years)"],
+      "upper_limits": [[null, null, null, null, null], [null, null, null, null, 85], [null, null, null, null, 85]]
     },
     "geographies": {
       "district": {
