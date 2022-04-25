@@ -3,23 +3,11 @@
     "base": {
       "title": "Educational Attainment (Highest Grade Completed)",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
-      ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
       ],
       "denominator": {
         "subcategory": "age_",
@@ -88,16 +76,6 @@
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
       ],
-      "headers": [
-        [
-          ["number", 3]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1]
-        ]
-      ],
       "denominator": {
         "subcategory": "",
         "variable": "households",
@@ -163,19 +141,6 @@
       "is_survey": true,
       "vintages": [
         "ACS PUMS, 2015-2019"
-      ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
       ],
       "denominator": {
         "subcategory": "",
@@ -246,19 +211,6 @@
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
       ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "denominator": {
         "subcategory": "",
         "variable": "age_p16t64",
@@ -325,19 +277,6 @@
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
-      ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
       ],
       "denominator": {
         "subcategory": "",
@@ -410,16 +349,6 @@
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
       ],
-      "headers": [
-        [
-          ["number", 3]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1]
-        ]
-      ],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -490,19 +419,6 @@
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
-      ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
       ],
       "denominator": {
         "subcategory": "",
@@ -582,16 +498,6 @@
       "vintages": [
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
-      ],
-      "headers": [
-        [
-          ["number", 3]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1]
-        ]
       ],
       "denominator": {
         "subcategory": "",

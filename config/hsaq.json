@@ -17,19 +17,6 @@
         "ACS PUMS, 2008-2012",
         "ACS PUMS, 2015-2019"
       ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "variables": ["occupied_owner", "occupied_renter"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -75,14 +62,6 @@
       "years": ["_0812", "_1519"],
       "labels": ["Median value (dollars)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
-      "headers": [
-        [["number", 3]],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1]
-        ]
-      ],
       "variables": ["homevalue_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -129,14 +108,6 @@
       "years": ["_0812", "_1519"],
       "labels": ["Median gross rent (dollars)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
-      "headers": [
-        [["number", 3]],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1]
-        ]
-      ],
       "variables": ["rent_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -185,19 +156,6 @@
       "years": ["_0812", "_1519"],
       "labels": ["30.0 percent or more (rent-burdened)","50.0 percent or more (extremely rent-burdened)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "variables": ["rb","erb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -251,19 +209,6 @@
         "High-income (166% or higher AMI)"
       ],
       "vintages": ["ACS PUMS, 2015-2019"],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "subcategory": "units_",
       "variables": [
         "affordable_eli",
@@ -315,19 +260,6 @@
       },
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "years": ["_0812","_1519"],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "labels": ["Overcrowded units (> 1 person per room)"],
       "subcategory": "units_",
       "variables": ["overcrowded"],
@@ -374,11 +306,6 @@
         "variances": ["NONE"]
       },
       "vintages": ["NYC DEPARTMENT OF INVESTIGATION, 2017-2019"],
-      "headers": [
-        [
-          ["number", 1]
-        ]
-      ],
       "labels": ["Residential evictions executed by a city marshal"],
       "variables": ["evictions"],
       "measures": ["COUNT"],
@@ -416,11 +343,6 @@
       "title": "Number of Individuals in Shelter System by Last Address",
       "vintages": ["NYC DEPARTMENT OF HOMELESS SERVICES, 2018", "NYC DEPARTMENT OF HOMELESS SERVICES, 2020"],
       "years": ["_2018","_2020"],
-      "headers": [
-        [
-          ["number", 1]
-        ]
-      ],
       "labels": ["Total number of individuals in DHS shelter system whose last address was in this area"],
       "variables": ["dhs_shelter"],
       "measures": ["COUNT"],
@@ -458,11 +380,6 @@
       "title": "Income-Restricted Housing",
       "subcategory": "units_",
       "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"],
-      "headers": [
-        [
-          ["number", 1]
-        ]
-      ],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
       "variables": ["nycha","hpd"],
       "measures": ["COUNT"],
@@ -504,11 +421,6 @@
         "measures": ["COUNT","PERCENT"],
         "variances": ["NONE","NONE"]
       },
-      "headers": [
-        [
-          ["number", 1],["percent", 1]
-        ]
-      ],
       "labels": ["NYC Housing Authority tenants"],
       "variables": ["nycha_tenants"],
       "measures": ["COUNT","PERCENT"],
