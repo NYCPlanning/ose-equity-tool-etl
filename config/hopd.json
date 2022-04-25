@@ -10,12 +10,6 @@
         "measures": ["COUNT", "PERCENT"],
         "variances": ["NONE", "NONE"]
       },
-      "headers": [
-        [
-          ["number", 1],
-          ["percent", 1]
-        ]
-      ],
       "labels": [
         "New building",
         "Alterations that increase units",
@@ -94,12 +88,6 @@
         "measures": ["COUNT", "PERCENT"],
         "variances": ["NONE", "NONE"]
       },
-      "headers": [
-        [
-          ["number", 1],
-          ["percent", 1]
-        ]
-      ],
       "labels": [
         "Square miles of historic districts"
       ],

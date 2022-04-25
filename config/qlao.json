@@ -94,7 +94,6 @@
   {
     "base": {
       "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-      "headers": [[["number", 1]]],
       "labels": ["Deaths before 65 years"],
       "subcategory": "health_",
       "variables": ["prematuremortality"],
@@ -153,7 +152,6 @@
   {
     "base": {
       "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
-      "headers": [[["number", 1]]],
       "labels": ["Deaths before 1 year"],
       "subcategory": "health_",
       "variables": ["infantmortality"],
@@ -212,7 +210,6 @@
   {
     "base": {
       "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents)",
-      "headers": [[["number", 1]]],
       "labels": ["Drug-related overdose deaths"],
       "subcategory": "health_",
       "variables": ["overdosemortality"],
@@ -272,7 +269,6 @@
     "base": {
       "title": "Health Outcomes - COVID-19 Deaths (Rate Per 100,000 Residents)",
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2022"],
-      "headers": [[["number", 1]]],
       "subcategory": "health_",
       "variables": ["covid19deaths"],
       "measures": ["RATE"],
@@ -315,7 +311,6 @@
     "base": {
       "title": "Health Outcomes - Heat Vulnerability Index",
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"],
-      "headers": [[["score 1-5", 1]]],
       "labels": ["Heat Vulnerability Index (1=Low)"],
       "subcategory": "health_",
       "variables": ["heat"],
@@ -444,19 +439,6 @@
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "variables": ["carcommute"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -509,19 +491,6 @@
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
       "vintages": ["ACS PUMS, 2015-2019"],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "variables": ["computer", "broadband"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -693,7 +662,6 @@
         "NYC VISION ZERO VIEW, 2016-2020"
       ],
       "years": ["_1014", "_1620"],
-      "headers": [[["number", 1]]],
       "variables": [
         "trafficinjuries_ped",
         "trafficinjuries_cycle",
@@ -739,7 +707,6 @@
         "NYC VISION ZERO VIEW, 2016-2020"
       ],
       "years": ["_1014", "_1620"],
-      "headers": [[["number", 1]]],
       "variables": ["trafficfatalities"],
       "measures": ["RATE"],
       "variances": ["NONE"]
@@ -777,7 +744,6 @@
       "subcategory": "safety_",
       "labels": ["Total pedestrian hospitalizations"],
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
-      "headers": [[["number", 1]]],
       "variables": ["pedhospital"],
       "measures": ["RATE"],
       "variances": ["NONE"]
@@ -815,7 +781,6 @@
       "subcategory": "safety_",
       "labels": ["Total non-fatal assault hospitalizations"],
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
-      "headers": [[["number", 1]]],
       "variables": ["assaulthospital"],
       "measures": ["RATE"],
       "variances": ["NONE"]

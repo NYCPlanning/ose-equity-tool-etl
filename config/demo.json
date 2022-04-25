@@ -15,12 +15,6 @@
         "CENSUS SF1, 2010",
         "CENSUS PL 94-171, 2020"
       ],
-      "headers": [
-        [
-          ["number", 1],
-          ["percent", 1]
-        ]
-      ],
       "measures": ["COUNT", "PERCENT"],
       "variances": ["NONE", "NONE"]
     },
@@ -97,19 +91,6 @@
         "ACS PUMS, 2008-2012 ",
         "ACS PUMS, 2015-2019"
       ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "variables": ["popu16", "p16t64", "p65pl", "median"],
       "measures": [
         ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -185,19 +166,6 @@
         "ACS PUMS, 2008-2012 ",
         "ACS PUMS, 2015-2019"
       ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
-      ],
       "variables": ["fb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
@@ -266,19 +234,6 @@
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012 ",
         "ACS PUMS, 2015-2019"
-      ],
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
       ],
       "variables": ["lep"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
