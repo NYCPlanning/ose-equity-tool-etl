@@ -308,6 +308,7 @@
       "vintages": ["NYC DEPARTMENT OF INVESTIGATION, 2017-2019"],
       "labels": ["Residential evictions executed by a city marshal"],
       "variables": ["evictions"],
+      "headers": [[["number", 1]]],
       "measures": ["COUNT"],
       "variances": ["NONE"]
     },
@@ -345,6 +346,7 @@
       "years": ["_2018","_2020"],
       "labels": ["Total number of individuals in DHS shelter system whose last address was in this area"],
       "variables": ["dhs_shelter"],
+      "headers": [[["number", 1]]],
       "measures": ["COUNT"],
       "variances": ["NONE"]
     },
@@ -382,6 +384,7 @@
       "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
       "variables": ["nycha","hpd"],
+      "headers": [[["number", 1]]],
       "measures": ["COUNT"],
       "variances": ["NONE"]
     },

@@ -374,6 +374,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -401,6 +409,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -424,6 +440,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -843,6 +867,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -871,6 +903,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -895,6 +935,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -1314,6 +1362,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -1342,6 +1398,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -1366,6 +1430,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -1785,6 +1857,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -1813,6 +1893,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -1837,6 +1925,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -2256,6 +2352,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -2284,6 +2388,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -2308,6 +2420,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -2428,15 +2548,18 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1519_puma"
+            "demographics_1519_puma",
+            "demo_change_puma"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -2684,15 +2807,18 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1519_puma"
+            "demographics_1519_puma",
+            "demo_change_puma"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -2940,15 +3066,18 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1519_puma"
+            "demographics_1519_puma",
+            "demo_change_puma"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -3196,15 +3325,18 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1519_puma"
+            "demographics_1519_puma",
+            "demo_change_puma"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -3452,15 +3584,18 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1519_puma"
+            "demographics_1519_puma",
+            "demo_change_puma"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -3668,7 +3803,8 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1519_puma"
+            "economics_1519_puma",
+            "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -3676,7 +3812,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -4170,7 +4307,8 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1519_puma"
+            "economics_1519_puma",
+            "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -4178,7 +4316,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -4672,7 +4811,8 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1519_puma"
+            "economics_1519_puma",
+            "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -4680,7 +4820,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -5174,7 +5315,8 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1519_puma"
+            "economics_1519_puma",
+            "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -5182,7 +5324,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -5676,7 +5819,8 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1519_puma"
+            "economics_1519_puma",
+            "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -5684,7 +5828,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -9980,6 +10125,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -10007,6 +10160,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -10030,6 +10191,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -10449,6 +10618,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -10477,6 +10654,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -10501,6 +10686,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -10920,6 +11113,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -10948,6 +11149,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -10972,6 +11181,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -11391,6 +11608,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -11419,6 +11644,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -11443,6 +11676,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -11862,6 +12103,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -11890,6 +12139,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -11914,6 +12171,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -12034,15 +12299,18 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1519_borough"
+            "demographics_1519_borough",
+            "demo_change_borough"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -12290,15 +12558,18 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1519_borough"
+            "demographics_1519_borough",
+            "demo_change_borough"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -12546,15 +12817,18 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1519_borough"
+            "demographics_1519_borough",
+            "demo_change_borough"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -12802,15 +13076,18 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1519_borough"
+            "demographics_1519_borough",
+            "demo_change_borough"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -13058,15 +13335,18 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1519_borough"
+            "demographics_1519_borough",
+            "demo_change_borough"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -13274,7 +13554,8 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1519_borough"
+            "economics_1519_borough",
+            "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -13282,7 +13563,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -13776,7 +14058,8 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1519_borough"
+            "economics_1519_borough",
+            "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -13784,7 +14067,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -14278,7 +14562,8 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1519_borough"
+            "economics_1519_borough",
+            "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -14286,7 +14571,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -14780,7 +15066,8 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1519_borough"
+            "economics_1519_borough",
+            "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -14788,7 +15075,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -15282,7 +15570,8 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1519_borough"
+            "economics_1519_borough",
+            "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -15290,7 +15579,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -19587,6 +19877,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -19614,6 +19912,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -19637,6 +19943,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -20056,6 +20370,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -20084,6 +20406,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -20108,6 +20438,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -20527,6 +20865,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -20555,6 +20901,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -20579,6 +20933,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -20998,6 +21360,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -21026,6 +21396,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -21050,6 +21428,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -21469,6 +21855,14 @@
           "variables": [
             "evictions"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -21497,6 +21891,14 @@
           "variables": [
             "dhs_shelter"
           ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
+          ],
           "measures": [
             "COUNT"
           ],
@@ -21521,6 +21923,14 @@
           "variables": [
             "nycha",
             "hpd"
+          ],
+          "headers": [
+            [
+              [
+                "number",
+                1
+              ]
+            ]
           ],
           "measures": [
             "COUNT"
@@ -21641,15 +22051,18 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1519_citywide"
+            "demographics_1519_citywide",
+            "demo_change_citywide"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -21897,15 +22310,18 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1519_citywide"
+            "demographics_1519_citywide",
+            "demo_change_citywide"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -22153,15 +22569,18 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1519_citywide"
+            "demographics_1519_citywide",
+            "demo_change_citywide"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -22409,15 +22828,18 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1519_citywide"
+            "demographics_1519_citywide",
+            "demo_change_citywide"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -22665,15 +23087,18 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1519_citywide"
+            "demographics_1519_citywide",
+            "demo_change_citywide"
           ],
           "title": "Age",
           "subcategory": "age_",
           "is_survey": true,
+          "has_change": true,
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "variables": [
             "popu16",
@@ -22881,7 +23306,8 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1519_citywide"
+            "economics_1519_citywide",
+            "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -22889,7 +23315,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -23383,7 +23810,8 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1519_citywide"
+            "economics_1519_citywide",
+            "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -23391,7 +23819,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -23885,7 +24314,8 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1519_citywide"
+            "economics_1519_citywide",
+            "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -23893,7 +24323,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -24387,7 +24818,8 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1519_citywide"
+            "economics_1519_citywide",
+            "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -24395,7 +24827,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
@@ -24889,7 +25322,8 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1519_citywide"
+            "economics_1519_citywide",
+            "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
           "is_survey": true,
@@ -24897,7 +25331,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2015-2019"
+            "ACS PUMS, 2015-2019",
+            "CHANGE, 2008-2012 to 2015-2019"
           ],
           "measures": [
             "COUNT",
