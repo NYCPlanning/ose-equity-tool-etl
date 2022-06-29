@@ -94,23 +94,27 @@
   {
     "base": {
       "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+      "has_change": true,
       "labels": ["Deaths before 65 years"],
       "subcategory": "health_",
       "variables": ["prematuremortality"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {
         "files": [
           "quality_of_life_puma",
           "quality_of_life_puma",
-          "quality_of_life_puma"
+          "quality_of_life_puma",
+          "qol_change_puma"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000-2004",
           "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2015-2019"
+          "NYC VITAL STATISTICS, 2015-2019",
+          "CHANGE, 2010-2014 to 2015-2019"
         ],
         "years": ["_0004", "_1014", "_1519"]
       },
@@ -118,12 +122,14 @@
         "files": [
           "quality_of_life_borough",
           "quality_of_life_borough",
-          "quality_of_life_borough"
+          "quality_of_life_borough",
+          "qol_change_borough"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019"
+          "NYC VITAL STATISTICS, 2019",
+          "CHANGE, 2010 to 2019"
         ],
         "years": ["_2000", "_2010", "_2019"]
       },
@@ -131,13 +137,15 @@
         "files": [
           "quality_of_life_citywide",
           "quality_of_life_citywide",
-          "quality_of_life_citywide"
+          "quality_of_life_citywide",
+          "qol_change_citywide"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019"
-        ],
+          "NYC VITAL STATISTICS, 2019",
+          "CHANGE, 2010 to 2019"
+        ], 
         "years": ["_2000", "_2010", "_2019"]
       }
     },
@@ -152,23 +160,27 @@
   {
     "base": {
       "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
+      "has_change": true,
       "labels": ["Deaths before 1 year"],
       "subcategory": "health_",
       "variables": ["infantmortality"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {
         "files": [
           "quality_of_life_puma",
           "quality_of_life_puma",
-          "quality_of_life_puma"
+          "quality_of_life_puma",
+          "qol_change_puma"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000-2004",
           "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2015-2019"
+          "NYC VITAL STATISTICS, 2015-2019",
+          "CHANGE, 2010-2014 to 2015-2019"
         ],
         "years": ["_0004", "_1014", "_1519"]
       },
@@ -176,12 +188,14 @@
         "files": [
           "quality_of_life_borough",
           "quality_of_life_borough",
-          "quality_of_life_borough"
+          "quality_of_life_borough",
+          "qol_change_borough"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019"
+          "NYC VITAL STATISTICS, 2019",
+          "CHANGE, 2010 to 2019"
         ],
         "years": ["_2000", "_2010", "_2019"]
       },
@@ -189,13 +203,15 @@
         "files": [
           "quality_of_life_citywide",
           "quality_of_life_citywide",
-          "quality_of_life_citywide"
+          "quality_of_life_citywide",
+          "qol_change_citywide"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019"
-        ],
+          "NYC VITAL STATISTICS, 2019",
+          "CHANGE, 2010 to 2019"
+        ], 
         "years": ["_2000", "_2010", "_2019"]
       }
     },
@@ -210,23 +226,27 @@
   {
     "base": {
       "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents)",
+      "has_change": true,
       "labels": ["Drug-related overdose deaths"],
       "subcategory": "health_",
       "variables": ["overdosemortality"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {
         "files": [
           "quality_of_life_puma",
           "quality_of_life_puma",
-          "quality_of_life_puma"
+          "quality_of_life_puma",
+          "qol_change_puma"
         ],
         "vintages": [
-          "NYC EPIQUERY, 2000-2004",
-          "NYC EPIQUERY, 2010-2014",
-          "NYC EPIQUERY, 2015-2019"
+          "NYC VITAL STATISTICS, 2000-2004",
+          "NYC VITAL STATISTICS, 2010-2014",
+          "NYC VITAL STATISTICS, 2015-2019",
+          "CHANGE, 2010-2014 to 2015-2019"
         ],
         "years": ["_0004", "_1014", "_1519"]
       },
@@ -234,12 +254,14 @@
         "files": [
           "quality_of_life_borough",
           "quality_of_life_borough",
-          "quality_of_life_borough"
+          "quality_of_life_borough",
+          "qol_change_borough"
         ],
         "vintages": [
-          "NYC EPIQUERY, 2000",
-          "NYC EPIQUERY, 2010",
-          "NYC EPIQUERY, 2019"
+          "NYC VITAL STATISTICS, 2000",
+          "NYC VITAL STATISTICS, 2010",
+          "NYC VITAL STATISTICS, 2019",
+          "CHANGE, 2010 to 2019"
         ],
         "years": ["_2000", "_2010", "_2019"]
       },
@@ -247,13 +269,15 @@
         "files": [
           "quality_of_life_citywide",
           "quality_of_life_citywide",
-          "quality_of_life_citywide"
+          "quality_of_life_citywide",
+          "qol_change_citywide"
         ],
         "vintages": [
-          "NYC EPIQUERY, 2000",
-          "NYC EPIQUERY, 2010",
-          "NYC EPIQUERY, 2019"
-        ],
+          "NYC VITAL STATISTICS, 2000",
+          "NYC VITAL STATISTICS, 2010",
+          "NYC VITAL STATISTICS, 2019",
+          "CHANGE, 2010 to 2019"
+        ], 
         "years": ["_2000", "_2010", "_2019"]
       }
     },
@@ -272,7 +296,8 @@
       "subcategory": "health_",
       "variables": ["covid19deaths"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {
@@ -432,26 +457,27 @@
       "years": ["_0812", "_1519"],
       "labels": ["Drove or carpooled to work"],
       "is_survey": true,
+      "has_change": true,
       "denominator": {
         "subcategory": "access_",
         "variable": "workers16pl",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "Change, 2008-2012 to 2015-2019"],
       "variables": ["carcommute"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
     },
     "geographies": {
       "district": {
-        "files": ["quality_of_life_puma", "quality_of_life_puma"]
+        "files": ["quality_of_life_puma", "quality_of_life_puma", "qol_change_puma"]
       },
       "borough": {
-        "files": ["quality_of_life_borough", "quality_of_life_borough"]
+        "files": ["quality_of_life_borough", "quality_of_life_borough", "qol_change_borough"]
       },
       "citywide": {
-        "files": ["quality_of_life_citywide", "quality_of_life_citywide"]
+        "files": ["quality_of_life_citywide", "quality_of_life_citywide", "qol_change_citywide"]
       }
     },
     "subgroups": {
@@ -644,6 +670,7 @@
   {
     "base": {
       "title": "Public Safety - Traffic Injuries (Rate Per 100 Street Miles)",
+      "has_change": true,
       "denominator": {
         "label": "Total injuries",
         "subcategory": "safety_",
@@ -659,7 +686,8 @@
       ],
       "vintages": [
         "NYC VISION ZERO VIEW, 2010-2014",
-        "NYC VISION ZERO VIEW, 2016-2020"
+        "NYC VISION ZERO VIEW, 2016-2020",
+        "CHANGE, 2010-2014 to 2016-2020"
       ],
       "years": ["_1014", "_1620"],
       "variables": [
@@ -668,17 +696,18 @@
         "trafficinjuries_motorist"
       ],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1,1,1,1]
     },
     "geographies": {
       "district": {
-        "files": ["quality_of_life_puma","quality_of_life_puma"]
+        "files": ["quality_of_life_puma","quality_of_life_puma", "qol_change_puma"]
       },
       "borough": {
-        "files": ["quality_of_life_borough","quality_of_life_borough"]
+        "files": ["quality_of_life_borough","quality_of_life_borough", "qol_change_borough"]
       },
       "citywide": {
-        "files": ["quality_of_life_citywide","quality_of_life_citywide"]
+        "files": ["quality_of_life_citywide","quality_of_life_citywide", "qol_change_citywide"]
       }
     },
     "subgroups": {
@@ -700,26 +729,29 @@
   {
     "base": {
       "title": "Public Safety - Traffic Fatalities (Rate Per 100 Street Miles)",
+      "has_change": true,
       "subcategory": "safety_",
       "labels": ["Total fatalities"],
       "vintages": [
         "NYC VISION ZERO VIEW, 2010-2014",
-        "NYC VISION ZERO VIEW, 2016-2020"
+        "NYC VISION ZERO VIEW, 2016-2020",
+        "CHANGE, 2010-2014 to 2016-2020"
       ],
       "years": ["_1014", "_1620"],
       "variables": ["trafficfatalities"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {
-        "files": ["quality_of_life_puma","quality_of_life_puma"]
+        "files": ["quality_of_life_puma","quality_of_life_puma", "qol_change_puma"]
       },
       "borough": {
-        "files": ["quality_of_life_borough","quality_of_life_borough"]
+        "files": ["quality_of_life_borough","quality_of_life_borough", "qol_change_borough"]
       },
       "citywide": {
-        "files": ["quality_of_life_citywide","quality_of_life_citywide"]
+        "files": ["quality_of_life_citywide","quality_of_life_citywide", "qol_change_citywide"]
       }
     },
     "subgroups": {
@@ -746,7 +778,8 @@
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
       "variables": ["pedhospital"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {
@@ -783,7 +816,8 @@
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
       "variables": ["assaulthospital"],
       "measures": ["RATE"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "scales": [1]
     },
     "geographies": {
       "district": {

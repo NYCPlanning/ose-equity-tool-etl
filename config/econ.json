@@ -76,9 +76,11 @@
     "base": {
       "title": "Median Household Income (2019 Dollars)",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "denominator": {
         "subcategory": "",
@@ -99,19 +101,22 @@
       "district": {
         "files": [
           "economics_0812_puma",
-          "economics_1519_puma"
+          "economics_1519_puma",
+          "economics_change_puma"
         ]
       },
       "borough": {
         "files": [
           "economics_0812_borough",
-          "economics_1519_borough"
+          "economics_1519_borough",
+          "economics_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "economics_0812_citywide",
-          "economics_1519_citywide"
+          "economics_1519_citywide",
+          "economics_change_citywide"
         ]
       }
     },
@@ -211,9 +216,11 @@
     "base": {
       "title": "Labor Force",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "denominator": {
         "subcategory": "",
@@ -234,19 +241,22 @@
       "district": {
         "files": [
           "economics_0812_puma",
-          "economics_1519_puma"
+          "economics_1519_puma",
+          "economics_change_puma"
         ]
       },
       "borough": {
         "files": [
           "economics_0812_borough",
-          "economics_1519_borough"
+          "economics_1519_borough",
+          "economics_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "economics_0812_citywide",
-          "economics_1519_citywide"
+          "economics_1519_citywide",
+          "economics_change_citywide"
         ]
       }
     },
@@ -278,9 +288,11 @@
     "base": {
       "title": "Occupation",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "denominator": {
         "subcategory": "",
@@ -305,19 +317,22 @@
       "district": {
         "files": [
           "economics_0812_puma",
-          "economics_1519_puma"
+          "economics_1519_puma",
+          "economics_change_puma"
         ]
       },
       "borough": {
         "files": [
           "economics_0812_borough",
-          "economics_1519_borough"
+          "economics_1519_borough",
+          "economics_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "economics_0812_citywide",
-          "economics_1519_citywide"
+          "economics_1519_citywide",
+          "economics_change_citywide"
         ]
       }
     },
@@ -349,9 +364,11 @@
     "base": {
       "title": "Median Wages By Occupation (2019 Dollars)",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "denominator": {
         "subcategory": "",
@@ -376,19 +393,22 @@
       "district": {
         "files": [
           "economics_0812_puma",
-          "economics_1519_puma"
+          "economics_1519_puma",
+          "economics_change_puma"
         ]
       },
       "borough": {
         "files": [
           "economics_0812_borough",
-          "economics_1519_borough"
+          "economics_1519_borough",
+          "economics_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "economics_0812_citywide",
-          "economics_1519_citywide"
+          "economics_1519_citywide",
+          "economics_change_citywide"
         ]
       }
     },
@@ -420,9 +440,11 @@
     "base": {
       "title": "Industry",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "denominator": {
         "subcategory": "",
@@ -455,19 +477,22 @@
       "district": {
         "files": [
           "economics_0812_puma",
-          "economics_1519_puma"
+          "economics_1519_puma",
+          "economics_change_puma"
         ]
       },
       "borough": {
         "files": [
           "economics_0812_borough",
-          "economics_1519_borough"
+          "economics_1519_borough",
+          "economics_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "economics_0812_citywide",
-          "economics_1519_citywide"
+          "economics_1519_citywide",
+          "economics_change_citywide"
         ]
       }
     },
@@ -499,9 +524,11 @@
     "base": {
       "title": "Median Wages By Industry (2019 Dollars)",
       "is_survey": true,
+      "has_change": true,
       "vintages": [
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "denominator": {
         "subcategory": "",
@@ -534,19 +561,22 @@
       "district": {
         "files": [
           "economics_0812_puma",
-          "economics_1519_puma"
+          "economics_1519_puma",
+          "economics_change_puma"
         ]
       },
       "borough": {
         "files": [
           "economics_0812_borough",
-          "economics_1519_borough"
+          "economics_1519_borough",
+          "economics_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "economics_0812_citywide",
-          "economics_1519_citywide"
+          "economics_1519_citywide",
+          "economics_change_citywide"
         ]
       }
     },
