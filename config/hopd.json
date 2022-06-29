@@ -95,7 +95,8 @@
       "variables": ["historic"],
       "measures": ["COUNT", "PERCENT"],
       "variances": ["NONE", "NONE"],
-      "suffixes": ["_sqmiles",""]
+      "suffixes": ["_sqmiles",""],
+      "scales": [1, 1]
     },
     "geographies": {
       "district": {

@@ -6,6 +6,7 @@
       "years": ["_2000", "_0812", "_1519"],
       "labels": ["Owner-occupied", "Renter-occupied"],
       "is_survey": true,
+      "has_change": true,
       "denominator": {
         "subcategory": "units_",
         "variable": "occupied",
@@ -15,7 +16,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE,  2008-2012 to 2015-2019"
       ],
       "variables": ["occupied_owner", "occupied_renter"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -23,13 +25,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["housing_security_puma","housing_security_puma","housing_security_puma"]
+        "files": ["housing_security_puma","housing_security_puma","housing_security_puma", "housing_security_change_puma"]
       },
       "borough": {
-        "files": ["housing_security_borough","housing_security_borough","housing_security_borough"]
+        "files": ["housing_security_borough","housing_security_borough","housing_security_borough", "housing_security_change_borough"]
       },
       "citywide": {
-        "files": ["housing_security_citywide","housing_security_citywide","housing_security_citywide"]
+        "files": ["housing_security_citywide","housing_security_citywide","housing_security_citywide", "housing_security_change_citywide"]
       }
     },
     "subgroups": {
@@ -54,6 +56,7 @@
     "base": {
       "title": "Median Value (2019 dollars)",
       "is_survey": true,
+      "has_change": true,
       "denominator": {
         "measures": ["COUNT", "COUNT", "COUNT"],
         "variances": ["NONE", "MOE", "CV"],
@@ -61,7 +64,7 @@
       },
       "years": ["_0812", "_1519"],
       "labels": ["Median value (dollars)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
       "variables": ["homevalue_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -69,13 +72,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["housing_security_puma","housing_security_puma"]
+        "files": ["housing_security_puma","housing_security_puma", "housing_security_change_puma"]
       },
       "borough": {
-        "files": ["housing_security_borough","housing_security_borough"]
+        "files": ["housing_security_borough","housing_security_borough", "housing_security_change_borough"]
       },
       "citywide": {
-        "files": ["housing_security_citywide","housing_security_citywide"]
+        "files": ["housing_security_citywide","housing_security_citywide", "housing_security_change_citywide"]
       }
     },
     "subgroups": {
@@ -100,6 +103,7 @@
     "base": {
       "title": "Median Gross Rent (2019 dollars)",
       "is_survey": true,
+      "has_change": true,
       "denominator": {
         "variable": "units_payingrent",
         "measures": ["COUNT", "COUNT", "COUNT"],
@@ -107,7 +111,7 @@
       },
       "years": ["_0812", "_1519"],
       "labels": ["Median gross rent (dollars)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
       "variables": ["rent_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -115,13 +119,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["housing_security_puma","housing_security_puma"]
+        "files": ["housing_security_puma","housing_security_puma", "housing_security_change_puma"]
       },
       "borough": {
-        "files": ["housing_security_borough","housing_security_borough"]
+        "files": ["housing_security_borough","housing_security_borough", "housing_security_change_borough"]
       },
       "citywide": {
-        "files": ["housing_security_citywide","housing_security_citywide"]
+        "files": ["housing_security_citywide","housing_security_citywide", "housing_security_change_citywide"]
       }
     },
     "subgroups": {
@@ -146,6 +150,7 @@
     "base": {
       "title": "Gross Rent as a Percentage of Household Income (GRAPI)",
       "is_survey": true,
+      "has_change": true,
       "subcategory": "households_",
       "denominator": {
         "subcategory": "households_",
@@ -154,21 +159,21 @@
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
       "years": ["_0812", "_1519"],
-      "labels": ["30.0 percent or more (rent-burdened)","50.0 percent or more (extremely rent-burdened)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
+      "labels": ["30.0 percent or more (rent-burdened)","50.0 percent or more (severely rent-burdened)"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE,  2008-2012 to 2015-2019"],
       "variables": ["rb","erb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
     },
     "geographies": {
       "district": {
-        "files": ["housing_security_puma","housing_security_puma"]
+        "files": ["housing_security_puma","housing_security_puma", "housing_security_change_puma"]
       },
       "borough": {
-        "files": ["housing_security_borough","housing_security_borough"]
+        "files": ["housing_security_borough","housing_security_borough", "housing_security_change_borough"]
       },
       "citywide": {
-        "files": ["housing_security_citywide","housing_security_citywide"]
+        "files": ["housing_security_citywide","housing_security_citywide", "housing_security_change_citywide"]
       }
     },
     "subgroups": {
@@ -252,13 +257,14 @@
     "base": {
       "title": "Overcrowding",
       "is_survey": true,
+      "has_change": true,
       "denominator": {
         "subcategory": "units_",
         "variable": "occupied",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
       "years": ["_0812","_1519"],
       "labels": ["Overcrowded units (> 1 person per room)"],
       "subcategory": "units_",
@@ -268,13 +274,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["housing_security_puma","housing_security_puma"]
+        "files": ["housing_security_puma","housing_security_puma", "housing_security_change_puma"]
       },
       "borough": {
-        "files": ["housing_security_borough","housing_security_borough"]
+        "files": ["housing_security_borough","housing_security_borough", "housing_security_change_borough"]
       },
       "citywide": {
-        "files": ["housing_security_citywide","housing_security_citywide"]
+        "files": ["housing_security_citywide","housing_security_citywide", "housing_security_change_citywide"]
       }
     },
     "subgroups": {
@@ -342,7 +348,8 @@
   {
     "base": {
       "title": "Number of Individuals in Shelter System by Last Address",
-      "vintages": ["NYC DEPARTMENT OF HOMELESS SERVICES, 2018", "NYC DEPARTMENT OF HOMELESS SERVICES, 2020"],
+      "vintages": ["NYC DEPARTMENT OF HOMELESS SERVICES, 2018", "NYC DEPARTMENT OF HOMELESS SERVICES, 2020", "CHANGE, 2018-2020"],
+      "has_change": true,
       "years": ["_2018","_2020"],
       "labels": ["Total number of individuals in DHS shelter system whose last address was in this area"],
       "variables": ["dhs_shelter"],
@@ -352,13 +359,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["housing_security_puma","housing_security_puma"]
+        "files": ["housing_security_puma","housing_security_puma", "housing_security_change_puma"]
       },
       "borough": {
-        "files": ["housing_security_borough","housing_security_borough"]
+        "files": ["housing_security_borough","housing_security_borough", "housing_security_change_borough"]
       },
       "citywide": {
-        "files": ["housing_security_citywide","housing_security_citywide"]
+        "files": ["housing_security_citywide","housing_security_citywide", "housing_security_change_citywide"]
       }
     },
     "subgroups": {
