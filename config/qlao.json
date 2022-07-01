@@ -398,7 +398,7 @@
         "Residents living within 1/4 mile of ADA accessible subway stations"
       ],
       "subcategory": "access_",
-      "variables": ["ada", "subwaysbs"],
+      "variables": ["subwaysbs", "ada"],
       "measures": ["PERCENT"],
       "variances": ["NONE"]
     },
