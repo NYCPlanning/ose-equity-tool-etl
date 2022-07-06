@@ -16683,8 +16683,9 @@
         },
         {
           "files": [
-            "quality_of_life_borough"
+            ""
           ],
+          "placeholder": "Data are not available by Borough and Citywide",
           "title": "Access to Jobs",
           "vintages": [
             "NYC DEPARTMENT OF CITY PLANNING, 2019"
@@ -17364,9 +17365,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_borough"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -18053,9 +18054,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_borough"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -18742,9 +18743,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_borough"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -19431,9 +19432,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_borough"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -26614,8 +26615,9 @@
         },
         {
           "files": [
-            "quality_of_life_citywide"
+            ""
           ],
+          "placeholder": "Data are not available by Borough and Citywide",
           "title": "Access to Jobs",
           "vintages": [
             "NYC DEPARTMENT OF CITY PLANNING, 2019"
@@ -27295,9 +27297,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_citywide"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -27984,9 +27986,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_citywide"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -28673,9 +28675,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_citywide"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [
@@ -29362,9 +29364,9 @@
           ]
         },
         {
-          "placeholder": "Data are not available by race and ethnicity",
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
-            "quality_of_life_citywide"
+            ""
           ],
           "title": "Access to Jobs",
           "vintages": [

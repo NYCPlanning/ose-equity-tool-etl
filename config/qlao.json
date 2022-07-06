@@ -366,10 +366,12 @@
         "files": ["quality_of_life_puma"]
       },
       "borough": {
-        "files": ["quality_of_life_borough"]
+        "files": [""],
+        "placeholder": "Data are not available by Borough and Citywide"
       },
       "citywide": {
-        "files": ["quality_of_life_citywide"]
+        "files": [""],
+        "placeholder": "Data are not available by Borough and Citywide"
       }
     },
     "subgroups": {
