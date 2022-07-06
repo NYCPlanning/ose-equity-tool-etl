@@ -52,7 +52,7 @@
   },
   {
     "base": {
-      "title": "Median Value (2019 dollars)",
+      "title": "Median Home Value (2019 Dollars)",
       "is_survey": true,
       "denominator": {
         "measures": ["COUNT", "COUNT", "COUNT"],
@@ -60,7 +60,7 @@
         "variable": "units_occupied_owner"
       },
       "years": ["_0812", "_1519"],
-      "labels": ["Median value (dollars)"],
+      "labels": ["Median Home Value (Dollars)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "variables": ["homevalue_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
@@ -379,7 +379,7 @@
   },
   {
     "base": {
-      "title": "Income-Restricted Housing",
+      "title": "Income-restricted Housing",
       "subcategory": "units_",
       "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
