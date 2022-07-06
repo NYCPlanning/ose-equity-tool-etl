@@ -82,14 +82,14 @@
             "housing_security_puma",
             "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -428,7 +428,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -573,14 +573,14 @@
             "housing_security_puma",
             "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -923,7 +923,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -1068,14 +1068,14 @@
             "housing_security_puma",
             "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -1418,7 +1418,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -1563,14 +1563,14 @@
             "housing_security_puma",
             "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -1913,7 +1913,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -2058,14 +2058,14 @@
             "housing_security_puma",
             "housing_security_puma"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -2408,7 +2408,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -10012,14 +10012,14 @@
             "housing_security_borough",
             "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -10358,7 +10358,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -10503,14 +10503,14 @@
             "housing_security_borough",
             "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -10853,7 +10853,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -10998,14 +10998,14 @@
             "housing_security_borough",
             "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -11348,7 +11348,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -11493,14 +11493,14 @@
             "housing_security_borough",
             "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -11843,7 +11843,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -11988,14 +11988,14 @@
             "housing_security_borough",
             "housing_security_borough"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -12338,7 +12338,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -19943,14 +19943,14 @@
             "housing_security_citywide",
             "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -20289,7 +20289,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -20434,14 +20434,14 @@
             "housing_security_citywide",
             "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -20784,7 +20784,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -20929,14 +20929,14 @@
             "housing_security_citywide",
             "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -21279,7 +21279,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -21424,14 +21424,14 @@
             "housing_security_citywide",
             "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -21774,7 +21774,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
@@ -21919,14 +21919,14 @@
             "housing_security_citywide",
             "housing_security_citywide"
           ],
-          "title": "Median Value (2019 dollars)",
+          "title": "Median Home Value (2019 Dollars)",
           "is_survey": true,
           "years": [
             "_0812",
             "_1519"
           ],
           "labels": [
-            "Median value (dollars)"
+            "Median Home Value (Dollars)"
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
@@ -22269,7 +22269,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Income-Restricted Housing",
+          "title": "Income-restricted Housing",
           "subcategory": "units_",
           "vintages": [
             "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"
