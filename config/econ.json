@@ -18,7 +18,12 @@
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
       "subcategory": "edu_",
       "variables": ["lths", "hs", "smcol", "bchpl"],
-      "labels": ["Less than high school degree", "High school degree or equivalent", "Some college or Associate's degree", "Bachelor's degree or higher"]
+      "labels": [
+        "Less than high school degree",
+        "High school degree or equivalent",
+        "Some college or Associate's degree",
+        "Bachelor's degree or higher"
+      ]
     },
     "geographies": {
       "district": {
@@ -71,10 +76,7 @@
     "base": {
       "title": "Median Household Income (2019 Dollars)",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "households",
@@ -87,27 +89,24 @@
       "subcategory": "household_",
       "variables": ["income"],
       "labels": ["Median household income (dollars)"],
-      "upper_limits": [[null, 223000],[null, 200000]],
-      "lower_limits": [[null, 11000],[null, 9999]]
+      "upper_limits": [
+        [null, 223000],
+        [null, 200000]
+      ],
+      "lower_limits": [
+        [null, 11000],
+        [null, 9999]
+      ]
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_0812_puma",
-          "economics_1519_puma"
-        ]
+        "files": ["economics_0812_puma", "economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_0812_borough",
-          "economics_1519_borough"
-        ]
+        "files": ["economics_0812_borough", "economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_0812_citywide",
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_0812_citywide", "economics_1519_citywide"]
       }
     },
     "subgroups": {
@@ -138,9 +137,7 @@
     "base": {
       "title": "Households By Area Median Income (AMI) Band",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "households",
@@ -151,7 +148,7 @@
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
       "subcategory": "households_",
-      "variables": [ "eli", "vli", "li", "mi", "midi", "hi"],
+      "variables": ["eli", "vli", "li", "mi", "midi", "hi"],
       "labels": [
         "Households where the income is less than 30% of the area median income",
         "Households where the income is between 31% and 50% of the area median income",
@@ -163,19 +160,13 @@
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_1519_puma"
-        ]
+        "files": ["economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_1519_borough"
-        ]
+        "files": ["economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_1519_citywide"]
       }
     },
     "subgroups": {
@@ -206,10 +197,7 @@
     "base": {
       "title": "Labor Force",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "age_p16t64",
@@ -220,29 +208,18 @@
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
       "subcategory": "",
-      "variables": [ "lf"],
-      "labels": [
-        "In labor force"
-      ]
+      "variables": ["lf"],
+      "labels": ["In labor force"]
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_0812_puma",
-          "economics_1519_puma"
-        ]
+        "files": ["economics_0812_puma", "economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_0812_borough",
-          "economics_1519_borough"
-        ]
+        "files": ["economics_0812_borough", "economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_0812_citywide",
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_0812_citywide", "economics_1519_citywide"]
       }
     },
     "subgroups": {
@@ -273,10 +250,7 @@
     "base": {
       "title": "Occupation",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -287,7 +261,7 @@
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
       "subcategory": "occupation_",
-      "variables": ["cstmnt","mbsa","prdtrn","slsoff","srvc"],
+      "variables": ["cstmnt", "mbsa", "prdtrn", "slsoff", "srvc"],
       "labels": [
         "Natural resources, construction, or maintenance jobs",
         "Management, business, science, or arts jobs",
@@ -298,26 +272,21 @@
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_0812_puma",
-          "economics_1519_puma"
-        ]
+        "files": ["economics_0812_puma", "economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_0812_borough",
-          "economics_1519_borough"
-        ]
+        "files": ["economics_0812_borough", "economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_0812_citywide",
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_0812_citywide", "economics_1519_citywide"]
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } },
+      "tot": {
+        "denominator": {
+          "label": "Civilian employed population 16 to 64 years"
+        }
+      },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
@@ -344,21 +313,60 @@
     "base": {
       "title": "Median Wages By Occupation (2019 Dollars)",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
-        "measures": ["COUNT","COUNT","COUNT"],
+        "measures": ["COUNT", "COUNT", "COUNT"],
         "variances": ["NONE", "MOE", "CV"],
         "labels": "Civilian employed population 16 to 64 years"
       },
-      "measures": ["MEDIAN","MEDIAN","MEDIAN"],
+      "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "occupation_",
-      "variables": ["cstmnt_wages","mbsa_wages","prdtrn_wages","slsoff_wages","srvc_wages"],
+      "variables": [
+        "cstmnt_wages",
+        "mbsa_wages",
+        "prdtrn_wages",
+        "slsoff_wages",
+        "srvc_wages"
+      ],
+      "upper_limits": [
+        [
+          null,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000
+        ],
+        [
+          null,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000
+        ]
+      ],
+      "lower_limits": [
+        [
+          null,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000
+        ],
+        [
+          null,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999
+        ]
+      ],
       "labels": [
         "Natural resources, construction, or maintenance jobs",
         "Management, business, science, or arts jobs",
@@ -369,26 +377,21 @@
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_0812_puma",
-          "economics_1519_puma"
-        ]
+        "files": ["economics_0812_puma", "economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_0812_borough",
-          "economics_1519_borough"
-        ]
+        "files": ["economics_0812_borough", "economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_0812_citywide",
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_0812_citywide", "economics_1519_citywide"]
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } },
+      "tot": {
+        "denominator": {
+          "label": "Civilian employed population 16 to 64 years"
+        }
+      },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
@@ -415,10 +418,7 @@
     "base": {
       "title": "Industry",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -429,45 +429,54 @@
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
       "subcategory": "industry_",
-      "variables": ["agff","cnstn","mnfct","whlsl","rtl","trwhu","info","fire","pfmg","edhlt","arten","oth","pbadm"],
+      "variables": [
+        "agff",
+        "cnstn",
+        "mnfct",
+        "whlsl",
+        "rtl",
+        "trwhu",
+        "info",
+        "fire",
+        "pfmg",
+        "edhlt",
+        "arten",
+        "oth",
+        "pbadm"
+      ],
       "labels": [
-         "Agriculture, forestry, fishing and hunting, or mining industries",
-         "Construction industry",
-         "Manufacturing industry",
-         "Wholesale trade industry",
-         "Retail trade industry",
-         "Transportation and warehousing, or utilities industries",
-         "Information",
-         "Finance and insurance, real estate, or rental and leasing industries",
-         "Professional, scientific, management, administrative, or waste management services industries",
-         "Educational services, health care, or social assistance industries",
-         "Arts, entertainment, recreation, accomodation, or food services industries",
-         "Other service industry, except public administration",
-         "Public administration industry"
+        "Agriculture, forestry, fishing and hunting, or mining industries",
+        "Construction industry",
+        "Manufacturing industry",
+        "Wholesale trade industry",
+        "Retail trade industry",
+        "Transportation and warehousing, or utilities industries",
+        "Information",
+        "Finance and insurance, real estate, or rental and leasing industries",
+        "Professional, scientific, management, administrative, or waste management services industries",
+        "Educational services, health care, or social assistance industries",
+        "Arts, entertainment, recreation, accomodation, or food services industries",
+        "Other service industry, except public administration",
+        "Public administration industry"
       ]
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_0812_puma",
-          "economics_1519_puma"
-        ]
+        "files": ["economics_0812_puma", "economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_0812_borough",
-          "economics_1519_borough"
-        ]
+        "files": ["economics_0812_borough", "economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_0812_citywide",
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_0812_citywide", "economics_1519_citywide"]
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } },
+      "tot": {
+        "denominator": {
+          "label": "Civilian employed population 16 to 64 years"
+        }
+      },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
@@ -494,10 +503,7 @@
     "base": {
       "title": "Median Wages By Industry (2019 Dollars)",
       "is_survey": true,
-      "vintages": [
-        "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
-      ],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -508,45 +514,122 @@
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "industry_",
-      "variables": ["agff_wages","cnstn_wages","mnfct_wages","whlsl_wages","rtl_wages","trwhu_wages","info_wages","fire_wages","pfmg_wages","edhlt_wages","arten_wages","oth_wages","pbadm_wages"],
+      "upper_limits": [
+        [
+          null,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000,
+          223000
+        ],
+        [
+          null,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000,
+          200000
+        ]
+      ],
+      "lower_limits": [
+        [
+          null,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000,
+          11000
+        ],
+        [
+          null,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999,
+          9999
+        ]
+      ],
+      "variables": [
+        "agff_wages",
+        "cnstn_wages",
+        "mnfct_wages",
+        "whlsl_wages",
+        "rtl_wages",
+        "trwhu_wages",
+        "info_wages",
+        "fire_wages",
+        "pfmg_wages",
+        "edhlt_wages",
+        "arten_wages",
+        "oth_wages",
+        "pbadm_wages"
+      ],
       "labels": [
-         "Agriculture, forestry, fishing and hunting, or mining industries",
-         "Construction industry",
-         "Manufacturing industry",
-         "Wholesale trade industry",
-         "Retail trade industry",
-         "Transportation and warehousing, or utilities industries",
-         "Information",
-         "Finance and insurance, real estate, or rental and leasing industries",
-         "Professional, scientific, management, administrative, or waste management services industries",
-         "Educational services, health care, or social assistance industries",
-         "Arts, entertainment, recreation, accomodation, or food services industries",
-         "Other service industry, except public administration",
-         "Public administration industry"
+        "Agriculture, forestry, fishing and hunting, or mining industries",
+        "Construction industry",
+        "Manufacturing industry",
+        "Wholesale trade industry",
+        "Retail trade industry",
+        "Transportation and warehousing, or utilities industries",
+        "Information",
+        "Finance and insurance, real estate, or rental and leasing industries",
+        "Professional, scientific, management, administrative, or waste management services industries",
+        "Educational services, health care, or social assistance industries",
+        "Arts, entertainment, recreation, accomodation, or food services industries",
+        "Other service industry, except public administration",
+        "Public administration industry"
       ]
     },
     "geographies": {
       "district": {
-        "files": [
-          "economics_0812_puma",
-          "economics_1519_puma"
-        ]
+        "files": ["economics_0812_puma", "economics_1519_puma"]
       },
       "borough": {
-        "files": [
-          "economics_0812_borough",
-          "economics_1519_borough"
-        ]
+        "files": ["economics_0812_borough", "economics_1519_borough"]
       },
       "citywide": {
-        "files": [
-          "economics_0812_citywide",
-          "economics_1519_citywide"
-        ]
+        "files": ["economics_0812_citywide", "economics_1519_citywide"]
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Civilian employed population 16 to 64 years" } },
+      "tot": {
+        "denominator": {
+          "label": "Civilian employed population 16 to 64 years"
+        }
+      },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
