@@ -314,13 +314,6 @@
       "title": "Median Wages By Occupation (2019 Dollars)",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
-      "denominator": {
-        "subcategory": "",
-        "variable": "cvem",
-        "measures": ["COUNT", "COUNT", "COUNT"],
-        "variances": ["NONE", "MOE", "CV"],
-        "labels": "Civilian employed population 16 to 64 years"
-      },
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "occupation_",
@@ -388,29 +381,29 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {
+
           "label": "Civilian employed population 16 to 64 years"
-        }
+
       },
       "anh": {
-        "denominator": {
+
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
-        }
+
       },
       "bnh": {
-        "denominator": {
+
           "label": "Black non-Hispanic civilian employed population 16 to 64 years"
-        }
+
       },
       "hsp": {
-        "denominator": {
+
           "label": "Hispanic civilian employed population 16 to 64 years"
-        }
+
       },
       "wnh": {
-        "denominator": {
+
           "label": "White non-Hispanic civilian employed population 16 to 64 years"
-        }
+
       }
     }
   },
@@ -504,13 +497,6 @@
       "title": "Median Wages By Industry (2019 Dollars)",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
-      "denominator": {
-        "subcategory": "",
-        "variable": "cvem",
-        "measures": ["COUNT", "COUNT", "COUNT"],
-        "variances": ["NONE", "MOE", "CV"],
-        "labels": "Civilian employed population 16 to 64 years"
-      },
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "industry_",
@@ -626,29 +612,29 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {
+
           "label": "Civilian employed population 16 to 64 years"
-        }
+
       },
       "anh": {
-        "denominator": {
+
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
-        }
+
       },
       "bnh": {
-        "denominator": {
+
           "label": "Black non-Hispanic civilian employed population 16 to 64 years"
-        }
+
       },
       "hsp": {
-        "denominator": {
+
           "label": "Hispanic civilian employed population 16 to 64 years"
-        }
+
       },
       "wnh": {
-        "denominator": {
+
           "label": "White non-Hispanic civilian employed population 16 to 64 years"
-        }
+
       }
     }
   }
