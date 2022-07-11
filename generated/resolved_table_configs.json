@@ -4136,22 +4136,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -4302,22 +4287,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -4741,22 +4711,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -4907,22 +4862,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -5346,22 +5286,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -5512,22 +5437,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -5951,22 +5861,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -6117,22 +6012,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -6556,22 +6436,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "White non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -6722,22 +6587,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "White non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
             "economics_1519_puma"
@@ -14586,22 +14436,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -14752,22 +14587,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -15191,22 +15011,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -15357,22 +15162,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -15796,22 +15586,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -15962,22 +15737,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -16401,22 +16161,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -16567,22 +16312,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -17006,22 +16736,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "White non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -17172,22 +16887,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "White non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
             "economics_1519_borough"
@@ -25038,22 +24738,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -25204,22 +24889,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -25643,22 +25313,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -25809,22 +25464,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -26248,22 +25888,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -26414,22 +26039,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Black non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -26853,22 +26463,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -27019,22 +26614,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -27458,22 +27038,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "White non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
@@ -27624,22 +27189,7 @@
           ]
         },
         {
-          "denominator": {
-            "label": "White non-Hispanic civilian employed population 16 to 64 years",
-            "subcategory": "",
-            "variable": "cvem",
-            "measures": [
-              "COUNT",
-              "COUNT",
-              "COUNT"
-            ],
-            "variances": [
-              "NONE",
-              "MOE",
-              "CV"
-            ],
-            "labels": "Civilian employed population 16 to 64 years"
-          },
+          "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
             "economics_1519_citywide"
