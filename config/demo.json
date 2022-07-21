@@ -3,6 +3,7 @@
     "base": {
       "title": "Mutually Exclusive Race/Hispanic Origin",
       "id": "1.01.T",
+      "has_change": true,
       "denominator": {
         "subcategory": "",
         "variable": "pop",
@@ -14,7 +15,8 @@
       "vintages": [
         "CENSUS SF1, 2000",
         "CENSUS SF1, 2010",
-        "CENSUS PL 94-171, 2020"
+        "CENSUS PL 94-171, 2020",
+        "CHANGE, 2010 to 2020"
       ],
       "measures": ["COUNT", "PERCENT"],
       "variances": ["NONE", "NONE"]
@@ -24,21 +26,24 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1519_puma"
+          "demographics_1519_puma",
+          "demo_change_puma"
         ]
       },
       "borough": {
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1519_borough"
+          "demographics_1519_borough",
+          "demo_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1519_citywide"
+          "demographics_1519_citywide",
+          "demo_change_citywide"
         ]
       }
     },
@@ -79,6 +84,7 @@
   {
     "base": {
       "title": "Age",
+      "has_change": true,
       "subcategory": "age_",
       "is_survey": true,
       "denominator": {
@@ -90,7 +96,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012 ",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "variables": ["popu16", "p16t64", "p65pl", "median"],
       "measures": [
@@ -109,21 +116,24 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1519_puma"
+          "demographics_1519_puma",
+          "demo_change_puma"
         ]
       },
       "borough": {
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1519_borough"
+          "demographics_1519_borough",
+          "demo_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1519_citywide"
+          "demographics_1519_citywide",
+          "demo_change_citywide"
         ]
       }
     },
@@ -161,6 +171,7 @@
   {
     "base": {
       "title": "Foreign-born Population",
+      "has_change": true,
       "is_survey": true,
       "denominator": {
         "subcategory": "pop_",
@@ -171,7 +182,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012 ",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "variables": ["fb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -183,21 +195,24 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1519_puma"
+          "demographics_1519_puma",
+          "demo_change_puma"
         ]
       },
       "borough": {
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1519_borough"
+          "demographics_1519_borough",
+          "demo_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1519_citywide"
+          "demographics_1519_citywide",
+          "demo_change_citywide"
         ]
       }
     },
@@ -236,6 +251,7 @@
     "base": {
       "title": "Limited English Speaking Population",
       "is_survey": true,
+      "has_change": true,
       "denominator": {
         "subcategory": "age_",
         "variable": "p5pl",
@@ -245,7 +261,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019"
+        "ACS PUMS, 2015-2019",
+        "CHANGE, 2008-2012 to 2015-2019"
       ],
       "variables": ["lep"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -257,21 +274,24 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1519_puma"
+          "demographics_1519_puma",
+          "demo_change_puma"
         ]
       },
       "borough": {
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1519_borough"
+          "demographics_1519_borough",
+          "demo_change_borough"
         ]
       },
       "citywide": {
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1519_citywide"
+          "demographics_1519_citywide",
+          "demo_change_citywide"
         ]
       }
     },
