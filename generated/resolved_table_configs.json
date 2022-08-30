@@ -294,6 +294,174 @@
           ]
         },
         {
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units",
             "subcategory": "units_",
@@ -783,6 +951,176 @@
             "CV",
             "NONE",
             "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
           ]
         },
         {
@@ -1281,6 +1619,176 @@
           ]
         },
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units with a Black non-Hispanic householder",
             "subcategory": "units_",
@@ -1776,6 +2284,176 @@
           ]
         },
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units with a White non-Hispanic householder",
             "subcategory": "units_",
@@ -2268,6 +2946,176 @@
             "CV",
             "NONE",
             "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
           ]
         },
         {
@@ -10594,6 +11442,174 @@
           ]
         },
         {
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units",
             "subcategory": "units_",
@@ -11083,6 +12099,176 @@
             "CV",
             "NONE",
             "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
           ]
         },
         {
@@ -11581,6 +12767,176 @@
           ]
         },
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units with a Black non-Hispanic householder",
             "subcategory": "units_",
@@ -12076,6 +13432,176 @@
           ]
         },
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units with a White non-Hispanic householder",
             "subcategory": "units_",
@@ -12568,6 +14094,176 @@
             "CV",
             "NONE",
             "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
           ]
         },
         {
@@ -20896,6 +22592,174 @@
           ]
         },
         {
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units",
             "subcategory": "units_",
@@ -21385,6 +23249,176 @@
             "CV",
             "NONE",
             "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
           ]
         },
         {
@@ -21883,6 +23917,176 @@
           ]
         },
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units with a Black non-Hispanic householder",
             "subcategory": "units_",
@@ -22378,6 +24582,176 @@
           ]
         },
         {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
+          ]
+        },
+        {
           "denominator": {
             "label": "Occupied housing units with a White non-Hispanic householder",
             "subcategory": "units_",
@@ -22870,6 +25244,176 @@
             "CV",
             "NONE",
             "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Rent Stabilized Housing",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied rental units",
+            "subcategory": "units_",
+            "variable": "occurental",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "labels": [
+            "Rent stabilized units"
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "subcategory": "units_",
+          "variables": [
+            "rentstable"
+          ],
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ]
+        },
+        {
+          "placeholder": "Data are not available by race and ethnicity",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Maintenance Deficiencies",
+          "is_survey": true,
+          "denominator": {
+            "label": "Occupied housing units",
+            "subcategory": "units_",
+            "variable": "occu",
+            "measures": [
+              "COUNT",
+              "COUNT",
+              "COUNT",
+              "PERCENT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "MOE",
+              "CV",
+              "NONE",
+              "MOE"
+            ]
+          },
+          "headers": [
+            [
+              [
+                "number",
+                3
+              ],
+              [
+                "percent",
+                2
+              ]
+            ],
+            [
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ],
+              [
+                "cv",
+                1
+              ],
+              [
+                "estimate",
+                1
+              ],
+              [
+                "moe",
+                1
+              ]
+            ]
+          ],
+          "vintages": [
+            "NYC HOUSING AND VACANCY SURVEY, 2017"
+          ],
+          "labels": [
+            "Units with 3 or more maintenance deficiencies"
+          ],
+          "subcategory": "units_",
+          "measures": [
+            "COUNT",
+            "COUNT",
+            "COUNT",
+            "PERCENT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "MOE",
+            "CV",
+            "NONE",
+            "MOE"
+          ],
+          "variables": [
+            "threemaintenance"
           ]
         },
         {
