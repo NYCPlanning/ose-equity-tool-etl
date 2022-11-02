@@ -658,6 +658,55 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "labels": [
+            "Total housing lottery applications"
+          ],
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "labels": [
+            "Total signed leases"
+          ],
+          "files": [
+            ""
+          ],
+          "placeholder": "Data are not available by Community District",
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "anh": [
@@ -1314,6 +1363,85 @@
           ],
           "variables": [
             "nycha_tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with an Asian non-Hispanic account holder"
+          ],
+          "placeholder": "Data are not available by race and ethnicity for Community Districts",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with an Asian non-Hispanic account holder"
+          ],
+          "files": [
+            ""
+          ],
+          "placeholder": "Data are not available by Community District",
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
           ],
           "measures": [
             "COUNT",
@@ -1988,6 +2116,85 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a Black non-Hispanic account holder"
+          ],
+          "placeholder": "Data are not available by race and ethnicity for Community Districts",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a Black non-Hispanic account holder"
+          ],
+          "files": [
+            ""
+          ],
+          "placeholder": "Data are not available by Community District",
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "wnh": [
@@ -2653,6 +2860,85 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a White non-Hispanic account holder"
+          ],
+          "placeholder": "Data are not available by race and ethnicity for Community Districts",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a White non-Hispanic account holder"
+          ],
+          "files": [
+            ""
+          ],
+          "placeholder": "Data are not available by Community District",
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "hsp": [
@@ -3309,6 +3595,85 @@
           ],
           "variables": [
             "nycha_tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a Hispanic account holder"
+          ],
+          "placeholder": "Data are not available by race and ethnicity for Community Districts",
+          "files": [
+            "housing_security_puma"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a Hispanic account holder"
+          ],
+          "files": [
+            ""
+          ],
+          "placeholder": "Data are not available by Community District",
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
           ],
           "measures": [
             "COUNT",
@@ -11806,6 +12171,55 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "labels": [
+            "Total housing lottery applications"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "placeholder": "",
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "labels": [
+            "Total signed leases"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "anh": [
@@ -12462,6 +12876,84 @@
           ],
           "variables": [
             "nycha_tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with an Asian non-Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with an Asian non-Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
           ],
           "measures": [
             "COUNT",
@@ -13136,6 +13628,84 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a Black non-Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a Black non-Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "wnh": [
@@ -13801,6 +14371,84 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a White non-Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a White non-Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "hsp": [
@@ -14457,6 +15105,84 @@
           ],
           "variables": [
             "nycha_tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_borough"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
           ],
           "measures": [
             "COUNT",
@@ -22956,6 +23682,55 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "labels": [
+            "Total housing lottery applications"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "placeholder": "",
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "labels": [
+            "Total signed leases"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "anh": [
@@ -23612,6 +24387,84 @@
           ],
           "variables": [
             "nycha_tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with an Asian non-Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with an Asian non-Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
           ],
           "measures": [
             "COUNT",
@@ -24286,6 +25139,84 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a Black non-Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a Black non-Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "wnh": [
@@ -24951,6 +25882,84 @@
             "NONE",
             "NONE"
           ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a White non-Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a White non-Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
         }
       ],
       "hsp": [
@@ -25607,6 +26616,84 @@
           ],
           "variables": [
             "nycha_tenants"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "applications",
+            "label": "Total housing lottery applications",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "placeholder": "",
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total housing lottery applications with a Hispanic account holder"
+          ],
+          "placeholder": "",
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Applications",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "applications"
+          ],
+          "measures": [
+            "COUNT",
+            "PERCENT"
+          ],
+          "variances": [
+            "NONE",
+            "NONE"
+          ]
+        },
+        {
+          "denominator": {
+            "subcategory": "housing_lottery_",
+            "variable": "leases",
+            "label": "Total signed leases",
+            "measures": [
+              "COUNT",
+              "PERCENT"
+            ],
+            "variances": [
+              "NONE",
+              "NONE"
+            ],
+            "ignore_subgroup": true
+          },
+          "labels": [
+            "Total signed leases with a Hispanic account holder"
+          ],
+          "files": [
+            "housing_security_citywide"
+          ],
+          "title": "Housing Lottery Leases",
+          "vintages": [
+            "NYC HOUSING CONNECT 2014-2020"
+          ],
+          "subcategory": "housing_lottery_",
+          "variables": [
+            "leases"
           ],
           "measures": [
             "COUNT",
