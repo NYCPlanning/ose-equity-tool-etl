@@ -2,6 +2,7 @@
   {
     "base": {
       "title": "Housing Tenure",
+      "id": "3.01.T",
       "subcategory": "units_",
       "years": ["_2000", "_0812", "_1519"],
       "labels": ["Owner-occupied", "Renter-occupied"],
@@ -37,22 +38,27 @@
         "denominator": {"label": "Occupied housing units"}
       },
       "anh": {
-        "denominator": {"label": "Occupied housing units with an Asian non-Hispanic householder"}
+        "denominator": {"label": "Occupied housing units with an Asian non-Hispanic householder"},
+        "id": "3.01.A"
       },
       "bnh": {
-        "denominator": {"label":  "Occupied housing units with a Black non-Hispanic householder"}
+        "denominator": {"label":  "Occupied housing units with a Black non-Hispanic householder"},
+        "id": "3.01.B"
       },
       "wnh": {
-        "denominator": {"label":"Occupied housing units with a White non-Hispanic householder"}
+        "denominator": {"label":"Occupied housing units with a White non-Hispanic householder"},
+        "id": "3.01.W"
       },
       "hsp": {
-        "denominator": {"label": "Occupied housing units with a Hispanic householder"}
+        "denominator": {"label": "Occupied housing units with a Hispanic householder"},
+        "id": "3.01.H"
       }
     }
   },
   {
     "base": {
       "title": "Median Home Value (2019 Dollars)",
+      "id": "3.02.T",
       "is_survey": true,
       "denominator": {
         "measures": ["COUNT", "COUNT", "COUNT"],
@@ -83,22 +89,27 @@
         "denominator": {"label": "Owner-occupied units"}
       },
       "anh": {
-        "denominator": {"label":  "Owner-occupied units with an Asian non-Hispanic householder"}
+        "denominator": {"label":  "Owner-occupied units with an Asian non-Hispanic householder"},
+        "id": "3.02.A"
       },
       "bnh": {
-        "denominator": {"label": "Owner-occupied units with a Black non-Hispanic householder"}
+        "denominator": {"label": "Owner-occupied units with a Black non-Hispanic householder"},
+        "id": "3.02.B"
       },
       "wnh": {
-        "denominator": {"label": "Owner-occupied units with a White non-Hispanic householder"}
+        "denominator": {"label": "Owner-occupied units with a White non-Hispanic householder"},
+        "id": "3.02.W"
       },
       "hsp": {
-        "denominator": {"label":  "Owner-occupied units with a Hispanic householder"}
+        "denominator": {"label":  "Owner-occupied units with a Hispanic householder"},
+        "id": "3.02.H"
       }
     }
   },
   {
     "base": {
       "title": "Median Gross Rent (2019 dollars)",
+      "id": "3.03.T",
       "is_survey": true,
       "denominator": {
         "variable": "units_payingrent",
@@ -129,22 +140,27 @@
         "denominator": {"label": "Occupied units paying rent"}
       },
       "anh": {
-        "denominator": {"label":  "Occupied units paying rent with an Asian non-Hispanic householder"}
+        "denominator": {"label":  "Occupied units paying rent with an Asian non-Hispanic householder"},
+        "id": "3.03.A"
       },
       "bnh": {
-        "denominator": {"label": "Occupied units paying rent with a Black non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent with a Black non-Hispanic householder"},
+        "id": "3.03.B"
       },
       "wnh": {
-        "denominator": {"label": "Occupied units paying rent with a White non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent with a White non-Hispanic householder"},
+        "id": "3.03.W"
       },
       "hsp": {
-        "denominator": {"label":  "Occupied units paying rent with a Hispanic householder"}
+        "denominator": {"label":  "Occupied units paying rent with a Hispanic householder"},
+        "id": "3.03.H"
       }
     }
   },
   {
     "base": {
       "title": "Gross Rent as a Percentage of Household Income (GRAPI)",
+      "id": "3.04.T",
       "is_survey": true,
       "subcategory": "households_",
       "denominator": {
@@ -176,22 +192,27 @@
         "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed)"}
       },
       "anh": {
-        "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Asian non-Hispanic householder"}
+        "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Asian non-Hispanic householder"},
+        "id": "3.04.A"
       },
       "bnh": {
-        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Black non-Hispanic householder"},
+        "id": "3.04.B"
       },
       "wnh": {
-        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder"}
+        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a White non-Hispanic householder"},
+        "id": "3.04.W"
       },
       "hsp": {
-        "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Hispanic householder"}
+        "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with a Hispanic householder"},
+        "id": "3.04.H"
       }
     }
   },
   {
     "base": {
       "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+      "id": "3.06.T",
       "denominator": {
         "label": "Occupied units paying rent",
         "subcategory": "units_",
@@ -251,6 +272,7 @@
   {
     "base": {
       "title": "Rent Stabilized Housing",
+      "id": "3.05.T",
       "is_survey": true,
       "denominator": {
         "label": "Occupied rental units",
@@ -309,6 +331,7 @@
   {
     "base": {
       "title": "Housing Maintenance Deficiencies",
+      "id": "3.07.T",
       "is_survey": true,
       "denominator": {
         "label": "Occupied housing units",
@@ -367,6 +390,7 @@
   {
     "base": {
       "title": "Overcrowding",
+      "id": "3.08.T",
       "is_survey": true,
       "denominator": {
         "subcategory": "units_",
@@ -398,22 +422,27 @@
         "denominator": {"label": "Occupied housing units"}
       },
       "anh": {
-        "denominator": {"label":  "Occupied housing units with an Asian non-Hispanic householder"}
+        "denominator": {"label":  "Occupied housing units with an Asian non-Hispanic householder"},
+        "id": "3.08.A"
       },
       "bnh": {
-        "denominator": {"label": "Occupied housing units with a Black non-Hispanic householder"}
+        "denominator": {"label": "Occupied housing units with a Black non-Hispanic householder"},
+        "id": "3.08.B"
       },
       "wnh": {
-        "denominator": {"label": "Occupied housing units with a White non-Hispanic householder"}
+        "denominator": {"label": "Occupied housing units with a White non-Hispanic householder"},
+        "id": "3.08.W"
       },
       "hsp": {
-        "denominator": {"label":  "Occupied housing units with a Hispanic householder"}
+        "denominator": {"label":  "Occupied housing units with a Hispanic householder"},
+        "id": "3.08.H"
       }
     }
   },
   {
     "base": {
       "title": "Residential Evictions",
+      "id": "3.09.T",
       "denominator": {
         "label": "Occupied housing units",
         "subcategory": "units_",
@@ -458,6 +487,7 @@
   {
     "base": {
       "title": "Number of Individuals in Shelter System by Last Address",
+      "id": "3.10.T",
       "vintages": ["NYC DEPARTMENT OF HOMELESS SERVICES, 2018", "NYC DEPARTMENT OF HOMELESS SERVICES, 2020"],
       "years": ["_2018","_2020"],
       "labels": ["Total number of individuals in DHS shelter system whose last address was in this area"],
@@ -496,6 +526,7 @@
   {
     "base": {
       "title": "Income-restricted Housing",
+      "id": "3.11.T",
       "subcategory": "units_",
       "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
@@ -534,6 +565,7 @@
   {
     "base": {
       "title": "Population In NYC Housing Authority Housing",
+      "id": "3.11.T",
       "vintages": ["NYC HOUSING AUTHORITY, 2022"],
       "denominator": {
         "variable": "pop",
@@ -561,16 +593,20 @@
         "denominator": {"label": "Total population"}
       },
       "anh": {
-        "denominator": {"label":  "Asian non-Hispanic population"}
+        "denominator": {"label":  "Asian non-Hispanic population"},
+        "id": "3.12.A"
       },
       "bnh": {
-        "denominator": {"label": "Black non-Hispanic population"}
+        "denominator": {"label": "Black non-Hispanic population"},
+        "id": "3.12.B"
       },
       "wnh": {
-        "denominator": {"label": "White non-Hispanic population"}
+        "denominator": {"label": "White non-Hispanic population"},
+        "id": "3.12.W"
       },
       "hsp": {
-        "denominator": {"label":  "Hispanic population"}
+        "denominator": {"label":  "Hispanic population"},
+        "id": "3.12.H"
       }
     }
   },

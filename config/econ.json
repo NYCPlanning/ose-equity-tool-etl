@@ -2,6 +2,7 @@
   {
     "base": {
       "title": "Educational Attainment (Highest Grade Completed)",
+      "id": "2.01.T",
       "is_survey": true,
       "vintages": [
         "CENSUS PUMS, 2000",
@@ -53,28 +54,33 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic population 25 years and over"
-        }
+        },
+        "id": "2.01.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic population 25 years and over"
-        }
+        },
+        "id": "2.01.B"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic population 25 years and over"
-        }
+        },
+        "id": "2.01.H"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic population 25 years and over"
-        }
+        },
+        "id": "2.01.W"
       }
     }
   },
   {
     "base": {
       "title": "Median Household Income (2019 Dollars)",
+      "id": "2.02.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -114,28 +120,33 @@
       "anh": {
         "denominator": {
           "label": "Total households with an Asian non-Hispanic householder"
-        }
+        },
+        "id": "2.02.A"
       },
       "bnh": {
         "denominator": {
           "label": "Total households with a Black non-Hispanic householder"
-        }
+        },
+        "id": "2.02.B"
       },
       "hsp": {
         "denominator": {
           "label": "Total households with a Hispanic householder"
-        }
+        },
+        "id": "2.02.H"
       },
       "wnh": {
         "denominator": {
           "label": "Total households with a White non-Hispanic householder"
-        }
+        },
+        "id": "2.02.W"
       }
     }
   },
   {
     "base": {
       "title": "Households By Area Median Income (AMI) Band",
+      "id": "2.03.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2015-2019"],
       "denominator": {
@@ -174,28 +185,33 @@
       "anh": {
         "denominator": {
           "label": "Total households with an Asian non-Hispanic householder"
-        }
+        },
+        "id": "2.03.A"
       },
       "bnh": {
         "denominator": {
           "label": "Total households with a Black non-Hispanic householder"
-        }
+        },
+        "id": "2.03.B"
       },
       "hsp": {
         "denominator": {
           "label": "Total households with a Hispanic householder"
-        }
+        },
+        "id": "2.03.H"
       },
       "wnh": {
         "denominator": {
           "label": "Total households with a White non-Hispanic householder"
-        }
+        },
+        "id": "2.03.W"
       }
     }
   },
   {
     "base": {
       "title": "Labor Force",
+      "id": "2.04.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -227,28 +243,33 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic 16 to 64 years"
-        }
+        },
+        "id": "2.04.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic 16 to 64 years"
-        }
+        },
+        "id": "2.04.B"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic 16 to 64 years"
-        }
+        },
+        "id": "2.04.H"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic 16 to 64 years"
-        }
+        },
+        "id": "2.04.W"
       }
     }
   },
   {
     "base": {
       "title": "Occupation",
+      "id": "2.05.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -290,22 +311,26 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.05.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.05.B"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.05.H"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.05.W"
       }
     }
   },
@@ -410,6 +435,7 @@
   {
     "base": {
       "title": "Industry",
+      "id": "2.06.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -473,22 +499,26 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.06.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.06.B"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.06.H"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.06.W"
       }
     }
   },
