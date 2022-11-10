@@ -2,6 +2,7 @@
   {
     "base": {
       "title": "Health Outcomes - Self-reported Health Among Survey Respondents",
+      "id": "5.01.T",
       "is_survey": true,
       "headers": [[["percent", 3]],[["estimate", 1],["moe (-)", 1],["moe (+)", 1]]],
       "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2015-2016"],
@@ -48,6 +49,7 @@
   {
     "base": {
       "title": "Health Outcomes - Diabetes Prevalence Among Survey Respondents",
+      "id": "5.02.T",
       "is_survey": true,
       "headers": [[["percent", 3]],[["estimate", 1],["moe (-)", 1],["moe (+)", 1]]],
       "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2015-2016"],
@@ -94,6 +96,7 @@
   {
     "base": {
       "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
+      "id": "5.03.T",
       "labels": ["Deaths before 65 years"],
       "subcategory": "health_",
       "variables": ["prematuremortality"],
@@ -144,15 +147,16 @@
     },
     "subgroups": {
       "tot": {},
-      "anh": {},
-      "bnh": {},
-      "wnh": {},
-      "hsp": {}
+      "anh": { "id": "5.03.A" },
+      "bnh": { "id": "5.03.B" },
+      "wnh": { "id": "5.03.W" },
+      "hsp": { "id": "5.03.H" }
     }
   },
   {
     "base": {
       "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
+      "id": "5.04.T",
       "labels": ["Deaths before 1 year"],
       "subcategory": "health_",
       "variables": ["infantmortality"],
@@ -203,15 +207,16 @@
     },
     "subgroups": {
       "tot": {},
-      "anh": {},
-      "bnh": {},
-      "wnh": {},
-      "hsp": {}
+      "anh": { "id": "5.04.A" },
+      "bnh": { "id": "5.04.B" },
+      "wnh": { "id": "5.04.W" },
+      "hsp": { "id": "5.04.H" }
     }
   },
   {
     "base": {
       "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents)",
+      "id": "5.05.T",
       "labels": ["Drug-related overdose deaths"],
       "subcategory": "health_",
       "variables": ["overdosemortality"],
@@ -262,15 +267,16 @@
     },
     "subgroups": {
       "tot": {},
-      "anh": {},
-      "bnh": {},
-      "wnh": {},
-      "hsp": {}
+      "anh": { "id": "5.05.A" },
+      "bnh": { "id": "5.05.B" },
+      "wnh": { "id": "5.05.W" },
+      "hsp": { "id": "5.05.H" }
     }
   },
   {
     "base": {
       "title": "Health Outcomes - COVID-19 Deaths (Rate Per 100,000 Residents)",
+      "id": "5.06.T",
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2022"],
       "subcategory": "health_",
       "variables": ["covid19deaths"],
@@ -294,26 +300,31 @@
       "anh": {
         "labels": [
           "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
-        ]
+        ],
+        "id": "5.06.A"
       },
       "bnh": {
         "labels": [
           "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
-        ]
+        ],
+        "id": "5.06.B"
       },
       "wnh": {
         "labels": [
           "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
-        ]
+        ],
+        "id": "5.06.W"
       },
       "hsp": {
         "labels": ["Hispanic COVID-19 deaths between 2020 and February 2022"]
-      }
+      },
+      "id": "5.06.H"
     }
   },
   {
     "base": {
       "title": "Health Outcomes - Heat Vulnerability Index",
+      "id": "5.07.T",
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"],
       "labels": ["Heat Vulnerability Index (1=Low)"],
       "subcategory": "health_",
@@ -353,6 +364,7 @@
   {
     "base": {
       "title": "Access to Jobs",
+      "id": "5.08.T",
       "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2019"],
       "headers": [[["number", 1]], [["estimate", 1]]],
       "labels": ["Total jobs within 30 minutes"],
@@ -393,6 +405,7 @@
   {
     "base": {
       "title": "Access to Transit",
+      "id": "5.09.T",
       "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2020"],
       "headers": [[["number", 1]], [["estimate", 1]]],
       "labels": [
@@ -434,6 +447,7 @@
   {
     "base": {
       "title": "Commute",
+      "id": "5.10.T",
       "subcategory": "access_",
       "years": ["_0812", "_1519"],
       "labels": ["Drove or carpooled to work"],
@@ -467,26 +481,31 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic workers 16 years and over"
-        }
+        },
+        "id": "5.10.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic workers 16 years and over"
-        }
+        },
+        "id": "5.10.B"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic workers 16 years and over"
-        }
+        },
+        "id": "5.10.W"
       },
       "hsp": {
-        "denominator": { "label": "Hispanic workers 16 years and over" }
+        "denominator": { "label": "Hispanic workers 16 years and over" },
+        "id": "5.10.H"
       }
     }
   },
   {
     "base": {
       "title": "Education Access - Access To Broadband Internet At Home",
+      "id": "5.11.T",
       "subcategory": "access_",
       "labels": ["With a computer", "With a broadband internet subscription"],
       "is_survey": true,
@@ -519,28 +538,33 @@
       "anh": {
         "denominator": {
           "label": "Total households with an Asian non-Hispanic householder"
-        }
+        },
+        "id": "5.11.A"
       },
       "bnh": {
         "denominator": {
           "label": "Total households with a Black non-Hispanic householder"
-        }
+        },
+        "id": "5.11.B"
       },
       "wnh": {
         "denominator": {
           "label": "Total households with a White non-Hispanic householder"
-        }
+        },
+        "id": "5.11.W"
       },
       "hsp": {
         "denominator": {
           "label": "Total households with a Hispanic householder"
-        }
+        },
+        "id": "5.11.H"
       }
     }
   },
   {
     "base": {
       "title": "Educational Outcomes - Subject Test Proficiency (Tested Student Population, 3rd-8th Grade)",
+      "id": "5.12.T",
       "subcategory": "edu_",
       "labels": ["English Language Arts proficient", "Math proficient"],
       "vintages": ["NYC DEPARTMENT OF EDUCATION, 2018"],
@@ -562,15 +586,16 @@
     },
     "subgroups": {
       "tot": {},
-      "anh": {},
-      "bnh": {},
-      "wnh": {},
-      "hsp": {}
+      "anh": { "id": "5.12.A" },
+      "bnh": { "id": "5.12.B" },
+      "wnh": { "id": "5.12.W" },
+      "hsp": { "id": "5.12.H" }
     }
   },
   {
     "base": {
       "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+      "id": "5.13.T",
       "subcategory": "edu_",
       "labels": [
         "Students graduating high school by 2018 (local or Regents diploma)"
@@ -594,15 +619,16 @@
     },
     "subgroups": {
       "tot": {},
-      "anh": {},
-      "bnh": {},
-      "wnh": {},
-      "hsp": {}
+      "anh": { "id": "5.13.A" },
+      "bnh": { "id": "5.13.B" },
+      "wnh": { "id": "5.13.W" },
+      "hsp": { "id": "5.13.H" }
     }
   },
   {
     "base": {
       "title": "Open Space - Park Access",
+      "id": "5.14.T",
       "subcategory": "access_",
       "labels": ["Residents within walking distance of a park"],
       "vintages": ["NYC DEPARTMENT OF PARKS AND RECREATION, 2019"],
@@ -650,6 +676,7 @@
   {
     "base": {
       "title": "Public Safety - Traffic Injuries (Rate Per 100 Street Miles)",
+      "id": "5.15.T",
       "denominator": {
         "label": "Total injuries",
         "subcategory": "safety_",
@@ -707,6 +734,7 @@
   {
     "base": {
       "title": "Public Safety - Traffic Fatalities (Rate Per 100 Street Miles)",
+      "id": "5.16.T",
       "subcategory": "safety_",
       "labels": ["Total fatalities"],
       "vintages": [
@@ -749,6 +777,7 @@
   {
     "base": {
       "title": "Public Safety - Pedestrian Injury Hospitalizations (Rate Per 100,000 Residents)",
+      "id": "5.17.T",
       "subcategory": "safety_",
       "labels": ["Total pedestrian hospitalizations"],
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
@@ -787,6 +816,7 @@
   {
     "base": {
       "title": "Public Safety - Non-Fatal Assault Hospitalizations (Rate Per 100,000 Residents)",
+      "id": "5.18.T",
       "subcategory": "safety_",
       "labels": ["Total non-fatal assault hospitalizations"],
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
