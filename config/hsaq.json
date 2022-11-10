@@ -565,7 +565,7 @@
   {
     "base": {
       "title": "Population In NYC Housing Authority Housing",
-      "id": "3.11.T",
+      "id": "3.12.T",
       "vintages": ["NYC HOUSING AUTHORITY, 2022"],
       "denominator": {
         "variable": "pop",
@@ -613,6 +613,7 @@
   {
     "base": {
       "title": "Housing Lottery Applications",
+      "id": "3.13.T",
       "vintages": ["NYC HOUSING CONNECT 2014-2020"],
       "subcategory": "housing_lottery_",
       "variables": ["applications"],
@@ -696,6 +697,7 @@
   {
     "base": {
       "title": "Housing Lottery Leases",
+      "id": "3.14.T",
       "vintages": ["NYC HOUSING CONNECT 2014-2020"],
       "subcategory": "housing_lottery_",
       "variables": ["leases"],
