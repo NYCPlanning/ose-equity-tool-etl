@@ -79,7 +79,6 @@
   {
     "base": {
       "title": "Age",
-      "id": "1.02.T",
       "subcategory": "age_",
       "is_survey": true,
       "denominator": {
@@ -130,7 +129,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": { "label": "Total population" }
+        "denominator": { "label": "Total population" },
+        "id": "1.02.T"
       },
       "anh": {
         "denominator": {
@@ -161,7 +161,6 @@
   {
     "base": {
       "title": "Foreign-born Population",
-      "id": "1.03.T",
       "is_survey": true,
       "denominator": {
         "subcategory": "pop_",
@@ -204,7 +203,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": { "label": "Total population" }
+        "denominator": { "label": "Total population" },
+        "id": "1.03.T"
       },
       "anh": {
         "denominator": {
@@ -236,7 +236,6 @@
     "base": {
       "title": "Limited English Speaking Population",
       "is_survey": true,
-      "id": "1.04.T",
       "denominator": {
         "subcategory": "age_",
         "variable": "p5pl",
@@ -278,7 +277,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": { "label": "Population 5 years and over " }
+        "denominator": { "label": "Population 5 years and over " },
+        "id": "1.04.T"
       },
       "anh": {
         "denominator": {

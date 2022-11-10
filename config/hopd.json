@@ -40,7 +40,14 @@
   {
     "base": {
       "title": "Units With Regulatory Agreements Since 2014 By Area Median Income (AMI) Band",
-      "id": "4.03.T",
+      "id": "4.02.T",
+      "denominator": {
+        "label": "Total",
+        "variable": "allami",
+        "subcategory": "units_",
+        "measures": ["COUNT", "COUNT"],
+        "variances": ["NONE", "NONE"]
+      },
       "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, 2021"],
       "headers": [
         [

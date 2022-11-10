@@ -2,7 +2,6 @@
   {
     "base": {
       "title": "Housing Tenure",
-      "id": "3.01.T",
       "subcategory": "units_",
       "years": ["_2000", "_0812", "_1519"],
       "labels": ["Owner-occupied", "Renter-occupied"],
@@ -35,7 +34,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {"label": "Occupied housing units"}
+        "denominator": {"label": "Occupied housing units"},
+        "id": "3.01.T"
       },
       "anh": {
         "denominator": {"label": "Occupied housing units with an Asian non-Hispanic householder"},
@@ -58,7 +58,6 @@
   {
     "base": {
       "title": "Median Home Value (2019 Dollars)",
-      "id": "3.02.T",
       "is_survey": true,
       "denominator": {
         "measures": ["COUNT", "COUNT", "COUNT"],
@@ -86,7 +85,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {"label": "Owner-occupied units"}
+        "denominator": {"label": "Owner-occupied units"},
+        "id": "3.02.T"
       },
       "anh": {
         "denominator": {"label":  "Owner-occupied units with an Asian non-Hispanic householder"},
@@ -109,7 +109,6 @@
   {
     "base": {
       "title": "Median Gross Rent (2019 dollars)",
-      "id": "3.03.T",
       "is_survey": true,
       "denominator": {
         "variable": "units_payingrent",
@@ -137,7 +136,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {"label": "Occupied units paying rent"}
+        "denominator": {"label": "Occupied units paying rent"},
+        "id": "3.03.T"
       },
       "anh": {
         "denominator": {"label":  "Occupied units paying rent with an Asian non-Hispanic householder"},
@@ -160,7 +160,6 @@
   {
     "base": {
       "title": "Gross Rent as a Percentage of Household Income (GRAPI)",
-      "id": "3.04.T",
       "is_survey": true,
       "subcategory": "households_",
       "denominator": {
@@ -189,7 +188,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed)"}
+        "denominator": {"label": "Occupied units paying rent (excluding units where GRAPI cannot be computed)"},
+        "id": "3.04.T"
       },
       "anh": {
         "denominator": {"label":  "Occupied units paying rent (excluding units where GRAPI cannot be computed) with an Asian non-Hispanic householder"},
@@ -390,7 +390,6 @@
   {
     "base": {
       "title": "Overcrowding",
-      "id": "3.08.T",
       "is_survey": true,
       "denominator": {
         "subcategory": "units_",
@@ -419,7 +418,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {"label": "Occupied housing units"}
+        "denominator": {"label": "Occupied housing units"},
+        "id": "3.08.T"
       },
       "anh": {
         "denominator": {"label":  "Occupied housing units with an Asian non-Hispanic householder"},
@@ -565,7 +565,6 @@
   {
     "base": {
       "title": "Population In NYC Housing Authority Housing",
-      "id": "3.12.T",
       "vintages": ["NYC HOUSING AUTHORITY, 2022"],
       "denominator": {
         "variable": "pop",
@@ -590,7 +589,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": {"label": "Total population"}
+        "denominator": {"label": "Total population"},
+        "id": "3.12.T"
       },
       "anh": {
         "denominator": {"label":  "Asian non-Hispanic population"},
