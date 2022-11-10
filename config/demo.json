@@ -2,6 +2,7 @@
   {
     "base": {
       "title": "Mutually Exclusive Race/Hispanic Origin",
+      "id": "1.01.T",
       "denominator": {
         "subcategory": "",
         "variable": "pop",
@@ -78,6 +79,7 @@
   {
     "base": {
       "title": "Age",
+      "id": "1.02.T",
       "subcategory": "age_",
       "is_survey": true,
       "denominator": {
@@ -133,28 +135,33 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic population"
-        }
+        },
+        "id": "1.02.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic population"
-        }
+        },
+        "id": "1.02.B"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic population"
-        }
+        },
+        "id": "1.02.W"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic population"
-        }
+        },
+        "id": "1.02.H"
       }
     }
   },
   {
     "base": {
       "title": "Foreign-born Population",
+      "id": "1.03.T",
       "is_survey": true,
       "denominator": {
         "subcategory": "pop_",
@@ -202,22 +209,26 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic population"
-        }
+        },
+        "id": "1.03.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic population"
-        }
+        },
+        "id": "1.03.B"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic population"
-        }
+        },
+        "id": "1.03.W"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic population"
-        }
+        },
+        "id": "1.03.H"
       }
     }
   },
@@ -225,6 +236,7 @@
     "base": {
       "title": "Limited English Speaking Population",
       "is_survey": true,
+      "id": "1.04.T",
       "denominator": {
         "subcategory": "age_",
         "variable": "p5pl",
@@ -271,22 +283,26 @@
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic population 5 years and over "
-        }
+        },
+        "id": "1.04.A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic population 5 years and over "
-        }
+        },
+        "id": "1.04.B"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic population 5 years and over "
-        }
+        },
+        "id": "1.04.W"
       },
       "hsp": {
         "denominator": {
           "label": "Hispanic population 5 years and over "
-        }
+        },
+        "id": "1.04.H"
       }
     }
   }

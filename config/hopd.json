@@ -2,6 +2,7 @@
   {
     "base": {
       "title": "Change in Housing Units 2010 - 2020",
+      "id": "4.01.T",
       "vintages": ["NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2020 Q4"],
       "denominator": {
         "label": "Net change",
@@ -39,6 +40,7 @@
   {
     "base": {
       "title": "Units With Regulatory Agreements Since 2014 By Area Median Income (AMI) Band",
+      "id": "4.03.T",
       "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, 2021"],
       "headers": [
         [
@@ -82,6 +84,7 @@
   {
     "base": {
       "title": "Area Within A Historic District",
+      "id": "4.03.T",
       "vintages": ["HISTORIC DISTRICTS - OPEN DATA"],
       "denominator": {
         "variable": "total",
