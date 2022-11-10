@@ -2,7 +2,6 @@
   {
     "base": {
       "title": "Educational Attainment (Highest Grade Completed)",
-      "id": "2.01.T",
       "is_survey": true,
       "vintages": [
         "CENSUS PUMS, 2000",
@@ -50,7 +49,7 @@
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Population 25 years and over" } },
+      "tot": { "denominator": { "label": "Population 25 years and over" }, "id": "2.01.T" },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic population 25 years and over"
@@ -80,7 +79,6 @@
   {
     "base": {
       "title": "Median Household Income (2019 Dollars)",
-      "id": "2.02.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -116,7 +114,7 @@
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Total households" } },
+      "tot": { "denominator": { "label": "Total households" }, "id": "2.02.T" },
       "anh": {
         "denominator": {
           "label": "Total households with an Asian non-Hispanic householder"
@@ -146,7 +144,6 @@
   {
     "base": {
       "title": "Households By Area Median Income (AMI) Band",
-      "id": "2.03.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2015-2019"],
       "denominator": {
@@ -181,7 +178,7 @@
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Total households" } },
+      "tot": { "denominator": { "label": "Total households" }, "id": "2.03.T" },
       "anh": {
         "denominator": {
           "label": "Total households with an Asian non-Hispanic householder"
@@ -211,7 +208,6 @@
   {
     "base": {
       "title": "Labor Force",
-      "id": "2.04.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -239,7 +235,7 @@
       }
     },
     "subgroups": {
-      "tot": { "denominator": { "label": "Total population 16 to 64 years" } },
+      "tot": { "denominator": { "label": "Total population 16 to 64 years" }, "id": "2.04.T" },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic 16 to 64 years"
@@ -269,7 +265,6 @@
   {
     "base": {
       "title": "Occupation",
-      "id": "2.05.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -306,7 +301,8 @@
       "tot": {
         "denominator": {
           "label": "Civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.05.T"
       },
       "anh": {
         "denominator": {
@@ -337,6 +333,7 @@
   {
     "base": {
       "title": "Median Wages By Occupation (2019 Dollars)",
+      "id": null,
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
@@ -435,7 +432,6 @@
   {
     "base": {
       "title": "Industry",
-      "id": "2.06.T",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "denominator": {
@@ -494,7 +490,8 @@
       "tot": {
         "denominator": {
           "label": "Civilian employed population 16 to 64 years"
-        }
+        },
+        "id": "2.06.T"
       },
       "anh": {
         "denominator": {
@@ -525,6 +522,7 @@
   {
     "base": {
       "title": "Median Wages By Industry (2019 Dollars)",
+      "id": null,
       "is_survey": true,
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],

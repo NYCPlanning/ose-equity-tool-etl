@@ -96,7 +96,6 @@
   {
     "base": {
       "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-      "id": "5.03.T",
       "labels": ["Deaths before 65 years"],
       "subcategory": "health_",
       "variables": ["prematuremortality"],
@@ -146,7 +145,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "id": "5.03.T" },
       "anh": { "id": "5.03.A" },
       "bnh": { "id": "5.03.B" },
       "wnh": { "id": "5.03.W" },
@@ -156,7 +155,6 @@
   {
     "base": {
       "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
-      "id": "5.04.T",
       "labels": ["Deaths before 1 year"],
       "subcategory": "health_",
       "variables": ["infantmortality"],
@@ -206,7 +204,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "id": "5.04.T" },
       "anh": { "id": "5.04.A" },
       "bnh": { "id": "5.04.B" },
       "wnh": { "id": "5.04.W" },
@@ -216,7 +214,6 @@
   {
     "base": {
       "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents)",
-      "id": "5.05.T",
       "labels": ["Drug-related overdose deaths"],
       "subcategory": "health_",
       "variables": ["overdosemortality"],
@@ -266,7 +263,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "id": "5.05.T" },
       "anh": { "id": "5.05.A" },
       "bnh": { "id": "5.05.B" },
       "wnh": { "id": "5.05.W" },
@@ -276,7 +273,6 @@
   {
     "base": {
       "title": "Health Outcomes - COVID-19 Deaths (Rate Per 100,000 Residents)",
-      "id": "5.06.T",
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2022"],
       "subcategory": "health_",
       "variables": ["covid19deaths"],
@@ -296,7 +292,7 @@
       }
     },
     "subgroups": {
-      "tot": { "labels": ["COVID-19 deaths between 2020 and February 2022"] },
+      "tot": { "labels": ["COVID-19 deaths between 2020 and February 2022"], "id": "5.06.T" },
       "anh": {
         "labels": [
           "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
@@ -316,9 +312,9 @@
         "id": "5.06.W"
       },
       "hsp": {
-        "labels": ["Hispanic COVID-19 deaths between 2020 and February 2022"]
-      },
-      "id": "5.06.H"
+        "labels": ["Hispanic COVID-19 deaths between 2020 and February 2022"],
+        "id": "5.06.H"
+      }
     }
   },
   {
@@ -447,7 +443,6 @@
   {
     "base": {
       "title": "Commute",
-      "id": "5.10.T",
       "subcategory": "access_",
       "years": ["_0812", "_1519"],
       "labels": ["Drove or carpooled to work"],
@@ -476,7 +471,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": { "label": "Total workers 16 years and over" }
+        "denominator": { "label": "Total workers 16 years and over" },
+        "id": "5.10.T"
       },
       "anh": {
         "denominator": {
@@ -505,7 +501,6 @@
   {
     "base": {
       "title": "Education Access - Access To Broadband Internet At Home",
-      "id": "5.11.T",
       "subcategory": "access_",
       "labels": ["With a computer", "With a broadband internet subscription"],
       "is_survey": true,
@@ -533,7 +528,8 @@
     },
     "subgroups": {
       "tot": {
-        "denominator": { "label": "Total households" }
+        "denominator": { "label": "Total households" },
+        "id": "5.11.T"
       },
       "anh": {
         "denominator": {
