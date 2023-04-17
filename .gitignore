@@ -2,3 +2,6 @@
 /output/**/*
 !/output/.gitkeep
 **/*.ipynb_checkpoints/
+
+# Env files and virtual environment folders
+/*env

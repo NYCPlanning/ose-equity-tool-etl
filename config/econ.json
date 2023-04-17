@@ -7,8 +7,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019",
-        "CHANGE, 2008-2012 to 2015-2019"
+        "ACS PUMS, 2017-2021",
+        "CHANGE, 2008-2012 to 2017-2021"
       ],
       "denominator": {
         "subcategory": "age_",
@@ -32,7 +32,7 @@
         "files": [
           "economics_2000_puma",
           "economics_0812_puma",
-          "economics_1519_puma",
+          "economics_1721_puma",
           "economics_change_puma"
         ]
       },
@@ -40,7 +40,7 @@
         "files": [
           "economics_2000_borough",
           "economics_0812_borough",
-          "economics_1519_borough",
+          "economics_1721_borough",
           "economics_change_borough"
         ]
       },
@@ -48,7 +48,7 @@
         "files": [
           "economics_2000_citywide",
           "economics_0812_citywide",
-          "economics_1519_citywide",
+          "economics_1721_citywide",
           "economics_change_citywide"
         ]
       }
@@ -85,7 +85,7 @@
     "base": {
       "title": "Median Household Income (2019 Dollars)",
       "is_survey": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019",  "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021",  "CHANGE, 2008-2012 to 2017-2021"],
       "has_change": true,
       "denominator": {
         "subcategory": "",
@@ -110,13 +110,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_0812_puma", "economics_1519_puma", "economics_change_puma"]
+        "files": ["economics_0812_puma", "economics_1721_puma", "economics_change_puma"]
       },
       "borough": {
-        "files": ["economics_0812_borough", "economics_1519_borough", "economics_change_borough"]
+        "files": ["economics_0812_borough", "economics_1721_borough", "economics_change_borough"]
       },
       "citywide": {
-        "files": ["economics_0812_citywide", "economics_1519_citywide", "economics_change_citywide"]
+        "files": ["economics_0812_citywide", "economics_1721_citywide", "economics_change_citywide"]
       }
     },
     "subgroups": {
@@ -151,7 +151,7 @@
     "base": {
       "title": "Households By Area Median Income (AMI) Band",
       "is_survey": true,
-      "vintages": ["ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2017-2021"],
       "denominator": {
         "subcategory": "",
         "variable": "households",
@@ -174,13 +174,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_1519_puma"]
+        "files": ["economics_1721_puma"]
       },
       "borough": {
-        "files": ["economics_1519_borough"]
+        "files": ["economics_1721_borough"]
       },
       "citywide": {
-        "files": ["economics_1519_citywide"]
+        "files": ["economics_1721_citywide"]
       }
     },
     "subgroups": {
@@ -216,7 +216,7 @@
       "title": "Labor Force",
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "denominator": {
         "subcategory": "",
         "variable": "age_p16t64",
@@ -232,13 +232,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_0812_puma", "economics_1519_puma", "economics_change_puma"]
+        "files": ["economics_0812_puma", "economics_1721_puma", "economics_change_puma"]
       },
       "borough": {
-        "files": ["economics_0812_borough", "economics_1519_borough", "economics_change_borough"]
+        "files": ["economics_0812_borough", "economics_1721_borough", "economics_change_borough"]
       },
       "citywide": {
-        "files": ["economics_0812_citywide", "economics_1519_citywide", "economics_change_citywide"]
+        "files": ["economics_0812_citywide", "economics_1721_citywide", "economics_change_citywide"]
       }
     },
     "subgroups": {
@@ -274,7 +274,7 @@
       "title": "Occupation",
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -296,13 +296,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_0812_puma", "economics_1519_puma", "economics_change_puma"]
+        "files": ["economics_0812_puma", "economics_1721_puma", "economics_change_puma"]
       },
       "borough": {
-        "files": ["economics_0812_borough", "economics_1519_borough", "economics_change_borough"]
+        "files": ["economics_0812_borough", "economics_1721_borough", "economics_change_borough"]
       },
       "citywide": {
-        "files": ["economics_0812_citywide", "economics_1519_citywide", "economics_change_citywide"]
+        "files": ["economics_0812_citywide", "economics_1721_citywide", "economics_change_citywide"]
       }
     },
     "subgroups": {
@@ -344,7 +344,7 @@
       "id": null,
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "occupation_",
@@ -401,13 +401,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_0812_puma", "economics_1519_puma", "economics_change_puma"]
+        "files": ["economics_0812_puma", "economics_1721_puma", "economics_change_puma"]
       },
       "borough": {
-        "files": ["economics_0812_borough", "economics_1519_borough", "economics_change_borough"]
+        "files": ["economics_0812_borough", "economics_1721_borough", "economics_change_borough"]
       },
       "citywide": {
-        "files": ["economics_0812_citywide", "economics_1519_citywide", "economics_change_citywide"]
+        "files": ["economics_0812_citywide", "economics_1721_citywide", "economics_change_citywide"]
       }
     },
     "subgroups": {
@@ -443,7 +443,7 @@
       "title": "Industry",
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -487,13 +487,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_0812_puma", "economics_1519_puma", "economics_change_puma"]
+        "files": ["economics_0812_puma", "economics_1721_puma", "economics_change_puma"]
       },
       "borough": {
-        "files": ["economics_0812_borough", "economics_1519_borough", "economics_change_borough"]
+        "files": ["economics_0812_borough", "economics_1721_borough", "economics_change_borough"]
       },
       "citywide": {
-        "files": ["economics_0812_citywide", "economics_1519_citywide", "economics_change_citywide"]
+        "files": ["economics_0812_citywide", "economics_1721_citywide", "economics_change_citywide"]
       }
     },
     "subgroups": {
@@ -535,7 +535,7 @@
       "id": null,
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "industry_",
@@ -640,13 +640,13 @@
     },
     "geographies": {
       "district": {
-        "files": ["economics_0812_puma", "economics_1519_puma", "economics_change_puma"]
+        "files": ["economics_0812_puma", "economics_1721_puma", "economics_change_puma"]
       },
       "borough": {
-        "files": ["economics_0812_borough", "economics_1519_borough", "economics_change_borough"]
+        "files": ["economics_0812_borough", "economics_1721_borough", "economics_change_borough"]
       },
       "citywide": {
-        "files": ["economics_0812_citywide", "economics_1519_citywide", "economics_change_citywide"]
+        "files": ["economics_0812_citywide", "economics_1721_citywide", "economics_change_citywide"]
       }
     },
     "subgroups": {
