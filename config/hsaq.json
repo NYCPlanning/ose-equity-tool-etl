@@ -4,7 +4,7 @@
       "title": "Housing Tenure",
       "has_change": true,
       "subcategory": "units_",
-      "years": ["_2000", "_0812", "_1519"],
+      "years": ["_2000", "_0812", "_1721"],
       "labels": ["Owner-occupied", "Renter-occupied"],
       "is_survey": true,
       "denominator": {
@@ -16,8 +16,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2015-2019",
-        "CHANGE, 2008-2012 to 2015-2019"
+        "ACS PUMS, 2017-2021",
+        "CHANGE, 2008-2012 to 2017-2021"
       ],
       "variables": ["occupied_owner", "occupied_renter"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -67,9 +67,9 @@
         "variances": ["NONE", "MOE", "CV"],
         "variable": "units_occupied_owner"
       },
-      "years": ["_0812", "_1519"],
+      "years": ["_0812", "_1721"],
       "labels": ["Median Home Value (Dollars)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["homevalue_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -119,9 +119,9 @@
         "measures": ["COUNT", "COUNT", "COUNT"],
         "variances": ["NONE", "MOE", "CV"]
       },
-      "years": ["_0812", "_1519"],
+      "years": ["_0812", "_1721"],
       "labels": ["Median gross rent (dollars)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["rent_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -173,9 +173,9 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "years": ["_0812", "_1519"],
+      "years": ["_0812", "_1721"],
       "labels": ["30.0 percent or more (rent-burdened)","50.0 percent or more (severely rent-burdened)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["rb","erb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -221,7 +221,7 @@
       "denominator": {
         "label": "Occupied units paying rent",
         "subcategory": "units_",
-        "variable": "payingrent_1519",
+        "variable": "payingrent_1721",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
@@ -234,7 +234,7 @@
         "Middle-income (121-165% AMI)",
         "High-income (166% or higher AMI)"
       ],
-      "vintages": ["ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2017-2021"],
       "subcategory": "units_",
       "variables": [
         "affordable_eli",
@@ -403,8 +403,8 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
-      "years": ["_0812","_1519"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "years": ["_0812","_1721"],
       "labels": ["Overcrowded units (> 1 person per room)"],
       "subcategory": "units_",
       "variables": ["overcrowded"],
