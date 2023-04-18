@@ -59,7 +59,7 @@
   },
   {
     "base": {
-      "title": "Median Home Value (2019 Dollars)",
+      "title": "Median Home Value (2021 Dollars)",
       "has_change": true,
       "is_survey": true,
       "denominator": {
@@ -111,7 +111,7 @@
   },
   {
     "base": {
-      "title": "Median Gross Rent (2019 dollars)",
+      "title": "Median Gross Rent (2021 dollars)",
       "has_change": true,
       "is_survey": true,
       "denominator": {
