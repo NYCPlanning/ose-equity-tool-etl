@@ -73,7 +73,7 @@
       "variables": ["homevalue_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
-      "upper_limits": [[null, 1115000],[null, 2000000]]
+      "upper_limits": [[null, 1182000],[null, 2000000]]
     },
     "geographies": {
       "district": {
@@ -125,7 +125,7 @@
       "variables": ["rent_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
-      "upper_limits": [[null, 2200],[null, 3500]]
+      "upper_limits": [[null, 2300],[null, 3500]]
     },
     "geographies": {
       "district": {
