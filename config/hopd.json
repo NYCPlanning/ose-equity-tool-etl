@@ -1,9 +1,9 @@
 [
   {
     "base": {
-      "title": "Change in Housing Units 2010 - 2020",
+      "title": "Change in Housing Units 2010 - 2022",
       "id": "4.01.T",
-      "vintages": ["NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2020 Q4"],
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2022 Q2"],
       "denominator": {
         "label": "Net change",
         "subcategory": "classa_",
@@ -48,7 +48,7 @@
         "measures": ["COUNT", "COUNT"],
         "variances": ["NONE", "NONE"]
       },
-      "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, 2021"],
+      "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, Feb 2023"],
       "headers": [
         [
           ["new construction", 1],

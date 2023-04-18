@@ -5,7 +5,7 @@
       "id": "5.01.T",
       "is_survey": true,
       "headers": [[["percent", 3]],[["estimate", 1],["moe (-)", 1],["moe (+)", 1]]],
-      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2015-2016"],
+      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2019-2020"],
       "labels": ["Good, Very Good, or Excellent health"],
       "subcategory": "health_",
       "variables": ["selfreportedhealth"],
@@ -52,7 +52,7 @@
       "id": "5.02.T",
       "is_survey": true,
       "headers": [[["percent", 3]],[["estimate", 1],["moe (-)", 1],["moe (+)", 1]]],
-      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2015-2016"],
+      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2019-2020"],
       "labels": ["Diagnosed with diabetes"],
       "subcategory": "health_",
       "variables": ["diabetes"],
@@ -115,10 +115,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000-2004",
           "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2015-2019",
-          "CHANGE, 2010-2014 to 2015-2019"
+          "NYC VITAL STATISTICS, 2016-2020",
+          "CHANGE, 2010-2014 to 2016-2020"
         ],
-        "years": ["_0004", "_1014", "_1519"]
+        "years": ["_0004", "_1014", "_1620"]
       },
       "borough": {
         "files": [
@@ -181,10 +181,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000-2004",
           "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2015-2019",
-          "CHANGE, 2010-2014 to 2015-2019"
+          "NYC VITAL STATISTICS, 2016-2020",
+          "CHANGE, 2010-2014 to 2016-2020"
         ],
-        "years": ["_0004", "_1014", "_1519"]
+        "years": ["_0004", "_1014", "_1620"]
       },
       "borough": {
         "files": [
@@ -247,10 +247,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000-2004",
           "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2015-2019",
-          "CHANGE, 2010-2014 to 2015-2019"
+          "NYC VITAL STATISTICS, 2016-2020",
+          "CHANGE, 2010-2014 to 2016-2020"
         ],
-        "years": ["_0004", "_1014", "_1519"]
+        "years": ["_0004", "_1014", "_1620"]
       },
       "borough": {
         "files": [
@@ -382,7 +382,7 @@
     "base": {
       "title": "Access to Jobs",
       "id": "5.08.T",
-      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2019"],
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2021"],
       "headers": [[["number", 1]], [["estimate", 1]]],
       "labels": ["Total jobs within 30 minutes"],
       "subcategory": "access_",
@@ -423,7 +423,7 @@
     "base": {
       "title": "Access to Transit",
       "id": "5.09.T",
-      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2020"],
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2021"],
       "headers": [[["number", 1]], [["estimate", 1]]],
       "labels": [
         "Residents living within 1/4 mile of Select Bus Station or subway station",
@@ -465,7 +465,7 @@
     "base": {
       "title": "Commute",
       "subcategory": "access_",
-      "years": ["_0812", "_1519"],
+      "years": ["_0812", "_1721"],
       "has_change": true,
       "labels": ["Drove or carpooled to work"],
       "is_survey": true,
@@ -475,7 +475,7 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2015-2019", "CHANGE, 2008-2012 to 2015-2019"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["carcommute"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -532,7 +532,7 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2015-2019"],
+      "vintages": ["ACS PUMS, 2017-2021"],
       "variables": ["computer", "broadband"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -649,7 +649,7 @@
       "id": "5.14.T",
       "subcategory": "access_",
       "labels": ["Residents within walking distance of a park"],
-      "vintages": ["NYC DEPARTMENT OF PARKS AND RECREATION, 2019"],
+      "vintages": ["NYC DEPARTMENT OF PARKS AND RECREATION, 2021"],
       "headers": [
         [
           ["number", 1],

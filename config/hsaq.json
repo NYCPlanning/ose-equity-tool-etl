@@ -456,7 +456,7 @@
         "measures": ["COUNT"],
         "variances": ["NONE"]
       },
-      "vintages": ["NYC DEPARTMENT OF INVESTIGATION, 2017-2019"],
+      "vintages": ["NYC DEPARTMENT OF INVESTIGATION, 2017-2023"],
       "labels": ["Residential evictions executed by a city marshal"],
       "variables": ["evictions"],
       "headers": [[["number", 1]]],
@@ -535,7 +535,7 @@
       "title": "Income-restricted Housing",
       "id": "3.11.T",
       "subcategory": "units_",
-      "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2022"],
+      "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"],
       "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
       "variables": ["nycha","hpd"],
       "headers": [[["number", 1]]],
