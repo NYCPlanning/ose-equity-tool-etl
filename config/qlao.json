@@ -130,10 +130,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019",
-          "CHANGE, 2010 to 2019"
+          "NYC VITAL STATISTICS, 2020",
+          "CHANGE, 2010 to 2020"
         ],
-        "years": ["_2000", "_2010", "_2019"]
+        "years": ["_2000", "_2010", "_2020"]
       },
       "citywide": {
         "files": [
@@ -145,10 +145,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019",
-          "CHANGE, 2010 to 2019"
+          "NYC VITAL STATISTICS, 2020",
+          "CHANGE, 2010 to 2020"
         ], 
-        "years": ["_2000", "_2010", "_2019"]
+        "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
@@ -196,10 +196,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019",
-          "CHANGE, 2010 to 2019"
+          "NYC VITAL STATISTICS, 2020",
+          "CHANGE, 2010 to 2020"
         ],
-        "years": ["_2000", "_2010", "_2019"]
+        "years": ["_2000", "_2010", "_2020"]
       },
       "citywide": {
         "files": [
@@ -211,10 +211,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019",
-          "CHANGE, 2010 to 2019"
+          "NYC VITAL STATISTICS, 2020",
+          "CHANGE, 2010 to 2020"
         ], 
-        "years": ["_2000", "_2010", "_2019"]
+        "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
@@ -262,10 +262,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019",
-          "CHANGE, 2010 to 2019"
+          "NYC VITAL STATISTICS, 2020",
+          "CHANGE, 2010 to 2020"
         ],
-        "years": ["_2000", "_2010", "_2019"]
+        "years": ["_2000", "_2010", "_2020"]
       },
       "citywide": {
         "files": [
@@ -277,10 +277,10 @@
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2019",
-          "CHANGE, 2010 to 2019"
+          "NYC VITAL STATISTICS, 2020",
+          "CHANGE, 2010 to 2020"
         ], 
-        "years": ["_2000", "_2010", "_2019"]
+        "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
