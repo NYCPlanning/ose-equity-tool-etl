@@ -536,7 +536,7 @@
       "id": "3.11.T",
       "subcategory": "units_",
       "vintages": ["NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"],
-      "labels": ["NYCHA units", "Units with regulatory agreements since 2014"],
+      "labels": ["NYCHA units", "Homes with new or extended affordability requirements"],
       "variables": ["nycha","hpd"],
       "headers": [[["number", 1]]],
       "measures": ["COUNT"],

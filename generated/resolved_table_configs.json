@@ -632,7 +632,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -1378,7 +1378,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -2154,7 +2154,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -2930,7 +2930,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -3706,7 +3706,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -8358,7 +8358,7 @@
           "files": [
             "housing_production_puma"
           ],
-          "title": "Units With Regulatory Agreements Since 2014 By Area Median Income (AMI) Band",
+          "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
           "id": "4.02.T",
           "denominator": {
             "label": "Total",
@@ -8374,7 +8374,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, Feb 2023"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"
           ],
           "headers": [
             [
@@ -12726,7 +12726,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -13472,7 +13472,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -14247,7 +14247,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -15022,7 +15022,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -15797,7 +15797,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -20448,7 +20448,7 @@
           "files": [
             "housing_production_borough"
           ],
-          "title": "Units With Regulatory Agreements Since 2014 By Area Median Income (AMI) Band",
+          "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
           "id": "4.02.T",
           "denominator": {
             "label": "Total",
@@ -20464,7 +20464,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, Feb 2023"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"
           ],
           "headers": [
             [
@@ -24818,7 +24818,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -25564,7 +25564,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -26339,7 +26339,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -27114,7 +27114,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -27889,7 +27889,7 @@
           ],
           "labels": [
             "NYCHA units",
-            "Units with regulatory agreements since 2014"
+            "Homes with new or extended affordability requirements"
           ],
           "variables": [
             "nycha",
@@ -32540,7 +32540,7 @@
           "files": [
             "housing_production_citywide"
           ],
-          "title": "Units With Regulatory Agreements Since 2014 By Area Median Income (AMI) Band",
+          "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
           "id": "4.02.T",
           "denominator": {
             "label": "Total",
@@ -32556,7 +32556,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, Feb 2023"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"
           ],
           "headers": [
             [
