@@ -39,7 +39,7 @@
   },
   {
     "base": {
-      "title": "Units With Regulatory Agreements Since 2014 By Area Median Income (AMI) Band",
+      "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
       "id": "4.02.T",
       "denominator": {
         "label": "Total",
@@ -48,7 +48,7 @@
         "measures": ["COUNT", "COUNT"],
         "variances": ["NONE", "NONE"]
       },
-      "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, Feb 2023"],
+      "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"],
       "headers": [
         [
           ["new construction", 1],
