@@ -2,6 +2,7 @@
 
 ## "Quick"start
 
+We recommend managing python and requirement versions with `pyenv` and `venv`
 1. Install [Python 3](https://www.python.org/)
 2. Install [pip](https://pip.pypa.io/en/stable/installation/)
 3. Install [Jupyter-lab or Jupyter Classic](https://jupyter.org/install)
