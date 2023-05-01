@@ -216,34 +216,33 @@
   },
   {
     "base": {
-      "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
-      "id": "3.06.T",
+      "title": "Rent Stabilized Housing",
+      "id": "3.05.T",
+      "is_survey": true,
       "denominator": {
-        "label": "Occupied units paying rent",
+        "label": "Occupied rental units",
         "subcategory": "units_",
-        "variable": "payingrent_1721",
+        "variable": "occurental",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "is_survey": true,
-      "labels": [
-        "Extremely low-income (0-30% AMI)",
-        "Very low-income (31-50% AMI)",
-        "Low-income (51-80% AMI)",
-        "Moderate-income (81-120% AMI)",
-        "Middle-income (121-165% AMI)",
-        "High-income (166% or higher AMI)"
+      "headers": [
+        [
+          ["number", 3],
+          ["percent", 2]
+        ],
+        [
+          ["estimate", 1],
+          ["moe", 1],
+          ["cv", 1],
+          ["estimate", 1],
+          ["moe", 1]
+        ]
       ],
-      "vintages": ["ACS PUMS, 2017-2021"],
+      "labels": ["Rent stabilized units"],
+      "vintages": ["NYC HOUSING AND VACANCY SURVEY, 2017"],
       "subcategory": "units_",
-      "variables": [
-        "affordable_eli",
-        "affordable_vli",
-        "affordable_li",
-        "affordable_mi",
-        "affordable_midi",
-        "affordable_hi"
-      ],
+      "variables": ["rentstable"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
     },
@@ -276,33 +275,34 @@
   },
   {
     "base": {
-      "title": "Rent Stabilized Housing",
-      "id": "3.05.T",
-      "is_survey": true,
+      "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+      "id": "3.06.T",
       "denominator": {
-        "label": "Occupied rental units",
+        "label": "Occupied units paying rent",
         "subcategory": "units_",
-        "variable": "occurental",
+        "variable": "payingrent_1721",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "headers": [
-        [
-          ["number", 3],
-          ["percent", 2]
-        ],
-        [
-          ["estimate", 1],
-          ["moe", 1],
-          ["cv", 1],
-          ["estimate", 1],
-          ["moe", 1]
-        ]
+      "is_survey": true,
+      "labels": [
+        "Extremely low-income (0-30% AMI)",
+        "Very low-income (31-50% AMI)",
+        "Low-income (51-80% AMI)",
+        "Moderate-income (81-120% AMI)",
+        "Middle-income (121-165% AMI)",
+        "High-income (166% or higher AMI)"
       ],
-      "labels": ["Rent stabilized units"],
-      "vintages": ["NYC HOUSING AND VACANCY SURVEY, 2017"],
+      "vintages": ["ACS PUMS, 2017-2021"],
       "subcategory": "units_",
-      "variables": ["rentstable"],
+      "variables": [
+        "affordable_eli",
+        "affordable_vli",
+        "affordable_li",
+        "affordable_mi",
+        "affordable_midi",
+        "affordable_hi"
+      ],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
     },
