@@ -4,4 +4,4 @@
 **/*.ipynb_checkpoints/
 
 # Env files and virtual environment folders
-/*env
+/venv
