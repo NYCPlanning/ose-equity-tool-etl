@@ -4,5 +4,5 @@ services:
     ports:
       - 4566:4566
     volumes:
-      - "./output/:/var/lib/localstack/configs"
+      - "./output/:/var/lib/localstack/app/local"
       - "./localstack/setup.sh:/etc/localstack/init/ready.d/init-aws.sh"
