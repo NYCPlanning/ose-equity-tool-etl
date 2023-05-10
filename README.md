@@ -15,7 +15,10 @@ We recommend managing python and requirement versions with `pyenv` and `venv`
 7. Run the `etl.ipynb` notebook through Jupyter (Classic or Lab).
 8. (Optional) Serve and test the generated files locally
    - Serve the files by running `docker compose up` within this repository
-   - Test the files by running the `equity-tool` application with `NEXT_PUBLIC_DO_SPACE_URL=http://localhost:4566/configs` set in env variables
+   - Test the files by running the `equity-tool` repo/application with the following settings
+      1. In env variables set `NEXT_PUBLIC_DO_SPACE_URL=http://localhost:4566` 
+      2. In `src/pages/data/[geography]/[geoid]/[category]/[subgroup].tsx` set 
+`spaceFolder = "local"` 
 9. Commit the changes
 10. Place an annotated tag on the commit with the format `YYYY-MM-DD--v#`
     - The date must match the edm folder used to generate the output files
