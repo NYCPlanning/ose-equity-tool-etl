@@ -39,7 +39,8 @@
   },
   {
     "base": {
-      "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
+      "title": "Homes With New Or Extended Affordability Requirements By AMI* Band",
+      "footnote": "AMI",
       "id": "4.02.T",
       "denominator": {
         "label": "Total",
