@@ -275,7 +275,7 @@
   },
   {
     "base": {
-      "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+      "title": "Rental Units Affordable To Households By AMI* Band",
       "id": "3.06.T",
       "denominator": {
         "label": "Occupied units paying rent",
