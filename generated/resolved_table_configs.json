@@ -338,7 +338,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -1080,7 +1080,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -1856,7 +1856,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -2632,7 +2632,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -3408,7 +3408,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -5446,7 +5446,7 @@
           "files": [
             "economics_1721_puma"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -6050,7 +6050,7 @@
           "files": [
             "economics_1721_puma"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -6654,7 +6654,7 @@
           "files": [
             "economics_1721_puma"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -7258,7 +7258,7 @@
           "files": [
             "economics_1721_puma"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -7862,7 +7862,7 @@
           "files": [
             "economics_1721_puma"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -8358,7 +8358,7 @@
           "files": [
             "housing_production_puma"
           ],
-          "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
+          "title": "Homes With New Or Extended Affordability Requirements By AMI* Band",
           "id": "4.02.T",
           "denominator": {
             "label": "Total",
@@ -12432,7 +12432,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -13174,7 +13174,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -13949,7 +13949,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -14724,7 +14724,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -15499,7 +15499,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -17536,7 +17536,7 @@
           "files": [
             "economics_1721_borough"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -18140,7 +18140,7 @@
           "files": [
             "economics_1721_borough"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -18744,7 +18744,7 @@
           "files": [
             "economics_1721_borough"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -19348,7 +19348,7 @@
           "files": [
             "economics_1721_borough"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -19952,7 +19952,7 @@
           "files": [
             "economics_1721_borough"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -20448,7 +20448,7 @@
           "files": [
             "housing_production_borough"
           ],
-          "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
+          "title": "Homes With New Or Extended Affordability Requirements By AMI* Band",
           "id": "4.02.T",
           "denominator": {
             "label": "Total",
@@ -24524,7 +24524,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -25266,7 +25266,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -26041,7 +26041,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -26816,7 +26816,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -27591,7 +27591,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rental Units Affordable To Households By Area Median Income (AMI) Band",
+          "title": "Rental Units Affordable To Households By AMI* Band",
           "id": "3.06.T",
           "denominator": {
             "label": "Occupied units paying rent",
@@ -29628,7 +29628,7 @@
           "files": [
             "economics_1721_citywide"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -30232,7 +30232,7 @@
           "files": [
             "economics_1721_citywide"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -30836,7 +30836,7 @@
           "files": [
             "economics_1721_citywide"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -31440,7 +31440,7 @@
           "files": [
             "economics_1721_citywide"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -32044,7 +32044,7 @@
           "files": [
             "economics_1721_citywide"
           ],
-          "title": "Households By Area Median Income (AMI) Band",
+          "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2017-2021"
@@ -32540,7 +32540,7 @@
           "files": [
             "housing_production_citywide"
           ],
-          "title": "Homes With New Or Extended Affordability Requirements By Area Median Income (AMI) Band",
+          "title": "Homes With New Or Extended Affordability Requirements By AMI* Band",
           "id": "4.02.T",
           "denominator": {
             "label": "Total",

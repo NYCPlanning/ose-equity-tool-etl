@@ -149,7 +149,7 @@
   },
   {
     "base": {
-      "title": "Households By Area Median Income (AMI) Band",
+      "title": "Households By AMI* Band",
       "is_survey": true,
       "vintages": ["ACS PUMS, 2017-2021"],
       "denominator": {
