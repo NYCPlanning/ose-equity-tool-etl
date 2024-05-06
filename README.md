@@ -25,7 +25,7 @@ We recommend managing python and requirement versions with `pyenv` and `venv`
     - The version should increment by integers, reflecting number of outputs generated from the same source folder
     - example tag `git tag -a 2023-04-21--v1 -m 'update vintage years'`
     - push the tag `git push origin 2023-04-21--v1`
-11. Copy the generated files in `/output` to the static file server (DO).
-   - The DO Spaces folder name must match the git tag
-12. Remember that to test the new tables in EDDE, you have to add the respective category to the
+11. Go into the DO space called equity-tool-data, go into the app folder, create a new folder in the DO static file server that's the same as the tag e.g. `2023-04-21--v1`
+12. Copy the generated files in `/output` to that folder.
+13. Remember that to test the new tables in EDDE, you have to add the respective category to the
 `categories` constant in the EDDE data page. `src/pages/data/[geography]/[geoid]/[category]/[subgroup].tsx`
