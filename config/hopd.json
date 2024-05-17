@@ -1,9 +1,9 @@
 [
   {
     "base": {
-      "title": "Change in Housing Units 2010 - 2022",
+      "title": "Change in Housing Units 2010 - 2023",
       "id": "4.01.T",
-      "vintages": ["NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2022 Q2"],
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"],
       "denominator": {
         "label": "Net change",
         "subcategory": "classa_",
@@ -48,7 +48,7 @@
         "measures": ["COUNT", "COUNT"],
         "variances": ["NONE", "NONE"]
       },
-      "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"],
+      "vintages": ["NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2024"],
       "headers": [
         [
           ["new construction", 1],
