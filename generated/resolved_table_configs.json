@@ -558,7 +558,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -628,7 +628,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -672,7 +672,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -1302,7 +1302,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -1374,7 +1374,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -1418,7 +1418,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -2078,7 +2078,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -2150,7 +2150,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -2194,7 +2194,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -2854,7 +2854,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -2926,7 +2926,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -2970,7 +2970,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -3630,7 +3630,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -3702,7 +3702,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -3746,7 +3746,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -8314,10 +8314,10 @@
           "files": [
             "housing_production_puma"
           ],
-          "title": "Change in Housing Units 2010 - 2022",
+          "title": "Change in Housing Units 2010 - 2023",
           "id": "4.01.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2022 Q2"
+            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"
           ],
           "denominator": {
             "label": "Net change",
@@ -8374,7 +8374,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Mar 2024"
           ],
           "headers": [
             [
@@ -12652,7 +12652,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -12722,7 +12722,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -12766,7 +12766,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -13396,7 +13396,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -13468,7 +13468,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -13512,7 +13512,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -14171,7 +14171,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -14243,7 +14243,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -14287,7 +14287,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -14946,7 +14946,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -15018,7 +15018,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -15062,7 +15062,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -15721,7 +15721,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -15793,7 +15793,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -15837,7 +15837,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -20404,10 +20404,10 @@
           "files": [
             "housing_production_borough"
           ],
-          "title": "Change in Housing Units 2010 - 2022",
+          "title": "Change in Housing Units 2010 - 2023",
           "id": "4.01.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2022 Q2"
+            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"
           ],
           "denominator": {
             "label": "Net change",
@@ -20464,7 +20464,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Mar 2024"
           ],
           "headers": [
             [
@@ -24744,7 +24744,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -24814,7 +24814,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -24858,7 +24858,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -25488,7 +25488,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -25560,7 +25560,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -25604,7 +25604,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -26263,7 +26263,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -26335,7 +26335,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -26379,7 +26379,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -27038,7 +27038,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -27110,7 +27110,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -27154,7 +27154,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -27813,7 +27813,7 @@
             ]
           },
           "vintages": [
-            "NYC DEPARTMENT OF INVESTIGATION, 2017-2023"
+            "NYC DEPARTMENT OF INVESTIGATION, 2019-2024"
           ],
           "labels": [
             "Residential evictions executed by a city marshal"
@@ -27885,7 +27885,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2022; NYC Housing Preservation and Development, 2023"
+            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
           ],
           "labels": [
             "NYCHA units",
@@ -27929,7 +27929,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2022"
+            "NYC HOUSING AUTHORITY, 2023"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -32496,10 +32496,10 @@
           "files": [
             "housing_production_citywide"
           ],
-          "title": "Change in Housing Units 2010 - 2022",
+          "title": "Change in Housing Units 2010 - 2023",
           "id": "4.01.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2022 Q2"
+            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"
           ],
           "denominator": {
             "label": "Net change",
@@ -32556,7 +32556,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Feb 2023"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Mar 2024"
           ],
           "headers": [
             [
