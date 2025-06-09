@@ -26,7 +26,7 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1721_puma",
+          "demographics_1923_puma",
           "demo_change_puma"
         ]
       },
@@ -34,7 +34,7 @@
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1721_borough",
+          "demographics_1923_borough",
           "demo_change_borough"
         ]
       },
@@ -42,7 +42,7 @@
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1721_citywide",
+          "demographics_1923_citywide",
           "demo_change_citywide"
         ]
       }
@@ -116,7 +116,7 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1721_puma",
+          "demographics_1923_puma",
           "demo_change_puma"
         ]
       },
@@ -124,7 +124,7 @@
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1721_borough",
+          "demographics_1923_borough",
           "demo_change_borough"
         ]
       },
@@ -132,7 +132,7 @@
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1721_citywide",
+          "demographics_1923_citywide",
           "demo_change_citywide"
         ]
       }
@@ -195,7 +195,7 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1721_puma",
+          "demographics_1923_puma",
           "demo_change_puma"
         ]
       },
@@ -203,7 +203,7 @@
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1721_borough",
+          "demographics_1923_borough",
           "demo_change_borough"
         ]
       },
@@ -211,7 +211,7 @@
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1721_citywide",
+          "demographics_1923_citywide",
           "demo_change_citywide"
         ]
       }
@@ -274,7 +274,7 @@
         "files": [
           "demographics_2000_puma",
           "demographics_0812_puma",
-          "demographics_1721_puma",
+          "demographics_1923_puma",
           "demo_change_puma"
         ]
       },
@@ -282,7 +282,7 @@
         "files": [
           "demographics_2000_borough",
           "demographics_0812_borough",
-          "demographics_1721_borough",
+          "demographics_1923_borough",
           "demo_change_borough"
         ]
       },
@@ -290,7 +290,7 @@
         "files": [
           "demographics_2000_citywide",
           "demographics_0812_citywide",
-          "demographics_1721_citywide",
+          "demographics_1923_citywide",
           "demo_change_citywide"
         ]
       }

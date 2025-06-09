@@ -31,7 +31,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -78,7 +78,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -113,12 +113,9 @@
           "qol_change_puma"
         ],
         "vintages": [
-          "NYC VITAL STATISTICS, 2000-2004",
-          "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2016-2020",
-          "CHANGE, 2010-2014 to 2016-2020"
+          "NYC VITAL STATISTICS, 2016-2020"
         ],
-        "years": ["_0004", "_1014", "_1620"]
+        "years": ["_1620"]
       },
       "borough": {
         "files": [
@@ -128,12 +125,9 @@
           "qol_change_borough"
         ],
         "vintages": [
-          "NYC VITAL STATISTICS, 2000",
-          "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
+          "NYC VITAL STATISTICS, 2020"
         ],
-        "years": ["_2000", "_2010", "_2020"]
+        "years": ["_2020"]
       },
       "citywide": {
         "files": [
@@ -143,20 +137,32 @@
           "qol_change_citywide"
         ],
         "vintages": [
-          "NYC VITAL STATISTICS, 2000",
-          "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
-        ], 
-        "years": ["_2000", "_2010", "_2020"]
+          "NYC VITAL STATISTICS, 2020"
+        ],
+        "years": ["_2020"]
       }
     },
     "subgroups": {
-      "tot": { "id": "5.03.T" },
-      "anh": { "id": "5.03.A" },
-      "bnh": { "id": "5.03.B" },
-      "wnh": { "id": "5.03.W" },
-      "hsp": { "id": "5.03.H" }
+      "tot": {
+        "id": "5.03.T",
+        "placeholder": "N/A"
+      },
+      "anh": {
+        "id": "5.03.A",
+        "placeholder": "N/A"
+      },
+      "bnh": {
+        "id": "5.03.B",
+        "placeholder": "N/A"
+      },
+      "wnh": {
+        "id": "5.03.W",
+        "placeholder": "N/A"
+      },
+      "hsp": {
+        "id": "5.03.H",
+        "placeholder": "N/A"
+      }
     }
   },
   {
@@ -213,16 +219,31 @@
           "NYC VITAL STATISTICS, 2010",
           "NYC VITAL STATISTICS, 2020",
           "CHANGE, 2010 to 2020"
-        ], 
+        ],
         "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
-      "tot": { "id": "5.04.T" },
-      "anh": { "id": "5.04.A" },
-      "bnh": { "id": "5.04.B" },
-      "wnh": { "id": "5.04.W" },
-      "hsp": { "id": "5.04.H" }
+      "tot": {
+        "id": "5.04.T",
+        "placeholder": "N/A"
+       },
+      "anh": {
+        "id": "5.04.A",
+        "placeholder": "N/A"
+      },
+      "bnh": {
+        "id": "5.04.B",
+        "placeholder": "N/A"
+      },
+      "wnh": {
+        "id": "5.04.W",
+        "placeholder": "N/A"
+      },
+      "hsp": {
+        "id": "5.04.H",
+        "placeholder": "N/A"
+      }
     }
   },
   {
@@ -279,16 +300,31 @@
           "NYC VITAL STATISTICS, 2010",
           "NYC VITAL STATISTICS, 2020",
           "CHANGE, 2010 to 2020"
-        ], 
+        ],
         "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
-      "tot": { "id": "5.05.T" },
-      "anh": { "id": "5.05.A" },
-      "bnh": { "id": "5.05.B" },
-      "wnh": { "id": "5.05.W" },
-      "hsp": { "id": "5.05.H" }
+      "tot": {
+         "id": "5.05.T",
+        "placeholder": "N/A"
+       },
+      "anh": {
+         "id": "5.05.A",
+        "placeholder": "N/A"
+       },
+      "bnh": {
+         "id": "5.05.B",
+        "placeholder": "N/A"
+       },
+      "wnh": {
+         "id": "5.05.W",
+        "placeholder": "N/A"
+       },
+      "hsp": {
+         "id": "5.05.H",
+        "placeholder": "N/A"
+       }
     }
   },
   {
@@ -313,28 +349,36 @@
       }
     },
     "subgroups": {
-      "tot": { "labels": ["COVID-19 deaths between 2020 and February 2022"], "id": "5.06.T" },
+      "tot": {
+        "labels": ["COVID-19 deaths between 2020 and February 2022"],
+        "id": "5.06.T",
+        "placeholder": "N/A"
+      },
       "anh": {
         "labels": [
           "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
         ],
-        "id": "5.06.A"
+        "id": "5.06.A",
+        "placeholder": "N/A"
       },
       "bnh": {
         "labels": [
           "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
         ],
-        "id": "5.06.B"
+        "id": "5.06.B",
+        "placeholder": "N/A"
       },
       "wnh": {
         "labels": [
           "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
         ],
-        "id": "5.06.W"
+        "id": "5.06.W",
+        "placeholder": "N/A"
       },
       "hsp": {
         "labels": ["Hispanic COVID-19 deaths between 2020 and February 2022"],
-        "id": "5.06.H"
+        "id": "5.06.H",
+        "placeholder": "N/A"
       }
     }
   },
@@ -363,7 +407,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -404,7 +448,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -446,7 +490,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -465,7 +509,7 @@
     "base": {
       "title": "Commute",
       "subcategory": "access_",
-      "years": ["_0812", "_1721"],
+      "years": ["_0812", "_1923"],
       "has_change": true,
       "labels": ["Drove or carpooled to work"],
       "is_survey": true,
@@ -494,29 +538,34 @@
     "subgroups": {
       "tot": {
         "denominator": { "label": "Total workers 16 years and over" },
-        "id": "5.10.T"
+        "id": "5.10.T",
+        "placeholder": "N/A"
       },
       "anh": {
         "denominator": {
           "label": "Asian non-Hispanic workers 16 years and over"
         },
-        "id": "5.10.A"
+        "id": "5.10.A",
+        "placeholder": "N/A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic workers 16 years and over"
         },
-        "id": "5.10.B"
+        "id": "5.10.B",
+        "placeholder": "N/A"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic workers 16 years and over"
         },
-        "id": "5.10.W"
+        "id": "5.10.W",
+        "placeholder": "N/A"
       },
       "hsp": {
         "denominator": { "label": "Hispanic workers 16 years and over" },
-        "id": "5.10.H"
+        "id": "5.10.H",
+        "placeholder": "N/A"
       }
     }
   },
@@ -551,31 +600,36 @@
     "subgroups": {
       "tot": {
         "denominator": { "label": "Total households" },
-        "id": "5.11.T"
+        "id": "5.11.T",
+        "placeholder": "N/A"
       },
       "anh": {
         "denominator": {
           "label": "Total households with an Asian non-Hispanic householder"
         },
-        "id": "5.11.A"
+        "id": "5.11.A",
+        "placeholder": "N/A"
       },
       "bnh": {
         "denominator": {
           "label": "Total households with a Black non-Hispanic householder"
         },
-        "id": "5.11.B"
+        "id": "5.11.B",
+        "placeholder": "N/A"
       },
       "wnh": {
         "denominator": {
           "label": "Total households with a White non-Hispanic householder"
         },
-        "id": "5.11.W"
+        "id": "5.11.W",
+        "placeholder": "N/A"
       },
       "hsp": {
         "denominator": {
           "label": "Total households with a Hispanic householder"
         },
-        "id": "5.11.H"
+        "id": "5.11.H",
+        "placeholder": "N/A"
       }
     }
   },
@@ -603,11 +657,23 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": { "id": "5.12.A" },
-      "bnh": { "id": "5.12.B" },
-      "wnh": { "id": "5.12.W" },
-      "hsp": { "id": "5.12.H" }
+      "tot": { "placeholder": "N/A" },
+      "anh": {
+        "id": "5.12.A",
+        "placeholder": "N/A"
+      },
+      "bnh": {
+        "id": "5.12.B",
+        "placeholder": "N/A"
+      },
+      "wnh": {
+        "id": "5.12.W",
+        "placeholder": "N/A"
+      },
+      "hsp": {
+        "id": "5.12.H",
+        "placeholder": "N/A"
+      }
     }
   },
   {
@@ -636,11 +702,23 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": { "id": "5.13.A" },
-      "bnh": { "id": "5.13.B" },
-      "wnh": { "id": "5.13.W" },
-      "hsp": { "id": "5.13.H" }
+      "tot": { "placeholder": "N/A" },
+      "anh": {
+        "id": "5.13.A",
+        "placeholder": "N/A"
+      },
+      "bnh": {
+        "id": "5.13.B",
+        "placeholder": "N/A"
+      },
+      "wnh": {
+        "id": "5.13.W",
+        "placeholder": "N/A"
+      },
+      "hsp": {
+        "id": "5.13.H",
+        "placeholder": "N/A"
+       }
     }
   },
   {
@@ -676,7 +754,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -736,7 +814,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -781,7 +859,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -820,7 +898,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -859,7 +937,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { "placeholder": "N/A" },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },

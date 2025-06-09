@@ -35,7 +35,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -93,7 +93,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -153,7 +153,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -219,7 +219,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -343,7 +343,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -516,7 +516,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -775,7 +775,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -833,7 +833,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -893,7 +893,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -959,7 +959,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -1085,7 +1085,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -1259,7 +1259,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -1551,7 +1551,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -1609,7 +1609,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -1669,7 +1669,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -1735,7 +1735,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -1861,7 +1861,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2035,7 +2035,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -2327,7 +2327,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -2385,7 +2385,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -2445,7 +2445,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -2511,7 +2511,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -2637,7 +2637,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -2811,7 +2811,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -3103,7 +3103,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -3161,7 +3161,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -3221,7 +3221,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -3287,7 +3287,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -3413,7 +3413,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -3587,7 +3587,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -3867,7 +3867,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -3926,7 +3926,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Age",
@@ -4050,7 +4050,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Foreign-born Population",
@@ -4107,7 +4107,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Limited English Speaking Population",
@@ -4153,7 +4153,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -4212,7 +4212,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Age",
@@ -4336,7 +4336,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Foreign-born Population",
@@ -4393,7 +4393,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Limited English Speaking Population",
@@ -4439,7 +4439,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -4498,7 +4498,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Age",
@@ -4622,7 +4622,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Foreign-born Population",
@@ -4679,7 +4679,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Limited English Speaking Population",
@@ -4725,7 +4725,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -4784,7 +4784,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Age",
@@ -4908,7 +4908,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Foreign-born Population",
@@ -4965,7 +4965,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Limited English Speaking Population",
@@ -5011,7 +5011,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -5070,7 +5070,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Age",
@@ -5194,7 +5194,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Foreign-born Population",
@@ -5251,7 +5251,7 @@
           "files": [
             "demographics_2000_puma",
             "demographics_0812_puma",
-            "demographics_1721_puma",
+            "demographics_1923_puma",
             "demo_change_puma"
           ],
           "title": "Limited English Speaking Population",
@@ -5312,7 +5312,7 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -5372,7 +5372,7 @@
           "id": "2.02.T",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -5444,7 +5444,7 @@
           },
           "id": "2.03.T",
           "files": [
-            "economics_1721_puma"
+            "economics_1923_puma"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -5507,7 +5507,7 @@
           "id": "2.04.T",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Labor Force",
@@ -5564,7 +5564,7 @@
           "id": "2.05.T",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Occupation",
@@ -5609,7 +5609,7 @@
           "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -5707,7 +5707,7 @@
           "id": "2.06.T",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Industry",
@@ -5768,7 +5768,7 @@
           "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -5916,7 +5916,7 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -5976,7 +5976,7 @@
           "id": "2.02.A",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -6048,7 +6048,7 @@
           },
           "id": "2.03.A",
           "files": [
-            "economics_1721_puma"
+            "economics_1923_puma"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -6111,7 +6111,7 @@
           "id": "2.04.A",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Labor Force",
@@ -6168,7 +6168,7 @@
           "id": "2.05.A",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Occupation",
@@ -6213,7 +6213,7 @@
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -6311,7 +6311,7 @@
           "id": "2.06.A",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Industry",
@@ -6372,7 +6372,7 @@
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -6520,7 +6520,7 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -6580,7 +6580,7 @@
           "id": "2.02.B",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -6652,7 +6652,7 @@
           },
           "id": "2.03.B",
           "files": [
-            "economics_1721_puma"
+            "economics_1923_puma"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -6715,7 +6715,7 @@
           "id": "2.04.B",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Labor Force",
@@ -6772,7 +6772,7 @@
           "id": "2.05.B",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Occupation",
@@ -6817,7 +6817,7 @@
           "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -6915,7 +6915,7 @@
           "id": "2.06.B",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Industry",
@@ -6976,7 +6976,7 @@
           "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -7124,7 +7124,7 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -7184,7 +7184,7 @@
           "id": "2.02.H",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -7256,7 +7256,7 @@
           },
           "id": "2.03.H",
           "files": [
-            "economics_1721_puma"
+            "economics_1923_puma"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -7319,7 +7319,7 @@
           "id": "2.04.H",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Labor Force",
@@ -7376,7 +7376,7 @@
           "id": "2.05.H",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Occupation",
@@ -7421,7 +7421,7 @@
           "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -7519,7 +7519,7 @@
           "id": "2.06.H",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Industry",
@@ -7580,7 +7580,7 @@
           "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -7728,7 +7728,7 @@
           "files": [
             "economics_2000_puma",
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -7788,7 +7788,7 @@
           "id": "2.02.W",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -7860,7 +7860,7 @@
           },
           "id": "2.03.W",
           "files": [
-            "economics_1721_puma"
+            "economics_1923_puma"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -7923,7 +7923,7 @@
           "id": "2.04.W",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Labor Force",
@@ -7980,7 +7980,7 @@
           "id": "2.05.W",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Occupation",
@@ -8025,7 +8025,7 @@
           "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -8123,7 +8123,7 @@
           "id": "2.06.W",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Industry",
@@ -8184,7 +8184,7 @@
           "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_puma",
-            "economics_1721_puma",
+            "economics_1923_puma",
             "economics_change_puma"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -8478,6 +8478,7 @@
     "qlao": {
       "tot": [
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8533,6 +8534,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8589,6 +8591,7 @@
         },
         {
           "id": "5.03.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -8596,14 +8599,9 @@
             "qol_change_puma"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2016-2020",
-            "CHANGE, 2010-2014 to 2016-2020"
+            "NYC VITAL STATISTICS, 2016-2020"
           ],
           "years": [
-            "_0004",
-            "_1014",
             "_1620"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -8627,6 +8625,7 @@
         },
         {
           "id": "5.04.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -8665,6 +8664,7 @@
         },
         {
           "id": "5.05.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -8706,6 +8706,7 @@
             "COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8728,6 +8729,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8751,6 +8753,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8788,6 +8791,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8847,6 +8851,7 @@
             ]
           },
           "id": "5.10.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -8856,7 +8861,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -8907,6 +8912,7 @@
             ]
           },
           "id": "5.11.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8940,6 +8946,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8973,6 +8980,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9004,6 +9012,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9051,6 +9060,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -9104,6 +9114,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -9139,6 +9150,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9165,6 +9177,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9306,6 +9319,7 @@
         },
         {
           "id": "5.03.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -9313,14 +9327,9 @@
             "qol_change_puma"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2016-2020",
-            "CHANGE, 2010-2014 to 2016-2020"
+            "NYC VITAL STATISTICS, 2016-2020"
           ],
           "years": [
-            "_0004",
-            "_1014",
             "_1620"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -9344,6 +9353,7 @@
         },
         {
           "id": "5.04.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -9382,6 +9392,7 @@
         },
         {
           "id": "5.05.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -9423,6 +9434,7 @@
             "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9567,6 +9579,7 @@
             ]
           },
           "id": "5.10.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -9576,7 +9589,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -9627,6 +9640,7 @@
             ]
           },
           "id": "5.11.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9661,6 +9675,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9694,6 +9709,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -10031,6 +10047,7 @@
         },
         {
           "id": "5.03.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10038,14 +10055,9 @@
             "qol_change_puma"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2016-2020",
-            "CHANGE, 2010-2014 to 2016-2020"
+            "NYC VITAL STATISTICS, 2016-2020"
           ],
           "years": [
-            "_0004",
-            "_1014",
             "_1620"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -10069,6 +10081,7 @@
         },
         {
           "id": "5.04.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10107,6 +10120,7 @@
         },
         {
           "id": "5.05.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10148,6 +10162,7 @@
             "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -10292,6 +10307,7 @@
             ]
           },
           "id": "5.10.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10301,7 +10317,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -10352,6 +10368,7 @@
             ]
           },
           "id": "5.11.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -10386,6 +10403,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -10419,6 +10437,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -10756,6 +10775,7 @@
         },
         {
           "id": "5.03.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10763,14 +10783,9 @@
             "qol_change_puma"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2016-2020",
-            "CHANGE, 2010-2014 to 2016-2020"
+            "NYC VITAL STATISTICS, 2016-2020"
           ],
           "years": [
-            "_0004",
-            "_1014",
             "_1620"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -10794,6 +10809,7 @@
         },
         {
           "id": "5.04.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10832,6 +10848,7 @@
         },
         {
           "id": "5.05.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -10873,6 +10890,7 @@
             "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11017,6 +11035,7 @@
             ]
           },
           "id": "5.10.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -11026,7 +11045,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -11077,6 +11096,7 @@
             ]
           },
           "id": "5.11.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11111,6 +11131,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11144,6 +11165,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11481,6 +11503,7 @@
         },
         {
           "id": "5.03.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -11488,14 +11511,9 @@
             "qol_change_puma"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000-2004",
-            "NYC VITAL STATISTICS, 2010-2014",
-            "NYC VITAL STATISTICS, 2016-2020",
-            "CHANGE, 2010-2014 to 2016-2020"
+            "NYC VITAL STATISTICS, 2016-2020"
           ],
           "years": [
-            "_0004",
-            "_1014",
             "_1620"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -11519,6 +11537,7 @@
         },
         {
           "id": "5.04.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -11557,6 +11576,7 @@
         },
         {
           "id": "5.05.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -11598,6 +11618,7 @@
             "Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11742,6 +11763,7 @@
             ]
           },
           "id": "5.10.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma",
             "quality_of_life_puma",
@@ -11751,7 +11773,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -11802,6 +11824,7 @@
             ]
           },
           "id": "5.11.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11836,6 +11859,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11869,6 +11893,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -12129,7 +12154,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -12187,7 +12212,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -12247,7 +12272,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -12313,7 +12338,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -12437,7 +12462,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -12610,7 +12635,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -12869,7 +12894,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -12927,7 +12952,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -12987,7 +13012,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -13053,7 +13078,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -13179,7 +13204,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -13353,7 +13378,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -13644,7 +13669,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -13702,7 +13727,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -13762,7 +13787,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -13828,7 +13853,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -13954,7 +13979,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14128,7 +14153,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -14419,7 +14444,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -14477,7 +14502,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -14537,7 +14562,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -14603,7 +14628,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -14729,7 +14754,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -14903,7 +14928,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -15194,7 +15219,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -15252,7 +15277,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -15312,7 +15337,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -15378,7 +15403,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -15504,7 +15529,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -15678,7 +15703,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -15957,7 +15982,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -16016,7 +16041,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Age",
@@ -16140,7 +16165,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Foreign-born Population",
@@ -16197,7 +16222,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Limited English Speaking Population",
@@ -16243,7 +16268,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -16302,7 +16327,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Age",
@@ -16426,7 +16451,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Foreign-born Population",
@@ -16483,7 +16508,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Limited English Speaking Population",
@@ -16529,7 +16554,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -16588,7 +16613,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Age",
@@ -16712,7 +16737,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Foreign-born Population",
@@ -16769,7 +16794,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Limited English Speaking Population",
@@ -16815,7 +16840,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -16874,7 +16899,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Age",
@@ -16998,7 +17023,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Foreign-born Population",
@@ -17055,7 +17080,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Limited English Speaking Population",
@@ -17101,7 +17126,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -17160,7 +17185,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Age",
@@ -17284,7 +17309,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Foreign-born Population",
@@ -17341,7 +17366,7 @@
           "files": [
             "demographics_2000_borough",
             "demographics_0812_borough",
-            "demographics_1721_borough",
+            "demographics_1923_borough",
             "demo_change_borough"
           ],
           "title": "Limited English Speaking Population",
@@ -17402,7 +17427,7 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -17462,7 +17487,7 @@
           "id": "2.02.T",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -17534,7 +17559,7 @@
           },
           "id": "2.03.T",
           "files": [
-            "economics_1721_borough"
+            "economics_1923_borough"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -17597,7 +17622,7 @@
           "id": "2.04.T",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Labor Force",
@@ -17654,7 +17679,7 @@
           "id": "2.05.T",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Occupation",
@@ -17699,7 +17724,7 @@
           "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -17797,7 +17822,7 @@
           "id": "2.06.T",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Industry",
@@ -17858,7 +17883,7 @@
           "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -18006,7 +18031,7 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -18066,7 +18091,7 @@
           "id": "2.02.A",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -18138,7 +18163,7 @@
           },
           "id": "2.03.A",
           "files": [
-            "economics_1721_borough"
+            "economics_1923_borough"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -18201,7 +18226,7 @@
           "id": "2.04.A",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Labor Force",
@@ -18258,7 +18283,7 @@
           "id": "2.05.A",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Occupation",
@@ -18303,7 +18328,7 @@
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -18401,7 +18426,7 @@
           "id": "2.06.A",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Industry",
@@ -18462,7 +18487,7 @@
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -18610,7 +18635,7 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -18670,7 +18695,7 @@
           "id": "2.02.B",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -18742,7 +18767,7 @@
           },
           "id": "2.03.B",
           "files": [
-            "economics_1721_borough"
+            "economics_1923_borough"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -18805,7 +18830,7 @@
           "id": "2.04.B",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Labor Force",
@@ -18862,7 +18887,7 @@
           "id": "2.05.B",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Occupation",
@@ -18907,7 +18932,7 @@
           "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -19005,7 +19030,7 @@
           "id": "2.06.B",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Industry",
@@ -19066,7 +19091,7 @@
           "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -19214,7 +19239,7 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -19274,7 +19299,7 @@
           "id": "2.02.H",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -19346,7 +19371,7 @@
           },
           "id": "2.03.H",
           "files": [
-            "economics_1721_borough"
+            "economics_1923_borough"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -19409,7 +19434,7 @@
           "id": "2.04.H",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Labor Force",
@@ -19466,7 +19491,7 @@
           "id": "2.05.H",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Occupation",
@@ -19511,7 +19536,7 @@
           "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -19609,7 +19634,7 @@
           "id": "2.06.H",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Industry",
@@ -19670,7 +19695,7 @@
           "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -19818,7 +19843,7 @@
           "files": [
             "economics_2000_borough",
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -19878,7 +19903,7 @@
           "id": "2.02.W",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -19950,7 +19975,7 @@
           },
           "id": "2.03.W",
           "files": [
-            "economics_1721_borough"
+            "economics_1923_borough"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -20013,7 +20038,7 @@
           "id": "2.04.W",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Labor Force",
@@ -20070,7 +20095,7 @@
           "id": "2.05.W",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Occupation",
@@ -20115,7 +20140,7 @@
           "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -20213,7 +20238,7 @@
           "id": "2.06.W",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Industry",
@@ -20274,7 +20299,7 @@
           "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_borough",
-            "economics_1721_borough",
+            "economics_1923_borough",
             "economics_change_borough"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -20568,6 +20593,7 @@
     "qlao": {
       "tot": [
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -20623,6 +20649,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -20679,6 +20706,7 @@
         },
         {
           "id": "5.03.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -20686,14 +20714,9 @@
             "qol_change_borough"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -20717,6 +20740,7 @@
         },
         {
           "id": "5.04.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -20755,6 +20779,7 @@
         },
         {
           "id": "5.05.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -20796,6 +20821,7 @@
             "COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -20818,10 +20844,10 @@
           ]
         },
         {
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
             ""
           ],
-          "placeholder": "Data are not available by Borough and Citywide",
           "title": "Health Outcomes - Heat Vulnerability Index",
           "id": "5.07.T",
           "vintages": [
@@ -20842,10 +20868,10 @@
           ]
         },
         {
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
             ""
           ],
-          "placeholder": "Data are not available by Borough and Citywide",
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
@@ -20880,6 +20906,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -20939,6 +20966,7 @@
             ]
           },
           "id": "5.10.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -20948,7 +20976,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -20999,6 +21027,7 @@
             ]
           },
           "id": "5.11.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21032,6 +21061,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21065,6 +21095,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21096,6 +21127,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21143,6 +21175,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -21196,6 +21229,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -21231,6 +21265,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21257,6 +21292,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21398,6 +21434,7 @@
         },
         {
           "id": "5.03.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -21405,14 +21442,9 @@
             "qol_change_borough"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -21436,6 +21468,7 @@
         },
         {
           "id": "5.04.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -21474,6 +21507,7 @@
         },
         {
           "id": "5.05.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -21515,6 +21549,7 @@
             "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21659,6 +21694,7 @@
             ]
           },
           "id": "5.10.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -21668,7 +21704,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -21719,6 +21755,7 @@
             ]
           },
           "id": "5.11.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21753,6 +21790,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21786,6 +21824,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -22123,6 +22162,7 @@
         },
         {
           "id": "5.03.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22130,14 +22170,9 @@
             "qol_change_borough"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -22161,6 +22196,7 @@
         },
         {
           "id": "5.04.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22199,6 +22235,7 @@
         },
         {
           "id": "5.05.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22240,6 +22277,7 @@
             "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -22384,6 +22422,7 @@
             ]
           },
           "id": "5.10.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22393,7 +22432,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -22444,6 +22483,7 @@
             ]
           },
           "id": "5.11.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -22478,6 +22518,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -22511,6 +22552,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -22848,6 +22890,7 @@
         },
         {
           "id": "5.03.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22855,14 +22898,9 @@
             "qol_change_borough"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -22886,6 +22924,7 @@
         },
         {
           "id": "5.04.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22924,6 +22963,7 @@
         },
         {
           "id": "5.05.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -22965,6 +23005,7 @@
             "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23109,6 +23150,7 @@
             ]
           },
           "id": "5.10.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -23118,7 +23160,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -23169,6 +23211,7 @@
             ]
           },
           "id": "5.11.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23203,6 +23246,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23236,6 +23280,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23573,6 +23618,7 @@
         },
         {
           "id": "5.03.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -23580,14 +23626,9 @@
             "qol_change_borough"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -23611,6 +23652,7 @@
         },
         {
           "id": "5.04.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -23649,6 +23691,7 @@
         },
         {
           "id": "5.05.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -23690,6 +23733,7 @@
             "Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23834,6 +23878,7 @@
             ]
           },
           "id": "5.10.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough",
             "quality_of_life_borough",
@@ -23843,7 +23888,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -23894,6 +23939,7 @@
             ]
           },
           "id": "5.11.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23928,6 +23974,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23961,6 +24008,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -24221,7 +24269,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -24279,7 +24327,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -24339,7 +24387,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -24405,7 +24453,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -24529,7 +24577,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -24702,7 +24750,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -24961,7 +25009,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -25019,7 +25067,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -25079,7 +25127,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -25145,7 +25193,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -25271,7 +25319,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -25445,7 +25493,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -25736,7 +25784,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -25794,7 +25842,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -25854,7 +25902,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -25920,7 +25968,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -26046,7 +26094,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -26220,7 +26268,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -26511,7 +26559,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -26569,7 +26617,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -26629,7 +26677,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -26695,7 +26743,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -26821,7 +26869,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -26995,7 +27043,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -27286,7 +27334,7 @@
           "years": [
             "_2000",
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Owner-occupied",
@@ -27344,7 +27392,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median Home Value (Dollars)"
@@ -27404,7 +27452,7 @@
           "is_survey": true,
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Median gross rent (dollars)"
@@ -27470,7 +27518,7 @@
           "subcategory": "households_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "30.0 percent or more (rent-burdened)",
@@ -27596,7 +27644,7 @@
           "denominator": {
             "label": "Occupied units paying rent",
             "subcategory": "units_",
-            "variable": "payingrent_1721",
+            "variable": "payingrent_1923",
             "measures": [
               "COUNT",
               "COUNT",
@@ -27770,7 +27818,7 @@
           ],
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "labels": [
             "Overcrowded units (> 1 person per room)"
@@ -28049,7 +28097,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -28108,7 +28156,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Age",
@@ -28232,7 +28280,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Foreign-born Population",
@@ -28289,7 +28337,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Limited English Speaking Population",
@@ -28335,7 +28383,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -28394,7 +28442,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Age",
@@ -28518,7 +28566,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Foreign-born Population",
@@ -28575,7 +28623,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Limited English Speaking Population",
@@ -28621,7 +28669,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -28680,7 +28728,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Age",
@@ -28804,7 +28852,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Foreign-born Population",
@@ -28861,7 +28909,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Limited English Speaking Population",
@@ -28907,7 +28955,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -28966,7 +29014,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Age",
@@ -29090,7 +29138,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Foreign-born Population",
@@ -29147,7 +29195,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Limited English Speaking Population",
@@ -29193,7 +29241,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Mutually Exclusive Race/Hispanic Origin",
@@ -29252,7 +29300,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Age",
@@ -29376,7 +29424,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Foreign-born Population",
@@ -29433,7 +29481,7 @@
           "files": [
             "demographics_2000_citywide",
             "demographics_0812_citywide",
-            "demographics_1721_citywide",
+            "demographics_1923_citywide",
             "demo_change_citywide"
           ],
           "title": "Limited English Speaking Population",
@@ -29494,7 +29542,7 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -29554,7 +29602,7 @@
           "id": "2.02.T",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -29626,7 +29674,7 @@
           },
           "id": "2.03.T",
           "files": [
-            "economics_1721_citywide"
+            "economics_1923_citywide"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -29689,7 +29737,7 @@
           "id": "2.04.T",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Labor Force",
@@ -29746,7 +29794,7 @@
           "id": "2.05.T",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Occupation",
@@ -29791,7 +29839,7 @@
           "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -29889,7 +29937,7 @@
           "id": "2.06.T",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Industry",
@@ -29950,7 +29998,7 @@
           "label": "Civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -30098,7 +30146,7 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -30158,7 +30206,7 @@
           "id": "2.02.A",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -30230,7 +30278,7 @@
           },
           "id": "2.03.A",
           "files": [
-            "economics_1721_citywide"
+            "economics_1923_citywide"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -30293,7 +30341,7 @@
           "id": "2.04.A",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Labor Force",
@@ -30350,7 +30398,7 @@
           "id": "2.05.A",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Occupation",
@@ -30395,7 +30443,7 @@
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -30493,7 +30541,7 @@
           "id": "2.06.A",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Industry",
@@ -30554,7 +30602,7 @@
           "label": "Asian non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -30702,7 +30750,7 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -30762,7 +30810,7 @@
           "id": "2.02.B",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -30834,7 +30882,7 @@
           },
           "id": "2.03.B",
           "files": [
-            "economics_1721_citywide"
+            "economics_1923_citywide"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -30897,7 +30945,7 @@
           "id": "2.04.B",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Labor Force",
@@ -30954,7 +31002,7 @@
           "id": "2.05.B",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Occupation",
@@ -30999,7 +31047,7 @@
           "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -31097,7 +31145,7 @@
           "id": "2.06.B",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Industry",
@@ -31158,7 +31206,7 @@
           "label": "Black non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -31306,7 +31354,7 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -31366,7 +31414,7 @@
           "id": "2.02.H",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -31438,7 +31486,7 @@
           },
           "id": "2.03.H",
           "files": [
-            "economics_1721_citywide"
+            "economics_1923_citywide"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -31501,7 +31549,7 @@
           "id": "2.04.H",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Labor Force",
@@ -31558,7 +31606,7 @@
           "id": "2.05.H",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Occupation",
@@ -31603,7 +31651,7 @@
           "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -31701,7 +31749,7 @@
           "id": "2.06.H",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Industry",
@@ -31762,7 +31810,7 @@
           "label": "Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -31910,7 +31958,7 @@
           "files": [
             "economics_2000_citywide",
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Educational Attainment (Highest Grade Completed)",
@@ -31970,7 +32018,7 @@
           "id": "2.02.W",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Household Income (2021 Dollars)",
@@ -32042,7 +32090,7 @@
           },
           "id": "2.03.W",
           "files": [
-            "economics_1721_citywide"
+            "economics_1923_citywide"
           ],
           "title": "Households By AMI* Band",
           "is_survey": true,
@@ -32105,7 +32153,7 @@
           "id": "2.04.W",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Labor Force",
@@ -32162,7 +32210,7 @@
           "id": "2.05.W",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Occupation",
@@ -32207,7 +32255,7 @@
           "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Occupation (2021 Dollars)",
@@ -32305,7 +32353,7 @@
           "id": "2.06.W",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Industry",
@@ -32366,7 +32414,7 @@
           "label": "White non-Hispanic civilian employed population 16 to 64 years",
           "files": [
             "economics_0812_citywide",
-            "economics_1721_citywide",
+            "economics_1923_citywide",
             "economics_change_citywide"
           ],
           "title": "Median Wages By Industry (2021 Dollars)",
@@ -32660,6 +32708,7 @@
     "qlao": {
       "tot": [
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -32715,6 +32764,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -32771,6 +32821,7 @@
         },
         {
           "id": "5.03.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -32778,14 +32829,9 @@
             "qol_change_citywide"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -32809,6 +32855,7 @@
         },
         {
           "id": "5.04.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -32847,6 +32894,7 @@
         },
         {
           "id": "5.05.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -32888,6 +32936,7 @@
             "COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -32910,10 +32959,10 @@
           ]
         },
         {
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
             ""
           ],
-          "placeholder": "Data are not available by Borough and Citywide",
           "title": "Health Outcomes - Heat Vulnerability Index",
           "id": "5.07.T",
           "vintages": [
@@ -32934,10 +32983,10 @@
           ]
         },
         {
+          "placeholder": "Data are not available by Borough and Citywide",
           "files": [
             ""
           ],
-          "placeholder": "Data are not available by Borough and Citywide",
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
@@ -32972,6 +33021,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33031,6 +33081,7 @@
             ]
           },
           "id": "5.10.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33040,7 +33091,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -33091,6 +33142,7 @@
             ]
           },
           "id": "5.11.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33124,6 +33176,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33157,6 +33210,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33188,6 +33242,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33235,6 +33290,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33288,6 +33344,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33323,6 +33380,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33349,6 +33407,7 @@
           ]
         },
         {
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33490,6 +33549,7 @@
         },
         {
           "id": "5.03.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33497,14 +33557,9 @@
             "qol_change_citywide"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -33528,6 +33583,7 @@
         },
         {
           "id": "5.04.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33566,6 +33622,7 @@
         },
         {
           "id": "5.05.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33607,6 +33664,7 @@
             "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33751,6 +33809,7 @@
             ]
           },
           "id": "5.10.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -33760,7 +33819,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -33811,6 +33870,7 @@
             ]
           },
           "id": "5.11.A",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33845,6 +33905,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33878,6 +33939,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -34215,6 +34277,7 @@
         },
         {
           "id": "5.03.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -34222,14 +34285,9 @@
             "qol_change_citywide"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -34253,6 +34311,7 @@
         },
         {
           "id": "5.04.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -34291,6 +34350,7 @@
         },
         {
           "id": "5.05.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -34332,6 +34392,7 @@
             "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -34476,6 +34537,7 @@
             ]
           },
           "id": "5.10.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -34485,7 +34547,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -34536,6 +34598,7 @@
             ]
           },
           "id": "5.11.B",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -34570,6 +34633,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -34603,6 +34667,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -34940,6 +35005,7 @@
         },
         {
           "id": "5.03.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -34947,14 +35013,9 @@
             "qol_change_citywide"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -34978,6 +35039,7 @@
         },
         {
           "id": "5.04.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35016,6 +35078,7 @@
         },
         {
           "id": "5.05.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35057,6 +35120,7 @@
             "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35201,6 +35265,7 @@
             ]
           },
           "id": "5.10.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35210,7 +35275,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -35261,6 +35326,7 @@
             ]
           },
           "id": "5.11.W",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35295,6 +35361,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35328,6 +35395,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35665,6 +35733,7 @@
         },
         {
           "id": "5.03.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35672,14 +35741,9 @@
             "qol_change_citywide"
           ],
           "vintages": [
-            "NYC VITAL STATISTICS, 2000",
-            "NYC VITAL STATISTICS, 2010",
-            "NYC VITAL STATISTICS, 2020",
-            "CHANGE, 2010 to 2020"
+            "NYC VITAL STATISTICS, 2020"
           ],
           "years": [
-            "_2000",
-            "_2010",
             "_2020"
           ],
           "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
@@ -35703,6 +35767,7 @@
         },
         {
           "id": "5.04.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35741,6 +35806,7 @@
         },
         {
           "id": "5.05.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35782,6 +35848,7 @@
             "Hispanic COVID-19 deaths between 2020 and February 2022"
           ],
           "id": "5.06.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35926,6 +35993,7 @@
             ]
           },
           "id": "5.10.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide",
             "quality_of_life_citywide",
@@ -35935,7 +36003,7 @@
           "subcategory": "access_",
           "years": [
             "_0812",
-            "_1721"
+            "_1923"
           ],
           "has_change": true,
           "labels": [
@@ -35986,6 +36054,7 @@
             ]
           },
           "id": "5.11.H",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -36020,6 +36089,7 @@
         },
         {
           "id": "5.12.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -36053,6 +36123,7 @@
         },
         {
           "id": "5.13.T",
+          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],

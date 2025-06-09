@@ -5,3 +5,5 @@
 
 # Env files and virtual environment folders
 /venv
+*.venv
+.python-version
