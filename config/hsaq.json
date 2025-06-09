@@ -4,7 +4,7 @@
       "title": "Housing Tenure",
       "has_change": true,
       "subcategory": "units_",
-      "years": ["_2000", "_0812", "_1721"],
+      "years": ["_2000", "_0812", "_1923"],
       "labels": ["Owner-occupied", "Renter-occupied"],
       "is_survey": true,
       "denominator": {
@@ -59,7 +59,7 @@
   },
   {
     "base": {
-      "title": "Median Home Value (2021 Dollars)",
+      "title": "Median Home Value (2023 Dollars)",
       "has_change": true,
       "is_survey": true,
       "denominator": {
@@ -67,7 +67,7 @@
         "variances": ["NONE", "MOE", "CV"],
         "variable": "units_occupied_owner"
       },
-      "years": ["_0812", "_1721"],
+      "years": ["_0812", "_1923"],
       "labels": ["Median Home Value (Dollars)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["homevalue_median"],
@@ -111,7 +111,7 @@
   },
   {
     "base": {
-      "title": "Median Gross Rent (2021 dollars)",
+      "title": "Median Gross Rent (2023 dollars)",
       "has_change": true,
       "is_survey": true,
       "denominator": {
@@ -119,7 +119,7 @@
         "measures": ["COUNT", "COUNT", "COUNT"],
         "variances": ["NONE", "MOE", "CV"]
       },
-      "years": ["_0812", "_1721"],
+      "years": ["_0812", "_1923"],
       "labels": ["Median gross rent (dollars)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["rent_median"],
@@ -173,7 +173,7 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "years": ["_0812", "_1721"],
+      "years": ["_0812", "_1923"],
       "labels": ["30.0 percent or more (rent-burdened)","50.0 percent or more (severely rent-burdened)"],
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
       "variables": ["rb","erb"],
@@ -280,7 +280,7 @@
       "denominator": {
         "label": "Occupied units paying rent",
         "subcategory": "units_",
-        "variable": "payingrent_1721",
+        "variable": "payingrent_1923",
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
@@ -335,7 +335,7 @@
   },
   {
     "base": {
-      "title": "Housing Maintenance Deficiencies",
+      "title": "Housing Problems",
       "id": "3.07.T",
       "is_survey": true,
       "denominator": {
@@ -404,7 +404,7 @@
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
       "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
-      "years": ["_0812","_1721"],
+      "years": ["_0812","_1923"],
       "labels": ["Overcrowded units (> 1 person per room)"],
       "subcategory": "units_",
       "variables": ["overcrowded"],
@@ -456,8 +456,8 @@
         "measures": ["COUNT"],
         "variances": ["NONE"]
       },
-      "vintages": ["NYC DEPARTMENT OF INVESTIGATION, 2019-2024"],
-      "labels": ["Residential evictions executed by a city marshal"],
+      "vintages": ["NYC DEPARTMENT OF INVESTIGATION, 2019-2025"],
+      "labels": ["Residential evictions executed by a city marshal 2019 - 2025"],
       "variables": ["evictions"],
       "headers": [[["number", 1]]],
       "measures": ["COUNT"],

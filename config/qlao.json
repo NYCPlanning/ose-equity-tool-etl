@@ -31,9 +31,9 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { },
       "anh": {
-        "placeholder": "Data are not available by race and ethnicity"
+      "placeholder": "Data are not available by race and ethnicity"
       },
       "bnh": {
         "placeholder": "Data are not available by race and ethnicity"
@@ -78,7 +78,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -95,43 +95,36 @@
   },
   {
     "base": {
-      "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents)",
-      "has_change": true,
+      "title": "Health Outcomes - Premature Mortality (Rate Per 100,000 Residents) *",
+      "has_change": false,
       "labels": ["Deaths before 65 years"],
       "subcategory": "health_",
       "variables": ["prematuremortality"],
       "measures": ["RATE"],
       "variances": ["NONE"],
-      "scales": [1]
+      "scales": [1],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
         "files": [
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "qol_change_puma"
+          "quality_of_life_puma"
         ],
         "vintages": [
-          "NYC VITAL STATISTICS, 2000-2004",
-          "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2016-2020",
-          "CHANGE, 2010-2014 to 2016-2020"
+          "NYC VITAL STATISTICS, 2016-2020"
         ],
-        "years": ["_0004", "_1014", "_1620"]
+        "years": ["_1620"]
       },
       "borough": {
         "files": [
           "quality_of_life_borough",
           "quality_of_life_borough",
-          "quality_of_life_borough",
-          "qol_change_borough"
+          "quality_of_life_borough"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
+          "NYC VITAL STATISTICS, 2020"
         ],
         "years": ["_2000", "_2010", "_2020"]
       },
@@ -139,65 +132,66 @@
         "files": [
           "quality_of_life_citywide",
           "quality_of_life_citywide",
-          "quality_of_life_citywide",
-          "qol_change_citywide"
+          "quality_of_life_citywide"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
-        ], 
+          "NYC VITAL STATISTICS, 2020"
+        ],
         "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
-      "tot": { "id": "5.03.T" },
-      "anh": { "id": "5.03.A" },
-      "bnh": { "id": "5.03.B" },
-      "wnh": { "id": "5.03.W" },
-      "hsp": { "id": "5.03.H" }
+      "tot": {
+        "id": "5.03.T"
+      },
+      "anh": {
+        "id": "5.03.A"
+      },
+      "bnh": {
+        "id": "5.03.B"
+      },
+      "wnh": {
+        "id": "5.03.W"
+      },
+      "hsp": {
+        "id": "5.03.H"
+      }
     }
   },
   {
     "base": {
-      "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births)",
-      "has_change": true,
+      "title": "Health Outcomes - Infant Mortality (Rate Per 1,000 Live Births) *",
+      "has_change": false,
       "labels": ["Deaths before 1 year"],
       "subcategory": "health_",
       "variables": ["infantmortality"],
       "measures": ["RATE"],
       "variances": ["NONE"],
-      "scales": [1]
+      "scales": [1],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
         "files": [
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "qol_change_puma"
+          "quality_of_life_puma"
         ],
         "vintages": [
-          "NYC VITAL STATISTICS, 2000-2004",
-          "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2016-2020",
-          "CHANGE, 2010-2014 to 2016-2020"
+          "NYC VITAL STATISTICS, 2016-2020"
         ],
-        "years": ["_0004", "_1014", "_1620"]
+        "years": ["_1620"]
       },
       "borough": {
         "files": [
           "quality_of_life_borough",
           "quality_of_life_borough",
-          "quality_of_life_borough",
-          "qol_change_borough"
+          "quality_of_life_borough"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
+          "NYC VITAL STATISTICS, 2020"
         ],
         "years": ["_2000", "_2010", "_2020"]
       },
@@ -205,101 +199,90 @@
         "files": [
           "quality_of_life_citywide",
           "quality_of_life_citywide",
-          "quality_of_life_citywide",
-          "qol_change_citywide"
+          "quality_of_life_citywide"
         ],
         "vintages": [
           "NYC VITAL STATISTICS, 2000",
           "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
-        ], 
+          "NYC VITAL STATISTICS, 2020"
+        ],
         "years": ["_2000", "_2010", "_2020"]
       }
     },
     "subgroups": {
-      "tot": { "id": "5.04.T" },
-      "anh": { "id": "5.04.A" },
-      "bnh": { "id": "5.04.B" },
-      "wnh": { "id": "5.04.W" },
-      "hsp": { "id": "5.04.H" }
+      "tot": {
+        "id": "5.04.T"
+     },
+      "anh": {
+        "id": "5.04.A"
+     },
+      "bnh": {
+        "id": "5.04.B"
+     },
+      "wnh": {
+        "id": "5.04.W"
+     },
+      "hsp": {
+        "id": "5.04.H"
+     }
     }
   },
   {
     "base": {
-      "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents)",
-      "has_change": true,
+      "title": "Health Outcomes - Overdose Deaths (Rate Per 100,000 Residents) *",
       "labels": ["Drug-related overdose deaths"],
       "subcategory": "health_",
       "variables": ["overdosemortality"],
       "measures": ["RATE"],
       "variances": ["NONE"],
-      "scales": [1]
+      "scales": [1],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
-        "files": [
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "quality_of_life_puma",
-          "qol_change_puma"
-        ],
-        "vintages": [
-          "NYC VITAL STATISTICS, 2000-2004",
-          "NYC VITAL STATISTICS, 2010-2014",
-          "NYC VITAL STATISTICS, 2016-2020",
-          "CHANGE, 2010-2014 to 2016-2020"
-        ],
-        "years": ["_0004", "_1014", "_1620"]
+        "files": [ "quality_of_life_puma" ],
+        "vintages": [ "NYC VITAL STATISTICS, 2016-2020" ],
+        "years": [ "_1620" ]
       },
       "borough": {
-        "files": [
-          "quality_of_life_borough",
-          "quality_of_life_borough",
-          "quality_of_life_borough",
-          "qol_change_borough"
-        ],
-        "vintages": [
-          "NYC VITAL STATISTICS, 2000",
-          "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
-        ],
-        "years": ["_2000", "_2010", "_2020"]
+        "files": [ "quality_of_life_borough"  ],
+        "vintages": [ "NYC VITAL STATISTICS, 2020" ],
+        "years": [ "_2020" ]
       },
       "citywide": {
-        "files": [
-          "quality_of_life_citywide",
-          "quality_of_life_citywide",
-          "quality_of_life_citywide",
-          "qol_change_citywide"
-        ],
-        "vintages": [
-          "NYC VITAL STATISTICS, 2000",
-          "NYC VITAL STATISTICS, 2010",
-          "NYC VITAL STATISTICS, 2020",
-          "CHANGE, 2010 to 2020"
-        ], 
-        "years": ["_2000", "_2010", "_2020"]
+        "files": [ "quality_of_life_citywide" ],
+        "vintages": [ "NYC VITAL STATISTICS, 2020" ],
+        "years": [ "_2020" ]
       }
     },
     "subgroups": {
-      "tot": { "id": "5.05.T" },
-      "anh": { "id": "5.05.A" },
-      "bnh": { "id": "5.05.B" },
-      "wnh": { "id": "5.05.W" },
-      "hsp": { "id": "5.05.H" }
+      "tot": {
+        "id": "5.05.T"
+       },
+      "anh": {
+        "id": "5.05.A"
+       },
+      "bnh": {
+        "id": "5.05.B"
+       },
+      "wnh": {
+        "id": "5.05.W"
+       },
+      "hsp": {
+        "id": "5.05.H"
+       }
     }
   },
   {
     "base": {
-      "title": "Health Outcomes - COVID-19 Deaths (Rate Per 100,000 Residents)",
-      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2022"],
+      "title": "Health Outcomes - COVID-19 Deaths (Rate Per 100,000 Residents) *",
+      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE"],
       "subcategory": "health_",
       "variables": ["covid19deaths"],
       "measures": ["RATE"],
       "variances": ["NONE"],
-      "scales": [1]
+      "scales": [1],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
@@ -313,69 +296,57 @@
       }
     },
     "subgroups": {
-      "tot": { "labels": ["COVID-19 deaths between 2020 and February 2022"], "id": "5.06.T" },
+      "tot": {
+        "labels": [ "COVID-19 deaths" ],
+        "id": "5.06.T"
+      },
       "anh": {
-        "labels": [
-          "Asian non-Hispanic COVID-19 deaths between 2020 and February 2022"
-        ],
+        "labels": [ "Asian non-Hispanic COVID-19 deaths" ],
         "id": "5.06.A"
       },
       "bnh": {
-        "labels": [
-          "Black non-Hispanic COVID-19 deaths between 2020 and February 2022"
-        ],
+        "labels": [ "Black non-Hispanic COVID-19 deaths" ],
         "id": "5.06.B"
       },
       "wnh": {
-        "labels": [
-          "White non-Hispanic COVID-19 deaths between 2020 and February 2022"
-        ],
+        "labels": [ "White non-Hispanic COVID-19 deaths" ],
         "id": "5.06.W"
       },
       "hsp": {
-        "labels": ["Hispanic COVID-19 deaths between 2020 and February 2022"],
+        "labels": [ "Hispanic COVID-19 deaths" ],
         "id": "5.06.H"
       }
     }
   },
   {
     "base": {
-      "title": "Health Outcomes - Heat Vulnerability Index",
+      "title": "Health Outcomes - Heat Vulnerability Index *",
       "id": "5.07.T",
       "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"],
       "labels": ["Heat Vulnerability Index (1=Low)"],
       "subcategory": "health_",
       "variables": ["heat"],
       "measures": ["INDEX"],
-      "variances": ["NONE"]
+      "variances": ["NONE"],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
         "files": ["quality_of_life_puma"]
       },
       "borough": {
-        "files": [""],
-        "placeholder": "Data are not available by Borough and Citywide"
+        "files": [""]
       },
       "citywide": {
-        "files": [""],
-        "placeholder": "Data are not available by Borough and Citywide"
+        "files": [""]
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "bnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "wnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "hsp": {
-        "placeholder": "Data are not available by race and ethnicity"
-      }
+      "tot": { },
+      "anh": { },
+      "bnh": { },
+      "wnh": { },
+      "hsp": { }
     }
   },
   {
@@ -404,7 +375,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -446,7 +417,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -465,7 +436,7 @@
     "base": {
       "title": "Commute",
       "subcategory": "access_",
-      "years": ["_0812", "_1721"],
+      "years": ["_0812", "_1923"],
       "has_change": true,
       "labels": ["Drove or carpooled to work"],
       "is_survey": true,
@@ -475,20 +446,32 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "variables": ["carcommute"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
     },
     "geographies": {
       "district": {
-        "files": ["quality_of_life_puma", "quality_of_life_puma",  "qol_change_puma"]
+        "files": [
+          "quality_of_life_puma",
+          "quality_of_life_puma",
+          "qol_change_puma"
+        ]
       },
       "borough": {
-        "files": ["quality_of_life_borough", "quality_of_life_borough",  "qol_change_borough"]
+        "files": [
+          "quality_of_life_borough",
+          "quality_of_life_borough",
+          "qol_change_borough"
+        ]
       },
       "citywide": {
-        "files": ["quality_of_life_citywide", "quality_of_life_citywide",  "qol_change_citywide"]
+        "files": [
+          "quality_of_life_citywide",
+          "quality_of_life_citywide",
+          "qol_change_citywide"
+        ]
       }
     },
     "subgroups": {
@@ -500,23 +483,27 @@
         "denominator": {
           "label": "Asian non-Hispanic workers 16 years and over"
         },
-        "id": "5.10.A"
+        "id": "5.10.A",
+        "placeholder": "N/A"
       },
       "bnh": {
         "denominator": {
           "label": "Black non-Hispanic workers 16 years and over"
         },
-        "id": "5.10.B"
+        "id": "5.10.B",
+        "placeholder": "N/A"
       },
       "wnh": {
         "denominator": {
           "label": "White non-Hispanic workers 16 years and over"
         },
-        "id": "5.10.W"
+        "id": "5.10.W",
+        "placeholder": "N/A"
       },
       "hsp": {
         "denominator": { "label": "Hispanic workers 16 years and over" },
-        "id": "5.10.H"
+        "id": "5.10.H",
+        "placeholder": "N/A"
       }
     }
   },
@@ -532,7 +519,9 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2017-2021"],
+      "vintages": [
+        "ACS PUMS, 2019-2023"
+      ],
       "variables": ["computer", "broadband"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -603,11 +592,25 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": { "id": "5.12.A" },
-      "bnh": { "id": "5.12.B" },
-      "wnh": { "id": "5.12.W" },
-      "hsp": { "id": "5.12.H" }
+      "tot": {
+        "placeholder": "N/A"
+      },
+      "anh": {
+        "id": "5.12.A",
+        "placeholder": "N/A"
+      },
+      "bnh": {
+        "id": "5.12.B",
+        "placeholder": "N/A"
+      },
+      "wnh": {
+        "id": "5.12.W",
+        "placeholder": "N/A"
+      },
+      "hsp": {
+        "id": "5.12.H",
+        "placeholder": "N/A"
+      }
     }
   },
   {
@@ -636,11 +639,22 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": { "id": "5.13.A" },
-      "bnh": { "id": "5.13.B" },
-      "wnh": { "id": "5.13.W" },
-      "hsp": { "id": "5.13.H" }
+      "tot": { },
+      "anh": {
+        "id": "5.13.A"
+      },
+      "bnh": {
+        "id": "5.13.B",
+        "placeholder": "N/A"
+      },
+      "wnh": {
+        "id": "5.13.W",
+        "placeholder": "N/A"
+      },
+      "hsp": {
+        "id": "5.13.H",
+        "placeholder": "N/A"
+      }
     }
   },
   {
@@ -676,7 +690,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
@@ -693,9 +707,10 @@
   },
   {
     "base": {
-      "title": "Public Safety - Traffic Injuries (Rate Per 100 Street Miles)",
+      "title": "Public Safety - Traffic Injuries (Rate Per 100 Street Miles) *",
       "id": "5.15.T",
       "has_change": true,
+      "placeholder": "N/A",
       "denominator": {
         "label": "Total injuries",
         "subcategory": "safety_",
@@ -736,38 +751,30 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "bnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "wnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "hsp": {
-        "placeholder": "Data are not available by race and ethnicity"
-      }
+      "tot": {  },
+      "anh": { },
+      "bnh": { },
+      "wnh": { },
+      "hsp": { }
     }
   },
   {
     "base": {
-      "title": "Public Safety - Traffic Fatalities (Rate Per 100 Street Miles)",
+      "title": "Public Safety - Traffic Fatalities (Rate Per 100 Street Miles) *",
       "id": "5.16.T",
       "has_change": true,
       "subcategory": "safety_",
       "labels": ["Total fatalities"],
       "vintages": [
-        "NYC VISION ZERO VIEW, 2010-2014",
         "NYC VISION ZERO VIEW, 2016-2020",
         "CHANGE, 2010-2014 to 2016-2020"
       ],
-      "years": ["_1014", "_1620"],
+      "years": ["_1620"],
       "variables": ["trafficfatalities"],
       "measures": ["RATE"],
       "variances": ["NONE"],
-      "scales": [1]
+      "scales": [1],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
@@ -781,24 +788,16 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "bnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "wnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "hsp": {
-        "placeholder": "Data are not available by race and ethnicity"
-      }
+      "tot": { },
+      "anh": { },
+      "bnh": { },
+      "wnh": { },
+      "hsp": { }
     }
   },
   {
     "base": {
-      "title": "Public Safety - Pedestrian Injury Hospitalizations (Rate Per 100,000 Residents)",
+      "title": "Public Safety - Pedestrian Injury Hospitalizations (Rate Per 100,000 Residents) *",
       "id": "5.17.T",
       "subcategory": "safety_",
       "labels": ["Total pedestrian hospitalizations"],
@@ -806,7 +805,8 @@
       "variables": ["pedhospital"],
       "measures": ["RATE"],
       "variances": ["NONE"],
-      "scales": [1]
+      "scales": [1],
+      "placeholder": "N/A"
     },
     "geographies": {
       "district": {
@@ -820,24 +820,16 @@
       }
     },
     "subgroups": {
-      "tot": {},
-      "anh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "bnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "wnh": {
-        "placeholder": "Data are not available by race and ethnicity"
-      },
-      "hsp": {
-        "placeholder": "Data are not available by race and ethnicity"
-      }
+      "tot": { },
+      "anh": { },
+      "bnh": { },
+      "wnh": { },
+      "hsp": { }
     }
   },
   {
     "base": {
-      "title": "Public Safety - Non-Fatal Assault Hospitalizations (Rate Per 100,000 Residents)",
+      "title": "Public Safety - Non-fatal, Violence-Related Hospitalizations (Rate Per 100,000 Residents)",
       "id": "5.18.T",
       "subcategory": "safety_",
       "labels": ["Total non-fatal assault hospitalizations"],
@@ -859,7 +851,7 @@
       }
     },
     "subgroups": {
-      "tot": {},
+      "tot": { },
       "anh": {
         "placeholder": "Data are not available by race and ethnicity"
       },
