@@ -5,7 +5,7 @@
       "id": "5.01.T",
       "is_survey": true,
       "headers": [[["percent", 3]],[["estimate", 1],["moe (-)", 1],["moe (+)", 1]]],
-      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2019-2020"],
+      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"],
       "labels": ["Good, Very Good, or Excellent health"],
       "subcategory": "health_",
       "variables": ["selfreportedhealth"],
@@ -52,7 +52,7 @@
       "id": "5.02.T",
       "is_survey": true,
       "headers": [[["percent", 3]],[["estimate", 1],["moe (-)", 1],["moe (+)", 1]]],
-      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2019-2020"],
+      "vintages": ["NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"],
       "labels": ["Diagnosed with diabetes"],
       "subcategory": "health_",
       "variables": ["diabetes"],
@@ -353,7 +353,7 @@
     "base": {
       "title": "Access to Jobs",
       "id": "5.08.T",
-      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2021"],
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2023"],
       "headers": [[["number", 1]], [["estimate", 1]]],
       "labels": ["Total jobs within 30 minutes"],
       "subcategory": "access_",
@@ -394,7 +394,7 @@
     "base": {
       "title": "Access to Transit",
       "id": "5.09.T",
-      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2021"],
+      "vintages": ["NYC DEPARTMENT OF CITY PLANNING, 2023"],
       "headers": [[["number", 1]], [["estimate", 1]]],
       "labels": [
         "Residents living within 1/4 mile of Select Bus Station or subway station",
@@ -446,7 +446,11 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
+      "vintages": [
+        "ACS PUMS, 2008-2012",
+        "ACS PUMS, 2019-2023",
+        "CHANGE, 2008-2012 to 2019-2023"
+      ],
       "variables": ["carcommute"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -574,7 +578,7 @@
       "id": "5.12.T",
       "subcategory": "edu_",
       "labels": ["English Language Arts proficient", "Math proficient"],
-      "vintages": ["NYC DEPARTMENT OF EDUCATION, 2018"],
+      "vintages": ["NYC DEPARTMENT OF EDUCATION, 2024"],
       "headers": [[["percent", 1]]],
       "variables": ["ela", "math"],
       "measures": ["PERCENT"],
@@ -621,7 +625,7 @@
       "labels": [
         "Students graduating high school by 2018 (local or Regents diploma)"
       ],
-      "vintages": ["NYC DEPARTMENT OF EDUCATION, 2018"],
+      "vintages": ["NYC DEPARTMENT OF EDUCATION, 2024"],
       "headers": [[["percent", 1]]],
       "variables": ["graduation"],
       "measures": ["PERCENT"],
@@ -663,7 +667,7 @@
       "id": "5.14.T",
       "subcategory": "access_",
       "labels": ["Residents within walking distance of a park"],
-      "vintages": ["NYC DEPARTMENT OF PARKS AND RECREATION, 2021"],
+      "vintages": ["NYC DEPARTMENT OF PARKS AND RECREATION, 2023"],
       "headers": [
         [
           ["number", 1],
@@ -833,7 +837,7 @@
       "id": "5.18.T",
       "subcategory": "safety_",
       "labels": ["Total non-fatal assault hospitalizations"],
-      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"],
+      "vintages": ["NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"],
       "variables": ["assaulthospital"],
       "measures": ["RATE"],
       "variances": ["NONE"],

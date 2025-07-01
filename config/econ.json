@@ -7,8 +7,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2017-2021",
-        "CHANGE, 2008-2012 to 2017-2021"
+        "ACS PUMS, 2019-2023",
+        "CHANGE, 2008-2012 to 2019-2023"
       ],
       "denominator": {
         "subcategory": "age_",
@@ -85,7 +85,7 @@
     "base": {
       "title": "Median Household Income (2023 Dollars)",
       "is_survey": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021",  "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023",  "CHANGE, 2008-2012 to 2019-2023"],
       "has_change": true,
       "denominator": {
         "subcategory": "",
@@ -151,7 +151,7 @@
     "base": {
       "title": "Households By AMI* Band",
       "is_survey": true,
-      "vintages": ["ACS PUMS, 2017-2021"],
+      "vintages": ["ACS PUMS, 2019-2023"],
       "denominator": {
         "subcategory": "",
         "variable": "households",
@@ -216,7 +216,7 @@
       "title": "Labor Force",
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "denominator": {
         "subcategory": "",
         "variable": "age_p16t64",
@@ -274,7 +274,7 @@
       "title": "Occupation",
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -344,7 +344,7 @@
       "id": null,
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "occupation_",
@@ -443,7 +443,7 @@
       "title": "Industry",
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "denominator": {
         "subcategory": "",
         "variable": "cvem",
@@ -535,7 +535,7 @@
       "id": null,
       "is_survey": true,
       "has_change": true,
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
       "subcategory": "industry_",
