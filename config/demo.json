@@ -96,8 +96,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012 ",
-        "ACS PUMS, 2017-2021",
-        "CHANGE, 2008-2012 to 2017-2021"
+        "ACS PUMS, 2019-2023",
+        "CHANGE, 2008-2012 to 2019-2023"
       ],
       "variables": ["popu16", "p16t64", "p65pl", "median"],
       "measures": [
@@ -182,8 +182,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012 ",
-        "ACS PUMS, 2017-2021",
-        "CHANGE, 2008-2012 to 2017-2021"
+        "ACS PUMS, 2019-2023",
+        "CHANGE, 2008-2012 to 2019-2023"
       ],
       "variables": ["fb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -261,8 +261,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2017-2021",
-        "CHANGE, 2008-2012 to 2017-2021"
+        "ACS PUMS, 2019-2023",
+        "CHANGE, 2008-2012 to 2019-2023"
       ],
       "variables": ["lep"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],

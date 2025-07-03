@@ -16,8 +16,8 @@
       "vintages": [
         "CENSUS PUMS, 2000",
         "ACS PUMS, 2008-2012",
-        "ACS PUMS, 2017-2021",
-        "CHANGE, 2008-2012 to 2017-2021"
+        "ACS PUMS, 2019-2023",
+        "CHANGE, 2008-2012 to 2019-2023"
       ],
       "variables": ["occupied_owner", "occupied_renter"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
@@ -69,7 +69,7 @@
       },
       "years": ["_0812", "_1923"],
       "labels": ["Median Home Value (Dollars)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "variables": ["homevalue_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -121,7 +121,7 @@
       },
       "years": ["_0812", "_1923"],
       "labels": ["Median gross rent (dollars)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "variables": ["rent_median"],
       "measures": ["MEDIAN", "MEDIAN", "MEDIAN"],
       "variances": ["NONE", "MOE", "CV"],
@@ -175,7 +175,7 @@
       },
       "years": ["_0812", "_1923"],
       "labels": ["30.0 percent or more (rent-burdened)","50.0 percent or more (severely rent-burdened)"],
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "variables": ["rb","erb"],
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
@@ -293,7 +293,7 @@
         "Middle-income (121-165% AMI)",
         "High-income (166% or higher AMI)"
       ],
-      "vintages": ["ACS PUMS, 2017-2021"],
+      "vintages": ["ACS PUMS, 2019-2023"],
       "subcategory": "units_",
       "variables": [
         "affordable_eli",
@@ -359,7 +359,7 @@
         ]
       ],
       "vintages": ["NYC HOUSING AND VACANCY SURVEY, 2017"],
-      "labels": ["Units with 3 or more maintenance deficiencies"],
+      "labels": ["Housing with 3 or more housing problems"],
       "subcategory": "units_",
       "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
       "variances": ["NONE", "MOE", "CV", "NONE", "MOE"],
@@ -403,7 +403,7 @@
         "measures": ["COUNT", "COUNT", "COUNT", "PERCENT", "PERCENT"],
         "variances": ["NONE", "MOE", "CV", "NONE", "MOE"]
       },
-      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2017-2021", "CHANGE, 2008-2012 to 2017-2021"],
+      "vintages": ["ACS PUMS, 2008-2012", "ACS PUMS, 2019-2023", "CHANGE, 2008-2012 to 2019-2023"],
       "years": ["_0812","_1923"],
       "labels": ["Overcrowded units (> 1 person per room)"],
       "subcategory": "units_",

@@ -45,8 +45,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -100,8 +100,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -160,8 +160,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -227,8 +227,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -369,7 +369,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -459,7 +459,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -511,8 +511,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -785,8 +785,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -840,8 +840,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -900,8 +900,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -967,8 +967,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -1111,7 +1111,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -1202,7 +1202,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -1254,8 +1254,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -1561,8 +1561,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -1616,8 +1616,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -1676,8 +1676,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -1743,8 +1743,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -1887,7 +1887,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -1978,7 +1978,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -2030,8 +2030,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -2337,8 +2337,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -2392,8 +2392,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -2452,8 +2452,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -2519,8 +2519,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -2663,7 +2663,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -2754,7 +2754,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -2806,8 +2806,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -3113,8 +3113,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -3168,8 +3168,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -3228,8 +3228,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -3295,8 +3295,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -3439,7 +3439,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -3530,7 +3530,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -3582,8 +3582,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -3936,8 +3936,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -4059,8 +4059,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -4116,8 +4116,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -4222,8 +4222,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -4345,8 +4345,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -4402,8 +4402,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -4508,8 +4508,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -4631,8 +4631,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -4688,8 +4688,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -4794,8 +4794,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -4917,8 +4917,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -4974,8 +4974,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -5080,8 +5080,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -5203,8 +5203,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -5260,8 +5260,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -5321,8 +5321,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -5379,8 +5379,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -5449,7 +5449,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -5515,8 +5515,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -5572,8 +5572,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -5618,8 +5618,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -5715,8 +5715,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -5777,8 +5777,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -5925,8 +5925,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -5983,8 +5983,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -6053,7 +6053,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6119,8 +6119,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6176,8 +6176,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6222,8 +6222,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -6319,8 +6319,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6381,8 +6381,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -6529,8 +6529,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6587,8 +6587,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -6657,7 +6657,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6723,8 +6723,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6780,8 +6780,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6826,8 +6826,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -6923,8 +6923,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -6985,8 +6985,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -7133,8 +7133,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7191,8 +7191,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -7261,7 +7261,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7327,8 +7327,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7384,8 +7384,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7430,8 +7430,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -7527,8 +7527,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7589,8 +7589,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -7737,8 +7737,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7795,8 +7795,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -7865,7 +7865,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7931,8 +7931,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -7988,8 +7988,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -8034,8 +8034,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -8131,8 +8131,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -8193,8 +8193,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -8374,7 +8374,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Mar 2024"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014 - 2025"
           ],
           "headers": [
             [
@@ -8507,7 +8507,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -8562,7 +8562,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -8737,7 +8737,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -8774,7 +8774,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -8932,7 +8932,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -8964,7 +8964,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -8995,7 +8995,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -9157,7 +9157,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -9205,7 +9205,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -9261,7 +9261,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -9437,7 +9437,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -9475,7 +9475,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -9634,7 +9634,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -9666,7 +9666,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -9698,7 +9698,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -9861,7 +9861,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -9909,7 +9909,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -9965,7 +9965,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -10141,7 +10141,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -10179,7 +10179,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -10338,7 +10338,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -10371,7 +10371,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -10403,7 +10403,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -10566,7 +10566,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -10614,7 +10614,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -10670,7 +10670,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -10846,7 +10846,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -10884,7 +10884,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -11043,7 +11043,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -11076,7 +11076,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -11108,7 +11108,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -11271,7 +11271,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -11319,7 +11319,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -11375,7 +11375,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -11551,7 +11551,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -11589,7 +11589,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -11748,7 +11748,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -11781,7 +11781,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -11813,7 +11813,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -11976,7 +11976,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -12040,8 +12040,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -12095,8 +12095,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -12155,8 +12155,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -12222,8 +12222,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -12364,7 +12364,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -12454,7 +12454,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -12506,8 +12506,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -12780,8 +12780,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -12835,8 +12835,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -12895,8 +12895,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -12962,8 +12962,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -13106,7 +13106,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -13197,7 +13197,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -13249,8 +13249,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -13555,8 +13555,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -13610,8 +13610,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -13670,8 +13670,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -13737,8 +13737,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -13881,7 +13881,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -13972,7 +13972,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -14024,8 +14024,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -14330,8 +14330,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -14385,8 +14385,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -14445,8 +14445,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -14512,8 +14512,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -14656,7 +14656,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -14747,7 +14747,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -14799,8 +14799,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -15105,8 +15105,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -15160,8 +15160,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -15220,8 +15220,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -15287,8 +15287,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -15431,7 +15431,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -15522,7 +15522,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -15574,8 +15574,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -15927,8 +15927,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -16050,8 +16050,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -16107,8 +16107,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -16213,8 +16213,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -16336,8 +16336,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -16393,8 +16393,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -16499,8 +16499,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -16622,8 +16622,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -16679,8 +16679,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -16785,8 +16785,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -16908,8 +16908,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -16965,8 +16965,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -17071,8 +17071,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -17194,8 +17194,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -17251,8 +17251,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -17312,8 +17312,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -17370,8 +17370,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -17440,7 +17440,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -17506,8 +17506,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -17563,8 +17563,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -17609,8 +17609,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -17706,8 +17706,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -17768,8 +17768,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -17916,8 +17916,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -17974,8 +17974,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -18044,7 +18044,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18110,8 +18110,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18167,8 +18167,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18213,8 +18213,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -18310,8 +18310,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18372,8 +18372,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -18520,8 +18520,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18578,8 +18578,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -18648,7 +18648,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18714,8 +18714,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18771,8 +18771,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18817,8 +18817,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -18914,8 +18914,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -18976,8 +18976,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -19124,8 +19124,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19182,8 +19182,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -19252,7 +19252,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19318,8 +19318,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19375,8 +19375,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19421,8 +19421,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -19518,8 +19518,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19580,8 +19580,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -19728,8 +19728,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19786,8 +19786,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -19856,7 +19856,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19922,8 +19922,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -19979,8 +19979,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -20025,8 +20025,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -20122,8 +20122,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -20184,8 +20184,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -20365,7 +20365,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Mar 2024"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014 - 2025"
           ],
           "headers": [
             [
@@ -20498,7 +20498,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -20553,7 +20553,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -20741,7 +20741,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -20778,7 +20778,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -20936,7 +20936,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -20968,7 +20968,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -20999,7 +20999,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -21161,7 +21161,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -21209,7 +21209,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -21265,7 +21265,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -21453,7 +21453,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -21491,7 +21491,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -21650,7 +21650,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -21682,7 +21682,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -21714,7 +21714,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -21877,7 +21877,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -21925,7 +21925,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -21981,7 +21981,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -22169,7 +22169,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -22207,7 +22207,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -22366,7 +22366,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -22399,7 +22399,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -22431,7 +22431,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -22594,7 +22594,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -22642,7 +22642,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -22698,7 +22698,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -22886,7 +22886,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -22924,7 +22924,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -23083,7 +23083,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -23116,7 +23116,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -23148,7 +23148,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -23311,7 +23311,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -23359,7 +23359,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -23415,7 +23415,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -23603,7 +23603,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -23641,7 +23641,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -23800,7 +23800,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -23833,7 +23833,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -23865,7 +23865,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -24028,7 +24028,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -24092,8 +24092,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -24147,8 +24147,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -24207,8 +24207,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -24274,8 +24274,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -24416,7 +24416,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -24506,7 +24506,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -24558,8 +24558,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -24832,8 +24832,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -24887,8 +24887,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -24947,8 +24947,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -25014,8 +25014,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -25158,7 +25158,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -25249,7 +25249,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -25301,8 +25301,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -25607,8 +25607,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -25662,8 +25662,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -25722,8 +25722,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -25789,8 +25789,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -25933,7 +25933,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -26024,7 +26024,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -26076,8 +26076,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -26382,8 +26382,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -26437,8 +26437,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -26497,8 +26497,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -26564,8 +26564,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -26708,7 +26708,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -26799,7 +26799,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -26851,8 +26851,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -27157,8 +27157,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "occupied_owner",
@@ -27212,8 +27212,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "homevalue_median"
@@ -27272,8 +27272,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rent_median"
@@ -27339,8 +27339,8 @@
           ],
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "rb",
@@ -27483,7 +27483,7 @@
             "High-income (166% or higher AMI)"
           ],
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -27574,7 +27574,7 @@
             "NYC HOUSING AND VACANCY SURVEY, 2017"
           ],
           "labels": [
-            "Units with 3 or more maintenance deficiencies"
+            "Housing with 3 or more housing problems"
           ],
           "subcategory": "units_",
           "measures": [
@@ -27626,8 +27626,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "years": [
             "_0812",
@@ -27979,8 +27979,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -28102,8 +28102,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -28159,8 +28159,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -28265,8 +28265,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -28388,8 +28388,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -28445,8 +28445,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -28551,8 +28551,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -28674,8 +28674,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -28731,8 +28731,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -28837,8 +28837,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -28960,8 +28960,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -29017,8 +29017,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -29123,8 +29123,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "popu16",
@@ -29246,8 +29246,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012 ",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "fb"
@@ -29303,8 +29303,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "variables": [
             "lep"
@@ -29364,8 +29364,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -29422,8 +29422,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -29492,7 +29492,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -29558,8 +29558,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -29615,8 +29615,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -29661,8 +29661,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -29758,8 +29758,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -29820,8 +29820,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -29968,8 +29968,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30026,8 +30026,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -30096,7 +30096,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30162,8 +30162,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30219,8 +30219,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30265,8 +30265,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -30362,8 +30362,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30424,8 +30424,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -30572,8 +30572,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30630,8 +30630,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -30700,7 +30700,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30766,8 +30766,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30823,8 +30823,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -30869,8 +30869,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -30966,8 +30966,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31028,8 +31028,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -31176,8 +31176,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31234,8 +31234,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -31304,7 +31304,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31370,8 +31370,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31427,8 +31427,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31473,8 +31473,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -31570,8 +31570,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31632,8 +31632,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -31780,8 +31780,8 @@
           "vintages": [
             "CENSUS PUMS, 2000",
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31838,8 +31838,8 @@
           "is_survey": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "has_change": true,
           "measures": [
@@ -31908,7 +31908,7 @@
           "title": "Households By AMI* Band",
           "is_survey": true,
           "vintages": [
-            "ACS PUMS, 2017-2021"
+            "ACS PUMS, 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -31974,8 +31974,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -32031,8 +32031,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -32077,8 +32077,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -32174,8 +32174,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "COUNT",
@@ -32236,8 +32236,8 @@
           "has_change": true,
           "vintages": [
             "ACS PUMS, 2008-2012",
-            "ACS PUMS, 2017-2021",
-            "CHANGE, 2008-2012 to 2017-2021"
+            "ACS PUMS, 2019-2023",
+            "CHANGE, 2008-2012 to 2019-2023"
           ],
           "measures": [
             "MEDIAN",
@@ -32417,7 +32417,7 @@
             ]
           },
           "vintages": [
-            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014-Mar 2024"
+            "NYC HOUSING PRESERVATION AND DEVELOPMENT, 2014 - 2025"
           ],
           "headers": [
             [
@@ -32550,7 +32550,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -32605,7 +32605,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -32793,7 +32793,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -32830,7 +32830,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -32988,7 +32988,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -33020,7 +33020,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -33051,7 +33051,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -33213,7 +33213,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -33261,7 +33261,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -33317,7 +33317,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -33505,7 +33505,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -33543,7 +33543,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -33702,7 +33702,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -33734,7 +33734,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -33766,7 +33766,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -33929,7 +33929,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -33977,7 +33977,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -34033,7 +34033,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -34221,7 +34221,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -34259,7 +34259,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -34418,7 +34418,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -34451,7 +34451,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -34483,7 +34483,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -34646,7 +34646,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -34694,7 +34694,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -34750,7 +34750,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -34938,7 +34938,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -34976,7 +34976,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -35135,7 +35135,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -35168,7 +35168,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -35200,7 +35200,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -35363,7 +35363,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
@@ -35411,7 +35411,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Good, Very Good, or Excellent health"
@@ -35467,7 +35467,7 @@
             ]
           ],
           "vintages": [
-            "NYC COMMUNITY HEALTH SURVEY, 2019-2020"
+            "NYC COMMUNITY HEALTH SURVEY, 2021 - 2022"
           ],
           "labels": [
             "Diagnosed with diabetes"
@@ -35655,7 +35655,7 @@
           "title": "Access to Jobs",
           "id": "5.08.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -35693,7 +35693,7 @@
           "title": "Access to Transit",
           "id": "5.09.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING, 2021"
+            "NYC DEPARTMENT OF CITY PLANNING, 2023"
           ],
           "headers": [
             [
@@ -35852,7 +35852,7 @@
             "Math proficient"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -35885,7 +35885,7 @@
             "Students graduating high school by 2018 (local or Regents diploma)"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF EDUCATION, 2018"
+            "NYC DEPARTMENT OF EDUCATION, 2024"
           ],
           "headers": [
             [
@@ -35917,7 +35917,7 @@
             "Residents within walking distance of a park"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF PARKS AND RECREATION, 2021"
+            "NYC DEPARTMENT OF PARKS AND RECREATION, 2023"
           ],
           "headers": [
             [
@@ -36080,7 +36080,7 @@
             "Total non-fatal assault hospitalizations"
           ],
           "vintages": [
-            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2019"
+            "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
           ],
           "variables": [
             "assaulthospital"
