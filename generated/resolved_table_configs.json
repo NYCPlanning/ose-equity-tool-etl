@@ -253,7 +253,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -313,7 +313,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -399,7 +399,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -456,7 +456,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -628,7 +628,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -672,7 +672,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -699,7 +699,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -725,7 +725,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -994,7 +994,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -1054,7 +1054,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -1142,7 +1142,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -1199,7 +1199,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -1374,7 +1374,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -1418,7 +1418,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -1461,7 +1461,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -1501,7 +1501,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -1770,7 +1770,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -1830,7 +1830,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -1918,7 +1918,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -1975,7 +1975,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -2150,7 +2150,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -2194,7 +2194,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -2237,7 +2237,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -2277,7 +2277,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -2546,7 +2546,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -2606,7 +2606,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -2694,7 +2694,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -2751,7 +2751,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -2926,7 +2926,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -2970,7 +2970,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -3013,7 +3013,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -3053,7 +3053,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -3322,7 +3322,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -3382,7 +3382,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -3470,7 +3470,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -3527,7 +3527,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -3702,7 +3702,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -3746,7 +3746,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -3789,7 +3789,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -3829,7 +3829,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -8317,7 +8317,7 @@
           "title": "Change in Housing Units 2010 - 2024",
           "id": "4.01.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"
+            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2024 Q4"
           ],
           "denominator": {
             "label": "Net change",
@@ -8920,7 +8920,6 @@
           ]
         },
         {
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -8957,7 +8956,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "id": "5.13.T",
           "subcategory": "edu_",
           "labels": [
@@ -9154,7 +9153,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -9623,7 +9622,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -9660,7 +9658,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -9858,7 +9856,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -10327,7 +10325,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -10365,7 +10362,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -10563,7 +10560,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -11032,7 +11029,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11070,7 +11066,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -11268,7 +11264,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -11737,7 +11733,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_puma"
           ],
@@ -11775,7 +11770,7 @@
           "files": [
             "quality_of_life_puma"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -11973,7 +11968,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -12248,7 +12243,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -12308,7 +12303,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -12394,7 +12389,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -12451,7 +12446,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -12623,7 +12618,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -12667,7 +12662,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -12695,7 +12690,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -12720,7 +12715,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -12989,7 +12984,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -13049,7 +13044,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -13137,7 +13132,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -13194,7 +13189,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -13369,7 +13364,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -13413,7 +13408,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -13456,7 +13451,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -13495,7 +13490,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -13764,7 +13759,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -13824,7 +13819,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -13912,7 +13907,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -13969,7 +13964,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -14144,7 +14139,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -14188,7 +14183,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -14231,7 +14226,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -14270,7 +14265,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -14539,7 +14534,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -14599,7 +14594,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -14687,7 +14682,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -14744,7 +14739,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -14919,7 +14914,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -14963,7 +14958,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -15006,7 +15001,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -15045,7 +15040,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -15314,7 +15309,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -15374,7 +15369,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -15462,7 +15457,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -15519,7 +15514,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -15694,7 +15689,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -15738,7 +15733,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -15781,7 +15776,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -15820,7 +15815,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -20308,7 +20303,7 @@
           "title": "Change in Housing Units 2010 - 2024",
           "id": "4.01.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"
+            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2024 Q4"
           ],
           "denominator": {
             "label": "Net change",
@@ -20924,7 +20919,6 @@
           ]
         },
         {
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -20961,7 +20955,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "id": "5.13.T",
           "subcategory": "edu_",
           "labels": [
@@ -21158,7 +21152,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -21639,7 +21633,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -21676,7 +21669,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -21874,7 +21867,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -22355,7 +22348,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -22393,7 +22385,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -22591,7 +22583,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -23072,7 +23064,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23110,7 +23101,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -23308,7 +23299,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -23789,7 +23780,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_borough"
           ],
@@ -23827,7 +23817,7 @@
           "files": [
             "quality_of_life_borough"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -24025,7 +24015,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -24300,7 +24290,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -24360,7 +24350,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -24446,7 +24436,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -24503,7 +24493,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -24675,7 +24665,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -24719,7 +24709,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -24747,7 +24737,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -24772,7 +24762,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -25041,7 +25031,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -25101,7 +25091,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -25189,7 +25179,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -25246,7 +25236,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -25421,7 +25411,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -25465,7 +25455,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -25508,7 +25498,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -25547,7 +25537,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -25816,7 +25806,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -25876,7 +25866,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -25964,7 +25954,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -26021,7 +26011,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -26196,7 +26186,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -26240,7 +26230,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -26283,7 +26273,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -26322,7 +26312,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -26591,7 +26581,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -26651,7 +26641,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -26739,7 +26729,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -26796,7 +26786,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -26971,7 +26961,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -27015,7 +27005,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -27058,7 +27048,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -27097,7 +27087,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -27366,7 +27356,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing",
+          "title": "Rent Stabilized Housing *",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -27426,7 +27416,7 @@
             "Rent stabilized units"
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "subcategory": "units_",
           "variables": [
@@ -27514,7 +27504,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems",
+          "title": "Housing Problems *",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -27571,7 +27561,7 @@
             ]
           ],
           "vintages": [
-            "NYC HOUSING AND VACANCY SURVEY, 2017"
+            "NYC HOUSING AND VACANCY SURVEY, 2023"
           ],
           "labels": [
             "Housing with 3 or more housing problems"
@@ -27746,7 +27736,7 @@
           "id": "3.11.T",
           "subcategory": "units_",
           "vintages": [
-            "NYC Housing Authority, 2023; NYC Housing Preservation and Development, 2024"
+            "NYC Housing Authority, 2024; NYC Housing Preservation and Development, 2025"
           ],
           "labels": [
             "NYCHA units",
@@ -27790,7 +27780,7 @@
           ],
           "title": "Population In NYC Housing Authority Housing",
           "vintages": [
-            "NYC HOUSING AUTHORITY, 2023"
+            "NYC HOUSING AUTHORITY, 2024"
           ],
           "labels": [
             "NYC Housing Authority tenants"
@@ -27833,7 +27823,7 @@
           "title": "Housing Lottery Applications",
           "id": "3.13.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -27872,7 +27862,7 @@
           "title": "Housing Lottery Leases",
           "id": "3.14.T",
           "vintages": [
-            "NYC HOUSING CONNECT 2014-2020"
+            "NYC HOUSING CONNECT 2022-2024"
           ],
           "subcategory": "housing_lottery_",
           "variables": [
@@ -32360,7 +32350,7 @@
           "title": "Change in Housing Units 2010 - 2024",
           "id": "4.01.T",
           "vintages": [
-            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2023 Q4"
+            "NYC DEPARTMENT OF CITY PLANNING HOUSING DATABASE, 2024 Q4"
           ],
           "denominator": {
             "label": "Net change",
@@ -32976,7 +32966,6 @@
           ]
         },
         {
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33013,7 +33002,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "id": "5.13.T",
           "subcategory": "edu_",
           "labels": [
@@ -33210,7 +33199,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -33691,7 +33680,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -33728,7 +33716,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -33926,7 +33914,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -34407,7 +34395,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -34445,7 +34432,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -34643,7 +34630,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -35124,7 +35111,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35162,7 +35148,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -35360,7 +35346,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
@@ -35841,7 +35827,6 @@
         },
         {
           "id": "5.12.T",
-          "placeholder": "N/A",
           "files": [
             "quality_of_life_citywide"
           ],
@@ -35879,7 +35864,7 @@
           "files": [
             "quality_of_life_citywide"
           ],
-          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2014)",
+          "title": "Educational Outcomes - High School Graduation Rate (Students Entering 9th Grade In 2020)",
           "subcategory": "edu_",
           "labels": [
             "Students graduating high school by 2018 (local or Regents diploma)"
@@ -36077,7 +36062,7 @@
           "id": "5.18.T",
           "subcategory": "safety_",
           "labels": [
-            "Total non-fatal assault hospitalizations"
+            "Total non-fatal, violence-related hospitalizations"
           ],
           "vintages": [
             "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE, 2021"
