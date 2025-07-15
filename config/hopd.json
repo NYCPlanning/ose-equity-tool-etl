@@ -68,7 +68,7 @@
         "High-income (166% or higher AMI)"
       ],
       "subcategory": "units_",
-      "variables": ["eli", "vli", "li", "mi", "midi", "hi"],
+      "variables": ["eli", "vli", "li", "mi", "midi", "oi"],
       "measures": ["COUNT", "COUNT"],
       "variances": ["NONE", "NONE"],
       "suffixes": ["_newconstruction", "_preservation"]
