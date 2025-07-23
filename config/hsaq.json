@@ -216,7 +216,7 @@
   },
   {
     "base": {
-      "title": "Rent Stabilized Housing *",
+      "title": "Rent Stabilized Housing **",
       "id": "3.05.T",
       "is_survey": true,
       "denominator": {
@@ -335,7 +335,7 @@
   },
   {
     "base": {
-      "title": "Housing Problems *",
+      "title": "Housing Problems **",
       "id": "3.07.T",
       "is_survey": true,
       "denominator": {
