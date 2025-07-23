@@ -253,7 +253,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -399,7 +399,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -994,7 +994,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -1142,7 +1142,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -1770,7 +1770,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -1918,7 +1918,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -2546,7 +2546,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -2694,7 +2694,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -3322,7 +3322,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -3470,7 +3470,7 @@
           "files": [
             "housing_security_puma"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -12243,7 +12243,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -12389,7 +12389,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -12984,7 +12984,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -13132,7 +13132,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -13759,7 +13759,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -13907,7 +13907,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -14534,7 +14534,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -14682,7 +14682,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -15309,7 +15309,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -15457,7 +15457,7 @@
           "files": [
             "housing_security_borough"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -24290,7 +24290,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -24436,7 +24436,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -25031,7 +25031,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -25179,7 +25179,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -25806,7 +25806,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -25954,7 +25954,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -26581,7 +26581,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -26729,7 +26729,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
@@ -27356,7 +27356,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Rent Stabilized Housing *",
+          "title": "Rent Stabilized Housing **",
           "id": "3.05.T",
           "is_survey": true,
           "denominator": {
@@ -27504,7 +27504,7 @@
           "files": [
             "housing_security_citywide"
           ],
-          "title": "Housing Problems *",
+          "title": "Housing Problems **",
           "id": "3.07.T",
           "is_survey": true,
           "denominator": {
